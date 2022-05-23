@@ -1,0 +1,67 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.plugins.josm.graph.view"
+    
+    abstract BaseJosmLayer
+    abstract BaseJosmPanel
+    
+    interface StatusDisplay
+    
+    BaseJosmLayer <|-- GraphLayer
+    class GraphLayer
+    {
+        --(constructors)--
+        +GraphLayer(GraphPlugin, String)
+        --
+        +void graph(Graph, ProgressReporter)
+        +Graph graph()
+        +ViewModel model()
+        +void onReady()
+        +boolean route(Vertex start, Vertex end, boolean visualDebug)
+        +void show(Polyline)
+        +void show(EdgeIdentifier)
+        +void show(VertexIdentifier)
+        +void show(MapRelationIdentifier)
+        +void show(Route)
+        +void show(PbfWayIdentifier)
+        +void show(EdgeSet, Show)
+        +boolean show(MapEdgeIdentifier)
+        +void show(MapNodeIdentifier)
+        +void zoomTo(Rectangle bounds)
+    }
+    
+    class GraphLayerRenderer
+    {
+    }
+    
+    BaseJosmPanel <|-- GraphPanel
+    StatusDisplay <|-- GraphPanel
+    class GraphPanel
+    {
+        --(constructors)--
+        +GraphPanel(GraphPlugin)
+        --
+        +void html(String message, Object... arguments)
+        +void layer(GraphLayer)
+        +RoutingPanel routingPanel()
+        +TagPanel tagPanel()
+        +void text(String message, Object... arguments)
+        +ViewPanel viewPanel()
+        --(functional)--
+        +Vertex selectedVertex()
+        +JTabbedPane tabbedPane()
+        --(search)--
+        +QueryPanel queryPanel()
+        +SearchPanel searchPanel()
+    }
+    
+    enum GraphLayer.Show
+    {
+        HIGHLIGHT_AND_ZOOM_TO
+        HIGHLIGHT_ONLY
+    }
+    
+@enduml
+

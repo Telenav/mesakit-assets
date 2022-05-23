@@ -1,0 +1,93 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.query.program"
+    
+    interface Expression
+    
+    interface Expression
+    Expression <|-- BooleanExpression
+    interface BooleanExpression
+    {
+        --
+        +boolean evaluate()
+        --(checks)--
+        +boolean canEvaluateAgain()
+    }
+    
+    class EdgeStack
+    {
+        --(constructors)--
+        +EdgeStack(String)
+        --
+        +void matched()
+        +EdgeSet reachableEdges()
+        +Route route(int index)
+        +Edge top()
+        +void unwind(int index)
+        --(collection)--
+        +void clear()
+        +Result push(Edge)
+        +Result push(Route)
+        +int size()
+        --(matching)--
+        +Route match()
+    }
+    
+    interface Expression
+    {
+        --
+        +String code()
+        +EdgeStack stack()
+        +void visit(Visitor)
+    }
+    
+    Expression <|-- Node
+    class Node
+    {
+        --
+        +Node code(String text)
+        +void program(Program)
+        +Program program()
+        +Route result()
+        --(functional)--
+        #T unsupported(String message, Object... arguments)
+        --(messaging)--
+        #void trace(String message, Object... arguments)
+        --(status)--
+        #T fail(String message, Object... arguments)
+    }
+    
+    class Program
+    {
+        --(constructors)--
+        +Program(Statement, Maximum)
+        --
+        +EdgeStack stack()
+        --(lifecycle)--
+        +Route run(Edge start)
+        --(math)--
+        +Maximum maximumClosureLength()
+    }
+    
+    enum EdgeStack.Result
+    {
+        ALREADY_ON_STACK
+        PUSHED
+    }
+    
+    interface BooleanExpression
+    BooleanExpression <|-- Statement
+    interface Statement
+    {
+    }
+    
+    interface Visitor
+    {
+        --
+        +void at(Node)
+    }
+    
+@enduml
+

@@ -1,0 +1,32 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.road.name.standardizer"
+    
+    interface RoadNameStandardizer
+    
+    RoadNameStandardizer <|-- BaseRoadNameStandardizer
+    abstract class BaseRoadNameStandardizer
+    {
+    }
+    
+    enum RoadNameStandardizer.Mode
+    {
+        MESAKIT_STANDARDIZATION
+        NO_STANDARDIZATION
+    }
+    
+    interface RoadNameStandardizer
+    {
+        --
+        +void mode(Mode)
+        --(naming)--
+        +RoadNameStandardizer get(MapLocale, Mode)
+        +ParsedRoadName standardize(RoadName)
+        --(read)--
+        +void loadInBackground(MapLocale, Mode)
+    }
+    
+@enduml
+

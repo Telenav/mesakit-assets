@@ -1,0 +1,28 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.plugins.josm.graph.view.tabs.tags"
+    
+    JPanel <|-- KeysColumn
+    class KeysColumn
+    {
+    }
+    
+    JPanel <|-- TagPanel
+    class TagPanel
+    {
+        --(constructors)--
+        +TagPanel(GraphPanel)
+        --
+        +void layer(GraphLayer)
+        +void refresh()
+    }
+    
+    JPanel <|-- ValuesColumn
+    class ValuesColumn
+    {
+    }
+    
+@enduml
+

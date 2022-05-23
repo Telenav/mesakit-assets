@@ -1,0 +1,22 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.osm.graph.loader"
+    
+    PbfGraphLoader <|-- OsmPbfGraphLoader
+    class OsmPbfGraphLoader
+    {
+        --
+        +OsmPbfGraphLoader analysis(PbfDataAnalysis, PbfTagFilter)
+    }
+    
+    RawPbfGraphLoader <|-- OsmRawPbfGraphLoader
+    class OsmRawPbfGraphLoader
+    {
+        --(constructors)--
+        +OsmRawPbfGraphLoader(PbfDataSourceFactory, PbfDataAnalysis, PbfTagFilter)
+    }
+    
+@enduml
+

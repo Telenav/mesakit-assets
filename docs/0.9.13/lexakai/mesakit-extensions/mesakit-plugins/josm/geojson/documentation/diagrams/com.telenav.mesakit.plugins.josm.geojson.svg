@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="385.4167px" preserveAspectRatio="none" style="width:1430px;height:385px;background:#333333;" version="1.1" viewBox="0 0 1430 385" width="1430.2083px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="447.9167" x="484.1146" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="425" x="495.5729" y="30.5583">com.telenav.mesakit.plugins.josm.geojson</text><!--MD5=[a56143b68d157af59bd604c6fa2a95fe]
+class BaseJosmLayer--><rect codeLine="6" fill="#282828" height="48.055" id="BaseJosmLayer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="135.4167" x="7.2917" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="135.4167" x="7.2917" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="135.4167" x="7.2917" y="76.7578"/><rect codeLine="6" fill="none" height="48.055" id="BaseJosmLayer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="135.4167" x="7.2917" y="53.7028"/><ellipse cx="21.875" cy="69.397" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M21.4681,66.099 L20.6197,69.8283 L22.3226,69.8283 Z M20.3695,64.4511 L22.5728,64.4511 L25.0326,73.5636 L23.232,73.5636 L22.6705,71.3114 L20.2596,71.3114 L19.7103,73.5636 L17.9097,73.5636 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="97.9167" x="38.5417" y="74.1211">BaseJosmLayer</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="141.6667" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="141.6667" y1="93.4245" y2="93.4245"/><!--MD5=[0af773017c7762739a99851cc5fe226e]
+class BaseJosmPanel--><rect codeLine="7" fill="#282828" height="48.055" id="BaseJosmPanel" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="135.4167" x="393.75" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="135.4167" x="393.75" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="135.4167" x="393.75" y="76.7578"/><rect codeLine="7" fill="none" height="48.055" id="BaseJosmPanel" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="135.4167" x="393.75" y="53.7028"/><ellipse cx="408.3333" cy="69.397" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M407.9264,66.099 L407.078,69.8283 L408.7809,69.8283 Z M406.8278,64.4511 L409.0312,64.4511 L411.4909,73.5636 L409.6903,73.5636 L409.1288,71.3114 L406.7179,71.3114 L406.1686,73.5636 L404.3681,73.5636 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="97.9167" x="425" y="74.1211">BaseJosmPanel</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="394.7917" x2="528.125" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="394.7917" x2="528.125" y1="93.4245" y2="93.4245"/><!--MD5=[c9e3024f2ff482106f5f2c6018b82a4d]
+class BaseJosmPlugin--><rect codeLine="8" fill="#282828" height="48.055" id="BaseJosmPlugin" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="141.6667" x="652.0833" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="141.6667" x="652.0833" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="141.6667" x="652.0833" y="76.7578"/><rect codeLine="8" fill="none" height="48.055" id="BaseJosmPlugin" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="141.6667" x="652.0833" y="53.7028"/><ellipse cx="666.6667" cy="69.397" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M666.2598,66.099 L665.4114,69.8283 L667.1143,69.8283 Z M665.1611,64.4511 L667.3645,64.4511 L669.8242,73.5636 L668.0237,73.5636 L667.4622,71.3114 L665.0513,71.3114 L664.502,73.5636 L662.7014,73.5636 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="104.1667" x="683.3333" y="74.1211">BaseJosmPlugin</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="653.125" x2="792.7083" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="653.125" x2="792.7083" y1="93.4245" y2="93.4245"/><!--MD5=[5cc06ecdd9480702b567e3f11ad511a4]
+class NamedObject--><rect codeLine="10" fill="#282828" height="48.055" id="NamedObject" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="123.9583" x="179.6875" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="123.9583" x="179.6875" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="123.9583" x="179.6875" y="76.7578"/><rect codeLine="10" fill="none" height="48.055" id="NamedObject" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="123.9583" x="179.6875" y="53.7028"/><ellipse cx="194.2708" cy="69.397" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M191.6748,66.5588 L191.6748,64.9719 L197.1008,64.9719 L197.1008,66.5588 L195.2881,66.5588 L195.2881,72.4976 L197.1008,72.4976 L197.1008,74.0845 L191.6748,74.0845 L191.6748,72.4976 L193.4875,72.4976 L193.4875,66.5588 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="86.4583" x="210.9375" y="74.1211">NamedObject</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="180.7292" x2="302.6042" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="180.7292" x2="302.6042" y1="93.4245" y2="93.4245"/><!--MD5=[cb20c6aaa1f547b5399795622fbea1ea]
+class JPopupMenu--><rect fill="#282828" height="48.055" id="JPopupMenu" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="118.75" x="952.0833" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="118.75" x="952.0833" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="118.75" x="952.0833" y="76.7578"/><rect fill="none" height="48.055" id="JPopupMenu" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="118.75" x="952.0833" y="53.7028"/><ellipse cx="966.6667" cy="69.397" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M968.5771,73.822 Q968.1498,74.0417 967.6799,74.1516 Q967.2099,74.2615 966.6911,74.2615 Q964.8478,74.2615 963.8774,73.0469 Q962.9069,71.8323 962.9069,69.5374 Q962.9069,67.2363 963.8774,66.0217 Q964.8478,64.8071 966.6911,64.8071 Q967.2099,64.8071 967.686,64.917 Q968.162,65.0269 968.5771,65.2466 L968.5771,67.2485 Q968.1132,66.8213 967.6768,66.6229 Q967.2404,66.4246 966.7765,66.4246 Q965.7878,66.4246 965.2842,67.2089 Q964.7807,67.9932 964.7807,69.5374 Q964.7807,71.0754 965.2842,71.8597 Q965.7878,72.644 966.7765,72.644 Q967.2404,72.644 967.6768,72.4457 Q968.1132,72.2473 968.5771,71.8201 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="81.25" x="983.3333" y="74.1211">JPopupMenu</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="953.125" x2="1069.7917" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="953.125" x2="1069.7917" y1="93.4245" y2="93.4245"/><!--MD5=[a704ac33e5ea7edd746fa824585c38f6]
+class GeoJsonFeaturePopUpMenu--><rect codeLine="13" fill="#282828" height="83.3781" id="GeoJsonFeaturePopUpMenu" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="282.2917" x="870.3125" y="229.7445"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="282.2917" x="870.3125" y="229.7445"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="282.2917" x="870.3125" y="252.7995"/><rect codeLine="13" fill="none" height="83.3781" id="GeoJsonFeaturePopUpMenu" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="282.2917" x="870.3125" y="229.7445"/><ellipse cx="914.5833" cy="245.4386" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M916.4937,249.8637 Q916.0665,250.0834 915.5965,250.1933 Q915.1265,250.3031 914.6077,250.3031 Q912.7645,250.3031 911.794,249.0885 Q910.8236,247.8739 910.8236,245.579 Q910.8236,243.278 911.794,242.0634 Q912.7645,240.8488 914.6077,240.8488 Q915.1265,240.8488 915.6026,240.9587 Q916.0787,241.0685 916.4937,241.2882 L916.4937,243.2902 Q916.0299,242.863 915.5935,242.6646 Q915.1571,242.4662 914.6932,242.4662 Q913.7044,242.4662 913.2009,243.2505 Q912.6973,244.0348 912.6973,245.579 Q912.6973,247.1171 913.2009,247.9014 Q913.7044,248.6857 914.6932,248.6857 Q915.1571,248.6857 915.5935,248.4873 Q916.0299,248.289 916.4937,247.8617 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="179.1667" x="937.5" y="250.1628">GeoJsonFeaturePopUpMenu</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="871.3542" x2="1151.5625" y1="261.1328" y2="261.1328"/><ellipse cx="881.7708" cy="296.5027" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="250" x="893.2292" y="303.4139">GeoJsonFeaturePopUpMenu(GeoJsonFeature)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="871.3542" x2="967.7083" y1="279.3386" y2="279.3386"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="970.8333" y="283.1482">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1055.2083" x2="1151.5625" y1="279.3386" y2="279.3386"/><!--MD5=[e479a84643d9f1809b84e1101d6d5700]
+class FileImporter--><rect fill="#282828" height="48.055" id="FileImporter" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="116.6667" x="1247.9167" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="116.6667" x="1247.9167" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="116.6667" x="1247.9167" y="76.7578"/><rect fill="none" height="48.055" id="FileImporter" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="116.6667" x="1247.9167" y="53.7028"/><ellipse cx="1262.5" cy="69.397" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1264.4104,73.822 Q1263.9832,74.0417 1263.5132,74.1516 Q1263.0432,74.2615 1262.5244,74.2615 Q1260.6812,74.2615 1259.7107,73.0469 Q1258.7402,71.8323 1258.7402,69.5374 Q1258.7402,67.2363 1259.7107,66.0217 Q1260.6812,64.8071 1262.5244,64.8071 Q1263.0432,64.8071 1263.5193,64.917 Q1263.9954,65.0269 1264.4104,65.2466 L1264.4104,67.2485 Q1263.9465,66.8213 1263.5101,66.6229 Q1263.0737,66.4246 1262.6099,66.4246 Q1261.6211,66.4246 1261.1176,67.2089 Q1260.614,67.9932 1260.614,69.5374 Q1260.614,71.0754 1261.1176,71.8597 Q1261.6211,72.644 1262.6099,72.644 Q1263.0737,72.644 1263.5101,72.4457 Q1263.9465,72.2473 1264.4104,71.8201 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="79.1667" x="1279.1667" y="74.1211">FileImporter</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1248.9583" x2="1363.5417" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1248.9583" x2="1363.5417" y1="93.4245" y2="93.4245"/><!--MD5=[93b6ff01bec76729f1cec00947c84c58]
+class GeoJsonFileImporter--><rect codeLine="20" fill="#282828" height="83.3781" id="GeoJsonFileImporter" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="234.375" x="1189.0625" y="229.7445"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="234.375" x="1189.0625" y="229.7445"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="234.375" x="1189.0625" y="252.7995"/><rect codeLine="20" fill="none" height="83.3781" id="GeoJsonFileImporter" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="234.375" x="1189.0625" y="229.7445"/><ellipse cx="1232.2917" cy="245.4386" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1234.2021,249.8637 Q1233.7748,250.0834 1233.3049,250.1933 Q1232.8349,250.3031 1232.3161,250.3031 Q1230.4728,250.3031 1229.5024,249.0885 Q1228.5319,247.8739 1228.5319,245.579 Q1228.5319,243.278 1229.5024,242.0634 Q1230.4728,240.8488 1232.3161,240.8488 Q1232.8349,240.8488 1233.311,240.9587 Q1233.787,241.0685 1234.2021,241.2882 L1234.2021,243.2902 Q1233.7382,242.863 1233.3018,242.6646 Q1232.8654,242.4662 1232.4015,242.4662 Q1231.4128,242.4662 1230.9092,243.2505 Q1230.4057,244.0348 1230.4057,245.579 Q1230.4057,247.1171 1230.9092,247.9014 Q1231.4128,248.6857 1232.4015,248.6857 Q1232.8654,248.6857 1233.3018,248.4873 Q1233.7382,248.289 1234.2021,247.8617 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="133.3333" x="1255.2083" y="250.1628">GeoJsonFileImporter</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1190.1042" x2="1422.3958" y1="261.1328" y2="261.1328"/><ellipse cx="1200.5208" cy="296.5027" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="202.0833" x="1211.9792" y="303.4139">GeoJsonFileImporter(GeoJsonPlugin)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1190.1042" x2="1262.5" y1="279.3386" y2="279.3386"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="1265.625" y="283.1482">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1350" x2="1422.3958" y1="279.3386" y2="279.3386"/><!--MD5=[5e159d4dedac1e47fc38c6c5adcc0002]
+class GeoJsonLayer--><rect codeLine="28" fill="#282828" height="214.3473" id="GeoJsonLayer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="244.7917" x="8.8542" y="164.1195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="244.7917" x="8.8542" y="164.1195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="244.7917" x="8.8542" y="187.1745"/><rect codeLine="28" fill="none" height="214.3473" id="GeoJsonLayer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="244.7917" x="8.8542" y="164.1195"/><ellipse cx="79.6875" cy="179.8136" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M81.5979,184.2387 Q81.1707,184.4584 80.7007,184.5683 Q80.2307,184.6781 79.7119,184.6781 Q77.8687,184.6781 76.8982,183.4635 Q75.9277,182.2489 75.9277,179.954 Q75.9277,177.653 76.8982,176.4384 Q77.8687,175.2238 79.7119,175.2238 Q80.2307,175.2238 80.7068,175.3337 Q81.1829,175.4435 81.5979,175.6632 L81.5979,177.6652 Q81.134,177.238 80.6976,177.0396 Q80.2612,176.8412 79.7974,176.8412 Q78.8086,176.8412 78.3051,177.6255 Q77.8015,178.4098 77.8015,179.954 Q77.8015,181.4921 78.3051,182.2764 Q78.8086,183.0607 79.7974,183.0607 Q80.2612,183.0607 80.6976,182.8623 Q81.134,182.664 81.5979,182.2367 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="88.5417" x="102.6042" y="184.5378">GeoJsonLayer</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="9.8958" x2="252.6042" y1="195.5078" y2="195.5078"/><ellipse cx="20.3125" cy="230.8777" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="204.1667" x="31.7708" y="237.7889">GeoJsonLayer(GeoJsonPlugin, String)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="9.8958" x2="87.5" y1="213.7136" y2="213.7136"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="90.625" y="217.5232">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="175" x2="252.6042" y1="213.7136" y2="213.7136"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="9.8958" x2="252.6042" y1="247.4976" y2="247.4976"/><ellipse cx="20.3125" cy="258.9559" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="189.5833" x="31.7708" y="265.8671">GeoJsonDocument getDocument()</text><ellipse cx="20.3125" cy="278.7008" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="212.5" x="31.7708" y="285.612">void setDocument(GeoJsonDocument)</text><ellipse cx="20.3125" cy="298.4456" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="210.4167" x="31.7708" y="305.3569">void zoomToFeature(GeoJsonFeature)</text><ellipse cx="20.3125" cy="342.1021" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="66.6667" x="31.7708" y="349.0133">File getFile()</text><ellipse cx="20.3125" cy="361.8469" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="89.5833" x="31.7708" y="368.7581">void setFile(File)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="9.8958" x2="95.8333" y1="324.9379" y2="324.9379"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="98.9583" y="328.7476">(filesystem)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="166.6667" x2="252.6042" y1="324.9379" y2="324.9379"/><!--MD5=[501f8d6849be39e5a9fe79667aa19803]
+class GeoJsonPanel--><rect codeLine="42" fill="#282828" height="174.8576" id="GeoJsonPanel" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="229.1667" x="346.875" y="183.9111"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="229.1667" x="346.875" y="183.9111"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="229.1667" x="346.875" y="206.9661"/><rect codeLine="42" fill="none" height="174.8576" id="GeoJsonPanel" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="229.1667" x="346.875" y="183.9111"/><ellipse cx="409.8958" cy="199.6053" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M411.8062,204.0304 Q411.379,204.2501 410.909,204.3599 Q410.439,204.4698 409.9202,204.4698 Q408.077,204.4698 407.1065,203.2552 Q406.1361,202.0406 406.1361,199.7457 Q406.1361,197.4447 407.1065,196.2301 Q408.077,195.0155 409.9202,195.0155 Q410.439,195.0155 410.9151,195.1253 Q411.3912,195.2352 411.8062,195.4549 L411.8062,197.4569 Q411.3424,197.0296 410.906,196.8313 Q410.4696,196.6329 410.0057,196.6329 Q409.0169,196.6329 408.5134,197.4172 Q408.0098,198.2015 408.0098,199.7457 Q408.0098,201.2838 408.5134,202.0681 Q409.0169,202.8524 410.0057,202.8524 Q410.4696,202.8524 410.906,202.654 Q411.3424,202.4556 411.8062,202.0284 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="88.5417" x="432.8125" y="204.3294">GeoJsonPanel</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="347.9167" x2="575" y1="215.2995" y2="215.2995"/><ellipse cx="358.3333" cy="250.6694" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="163.5417" x="369.7917" y="257.5806">GeoJsonPanel(GeoJsonPlugin)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="347.9167" x2="417.7083" y1="233.5052" y2="233.5052"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="420.8333" y="237.3149">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="505.2083" x2="575" y1="233.5052" y2="233.5052"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="347.9167" x2="575" y1="267.2892" y2="267.2892"/><ellipse cx="358.3333" cy="278.7476" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="196.875" x="369.7917" y="285.6588">void selectFeature(GeoJsonFeature)</text><polygon fill="#FFFF44" points="358.3333,293.2841,362.5,297.4508,358.3333,301.6174,354.1667,297.4508" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="138.5417" x="369.7917" y="305.4036">void popup(MouseEvent)</text><ellipse cx="358.3333" cy="342.1488" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="189.5833" x="369.7917" y="349.0601">boolean isVisible(GeoJsonFeature)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="347.9167" x2="434.8958" y1="324.9847" y2="324.9847"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="46.875" x="438.0208" y="328.7944">(checks)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="488.0208" x2="575" y1="324.9847" y2="324.9847"/><!--MD5=[71a1bb4d8981d84908eada52de455793]
+class GeoJsonPlugin--><rect codeLine="54" fill="#282828" height="127.0345" id="GeoJsonPlugin" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="220.8333" x="612.5" y="207.8695"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="220.8333" x="612.5" y="207.8695"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="220.8333" x="612.5" y="230.9245"/><rect codeLine="54" fill="none" height="127.0345" id="GeoJsonPlugin" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="220.8333" x="612.5" y="207.8695"/><ellipse cx="668.2292" cy="223.5636" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M670.1396,227.9887 Q669.7123,228.2084 669.2424,228.3183 Q668.7724,228.4281 668.2536,228.4281 Q666.4103,228.4281 665.4399,227.2135 Q664.4694,225.9989 664.4694,223.704 Q664.4694,221.403 665.4399,220.1884 Q666.4103,218.9738 668.2536,218.9738 Q668.7724,218.9738 669.2485,219.0837 Q669.7245,219.1935 670.1396,219.4132 L670.1396,221.4152 Q669.6757,220.988 669.2393,220.7896 Q668.8029,220.5912 668.339,220.5912 Q667.3503,220.5912 666.8467,221.3755 Q666.3432,222.1598 666.3432,223.704 Q666.3432,225.2421 666.8467,226.0264 Q667.3503,226.8107 668.339,226.8107 Q668.8029,226.8107 669.2393,226.6123 Q669.6757,226.414 670.1396,225.9867 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="94.7917" x="691.1458" y="228.2878">GeoJsonPlugin</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="613.5417" x2="832.2917" y1="239.2578" y2="239.2578"/><ellipse cx="623.9583" cy="274.6277" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="188.5417" x="635.4167" y="281.5389">GeoJsonPlugin(PluginInformation)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="613.5417" x2="679.1667" y1="257.4636" y2="257.4636"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="682.2917" y="261.2732">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="766.6667" x2="832.2917" y1="257.4636" y2="257.4636"/><ellipse cx="623.9583" cy="318.2841" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="133.3333" x="635.4167" y="325.1953">int changeSetIdentifier()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="613.5417" x2="694.7917" y1="301.12" y2="301.12"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="50" x="697.9167" y="304.9296">(identity)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="751.0417" x2="832.2917" y1="301.12" y2="301.12"/><!--MD5=[0df9af04d4ed228cf439f8aa944b96c5]
+reverse link JPopupMenu to GeoJsonFeaturePopUpMenu--><path codeLine="12" d="M1011.4583,122.9111 C1011.4583,154.9945 1011.4583,198.0778 1011.4583,229.3799 " fill="none" id="JPopupMenu-backto-GeoJsonFeaturePopUpMenu" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1004.1667,122.6507,1011.4583,101.8174,1018.75,122.6507,1004.1667,122.6507" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[00eb2e2954a33639831850fad2a249ef]
+reverse link FileImporter to GeoJsonFileImporter--><path codeLine="19" d="M1306.25,122.9111 C1306.25,154.9945 1306.25,198.0778 1306.25,229.3799 " fill="none" id="FileImporter-backto-GeoJsonFileImporter" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1298.9583,122.6507,1306.25,101.8174,1313.5417,122.6507,1298.9583,122.6507" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[93fafbe717965454b4fce97e62759af8]
+reverse link BaseJosmLayer to GeoJsonLayer--><path codeLine="26" d="M87.6667,121.859 C91.3958,134.5778 95.6563,149.0882 100.0104,163.9424 " fill="none" id="BaseJosmLayer-backto-GeoJsonLayer" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="80.6563,123.8695,81.7813,101.8174,94.6458,119.7549,80.6563,123.8695" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[b354fe16531482962c4092dbd20b9639]
+reverse link NamedObject to GeoJsonLayer--><path codeLine="27" d="M217.8854,119.9945 C210.3021,133.1403 201.5417,148.3486 192.5625,163.9424 " fill="none" id="NamedObject-backto-GeoJsonLayer" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="211.625,116.234,228.3438,101.8174,224.2708,123.5153,211.625,116.234" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[042180a561216f7c5ca957746cd4f893]
+reverse link BaseJosmPanel to GeoJsonPanel--><path codeLine="41" d="M461.4583,122.932 C461.4583,141.0465 461.4583,162.6715 461.4583,183.7028 " fill="none" id="BaseJosmPanel-backto-GeoJsonPanel" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="454.1667,122.6507,461.4583,101.8174,468.75,122.6507,454.1667,122.6507" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[415137b06c5607968475fb3f03b6f13c]
+reverse link BaseJosmPlugin to GeoJsonPlugin--><path codeLine="53" d="M722.9167,122.7236 C722.9167,147.9111 722.9167,179.932 722.9167,207.7132 " fill="none" id="BaseJosmPlugin-backto-GeoJsonPlugin" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="715.625,122.6507,722.9167,101.8174,730.2083,122.6507,715.625,122.6507" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[b633cfc7a340b0fd5875239a8199996f]
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.plugins.josm.geojson"
+    
+    abstract BaseJosmLayer
+    abstract BaseJosmPanel
+    abstract BaseJosmPlugin
+    
+    interface NamedObject
+    
+    JPopupMenu <|- - GeoJsonFeaturePopUpMenu
+    class GeoJsonFeaturePopUpMenu
+    {
+        - -(constructors)- -
+        +GeoJsonFeaturePopUpMenu(GeoJsonFeature)
+    }
+    
+    FileImporter <|- - GeoJsonFileImporter
+    class GeoJsonFileImporter
+    {
+        - -(constructors)- -
+        +GeoJsonFileImporter(GeoJsonPlugin)
+    }
+    
+    BaseJosmLayer <|- - GeoJsonLayer
+    NamedObject <|- - GeoJsonLayer
+    class GeoJsonLayer
+    {
+        - -(constructors)- -
+        +GeoJsonLayer(GeoJsonPlugin, String)
+        - -
+        +GeoJsonDocument getDocument()
+        +void setDocument(GeoJsonDocument)
+        +void zoomToFeature(GeoJsonFeature)
+        - -(filesystem)- -
+        +File getFile()
+        +void setFile(File)
+    }
+    
+    BaseJosmPanel <|- - GeoJsonPanel
+    class GeoJsonPanel
+    {
+        - -(constructors)- -
+        +GeoJsonPanel(GeoJsonPlugin)
+        - -
+        +void selectFeature(GeoJsonFeature)
+        #void popup(MouseEvent)
+        - -(checks)- -
+        +boolean isVisible(GeoJsonFeature)
+    }
+    
+    BaseJosmPlugin <|- - GeoJsonPlugin
+    class GeoJsonPlugin
+    {
+        - -(constructors)- -
+        +GeoJsonPlugin(PluginInformation)
+        - -(identity)- -
+        +int changeSetIdentifier()
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.mesakit.plugins.josm.geojson"
+    
+    abstract BaseJosmLayer
+    abstract BaseJosmPanel
+    abstract BaseJosmPlugin
+    
+    interface NamedObject
+    
+    JPopupMenu <|- - GeoJsonFeaturePopUpMenu
+    class GeoJsonFeaturePopUpMenu
+    {
+        - -(constructors)- -
+        +GeoJsonFeaturePopUpMenu(GeoJsonFeature)
+    }
+    
+    FileImporter <|- - GeoJsonFileImporter
+    class GeoJsonFileImporter
+    {
+        - -(constructors)- -
+        +GeoJsonFileImporter(GeoJsonPlugin)
+    }
+    
+    BaseJosmLayer <|- - GeoJsonLayer
+    NamedObject <|- - GeoJsonLayer
+    class GeoJsonLayer
+    {
+        - -(constructors)- -
+        +GeoJsonLayer(GeoJsonPlugin, String)
+        - -
+        +GeoJsonDocument getDocument()
+        +void setDocument(GeoJsonDocument)
+        +void zoomToFeature(GeoJsonFeature)
+        - -(filesystem)- -
+        +File getFile()
+        +void setFile(File)
+    }
+    
+    BaseJosmPanel <|- - GeoJsonPanel
+    class GeoJsonPanel
+    {
+        - -(constructors)- -
+        +GeoJsonPanel(GeoJsonPlugin)
+        - -
+        +void selectFeature(GeoJsonFeature)
+        #void popup(MouseEvent)
+        - -(checks)- -
+        +boolean isVisible(GeoJsonFeature)
+    }
+    
+    BaseJosmPlugin <|- - GeoJsonPlugin
+    class GeoJsonPlugin
+    {
+        - -(constructors)- -
+        +GeoJsonPlugin(PluginInformation)
+        - -(identity)- -
+        +int changeSetIdentifier()
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 00:55:08 MST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

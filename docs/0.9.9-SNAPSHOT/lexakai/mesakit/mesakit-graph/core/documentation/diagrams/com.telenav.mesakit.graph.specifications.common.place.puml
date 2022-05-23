@@ -1,0 +1,73 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.common.place"
+    
+    Place <|-- HeavyWeightPlace
+    class HeavyWeightPlace
+    {
+        --(constructors)--
+        +HeavyWeightPlace(Graph, PlaceIdentifier)
+        +HeavyWeightPlace(Graph, long)
+        --
+        +void location(Location)
+        +void pbfRevisionNumber(PbfRevisionNumber)
+        +void population(Count population)
+        +void tags(PbfTagList tags)
+        +void type(Type)
+        --(filesystem)--
+        +void copy(Place that)
+        --(identity)--
+        +void pbfChangeSetIdentifier(PbfChangeSetIdentifier)
+        +void pbfUserIdentifier(PbfUserIdentifier)
+        --(naming)--
+        +void name(String name)
+        +void pbfUserName(PbfUserName)
+        --(time)--
+        +void lastModificationTime(Time lastModified)
+    }
+    
+    GraphElementAttributes.GraphElementAttribute <|-- PlaceAttributes.PlaceAttribute
+    class PlaceAttributes.PlaceAttribute
+    {
+        --(constructors)--
+        +PlaceAttribute(String)
+    }
+    
+    GraphElementAttributes <|-- PlaceAttributes
+    class PlaceAttributes
+    {
+        --(constructors)--
+        #PlaceAttributes()
+        --
+        +PlaceAttributes get()
+    }
+    
+    Differences <|-- PlaceDifferences
+    class PlaceDifferences
+    {
+        --(constructors)--
+        +PlaceDifferences(Place, Place)
+        --
+        +Differences compare()
+    }
+    
+    GraphElementPropertySet <|-- PlaceProperties
+    class PlaceProperties
+    {
+        --(constructors)--
+        #PlaceProperties()
+        --
+        +PlaceProperties get()
+    }
+    
+    GraphElementProperty <|-- PlaceProperties.PlaceProperty
+    abstract class PlaceProperties.PlaceProperty
+    {
+        --(constructors)--
+        #PlaceProperty(String, Attribute<?>)
+    }
+    
+@enduml
+

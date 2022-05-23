@@ -1,0 +1,21 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.relations.restrictions.classifiers"
+    
+    interface EdgeClassifier
+    interface TurnClassifier
+    
+    EdgeClassifier <|-- TurnRestrictionsClassifier
+    class TurnRestrictionsClassifier
+    {
+    }
+    
+    TurnClassifier <|-- TurnRestrictionsTurnClassifier
+    class TurnRestrictionsTurnClassifier
+    {
+    }
+    
+@enduml
+

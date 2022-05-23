@@ -1,0 +1,29 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.region.countries"
+    
+    Country <|-- Canada
+    class Canada
+    {
+        --(constructors)--
+        +Canada()
+    }
+    
+    Country <|-- Mexico
+    class Mexico
+    {
+        --(constructors)--
+        +Mexico()
+    }
+    
+    Country <|-- UnitedStates
+    class UnitedStates
+    {
+        --(constructors)--
+        +UnitedStates()
+    }
+    
+@enduml
+

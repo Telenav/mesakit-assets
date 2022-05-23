@@ -1,0 +1,20 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.osm.graph.edge.store"
+    
+    EdgeStore <|-- OsmEdgeStore
+    class OsmEdgeStore
+    {
+        --(constructors)--
+        +OsmEdgeStore(Graph)
+        --(identity)--
+        +EdgeIdentifier retrieveRawIdentifier(Edge)
+        --(primitive)--
+        +boolean retrieveIsDoubleDigitized(Edge)
+        +void storeIsDoubleDigitized(Edge, boolean isDoubleDigitized)
+    }
+    
+@enduml
+

@@ -1,0 +1,415 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "mesakit-tools-application-launcher"
+    
+    artifact aws_lambda_java_core
+    artifact kryo
+    artifact minlog
+    artifact reflectasm
+    artifact jackson_annotations
+    artifact jackson_core
+    artifact jackson_databind
+    artifact jackson_dataformat_yaml
+    artifact jackson_datatype_jsr310
+    artifact jackson_jaxrs_base
+    artifact jackson_jaxrs_json_provider
+    artifact jackson_module_jaxb_annotations
+    artifact woodstox_core
+    artifact flatlaf
+    artifact openjson
+    artifact gson
+    artifact failureaccess
+    artifact guava
+    artifact listenablefuture
+    artifact j2objc_annotations
+    artifact protobuf_java
+    artifact cactus_build_metadata
+    artifact kivakit_application
+    artifact kivakit_collections
+    artifact kivakit_commandline
+    artifact kivakit_component
+    artifact kivakit_configuration
+    artifact kivakit_data_compression
+    artifact kivakit_data_formats_library
+    artifact kivakit_filesystems_hdfs_proxy_spi
+    artifact kivakit_filesystems_hdfs
+    artifact kivakit_filesystems_s3fs
+    artifact kivakit_kernel
+    artifact kivakit_math
+    artifact kivakit_merged_grpc
+    artifact kivakit_merged_protostuff
+    artifact kivakit_merged_zookeeper
+    artifact kivakit_microservice
+    artifact kivakit_network_core
+    artifact kivakit_network_http
+    artifact kivakit_primitive_collections
+    artifact kivakit_resource
+    artifact kivakit_security
+    artifact kivakit_serialization_core
+    artifact kivakit_serialization_json
+    artifact kivakit_serialization_kryo
+    artifact kivakit_service_client
+    artifact kivakit_service_registry
+    artifact kivakit_settings_stores_zookeeper
+    artifact kivakit_test
+    artifact kivakit_ui_desktop
+    artifact kivakit_web_jersey
+    artifact kivakit_web_jetty
+    artifact kivakit_web_swagger
+    artifact kivakit_web_wicket
+    artifact lexakai_annotations
+    artifact mesakit_core
+    artifact mesakit_graph_core
+    artifact mesakit_graph_world
+    artifact mesakit_map_cutter
+    artifact mesakit_map_data_formats_pbf
+    artifact mesakit_map_data_library
+    artifact mesakit_map_geography
+    artifact mesakit_map_measurements
+    artifact mesakit_map_overpass
+    artifact mesakit_map_region
+    artifact mesakit_map_road_model
+    artifact mesakit_map_road_name_parser
+    artifact mesakit_map_road_name_standardizer
+    artifact mesakit_map_ui_debug
+    artifact mesakit_map_ui_desktop
+    artifact mesakit_map_utilities_geojson
+    artifact mesakit_map_utilities_grid
+    artifact mesakit_tools_application_launcher
+    artifact mesakit_tools_applications_codec_generator
+    artifact mesakit_tools_applications_graph_analyzer
+    artifact mesakit_tools_applications_graph_double_digitized_ways_extractor
+    artifact mesakit_tools_applications_graph_dumper
+    artifact mesakit_tools_applications_graph_slicer
+    artifact mesakit_tools_applications_graph_to_pbf_converter
+    artifact mesakit_tools_applications_graph_verifier
+    artifact mesakit_tools_applications_pbf_analyzer
+    artifact mesakit_tools_applications_pbf_dumper
+    artifact mesakit_tools_applications_pbf_metadata
+    artifact mesakit_tools_applications_pbf_region_extractor
+    artifact mesakit_tools_applications_pbf_to_graph_converter
+    artifact mesakit_tools_applications_pbf_world_graph_extractor
+    artifact mesakit_tools_applications_region_information
+    artifact netty_reactive_streams_http
+    artifact netty_reactive_streams
+    artifact commons_codec
+    artifact commons_fileupload
+    artifact commons_io
+    artifact commons_logging
+    artifact kryo_serializers
+    artifact classgraph
+    artifact netty_buffer
+    artifact netty_codec_http2
+    artifact netty_codec
+    artifact netty_common
+    artifact netty_resolver
+    artifact netty_transport_native_epoll
+    artifact netty_transport_native_epoll
+    artifact netty_transport_native_unix_common
+    artifact netty_transport
+    artifact swagger_annotations
+    artifact swagger_core
+    artifact swagger_integration
+    artifact swagger_jaxrs2
+    artifact swagger_models
+    artifact jakarta_activation_api
+    artifact jakarta_annotation_api
+    artifact jakarta_servlet_api
+    artifact jakarta_validation_api
+    artifact jakarta_ws_rs_api
+    artifact jakarta_xml_bind_api
+    artifact javax_servlet_api
+    artifact junit
+    artifact jpf
+    artifact commons_collections4
+    artifact commons_compress
+    artifact commons_lang3
+    artifact commons_math
+    artifact httpclient
+    artifact httpcore
+    artifact log4j_1_2_api
+    artifact log4j_api
+    artifact wicket_core
+    artifact wicket_extensions
+    artifact wicket_request
+    artifact wicket_util
+    artifact apiguardian_api
+    artifact checker_qual
+    artifact stax2_api
+    artifact jdk_serializable_functional
+    artifact jetty_http
+    artifact jetty_io
+    artifact jetty_security
+    artifact jetty_server
+    artifact jetty_servlet
+    artifact jetty_util_ajax
+    artifact jetty_util
+    artifact jetty_webapp
+    artifact jetty_xml
+    artifact aopalliance_repackaged
+    artifact jakarta_inject
+    artifact hk2_api
+    artifact hk2_locator
+    artifact hk2_utils
+    artifact osgi_resource_locator
+    artifact jersey_container_servlet_core
+    artifact jersey_container_servlet
+    artifact jersey_client
+    artifact jersey_common
+    artifact jersey_server
+    artifact jersey_entity_filtering
+    artifact jersey_hk2
+    artifact jersey_media_json_jackson
+    artifact hamcrest_core
+    artifact javassist
+    artifact annotations
+    artifact junit_jupiter_api
+    artifact junit_jupiter_engine
+    artifact junit_jupiter_params
+    artifact junit_jupiter
+    artifact junit_platform_commons
+    artifact junit_platform_engine
+    artifact shapefilereader
+    artifact objenesis
+    artifact osmosis_core
+    artifact osmosis_osm_binary
+    artifact osmosis_pbf
+    artifact osmosis_xml
+    artifact opentest4j
+    artifact asm
+    artifact reactive_streams
+    artifact slf4j_api
+    artifact spring_beans
+    artifact spring_core
+    artifact spring_jcl
+    artifact spring_jdbc
+    artifact spring_tx
+    artifact swagger_ui
+    artifact snakeyaml
+    artifact annotations
+    artifact apache_client
+    artifact arns
+    artifact auth
+    artifact aws_core
+    artifact aws_query_protocol
+    artifact aws_xml_protocol
+    artifact http_client_spi
+    artifact json_utils
+    artifact metrics_spi
+    artifact netty_nio_client
+    artifact profiles
+    artifact protocol_core
+    artifact regions
+    artifact s3
+    artifact sdk_core
+    artifact third_party_jackson_core
+    artifact utils
+    artifact eventstream
+    artifact xercesImpl
+    auth --> eventstream
+    auth --> json_utils
+    aws_xml_protocol --> aws_query_protocol
+    guava --> checker_qual
+    guava --> failureaccess
+    guava --> j2objc_annotations
+    guava --> listenablefuture
+    hk2_locator --> aopalliance_repackaged
+    hk2_locator --> hk2_api
+    hk2_locator --> hk2_utils
+    httpclient --> commons_codec
+    httpclient --> commons_logging
+    httpclient --> httpcore
+    jackson_dataformat_yaml --> snakeyaml
+    jackson_jaxrs_json_provider --> jackson_jaxrs_base
+    jackson_jaxrs_json_provider --> jackson_module_jaxb_annotations
+    jersey_common --> jakarta_annotation_api
+    jersey_common --> osgi_resource_locator
+    jersey_container_servlet --> jersey_common
+    jersey_container_servlet --> jersey_container_servlet_core
+    jersey_container_servlet --> jersey_server
+    jersey_container_servlet_core --> jakarta_inject
+    jersey_hk2 --> hk2_locator
+    jersey_hk2 --> javassist
+    jersey_media_json_jackson --> jersey_entity_filtering
+    jersey_server --> jakarta_validation_api
+    jersey_server --> jersey_client
+    jetty_http --> jetty_util
+    jetty_server --> jetty_http
+    jetty_server --> jetty_io
+    jetty_servlet --> jetty_security
+    jetty_servlet --> jetty_util_ajax
+    jetty_webapp --> jetty_servlet
+    jetty_webapp --> jetty_xml
+    json_utils --> third_party_jackson_core
+    junit --> hamcrest_core
+    junit_jupiter --> junit_jupiter_api
+    junit_jupiter --> junit_jupiter_params
+    junit_jupiter_api --> opentest4j
+    junit_jupiter_engine --> junit_platform_engine
+    kivakit_application --> kivakit_commandline
+    kivakit_application --> kivakit_component
+    kivakit_commandline --> kivakit_kernel
+    kivakit_filesystems_hdfs --> kivakit_filesystems_hdfs_proxy_spi
+    kivakit_filesystems_hdfs --> kivakit_service_client
+    kivakit_filesystems_hdfs --> kivakit_test
+    kivakit_filesystems_s3fs --> s3
+    kivakit_kernel --> annotations
+    kivakit_kernel --> cactus_build_metadata
+    kivakit_kernel --> jackson_annotations
+    kivakit_kernel --> lexakai_annotations
+    kivakit_kernel --> swagger_annotations
+    kivakit_math --> commons_math
+    kivakit_microservice --> aws_lambda_java_core
+    kivakit_microservice --> guava
+    kivakit_microservice --> kivakit_merged_grpc
+    kivakit_microservice --> kivakit_merged_protostuff
+    kivakit_microservice --> kivakit_settings_stores_zookeeper
+    kivakit_microservice --> kivakit_web_swagger
+    kivakit_microservice --> kivakit_web_wicket
+    kivakit_microservice --> wicket_core
+    kivakit_network_core --> kivakit_security
+    kivakit_network_http --> kivakit_network_core
+    kivakit_primitive_collections --> kivakit_serialization_kryo
+    kivakit_resource --> kivakit_serialization_core
+    kivakit_serialization_json --> gson
+    kivakit_serialization_kryo --> kryo
+    kivakit_serialization_kryo --> kryo_serializers
+    kivakit_service_client --> kivakit_service_registry
+    kivakit_service_client --> kivakit_web_jersey
+    kivakit_service_registry --> kivakit_microservice
+    kivakit_settings_stores_zookeeper --> kivakit_merged_zookeeper
+    kivakit_settings_stores_zookeeper --> netty_transport_native_epoll
+    kivakit_test --> junit
+    kivakit_ui_desktop --> flatlaf
+    kivakit_web_jersey --> jackson_core
+    kivakit_web_jersey --> jackson_databind
+    kivakit_web_jersey --> jakarta_activation_api
+    kivakit_web_jersey --> jakarta_ws_rs_api
+    kivakit_web_jersey --> jakarta_xml_bind_api
+    kivakit_web_jersey --> jersey_container_servlet
+    kivakit_web_jersey --> jersey_hk2
+    kivakit_web_jersey --> jersey_media_json_jackson
+    kivakit_web_jersey --> kivakit_web_jetty
+    kivakit_web_jetty --> javax_servlet_api
+    kivakit_web_jetty --> jetty_server
+    kivakit_web_jetty --> jetty_webapp
+    kivakit_web_swagger --> classgraph
+    kivakit_web_swagger --> log4j_1_2_api
+    kivakit_web_swagger --> log4j_api
+    kivakit_web_swagger --> swagger_core
+    kivakit_web_swagger --> swagger_jaxrs2
+    kivakit_web_swagger --> swagger_models
+    kivakit_web_swagger --> swagger_ui
+    kivakit_web_wicket --> apiguardian_api
+    kivakit_web_wicket --> jakarta_servlet_api
+    kivakit_web_wicket --> jdk_serializable_functional
+    kivakit_web_wicket --> junit_jupiter
+    kivakit_web_wicket --> junit_jupiter_engine
+    kivakit_web_wicket --> junit_platform_commons
+    kivakit_web_wicket --> wicket_extensions
+    kivakit_web_wicket --> wicket_request
+    kivakit_web_wicket --> wicket_util
+    kryo --> minlog
+    kryo --> objenesis
+    kryo --> reflectasm
+    mesakit_graph_core --> commons_lang3
+    mesakit_graph_core --> kivakit_configuration
+    mesakit_graph_core --> kivakit_primitive_collections
+    mesakit_graph_core --> mesakit_map_overpass
+    mesakit_graph_core --> mesakit_map_road_name_standardizer
+    mesakit_graph_core --> mesakit_map_ui_debug
+    mesakit_graph_world --> kivakit_network_http
+    mesakit_graph_world --> mesakit_map_cutter
+    mesakit_map_data_formats_pbf --> kivakit_data_formats_library
+    mesakit_map_data_formats_pbf --> mesakit_map_data_library
+    mesakit_map_data_formats_pbf --> osmosis_core
+    mesakit_map_data_formats_pbf --> osmosis_osm_binary
+    mesakit_map_data_formats_pbf --> osmosis_pbf
+    mesakit_map_geography --> kivakit_collections
+    mesakit_map_geography --> kivakit_data_compression
+    mesakit_map_geography --> kivakit_math
+    mesakit_map_geography --> shapefilereader
+    mesakit_map_overpass --> osmosis_xml
+    mesakit_map_road_name_parser --> mesakit_map_road_model
+    mesakit_map_road_name_standardizer --> mesakit_map_road_name_parser
+    mesakit_map_ui_desktop --> kivakit_ui_desktop
+    mesakit_map_ui_desktop --> mesakit_core
+    mesakit_map_utilities_geojson --> kivakit_resource
+    mesakit_map_utilities_geojson --> kivakit_serialization_json
+    mesakit_tools_application_launcher --> mesakit_graph_world
+    mesakit_tools_application_launcher --> mesakit_tools_applications_codec_generator
+    mesakit_tools_application_launcher --> mesakit_tools_applications_graph_analyzer
+    mesakit_tools_application_launcher --> mesakit_tools_applications_graph_double_digitized_ways_extractor
+    mesakit_tools_application_launcher --> mesakit_tools_applications_graph_dumper
+    mesakit_tools_application_launcher --> mesakit_tools_applications_graph_slicer
+    mesakit_tools_application_launcher --> mesakit_tools_applications_graph_to_pbf_converter
+    mesakit_tools_application_launcher --> mesakit_tools_applications_graph_verifier
+    mesakit_tools_application_launcher --> mesakit_tools_applications_pbf_analyzer
+    mesakit_tools_application_launcher --> mesakit_tools_applications_pbf_dumper
+    mesakit_tools_application_launcher --> mesakit_tools_applications_pbf_metadata
+    mesakit_tools_application_launcher --> mesakit_tools_applications_pbf_region_extractor
+    mesakit_tools_application_launcher --> mesakit_tools_applications_pbf_to_graph_converter
+    mesakit_tools_application_launcher --> mesakit_tools_applications_pbf_world_graph_extractor
+    mesakit_tools_application_launcher --> mesakit_tools_applications_region_information
+    mesakit_tools_applications_graph_to_pbf_converter --> httpclient
+    mesakit_tools_applications_graph_to_pbf_converter --> kivakit_filesystems_hdfs
+    mesakit_tools_applications_graph_to_pbf_converter --> kivakit_filesystems_s3fs
+    mesakit_tools_applications_graph_verifier --> mesakit_map_utilities_geojson
+    mesakit_tools_applications_pbf_dumper --> mesakit_map_data_formats_pbf
+    mesakit_tools_applications_pbf_dumper --> mesakit_map_geography
+    mesakit_tools_applications_pbf_region_extractor --> mesakit_map_ui_desktop
+    mesakit_tools_applications_pbf_region_extractor --> mesakit_map_utilities_grid
+    mesakit_tools_applications_pbf_to_graph_converter --> kivakit_application
+    mesakit_tools_applications_pbf_to_graph_converter --> mesakit_graph_core
+    mesakit_tools_applications_region_information --> mesakit_map_measurements
+    mesakit_tools_applications_region_information --> mesakit_map_region
+    netty_nio_client --> netty_buffer
+    netty_nio_client --> netty_codec
+    netty_nio_client --> netty_codec_http2
+    netty_nio_client --> netty_common
+    netty_nio_client --> netty_reactive_streams_http
+    netty_nio_client --> netty_transport
+    netty_nio_client --> netty_transport_native_epoll
+    netty_reactive_streams_http --> netty_reactive_streams
+    netty_transport --> netty_resolver
+    netty_transport_native_epoll --> netty_transport_native_unix_common
+    osmosis_core --> commons_compress
+    osmosis_core --> jpf
+    osmosis_core --> spring_jdbc
+    osmosis_core --> stax2_api
+    osmosis_core --> woodstox_core
+    osmosis_core --> xercesImpl
+    osmosis_osm_binary --> protobuf_java
+    reflectasm --> asm
+    s3 --> annotations
+    s3 --> apache_client
+    s3 --> arns
+    s3 --> auth
+    s3 --> aws_core
+    s3 --> aws_xml_protocol
+    s3 --> http_client_spi
+    s3 --> metrics_spi
+    s3 --> netty_nio_client
+    s3 --> profiles
+    s3 --> protocol_core
+    s3 --> regions
+    s3 --> sdk_core
+    s3 --> utils
+    sdk_core --> reactive_streams
+    sdk_core --> slf4j_api
+    spring_core --> spring_jcl
+    spring_jdbc --> spring_beans
+    spring_jdbc --> spring_core
+    spring_jdbc --> spring_tx
+    swagger_core --> jackson_dataformat_yaml
+    swagger_core --> jackson_datatype_jsr310
+    swagger_jaxrs2 --> jackson_jaxrs_json_provider
+    swagger_jaxrs2 --> swagger_integration
+    wicket_core --> openjson
+    wicket_util --> commons_collections4
+    wicket_util --> commons_fileupload
+    wicket_util --> commons_io
+    
+@enduml

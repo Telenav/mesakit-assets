@@ -1,0 +1,38 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.navigation.routing.cost.operators"
+    
+    interface CostFunction
+    
+    CostFunction <|-- MaximumCost
+    class MaximumCost
+    {
+        --(constructors)--
+        +MaximumCost(CostFunction, CostFunction)
+    }
+    
+    CostFunction <|-- Minimum
+    class Minimum
+    {
+        --(constructors)--
+        +Minimum(CostFunction, CostFunction)
+    }
+    
+    CostFunction <|-- Plus
+    class Plus
+    {
+        --(constructors)--
+        +Plus(CostFunction, CostFunction)
+    }
+    
+    CostFunction <|-- Weighted
+    class Weighted
+    {
+        --(constructors)--
+        +Weighted(CostFunction, Weight)
+    }
+    
+@enduml
+

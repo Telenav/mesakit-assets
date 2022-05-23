@@ -1,0 +1,59 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.world.identifiers"
+    
+    abstract BaseStringConverter
+    
+    BaseStringConverter <|-- WorldEdgeIdentifier.Converter
+    class WorldEdgeIdentifier.Converter
+    {
+        --(constructors)--
+        +Converter(WorldGrid, Listener)
+    }
+    
+    EdgeIdentifier <|-- WorldEdgeIdentifier
+    class WorldEdgeIdentifier
+    {
+        --(constructors)--
+        +WorldEdgeIdentifier(WorldCell, EdgeIdentifier)
+        --
+        +WorldEdge edge()
+        +WorldCell worldCell()
+    }
+    
+    PlaceIdentifier <|-- WorldPlaceIdentifier
+    class WorldPlaceIdentifier
+    {
+        --(constructors)--
+        +WorldPlaceIdentifier(WorldCell, PlaceIdentifier)
+        --
+        +Graph graph()
+        +WorldPlace place()
+        +WorldCell worldCell()
+    }
+    
+    RelationIdentifier <|-- WorldRelationIdentifier
+    class WorldRelationIdentifier
+    {
+        --(constructors)--
+        +WorldRelationIdentifier(WorldCell, RelationIdentifier)
+        --
+        +WorldRelation relation()
+        +WorldCell worldCell()
+    }
+    
+    VertexIdentifier <|-- WorldVertexIdentifier
+    class WorldVertexIdentifier
+    {
+        --(constructors)--
+        +WorldVertexIdentifier(WorldCell, VertexIdentifier)
+        --
+        +Graph graph()
+        +WorldVertex vertex()
+        +WorldCell worldCell()
+    }
+    
+@enduml
+

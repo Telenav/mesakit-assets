@@ -1,0 +1,60 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.plugins.josm.graph.view.tabs.view"
+    
+    JPanel <|-- ViewPanel.Column
+    class ViewPanel.Column
+    {
+        --(collection)--
+        +void add(JComponent header, JComponent column)
+    }
+    
+    ViewPanel.Column <|-- ViewPanel.EdgesColumn
+    class ViewPanel.EdgesColumn
+    {
+    }
+    
+    ViewPanel.Column <|-- ViewPanel.PlacesColumn
+    class ViewPanel.PlacesColumn
+    {
+    }
+    
+    ViewPanel.Column <|-- ViewPanel.RelationsColumn
+    class ViewPanel.RelationsColumn
+    {
+    }
+    
+    JCheckBox <|-- ViewCheckBox
+    class ViewCheckBox
+    {
+        --(constructors)--
+        +ViewCheckBox(GraphPanel, String)
+    }
+    
+    JList <|-- ViewMultiSelectList
+    class ViewMultiSelectList<T>
+    {
+        --(constructors)--
+        +ViewMultiSelectList(GraphPanel, T[])
+    }
+    
+    JPanel <|-- ViewPanel
+    class ViewPanel
+    {
+        --(constructors)--
+        +ViewPanel(GraphPanel)
+        --
+        +boolean viewAllEdges()
+        +boolean viewEdges()
+        +boolean viewPlaces()
+        +boolean viewRelations()
+        --(collection)--
+        +List<Place.Type> viewPlaceTypes()
+        +List<EdgeRelation.Type> viewRelationTypes()
+        +List<RoadType> viewRoadTypes()
+    }
+    
+@enduml
+

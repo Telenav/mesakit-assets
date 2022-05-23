@@ -1,0 +1,19 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.core"
+    
+    Project <|-- MesaKit
+    class MesaKit
+    {
+        --(filesystem)--
+        +Folder mesakitAllVersionsCacheFolder()
+        +Folder mesakitCacheFolder()
+        +Folder mesakitExtensionsHome()
+        +Folder mesakitHome()
+        +Folder mesakitRootCacheFolder()
+    }
+    
+@enduml
+

@@ -1,0 +1,36 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.io.load.loaders.region.regions"
+    
+    RegionalGraphLoader <|-- ContinentLoader
+    class ContinentLoader
+    {
+        --(constructors)--
+        +ContinentLoader(Graph, Continent)
+    }
+    
+    RegionalGraphLoader <|-- CountryLoader
+    class CountryLoader
+    {
+        --(constructors)--
+        +CountryLoader(Graph, Country)
+    }
+    
+    RegionalGraphLoader <|-- MetropolitanAreaLoader
+    class MetropolitanAreaLoader
+    {
+        --(constructors)--
+        +MetropolitanAreaLoader(Graph, MetropolitanArea)
+    }
+    
+    RegionalGraphLoader <|-- StateLoader
+    class StateLoader
+    {
+        --(constructors)--
+        +StateLoader(Graph, State)
+    }
+    
+@enduml
+

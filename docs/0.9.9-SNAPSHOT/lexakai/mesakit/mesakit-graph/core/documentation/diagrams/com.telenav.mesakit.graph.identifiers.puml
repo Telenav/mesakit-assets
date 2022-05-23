@@ -1,0 +1,135 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.identifiers"
+    
+    abstract BaseConverter
+    
+    interface GraphElementIdentifier
+    
+    Quantizable.Converter <|-- ShapePointIdentifier.Converter
+    class ShapePointIdentifier.Converter
+    {
+        --(constructors)--
+        +Converter(Listener)
+    }
+    
+    Quantizable.Converter <|-- RelationIdentifier.Converter
+    class RelationIdentifier.Converter
+    {
+        --(constructors)--
+        +Converter(Listener)
+    }
+    
+    Quantizable.Converter <|-- EdgeIdentifier.Converter
+    class EdgeIdentifier.Converter
+    {
+        --(constructors)--
+        +Converter(Listener)
+    }
+    
+    Quantizable.Converter <|-- PlaceIdentifier.Converter
+    class PlaceIdentifier.Converter
+    {
+        --(constructors)--
+        +Converter(Listener)
+    }
+    
+    Quantizable.Converter <|-- VertexIdentifier.Converter
+    class VertexIdentifier.Converter
+    {
+        --(constructors)--
+        +Converter(Listener)
+    }
+    
+    Identifier <|-- EdgeIdentifier
+    GraphElementIdentifier <|-- EdgeIdentifier
+    class EdgeIdentifier
+    {
+        --(constructors)--
+        +EdgeIdentifier(long)
+        --
+        +int sequenceNumber()
+        --(checks)--
+        +boolean isForward()
+        +boolean isReverse()
+        --(identity)--
+        +MapWayIdentifier asDirectionalWayIdentifier()
+        +EdgeIdentifier asForward()
+        +PbfWayIdentifier asWayIdentifier()
+        +SwitchParser.Builder<EdgeIdentifier> edgeIdentifierSwitchParser(Listener, String name, String description)
+        +long identifierToWayIdentifier(long elementIdentifier)
+        +EdgeIdentifier next()
+        +EdgeIdentifier nextChunk()
+        +EdgeIdentifier reversed()
+        +EdgeIdentifier sequenceNumbered()
+        +EdgeIdentifier unqualified()
+        +EdgeIdentifier withSequenceNumber(int sequenceNumber)
+    }
+    
+    interface GraphElementIdentifier
+    {
+        --
+        +GraphElement element(Graph)
+        --(primitive)--
+        +long asLong()
+    }
+    
+    MapNodeIdentifier <|-- PlaceIdentifier
+    GraphElementIdentifier <|-- PlaceIdentifier
+    class PlaceIdentifier
+    {
+        --(constructors)--
+        +PlaceIdentifier(long)
+        --(command line parsing)--
+        +SwitchParser.Builder<PlaceIdentifier> placeIdentifierSwitchParser(Listener, String name, String description)
+    }
+    
+    MapRelationIdentifier <|-- RelationIdentifier
+    GraphElementIdentifier <|-- RelationIdentifier
+    class RelationIdentifier
+    {
+        --(constructors)--
+        +RelationIdentifier(long)
+        --(command line parsing)--
+        +SwitchParser.Builder<RelationIdentifier> relationIdentifierSwitchParser(Listener, String name, String description)
+    }
+    
+    Identifier <|-- ShapePointIdentifier
+    GraphElementIdentifier <|-- ShapePointIdentifier
+    class ShapePointIdentifier
+    {
+        --(constructors)--
+        +ShapePointIdentifier(long)
+        --(iteration)--
+        +ShapePointIdentifier next()
+    }
+    
+    BaseConverter <|-- EdgeIdentifier.ToWayIdentifierConverter
+    class EdgeIdentifier.ToWayIdentifierConverter
+    {
+        --(constructors)--
+        +ToWayIdentifierConverter(Listener)
+    }
+    
+    enum EdgeIdentifier.Type
+    {
+        CORRECTION_IDENTIFIER
+        EDGE_IDENTIFIER
+        LONG_IDENTIFIER
+    }
+    
+    IntegerIdentifier <|-- VertexIdentifier
+    GraphElementIdentifier <|-- VertexIdentifier
+    class VertexIdentifier
+    {
+        --(constructors)--
+        +VertexIdentifier(int)
+        --(identity)--
+        +VertexIdentifier next()
+        +SwitchParser.Builder<VertexIdentifier> vertexIdentifierSwitchParser(Listener, String name, String description)
+    }
+    
+@enduml
+

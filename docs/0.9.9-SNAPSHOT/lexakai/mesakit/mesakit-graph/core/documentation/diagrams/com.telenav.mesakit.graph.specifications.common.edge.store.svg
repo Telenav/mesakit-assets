@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1334.375px" preserveAspectRatio="none" style="width:653px;height:1334px;background:#333333;" version="1.1" viewBox="0 0 653 1334" width="653.125px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="640.625" x="2.0833" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="617.7083" x="13.5417" y="30.5583">com.telenav.mesakit.graph.specifications.common.edge.store</text><!--MD5=[41fcd555eae9572e76ad56a68bbb92a1]
+class ArchivedGraphElementStore--><rect fill="#282828" height="48.055" id="ArchivedGraphElementStore" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="217.7083" x="221.875" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="217.7083" x="221.875" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="217.7083" x="221.875" y="76.7578"/><rect fill="none" height="48.055" id="ArchivedGraphElementStore" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="217.7083" x="221.875" y="53.7028"/><ellipse cx="236.4583" cy="69.397" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M238.3687,73.822 Q237.9415,74.0417 237.4715,74.1516 Q237.0015,74.2615 236.4827,74.2615 Q234.6395,74.2615 233.669,73.0469 Q232.6986,71.8323 232.6986,69.5374 Q232.6986,67.2363 233.669,66.0217 Q234.6395,64.8071 236.4827,64.8071 Q237.0015,64.8071 237.4776,64.917 Q237.9537,65.0269 238.3687,65.2466 L238.3687,67.2485 Q237.9049,66.8213 237.4685,66.6229 Q237.0321,66.4246 236.5682,66.4246 Q235.5794,66.4246 235.0759,67.2089 Q234.5723,67.9932 234.5723,69.5374 Q234.5723,71.0754 235.0759,71.8597 Q235.5794,72.644 236.5682,72.644 Q237.0321,72.644 237.4685,72.4457 Q237.9049,72.2473 238.3687,71.8201 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="180.2083" x="253.125" y="74.1211">ArchivedGraphElementStore</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="222.9167" x2="438.5417" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="222.9167" x2="438.5417" y1="93.4245" y2="93.4245"/><!--MD5=[212da93d886a52123cc351ecae5a59e3]
+class EdgeStore--><rect codeLine="7" fill="#282828" height="1163.1897" id="EdgeStore" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="372.9167" x="144.2708" y="164.1195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="372.9167" x="144.2708" y="164.1195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="372.9167" x="144.2708" y="187.1745"/><rect codeLine="7" fill="none" height="1163.1897" id="EdgeStore" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="372.9167" x="144.2708" y="164.1195"/><ellipse cx="291.1458" cy="179.8136" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M290.7389,176.5157 L289.8905,180.245 L291.5934,180.245 Z M289.6403,174.8678 L291.8437,174.8678 L294.3034,183.9803 L292.5028,183.9803 L291.9413,181.7281 L289.5304,181.7281 L288.9811,183.9803 L287.1806,183.9803 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="64.5833" x="314.0625" y="184.5378">EdgeStore</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="145.3125" x2="516.1458" y1="195.5078" y2="195.5078"/><polygon fill="#FFFF44" points="155.7292,225.6694,159.8958,229.836,155.7292,234.0027,151.5625,229.836" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="98.9583" x="167.1875" y="237.7889">EdgeStore(Graph)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="145.3125" x2="286.9792" y1="213.7136" y2="213.7136"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="290.1042" y="217.5232">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="374.4792" x2="516.1458" y1="213.7136" y2="213.7136"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="145.3125" x2="516.1458" y1="247.4976" y2="247.4976"/><ellipse cx="155.7292" cy="258.9559" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="125" x="167.1875" y="265.8671">EdgeSequence edges()</text><ellipse cx="155.7292" cy="278.7008" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="168.75" x="167.1875" y="285.612">EdgeSequence forwardEdges()</text><ellipse cx="155.7292" cy="298.4456" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="165.625" x="167.1875" y="305.3569">void merge(boolean merging)</text><ellipse cx="155.7292" cy="318.1905" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="177.0833" x="167.1875" y="325.1017">Rectangle retrieveBounds(Edge)</text><ellipse cx="155.7292" cy="337.9354" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="206.25" x="167.1875" y="344.8466">BridgeType retrieveBridgeType(Edge)</text><ellipse cx="155.7292" cy="357.6803" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="172.9167" x="167.1875" y="364.5915">Country retrieveCountry(Edge)</text><ellipse cx="155.7292" cy="377.4251" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="214.5833" x="167.1875" y="384.3363">SpeedCategory retrieveFreeFlow(Edge)</text><ellipse cx="155.7292" cy="397.17" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="184.375" x="167.1875" y="404.0812">boolean retrieveIsTollRoad(Edge)</text><ellipse cx="155.7292" cy="416.9149" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="243.75" x="167.1875" y="423.8261">boolean retrieveIsUnderConstruction(Edge)</text><ellipse cx="155.7292" cy="436.6597" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="239.5833" x="167.1875" y="443.571">Set&lt;EdgeRelation&gt; retrieveRelations(Edge)</text><ellipse cx="155.7292" cy="456.4046" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="314.5833" x="167.1875" y="463.3158">RoadFunctionalClass retrieveRoadFunctionalClass(Edge)</text><ellipse cx="155.7292" cy="476.1495" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="185.4167" x="167.1875" y="483.0607">Polyline retrieveRoadShape(Edge)</text><ellipse cx="155.7292" cy="495.8944" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="191.6667" x="167.1875" y="502.8056">RoadState retrieveRoadState(Edge)</text><ellipse cx="155.7292" cy="515.6392" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="233.3333" x="167.1875" y="522.5505">RoadSubType retrieveRoadSubType(Edge)</text><ellipse cx="155.7292" cy="535.3841" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="220.8333" x="167.1875" y="542.2953">RoadSurface retrieveRoadSurface(Edge)</text><ellipse cx="155.7292" cy="555.129" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="191.6667" x="167.1875" y="562.0402">RoadType retrieveRoadType(Edge)</text><ellipse cx="155.7292" cy="574.8739" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="175" x="167.1875" y="581.7851">Speed retrieveSpeedLimit(Edge)</text><ellipse cx="155.7292" cy="594.6187" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="147.9167" x="167.1875" y="601.5299">void storeAttributes(Edge)</text><ellipse cx="155.7292" cy="614.3636" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="180.2083" x="167.1875" y="621.2748">void storeFreeFlow(Edge, Speed)</text><ellipse cx="155.7292" cy="634.1085" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="214.5833" x="167.1875" y="641.0197">void storeRelation(Edge, EdgeRelation)</text><ellipse cx="155.7292" cy="653.8534" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="238.5417" x="167.1875" y="660.7646">void storeRoadShape(Edge, Polyline shape)</text><ellipse cx="155.7292" cy="673.5982" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="250" x="167.1875" y="680.5094">void storeRoadSubType(Edge, RoadSubType)</text><ellipse cx="155.7292" cy="693.3431" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="245.8333" x="167.1875" y="700.2543">void storeTurnRestriction(Route restriction)</text><ellipse cx="155.7292" cy="736.9995" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="137.5" x="167.1875" y="743.9107">boolean isOneWay(Edge)</text><ellipse cx="155.7292" cy="756.7444" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="137.5" x="167.1875" y="763.6556">boolean isTwoWay(Edge)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="145.3125" x2="304.1667" y1="719.8354" y2="719.8354"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="46.875" x="307.2917" y="723.645">(checks)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="357.2917" x2="516.1458" y1="719.8354" y2="719.8354"/><ellipse cx="155.7292" cy="800.4008" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="267.7083" x="167.1875" y="807.312">Count addAll(EdgeSequence, GraphConstraints)</text><ellipse cx="155.7292" cy="820.1457" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="302.0833" x="167.1875" y="827.0569">void commitSpatialIndex(boolean commitSpatialIndex)</text><ellipse cx="155.7292" cy="839.8905" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="131.25" x="167.1875" y="846.8018">boolean contains(Edge)</text><ellipse cx="155.7292" cy="859.6354" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="181.25" x="167.1875" y="866.5466">boolean contains(EdgeIdentifier)</text><ellipse cx="155.7292" cy="879.3803" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="193.75" x="167.1875" y="886.2915">boolean contains(PbfWayIdentifier)</text><ellipse cx="155.7292" cy="899.1252" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="164.5833" x="167.1875" y="906.0364">Edge edgeForIndex(int index)</text><ellipse cx="155.7292" cy="918.87" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="195.8333" x="167.1875" y="925.7813">Count retrieveForwardEdgeCount()</text><ellipse cx="155.7292" cy="938.6149" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="291.6667" x="167.1875" y="945.5261">MapNodeIdentifier retrieveFromNodeIdentifier(Edge)</text><ellipse cx="155.7292" cy="958.3598" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="197.9167" x="167.1875" y="965.271">Count retrieveHovLaneCount(Edge)</text><ellipse cx="155.7292" cy="978.1047" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="176.0417" x="167.1875" y="985.0159">Count retrieveLaneCount(Edge)</text><ellipse cx="155.7292" cy="997.8495" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="340.625" x="167.1875" y="1004.7607">List&lt;RoadName&gt; retrieveRoadNames(Edge, RoadName.Type)</text><ellipse cx="155.7292" cy="1017.5944" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="277.0833" x="167.1875" y="1024.5056">MapNodeIdentifier retrieveToNodeIdentifier(Edge)</text><ellipse cx="155.7292" cy="1037.3393" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="225" x="167.1875" y="1044.2505">RTreeSpatialIndex&lt;Edge&gt; spatialIndex()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="145.3125" x2="296.3542" y1="783.2367" y2="783.2367"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="299.4792" y="787.0463">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="365.1042" x2="516.1458" y1="783.2367" y2="783.2367"/><ellipse cx="155.7292" cy="1080.9957" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="215.625" x="167.1875" y="1087.9069">long retrieveLengthInMillimeters(Edge)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="145.3125" x2="300" y1="1063.8316" y2="1063.8316"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="55.2083" x="303.125" y="1067.6412">(distance)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="361.4583" x2="516.1458" y1="1063.8316" y2="1063.8316"/><ellipse cx="155.7292" cy="1124.6521" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="237.5" x="167.1875" y="1131.5633">long nextEdgeIdentifier(long wayIdentifier)</text><ellipse cx="155.7292" cy="1144.397" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="211.4583" x="167.1875" y="1151.3082">int retrieveFromVertexIdentifier(Edge)</text><ellipse cx="155.7292" cy="1164.1418" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="304.1667" x="167.1875" y="1171.0531">Route retrieveRouteForWayIdentifier(MapWayIdentifier)</text><ellipse cx="155.7292" cy="1183.8867" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="196.875" x="167.1875" y="1190.7979">int retrieveToVertexIdentifier(Edge)</text><ellipse cx="155.7292" cy="1203.6316" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="207.2917" x="167.1875" y="1210.5428">void storeFromVertexIdentifier(Edge)</text><ellipse cx="155.7292" cy="1223.3765" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="192.7083" x="167.1875" y="1230.2877">void storeToVertexIdentifier(Edge)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="145.3125" x2="302.6042" y1="1107.488" y2="1107.488"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="50" x="305.7292" y="1111.2976">(identity)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="358.8542" x2="516.1458" y1="1107.488" y2="1107.488"/><ellipse cx="155.7292" cy="1267.0329" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="273.9583" x="167.1875" y="1273.9441">boolean retrieveIsClosedToThroughTraffic(Edge)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="145.3125" x2="318.2292" y1="1249.8688" y2="1249.8688"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="18.75" x="321.3542" y="1253.6784">(io)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="343.2292" x2="516.1458" y1="1249.8688" y2="1249.8688"/><ellipse cx="155.7292" cy="1310.6893" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="312.5" x="167.1875" y="1317.6005">void storeRoadName(Edge, RoadName.Type, RoadName)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="145.3125" x2="302.6042" y1="1293.5252" y2="1293.5252"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="50" x="305.7292" y="1297.3348">(naming)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="358.8542" x2="516.1458" y1="1293.5252" y2="1293.5252"/><!--MD5=[05e4f0dae672fc08b6c7184880ca6eb8]
+reverse link ArchivedGraphElementStore to EdgeStore--><path codeLine="6" d="M330.7292,122.8903 C330.7292,134.7132 330.7292,148.5882 330.7292,164.109 " fill="none" id="ArchivedGraphElementStore-backto-EdgeStore" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="323.4375,122.4632,330.7292,101.6299,338.0208,122.4632,323.4375,122.4632" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[4517a903d69ab5323262315a48a6d0ce]
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.common.edge.store"
+    
+    ArchivedGraphElementStore <|- - EdgeStore
+    abstract class EdgeStore
+    {
+        - -(constructors)- -
+        #EdgeStore(Graph)
+        - -
+        +EdgeSequence edges()
+        +EdgeSequence forwardEdges()
+        +void merge(boolean merging)
+        +Rectangle retrieveBounds(Edge)
+        +BridgeType retrieveBridgeType(Edge)
+        +Country retrieveCountry(Edge)
+        +SpeedCategory retrieveFreeFlow(Edge)
+        +boolean retrieveIsTollRoad(Edge)
+        +boolean retrieveIsUnderConstruction(Edge)
+        +Set<EdgeRelation> retrieveRelations(Edge)
+        +RoadFunctionalClass retrieveRoadFunctionalClass(Edge)
+        +Polyline retrieveRoadShape(Edge)
+        +RoadState retrieveRoadState(Edge)
+        +RoadSubType retrieveRoadSubType(Edge)
+        +RoadSurface retrieveRoadSurface(Edge)
+        +RoadType retrieveRoadType(Edge)
+        +Speed retrieveSpeedLimit(Edge)
+        +void storeAttributes(Edge)
+        +void storeFreeFlow(Edge, Speed)
+        +void storeRelation(Edge, EdgeRelation)
+        +void storeRoadShape(Edge, Polyline shape)
+        +void storeRoadSubType(Edge, RoadSubType)
+        +void storeTurnRestriction(Route restriction)
+        - -(checks)- -
+        +boolean isOneWay(Edge)
+        +boolean isTwoWay(Edge)
+        - -(collection)- -
+        +Count addAll(EdgeSequence, GraphConstraints)
+        +void commitSpatialIndex(boolean commitSpatialIndex)
+        +boolean contains(Edge)
+        +boolean contains(EdgeIdentifier)
+        +boolean contains(PbfWayIdentifier)
+        +Edge edgeForIndex(int index)
+        +Count retrieveForwardEdgeCount()
+        +MapNodeIdentifier retrieveFromNodeIdentifier(Edge)
+        +Count retrieveHovLaneCount(Edge)
+        +Count retrieveLaneCount(Edge)
+        +List<RoadName> retrieveRoadNames(Edge, RoadName.Type)
+        +MapNodeIdentifier retrieveToNodeIdentifier(Edge)
+        +RTreeSpatialIndex<Edge> spatialIndex()
+        - -(distance)- -
+        +long retrieveLengthInMillimeters(Edge)
+        - -(identity)- -
+        +long nextEdgeIdentifier(long wayIdentifier)
+        +int retrieveFromVertexIdentifier(Edge)
+        +Route retrieveRouteForWayIdentifier(MapWayIdentifier)
+        +int retrieveToVertexIdentifier(Edge)
+        +void storeFromVertexIdentifier(Edge)
+        +void storeToVertexIdentifier(Edge)
+        - -(io)- -
+        +boolean retrieveIsClosedToThroughTraffic(Edge)
+        - -(naming)- -
+        +void storeRoadName(Edge, RoadName.Type, RoadName)
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.mesakit.graph.specifications.common.edge.store"
+    
+    ArchivedGraphElementStore <|- - EdgeStore
+    abstract class EdgeStore
+    {
+        - -(constructors)- -
+        #EdgeStore(Graph)
+        - -
+        +EdgeSequence edges()
+        +EdgeSequence forwardEdges()
+        +void merge(boolean merging)
+        +Rectangle retrieveBounds(Edge)
+        +BridgeType retrieveBridgeType(Edge)
+        +Country retrieveCountry(Edge)
+        +SpeedCategory retrieveFreeFlow(Edge)
+        +boolean retrieveIsTollRoad(Edge)
+        +boolean retrieveIsUnderConstruction(Edge)
+        +Set<EdgeRelation> retrieveRelations(Edge)
+        +RoadFunctionalClass retrieveRoadFunctionalClass(Edge)
+        +Polyline retrieveRoadShape(Edge)
+        +RoadState retrieveRoadState(Edge)
+        +RoadSubType retrieveRoadSubType(Edge)
+        +RoadSurface retrieveRoadSurface(Edge)
+        +RoadType retrieveRoadType(Edge)
+        +Speed retrieveSpeedLimit(Edge)
+        +void storeAttributes(Edge)
+        +void storeFreeFlow(Edge, Speed)
+        +void storeRelation(Edge, EdgeRelation)
+        +void storeRoadShape(Edge, Polyline shape)
+        +void storeRoadSubType(Edge, RoadSubType)
+        +void storeTurnRestriction(Route restriction)
+        - -(checks)- -
+        +boolean isOneWay(Edge)
+        +boolean isTwoWay(Edge)
+        - -(collection)- -
+        +Count addAll(EdgeSequence, GraphConstraints)
+        +void commitSpatialIndex(boolean commitSpatialIndex)
+        +boolean contains(Edge)
+        +boolean contains(EdgeIdentifier)
+        +boolean contains(PbfWayIdentifier)
+        +Edge edgeForIndex(int index)
+        +Count retrieveForwardEdgeCount()
+        +MapNodeIdentifier retrieveFromNodeIdentifier(Edge)
+        +Count retrieveHovLaneCount(Edge)
+        +Count retrieveLaneCount(Edge)
+        +List<RoadName> retrieveRoadNames(Edge, RoadName.Type)
+        +MapNodeIdentifier retrieveToNodeIdentifier(Edge)
+        +RTreeSpatialIndex<Edge> spatialIndex()
+        - -(distance)- -
+        +long retrieveLengthInMillimeters(Edge)
+        - -(identity)- -
+        +long nextEdgeIdentifier(long wayIdentifier)
+        +int retrieveFromVertexIdentifier(Edge)
+        +Route retrieveRouteForWayIdentifier(MapWayIdentifier)
+        +int retrieveToVertexIdentifier(Edge)
+        +void storeFromVertexIdentifier(Edge)
+        +void storeToVertexIdentifier(Edge)
+        - -(io)- -
+        +boolean retrieveIsClosedToThroughTraffic(Edge)
+        - -(naming)- -
+        +void storeRoadName(Edge, RoadName.Type, RoadName)
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 00:55:08 MST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

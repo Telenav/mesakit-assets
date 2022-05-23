@@ -1,0 +1,36 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.region.project"
+    
+    class RegionLimits.Estimated
+    {
+    }
+    
+    class RegionLimits.Limit
+    {
+    }
+    
+    KryoTypes <|-- RegionKryoTypes
+    class RegionKryoTypes
+    {
+        --(constructors)--
+        +RegionKryoTypes()
+    }
+    
+    class RegionLimits
+    {
+    }
+    
+    GeographyUnitTest <|-- RegionUnitTest
+    class RegionUnitTest
+    {
+        --(constructors)--
+        +RegionUnitTest()
+        --
+        #RegionCode code(String)
+    }
+    
+@enduml
+

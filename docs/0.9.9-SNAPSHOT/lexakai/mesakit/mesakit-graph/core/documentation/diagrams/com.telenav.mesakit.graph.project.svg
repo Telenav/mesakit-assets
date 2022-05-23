@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="863.5417px" preserveAspectRatio="none" style="width:1576px;height:863px;background:#333333;" version="1.1" viewBox="0 0 1576 863" width="1576.0417px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="368.75" x="596.6146" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="345.8333" x="608.0729" y="30.5583">com.telenav.mesakit.graph.project</text><!--MD5=[5530caac79535001671b452b69330422]
+cluster GraphLimits--><polygon fill="#333333" points="1356.25,52.6611,1447.9167,52.6611,1455.2083,79.8828,1491.6667,79.8828,1491.6667,157.8695,1356.25,157.8695,1356.25,52.6611" style="stroke:#333333;stroke-width:2.0833333333333335;"/><line style="stroke:#333333;stroke-width:2.0833333333333335;" x1="1356.25" x2="1455.2083" y1="79.8828" y2="79.8828"/><text fill="#C8AC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="79.1667" x="1363.5417" y="69.9544">GraphLimits</text><!--MD5=[0eda8198a519e1ca0d301ec688116abb]
+class GraphLimits.Estimated--><rect codeLine="6" fill="#282828" height="48.055" id="GraphLimits.Estimated" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="102.0833" x="1372.9167" y="93.2861"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="102.0833" x="1372.9167" y="93.2861"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="102.0833" x="1372.9167" y="116.3411"/><rect codeLine="6" fill="none" height="48.055" id="GraphLimits.Estimated" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="102.0833" x="1372.9167" y="93.2861"/><ellipse cx="1387.5" cy="108.9803" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1389.4104,113.4054 Q1388.9832,113.6251 1388.5132,113.7349 Q1388.0432,113.8448 1387.5244,113.8448 Q1385.6812,113.8448 1384.7107,112.6302 Q1383.7402,111.4156 1383.7402,109.1207 Q1383.7402,106.8197 1384.7107,105.6051 Q1385.6812,104.3905 1387.5244,104.3905 Q1388.0432,104.3905 1388.5193,104.5003 Q1388.9954,104.6102 1389.4104,104.8299 L1389.4104,106.8319 Q1388.9465,106.4046 1388.5101,106.2063 Q1388.0737,106.0079 1387.6099,106.0079 Q1386.6211,106.0079 1386.1176,106.7922 Q1385.614,107.5765 1385.614,109.1207 Q1385.614,110.6588 1386.1176,111.4431 Q1386.6211,112.2274 1387.6099,112.2274 Q1388.0737,112.2274 1388.5101,112.029 Q1388.9465,111.8306 1389.4104,111.4034 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="64.5833" x="1404.1667" y="113.7044">Estimated</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1373.9583" x2="1473.9583" y1="124.6745" y2="124.6745"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1373.9583" x2="1473.9583" y1="133.0078" y2="133.0078"/><!--MD5=[d776228a55af1f9e7dd99d395538019c]
+class KryoTypes--><rect fill="#282828" height="48.055" id="KryoTypes" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="106.25" x="472.9167" y="93.2861"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="106.25" x="472.9167" y="93.2861"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="106.25" x="472.9167" y="116.3411"/><rect fill="none" height="48.055" id="KryoTypes" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="106.25" x="472.9167" y="93.2861"/><ellipse cx="487.5" cy="108.9803" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M489.4104,113.4054 Q488.9832,113.6251 488.5132,113.7349 Q488.0432,113.8448 487.5244,113.8448 Q485.6812,113.8448 484.7107,112.6302 Q483.7402,111.4156 483.7402,109.1207 Q483.7402,106.8197 484.7107,105.6051 Q485.6812,104.3905 487.5244,104.3905 Q488.0432,104.3905 488.5193,104.5003 Q488.9954,104.6102 489.4104,104.8299 L489.4104,106.8319 Q488.9465,106.4046 488.5101,106.2063 Q488.0737,106.0079 487.6099,106.0079 Q486.6211,106.0079 486.1176,106.7922 Q485.614,107.5765 485.614,109.1207 Q485.614,110.6588 486.1176,111.4431 Q486.6211,112.2274 487.6099,112.2274 Q488.0737,112.2274 488.5101,112.029 Q488.9465,111.8306 489.4104,111.4034 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="68.75" x="504.1667" y="113.7044">KryoTypes</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="473.9583" x2="578.125" y1="124.6745" y2="124.6745"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="473.9583" x2="578.125" y1="133.0078" y2="133.0078"/><!--MD5=[bae4c83d18e171b738410fbc873769d6]
+class GraphKryoTypes--><rect codeLine="11" fill="#282828" height="83.3781" id="GraphKryoTypes" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="144.7917" x="453.6458" y="488.5986"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="144.7917" x="453.6458" y="488.5986"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="144.7917" x="453.6458" y="511.6536"/><rect codeLine="11" fill="none" height="83.3781" id="GraphKryoTypes" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="144.7917" x="453.6458" y="488.5986"/><ellipse cx="468.2292" cy="504.2928" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M470.1396,508.7179 Q469.7123,508.9376 469.2424,509.0474 Q468.7724,509.1573 468.2536,509.1573 Q466.4103,509.1573 465.4399,507.9427 Q464.4694,506.7281 464.4694,504.4332 Q464.4694,502.1322 465.4399,500.9176 Q466.4103,499.703 468.2536,499.703 Q468.7724,499.703 469.2485,499.8128 Q469.7245,499.9227 470.1396,500.1424 L470.1396,502.1444 Q469.6757,501.7171 469.2393,501.5188 Q468.8029,501.3204 468.339,501.3204 Q467.3503,501.3204 466.8467,502.1047 Q466.3432,502.889 466.3432,504.4332 Q466.3432,505.9713 466.8467,506.7556 Q467.3503,507.5399 468.339,507.5399 Q468.8029,507.5399 469.2393,507.3415 Q469.6757,507.1431 470.1396,506.7159 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="107.2917" x="484.8958" y="509.0169">GraphKryoTypes</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="454.6875" x2="597.3958" y1="519.987" y2="519.987"/><ellipse cx="465.1042" cy="555.3569" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="102.0833" x="476.5625" y="562.2681">GraphKryoTypes()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="454.6875" x2="482.2917" y1="538.1927" y2="538.1927"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="485.4167" y="542.0024">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="569.7917" x2="597.3958" y1="538.1927" y2="538.1927"/><!--MD5=[2a101b69fa426c2ee98364d50b337cd3]
+class GraphLimits--><rect codeLine="17" fill="#282828" height="48.055" id="GraphLimits" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="116.6667" x="129.1667" y="93.2861"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="116.6667" x="129.1667" y="93.2861"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="116.6667" x="129.1667" y="116.3411"/><rect codeLine="17" fill="none" height="48.055" id="GraphLimits" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="116.6667" x="129.1667" y="93.2861"/><ellipse cx="143.75" cy="108.9803" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M145.6604,113.4054 Q145.2332,113.6251 144.7632,113.7349 Q144.2932,113.8448 143.7744,113.8448 Q141.9312,113.8448 140.9607,112.6302 Q139.9902,111.4156 139.9902,109.1207 Q139.9902,106.8197 140.9607,105.6051 Q141.9312,104.3905 143.7744,104.3905 Q144.2932,104.3905 144.7693,104.5003 Q145.2454,104.6102 145.6604,104.8299 L145.6604,106.8319 Q145.1965,106.4046 144.7601,106.2063 Q144.3237,106.0079 143.8599,106.0079 Q142.8711,106.0079 142.3676,106.7922 Q141.864,107.5765 141.864,109.1207 Q141.864,110.6588 142.3676,111.4431 Q142.8711,112.2274 143.8599,112.2274 Q144.3237,112.2274 144.7601,112.029 Q145.1965,111.8306 145.6604,111.4034 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="79.1667" x="160.4167" y="113.7044">GraphLimits</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="130.2083" x2="244.7917" y1="124.6745" y2="124.6745"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="130.2083" x2="244.7917" y1="133.0078" y2="133.0078"/><!--MD5=[106957bf0892193b3cb2357c28c3892d]
+class GeographyRandomValueFactory--><rect fill="#282828" height="48.055" id="GeographyRandomValueFactory" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="242.7083" x="660.9375" y="93.2861"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="242.7083" x="660.9375" y="93.2861"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="242.7083" x="660.9375" y="116.3411"/><rect fill="none" height="48.055" id="GeographyRandomValueFactory" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="242.7083" x="660.9375" y="93.2861"/><ellipse cx="675.5208" cy="108.9803" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M677.4312,113.4054 Q677.004,113.6251 676.534,113.7349 Q676.064,113.8448 675.5452,113.8448 Q673.702,113.8448 672.7315,112.6302 Q671.7611,111.4156 671.7611,109.1207 Q671.7611,106.8197 672.7315,105.6051 Q673.702,104.3905 675.5452,104.3905 Q676.064,104.3905 676.5401,104.5003 Q677.0162,104.6102 677.4312,104.8299 L677.4312,106.8319 Q676.9674,106.4046 676.531,106.2063 Q676.0946,106.0079 675.6307,106.0079 Q674.6419,106.0079 674.1384,106.7922 Q673.6348,107.5765 673.6348,109.1207 Q673.6348,110.6588 674.1384,111.4431 Q674.6419,112.2274 675.6307,112.2274 Q676.0946,112.2274 676.531,112.029 Q676.9674,111.8306 677.4312,111.4034 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="205.2083" x="692.1875" y="113.7044">GeographyRandomValueFactory</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="661.9792" x2="902.6042" y1="124.6745" y2="124.6745"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="661.9792" x2="902.6042" y1="133.0078" y2="133.0078"/><!--MD5=[713593cc7fdbab76fac9c08c6bc85d62]
+class GraphRandomValueFactory--><rect codeLine="22" fill="#282828" height="186.2691" id="GraphRandomValueFactory" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="294.7917" x="634.8958" y="437.0361"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="294.7917" x="634.8958" y="437.0361"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="294.7917" x="634.8958" y="460.0911"/><rect codeLine="22" fill="none" height="186.2691" id="GraphRandomValueFactory" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="294.7917" x="634.8958" y="437.0361"/><ellipse cx="688.0208" cy="452.7303" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M689.9312,457.1554 Q689.504,457.3751 689.034,457.4849 Q688.564,457.5948 688.0452,457.5948 Q686.202,457.5948 685.2315,456.3802 Q684.2611,455.1656 684.2611,452.8707 Q684.2611,450.5697 685.2315,449.3551 Q686.202,448.1405 688.0452,448.1405 Q688.564,448.1405 689.0401,448.2503 Q689.5162,448.3602 689.9312,448.5799 L689.9312,450.5819 Q689.4674,450.1546 689.031,449.9563 Q688.5946,449.7579 688.1307,449.7579 Q687.1419,449.7579 686.6384,450.5422 Q686.1348,451.3265 686.1348,452.8707 Q686.1348,454.4088 686.6384,455.1931 Q687.1419,455.9774 688.1307,455.9774 Q688.5946,455.9774 689.031,455.779 Q689.4674,455.5806 689.9312,455.1534 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="173.9583" x="710.9375" y="457.4544">GraphRandomValueFactory</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="635.9375" x2="928.6458" y1="468.4245" y2="468.4245"/><ellipse cx="646.3542" cy="503.7944" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="160.4167" x="657.8125" y="510.7056">GraphRandomValueFactory()</text><ellipse cx="646.3542" cy="523.5392" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="185.4167" x="657.8125" y="530.4504">GraphRandomValueFactory(long)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="635.9375" x2="738.5417" y1="486.6302" y2="486.6302"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="741.6667" y="490.4399">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="826.0417" x2="928.6458" y1="486.6302" y2="486.6302"/><ellipse cx="646.3542" cy="567.1956" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="262.5" x="657.8125" y="574.1069">BetweenCrossRoads newBetweenCrossStreets()</text><ellipse cx="646.3542" cy="586.9405" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="166.6667" x="657.8125" y="593.8517">Intersection newIntersection()</text><ellipse cx="646.3542" cy="606.6854" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="156.25" x="657.8125" y="613.5966">RoadName newStreetName()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="635.9375" x2="755.2083" y1="550.0315" y2="550.0315"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="47.9167" x="758.3333" y="553.8411">(factory)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="809.375" x2="928.6458" y1="550.0315" y2="550.0315"/><!--MD5=[4ce07067e118064f57184adfe97ff807]
+class RegionUnitTest--><rect fill="#282828" height="48.055" id="RegionUnitTest" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="137.5" x="1198.9583" y="93.2861"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="137.5" x="1198.9583" y="93.2861"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="137.5" x="1198.9583" y="116.3411"/><rect fill="none" height="48.055" id="RegionUnitTest" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="137.5" x="1198.9583" y="93.2861"/><ellipse cx="1213.5417" cy="108.9803" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1215.4521,113.4054 Q1215.0248,113.6251 1214.5549,113.7349 Q1214.0849,113.8448 1213.5661,113.8448 Q1211.7228,113.8448 1210.7524,112.6302 Q1209.7819,111.4156 1209.7819,109.1207 Q1209.7819,106.8197 1210.7524,105.6051 Q1211.7228,104.3905 1213.5661,104.3905 Q1214.0849,104.3905 1214.561,104.5003 Q1215.037,104.6102 1215.4521,104.8299 L1215.4521,106.8319 Q1214.9882,106.4046 1214.5518,106.2063 Q1214.1154,106.0079 1213.6515,106.0079 Q1212.6628,106.0079 1212.1592,106.7922 Q1211.6557,107.5765 1211.6557,109.1207 Q1211.6557,110.6588 1212.1592,111.4431 Q1212.6628,112.2274 1213.6515,112.2274 Q1214.1154,112.2274 1214.5518,112.029 Q1214.9882,111.8306 1215.4521,111.4034 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="100" x="1230.2083" y="113.7044">RegionUnitTest</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1200" x2="1335.4167" y1="124.6745" y2="124.6745"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1200" x2="1335.4167" y1="133.0078" y2="133.0078"/><!--MD5=[b59cc0cfbba6b420d6ae83dd59ebb650]
+class GraphUnitTest--><rect codeLine="34" fill="#282828" height="652.9012" id="GraphUnitTest" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="603.125" x="966.1458" y="203.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="603.125" x="966.1458" y="203.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="603.125" x="966.1458" y="226.7578"/><rect codeLine="34" fill="none" height="652.9012" id="GraphUnitTest" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="603.125" x="966.1458" y="203.7028"/><ellipse cx="1213.5417" cy="219.397" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M1213.1348,216.099 L1212.2864,219.8283 L1213.9893,219.8283 Z M1212.0361,214.4511 L1214.2395,214.4511 L1216.6992,223.5636 L1214.8987,223.5636 L1214.3372,221.3114 L1211.9263,221.3114 L1211.377,223.5636 L1209.5764,223.5636 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="93.75" x="1236.4583" y="224.1211">GraphUnitTest</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="967.1875" x2="1568.2292" y1="235.0911" y2="235.0911"/><polygon fill="#FFFF44" points="977.6042,265.2527,981.7708,269.4194,977.6042,273.586,973.4375,269.4194" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="89.5833" x="989.0625" y="277.3722">GraphUnitTest()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="967.1875" x2="1223.9583" y1="253.2969" y2="253.2969"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="1227.0833" y="257.1065">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1311.4583" x2="1568.2292" y1="253.2969" y2="253.2969"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="967.1875" x2="1568.2292" y1="287.0809" y2="287.0809"/><ellipse cx="977.6042" cy="298.5392" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="180.2083" x="989.0625" y="305.4504">Graph osmBellevueWashington()</text><ellipse cx="977.6042" cy="318.2841" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="108.3333" x="989.0625" y="325.1953">Graph osmBuffalo()</text><ellipse cx="977.6042" cy="338.029" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="164.5833" x="989.0625" y="344.9402">Graph osmDowntownSeattle()</text><ellipse cx="977.6042" cy="357.7738" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="188.5417" x="989.0625" y="364.6851">Graph osmDowntownSeattleTest()</text><ellipse cx="977.6042" cy="377.5187" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="164.5833" x="989.0625" y="384.4299">Graph osmGreenLakeSeattle()</text><ellipse cx="977.6042" cy="397.2636" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="195.8333" x="989.0625" y="404.1748">Graph osmGreenLakeSeattleLarge()</text><ellipse cx="977.6042" cy="417.0085" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="147.9167" x="989.0625" y="423.9197">Graph osmHuronCharter()</text><ellipse cx="977.6042" cy="436.7533" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="87.5" x="989.0625" y="443.6646">void testSetup()</text><polygon fill="#FFFF44" points="977.6042,451.2899,981.7708,455.4565,977.6042,459.6232,973.4375,455.4565" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="570.8333" x="989.0625" y="463.4094">Edge edge(Graph, double fromLatitude, double fromLongitude, double toLatitude, double toLongitude)</text><polygon fill="#FFFF44" points="977.6042,471.0347,981.7708,475.2014,977.6042,479.3681,973.4375,475.2014" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="316.6667" x="989.0625" y="483.1543">Edge edgeNear(Graph, double latitude, double longitude)</text><polygon fill="#FFFF44" points="977.6042,490.7796,981.7708,494.9463,977.6042,499.113,973.4375,494.9463" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="161.4583" x="989.0625" y="502.8992">EdgeSet edges(Edge... edges)</text><polygon fill="#FFFF44" points="977.6042,510.5245,981.7708,514.6912,977.6042,518.8578,973.4375,514.6912" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="185.4167" x="989.0625" y="522.644">Location location(String location)</text><polygon fill="#FFFF44" points="977.6042,530.2694,981.7708,534.436,977.6042,538.6027,973.4375,534.436" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="286.4583" x="989.0625" y="542.3889">Edge osmDowntownSeattleTestEdge(long identifier)</text><polygon fill="#FFFF44" points="977.6042,550.0142,981.7708,554.1809,977.6042,558.3476,973.4375,554.1809" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="325" x="989.0625" y="562.1338">EdgeSet osmDowntownSeattleTestEdges(long... identifiers)</text><polygon fill="#FFFF44" points="977.6042,569.7591,981.7708,573.9258,977.6042,578.0924,973.4375,573.9258" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="312.5" x="989.0625" y="581.8787">Route osmDowntownSeattleTestRoute(long... identifiers)</text><polygon fill="#FFFF44" points="977.6042,589.504,981.7708,593.6707,977.6042,597.8373,973.4375,593.6707" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="323.9583" x="989.0625" y="601.6235">HeavyWeightEdge osmEdge(Graph, int index, int identifier)</text><polygon fill="#FFFF44" points="977.6042,609.2489,981.7708,613.4155,977.6042,617.5822,973.4375,613.4155" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="130.2083" x="989.0625" y="621.3684">OsmGraph osmGraph()</text><polygon fill="#FFFF44" points="977.6042,628.9937,981.7708,633.1604,977.6042,637.3271,973.4375,633.1604" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="262.5" x="989.0625" y="641.1133">Edge osmGreenLakeSeattleEdge(long identifier)</text><polygon fill="#FFFF44" points="977.6042,648.7386,981.7708,652.9053,977.6042,657.0719,973.4375,652.9053" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="318.75" x="989.0625" y="660.8582">HeavyWeightRelation osmRelation(int identifier, int index)</text><polygon fill="#FFFF44" points="977.6042,668.4835,981.7708,672.6501,977.6042,676.8168,973.4375,672.6501" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="396.875" x="989.0625" y="680.603">HeavyWeightVertex osmVertex(Graph, int index, int identifier, Location)</text><polygon fill="#FFFF44" points="977.6042,688.2284,981.7708,692.395,977.6042,696.5617,973.4375,692.395" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="146.875" x="989.0625" y="700.3479">Route route(Edge... edges)</text><polygon fill="#FFFF44" points="977.6042,707.9732,981.7708,712.1399,977.6042,716.3066,973.4375,712.1399" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="235.4167" x="989.0625" y="720.0928">HeavyWeightEdge testEdge(long identifier)</text><polygon fill="#FFFF44" points="977.6042,727.7181,981.7708,731.8848,977.6042,736.0514,973.4375,731.8848" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="308.3333" x="989.0625" y="739.8376">Vertex vertex(Graph, double latitude, double longitude)</text><polygon fill="#FFFF44" points="977.6042,771.3745,981.7708,775.5412,977.6042,779.7078,973.4375,775.5412" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="221.875" x="989.0625" y="783.4941">HeavyWeightEdge nextOsmEdge(Graph)</text><polygon fill="#FFFF44" points="977.6042,791.1194,981.7708,795.2861,977.6042,799.4527,973.4375,795.2861" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="222.9167" x="989.0625" y="803.2389">HeavyWeightRelation nextOsmRelation()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="967.1875" x2="1236.9792" y1="759.4187" y2="759.4187"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="55.2083" x="1240.1042" y="763.2284">(iteration)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1298.4375" x2="1568.2292" y1="759.4187" y2="759.4187"/><polygon fill="#FFFF44" points="977.6042,834.7758,981.7708,838.9425,977.6042,843.1091,973.4375,838.9425" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="355.2083" x="989.0625" y="846.8953">Location locationInDegreesMinutesAndSeconds(String location)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="967.1875" x2="1248.4375" y1="822.82" y2="822.82"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="32.2917" x="1251.5625" y="826.6296">(time)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1286.9792" x2="1568.2292" y1="822.82" y2="822.82"/><!--MD5=[50616167871d30ad2a819ff73d0f9618]
+class GraphLimits.Limit--><rect codeLine="69" fill="#282828" height="48.055" id="GraphLimits.Limit" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="153.125" x="282.8125" y="93.2861"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="153.125" x="282.8125" y="93.2861"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="153.125" x="282.8125" y="116.3411"/><rect codeLine="69" fill="none" height="48.055" id="GraphLimits.Limit" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="153.125" x="282.8125" y="93.2861"/><ellipse cx="297.3958" cy="108.9803" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M299.3062,113.4054 Q298.879,113.6251 298.409,113.7349 Q297.939,113.8448 297.4202,113.8448 Q295.577,113.8448 294.6065,112.6302 Q293.6361,111.4156 293.6361,109.1207 Q293.6361,106.8197 294.6065,105.6051 Q295.577,104.3905 297.4202,104.3905 Q297.939,104.3905 298.4151,104.5003 Q298.8912,104.6102 299.3062,104.8299 L299.3062,106.8319 Q298.8424,106.4046 298.406,106.2063 Q297.9696,106.0079 297.5057,106.0079 Q296.5169,106.0079 296.0134,106.7922 Q295.5098,107.5765 295.5098,109.1207 Q295.5098,110.6588 296.0134,111.4431 Q296.5169,112.2274 297.5057,112.2274 Q297.9696,112.2274 298.406,112.029 Q298.8424,111.8306 299.3062,111.4034 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="115.625" x="314.0625" y="113.7044">GraphLimits.Limit</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="283.8542" x2="434.8958" y1="124.6745" y2="124.6745"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="283.8542" x2="434.8958" y1="133.0078" y2="133.0078"/><!--MD5=[c284a84f66ed350e6b5befd86367e8b2]
+class GraphRandomValueFactory.RandomListBuilder--><rect codeLine="73" fill="#282828" height="170.6909" id="GraphRandomValueFactory.RandomListBuilder" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="356.25" x="9.375" y="444.8486"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="356.25" x="9.375" y="444.8486"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="356.25" x="9.375" y="467.9036"/><rect codeLine="73" fill="none" height="170.6909" id="GraphRandomValueFactory.RandomListBuilder" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="356.25" x="9.375" y="444.8486"/><ellipse cx="23.9583" cy="460.5428" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M23.5514,457.2449 L22.703,460.9741 L24.4059,460.9741 Z M22.4528,455.5969 L24.6562,455.5969 L27.1159,464.7095 L25.3153,464.7095 L24.7538,462.4573 L22.3429,462.4573 L21.7936,464.7095 L19.9931,464.7095 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="300" x="40.625" y="465.2669">GraphRandomValueFactory.RandomListBuilder</text><rect fill="#333333" height="23.055" style="stroke:#A0A0A0;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" width="16.6667" x="352.0833" y="441.7236"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="8.3333" x="356.25" y="457.9753">T</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="10.4167" x2="364.5833" y1="476.237" y2="476.237"/><polygon fill="#FFFF44" points="20.8333,506.3985,25,510.5652,20.8333,514.7319,16.6667,510.5652" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="147.9167" x="32.2917" y="518.5181">RandomListBuilder(int, int)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="143.75" y1="494.4427" y2="494.4427"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="146.875" y="498.2524">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="231.25" x2="364.5833" y1="494.4427" y2="494.4427"/><ellipse cx="20.8333" cy="555.2633" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="73.9583" x="32.2917" y="562.1745">List&lt;T&gt; list()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="153.125" y1="538.0992" y2="538.0992"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="156.25" y="541.9088">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="221.875" x2="364.5833" y1="538.0992" y2="538.0992"/><polygon fill="#FFFF44" points="20.8333,593.7113,25,597.878,20.8333,602.0447,16.6667,597.878" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="84.375" x="32.2917" y="605.8309">T newElement()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="160.4167" y1="581.7556" y2="581.7556"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="47.9167" x="163.5417" y="585.5652">(factory)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="214.5833" x2="364.5833" y1="581.7556" y2="581.7556"/><!--MD5=[7750390ed5536e24df6b0949cd26b1e0]
+reverse link KryoTypes to GraphKryoTypes--><path codeLine="10" d="M526.0417,162.2132 C526.0417,242.2757 526.0417,410.8382 526.0417,488.484 " fill="none" id="KryoTypes-backto-GraphKryoTypes" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="518.75,162.0986,526.0417,141.2653,533.3333,162.0986,518.75,162.0986" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[7414c841d795f9c57f28b89537bedfab]
+reverse link GeographyRandomValueFactory to GraphRandomValueFactory--><path codeLine="21" d="M782.2917,162.4736 C782.2917,227.7132 782.2917,351.2757 782.2917,436.8382 " fill="none" id="GeographyRandomValueFactory-backto-GraphRandomValueFactory" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="775,162.0986,782.2917,141.2653,789.5833,162.0986,775,162.0986" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[8fdf94facf64ee1ccf56b046023f3135]
+reverse link RegionUnitTest to GraphUnitTest--><path codeLine="33" d="M1267.7083,162.2965 C1267.7083,174.2757 1267.7083,188.2445 1267.7083,203.5882 " fill="none" id="RegionUnitTest-backto-GraphUnitTest" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1260.4167,162.0986,1267.7083,141.2653,1275,162.0986,1260.4167,162.0986" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[481ee5382eaf56024403ae7a266d4f45]
+link GraphLimits to GraphLimits.Limit--><!--MD5=[b0183c9738fb6b5168ab281a8c414ee2]
+link GraphLimits to GraphRandomValueFactory.RandomListBuilder--><!--MD5=[5521b0431fa57769c401abae48d4d2d1]
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.project"
+    
+    class GraphLimits.Estimated
+    {
+    }
+    
+    KryoTypes <|- - GraphKryoTypes
+    class GraphKryoTypes
+    {
+        - -(constructors)- -
+        +GraphKryoTypes()
+    }
+    
+    class GraphLimits
+    {
+    }
+    
+    GeographyRandomValueFactory <|- - GraphRandomValueFactory
+    class GraphRandomValueFactory
+    {
+        - -(constructors)- -
+        +GraphRandomValueFactory()
+        +GraphRandomValueFactory(long)
+        - -(factory)- -
+        +BetweenCrossRoads newBetweenCrossStreets()
+        +Intersection newIntersection()
+        +RoadName newStreetName()
+    }
+    
+    RegionUnitTest <|- - GraphUnitTest
+    abstract class GraphUnitTest
+    {
+        - -(constructors)- -
+        #GraphUnitTest()
+        - -
+        +Graph osmBellevueWashington()
+        +Graph osmBuffalo()
+        +Graph osmDowntownSeattle()
+        +Graph osmDowntownSeattleTest()
+        +Graph osmGreenLakeSeattle()
+        +Graph osmGreenLakeSeattleLarge()
+        +Graph osmHuronCharter()
+        +void testSetup()
+        #Edge edge(Graph, double fromLatitude, double fromLongitude, double toLatitude, double toLongitude)
+        #Edge edgeNear(Graph, double latitude, double longitude)
+        #EdgeSet edges(Edge... edges)
+        #Location location(String location)
+        #Edge osmDowntownSeattleTestEdge(long identifier)
+        #EdgeSet osmDowntownSeattleTestEdges(long... identifiers)
+        #Route osmDowntownSeattleTestRoute(long... identifiers)
+        #HeavyWeightEdge osmEdge(Graph, int index, int identifier)
+        #OsmGraph osmGraph()
+        #Edge osmGreenLakeSeattleEdge(long identifier)
+        #HeavyWeightRelation osmRelation(int identifier, int index)
+        #HeavyWeightVertex osmVertex(Graph, int index, int identifier, Location)
+        #Route route(Edge... edges)
+        #HeavyWeightEdge testEdge(long identifier)
+        #Vertex vertex(Graph, double latitude, double longitude)
+        - -(iteration)- -
+        #HeavyWeightEdge nextOsmEdge(Graph)
+        #HeavyWeightRelation nextOsmRelation()
+        - -(time)- -
+        #Location locationInDegreesMinutesAndSeconds(String location)
+    }
+    
+    class GraphLimits.Limit
+    {
+    }
+    
+    abstract class GraphRandomValueFactory.RandomListBuilder<T>
+    {
+        - -(constructors)- -
+        #RandomListBuilder(int, int)
+        - -(collection)- -
+        +List<T> list()
+        - -(factory)- -
+        #T newElement()
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.mesakit.graph.project"
+    
+    class GraphLimits.Estimated
+    {
+    }
+    
+    KryoTypes <|- - GraphKryoTypes
+    class GraphKryoTypes
+    {
+        - -(constructors)- -
+        +GraphKryoTypes()
+    }
+    
+    class GraphLimits
+    {
+    }
+    
+    GeographyRandomValueFactory <|- - GraphRandomValueFactory
+    class GraphRandomValueFactory
+    {
+        - -(constructors)- -
+        +GraphRandomValueFactory()
+        +GraphRandomValueFactory(long)
+        - -(factory)- -
+        +BetweenCrossRoads newBetweenCrossStreets()
+        +Intersection newIntersection()
+        +RoadName newStreetName()
+    }
+    
+    RegionUnitTest <|- - GraphUnitTest
+    abstract class GraphUnitTest
+    {
+        - -(constructors)- -
+        #GraphUnitTest()
+        - -
+        +Graph osmBellevueWashington()
+        +Graph osmBuffalo()
+        +Graph osmDowntownSeattle()
+        +Graph osmDowntownSeattleTest()
+        +Graph osmGreenLakeSeattle()
+        +Graph osmGreenLakeSeattleLarge()
+        +Graph osmHuronCharter()
+        +void testSetup()
+        #Edge edge(Graph, double fromLatitude, double fromLongitude, double toLatitude, double toLongitude)
+        #Edge edgeNear(Graph, double latitude, double longitude)
+        #EdgeSet edges(Edge... edges)
+        #Location location(String location)
+        #Edge osmDowntownSeattleTestEdge(long identifier)
+        #EdgeSet osmDowntownSeattleTestEdges(long... identifiers)
+        #Route osmDowntownSeattleTestRoute(long... identifiers)
+        #HeavyWeightEdge osmEdge(Graph, int index, int identifier)
+        #OsmGraph osmGraph()
+        #Edge osmGreenLakeSeattleEdge(long identifier)
+        #HeavyWeightRelation osmRelation(int identifier, int index)
+        #HeavyWeightVertex osmVertex(Graph, int index, int identifier, Location)
+        #Route route(Edge... edges)
+        #HeavyWeightEdge testEdge(long identifier)
+        #Vertex vertex(Graph, double latitude, double longitude)
+        - -(iteration)- -
+        #HeavyWeightEdge nextOsmEdge(Graph)
+        #HeavyWeightRelation nextOsmRelation()
+        - -(time)- -
+        #Location locationInDegreesMinutesAndSeconds(String location)
+    }
+    
+    class GraphLimits.Limit
+    {
+    }
+    
+    abstract class GraphRandomValueFactory.RandomListBuilder<T>
+    {
+        - -(constructors)- -
+        #RandomListBuilder(int, int)
+        - -(collection)- -
+        +List<T> list()
+        - -(factory)- -
+        #T newElement()
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 00:55:08 MST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

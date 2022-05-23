@@ -1,0 +1,18 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.io.load.loaders"
+    
+    abstract BaseRepeater
+    
+    interface GraphLoader
+    
+    BaseRepeater <|-- BaseGraphLoader
+    GraphLoader <|-- BaseGraphLoader
+    abstract class BaseGraphLoader
+    {
+    }
+    
+@enduml
+

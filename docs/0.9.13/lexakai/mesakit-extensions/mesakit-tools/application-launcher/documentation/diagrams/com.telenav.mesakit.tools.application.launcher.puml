@@ -1,0 +1,15 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.tools.application.launcher"
+    
+    class ApplicationLauncher
+    {
+        --
+        +void main(String[] arguments)
+        #void help(String tool)
+    }
+    
+@enduml
+

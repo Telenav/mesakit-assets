@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="254.1667px" preserveAspectRatio="none" style="width:531px;height:254px;background:#333333;" version="1.1" viewBox="0 0 531 254" width="531.25px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="497.9167" x="9.6354" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="475" x="21.0938" y="30.5583">com.telenav.mesakit.navigation.routing.limiters</text><!--MD5=[3ede8827eb69f30ef3a10ffeb21442eb]
+class RoutingLimiter--><rect codeLine="6" fill="#282828" height="48.055" id="RoutingLimiter" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="134.375" x="209.375" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="134.375" x="209.375" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="134.375" x="209.375" y="76.7578"/><rect codeLine="6" fill="none" height="48.055" id="RoutingLimiter" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="134.375" x="209.375" y="53.7028"/><ellipse cx="223.9583" cy="69.397" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M221.3623,66.5588 L221.3623,64.9719 L226.7883,64.9719 L226.7883,66.5588 L224.9756,66.5588 L224.9756,72.4976 L226.7883,72.4976 L226.7883,74.0845 L221.3623,74.0845 L221.3623,72.4976 L223.175,72.4976 L223.175,66.5588 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="96.875" x="240.625" y="74.1211">RoutingLimiter</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="210.4167" x2="342.7083" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="210.4167" x2="342.7083" y1="93.4245" y2="93.4245"/><!--MD5=[7cef91dd0058db97550d7a680e068e47]
+class CpuTimeRoutingLimiter--><rect codeLine="9" fill="#282828" height="83.3781" id="CpuTimeRoutingLimiter" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="261.4583" x="7.2917" y="164.1195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="261.4583" x="7.2917" y="164.1195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="261.4583" x="7.2917" y="187.1745"/><rect codeLine="9" fill="none" height="83.3781" id="CpuTimeRoutingLimiter" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="261.4583" x="7.2917" y="164.1195"/><ellipse cx="53.125" cy="179.8136" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M55.0354,184.2387 Q54.6082,184.4584 54.1382,184.5683 Q53.6682,184.6781 53.1494,184.6781 Q51.3062,184.6781 50.3357,183.4635 Q49.3652,182.2489 49.3652,179.954 Q49.3652,177.653 50.3357,176.4384 Q51.3062,175.2238 53.1494,175.2238 Q53.6682,175.2238 54.1443,175.3337 Q54.6204,175.4435 55.0354,175.6632 L55.0354,177.6652 Q54.5715,177.238 54.1351,177.0396 Q53.6987,176.8412 53.2349,176.8412 Q52.2461,176.8412 51.7426,177.6255 Q51.239,178.4098 51.239,179.954 Q51.239,181.4921 51.7426,182.2764 Q52.2461,183.0607 53.2349,183.0607 Q53.6987,183.0607 54.1351,182.8623 Q54.5715,182.664 55.0354,182.2367 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="155.2083" x="76.0417" y="184.5378">CpuTimeRoutingLimiter</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="8.3333" x2="267.7083" y1="195.5078" y2="195.5078"/><ellipse cx="18.75" cy="230.8777" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="229.1667" x="30.2083" y="237.7889">CpuTimeRoutingLimiter(PreciseDuration)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="94.2708" y1="213.7136" y2="213.7136"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="97.3958" y="217.5232">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="181.7708" x2="267.7083" y1="213.7136" y2="213.7136"/><!--MD5=[f7aec3e952823aa3051a51e9bda81086]
+class DistanceRoutingLimiter--><rect codeLine="16" fill="#282828" height="83.3781" id="DistanceRoutingLimiter" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="218.75" x="305.7292" y="164.1195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="218.75" x="305.7292" y="164.1195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="218.75" x="305.7292" y="187.1745"/><rect codeLine="16" fill="none" height="83.3781" id="DistanceRoutingLimiter" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="218.75" x="305.7292" y="164.1195"/><ellipse cx="332.9688" cy="179.8136" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M334.8792,184.2387 Q334.4519,184.4584 333.9819,184.5683 Q333.512,184.6781 332.9932,184.6781 Q331.1499,184.6781 330.1794,183.4635 Q329.209,182.2489 329.209,179.954 Q329.209,177.653 330.1794,176.4384 Q331.1499,175.2238 332.9932,175.2238 Q333.512,175.2238 333.988,175.3337 Q334.4641,175.4435 334.8792,175.6632 L334.8792,177.6652 Q334.4153,177.238 333.9789,177.0396 Q333.5425,176.8412 333.0786,176.8412 Q332.0898,176.8412 331.5863,177.6255 Q331.0828,178.4098 331.0828,179.954 Q331.0828,181.4921 331.5863,182.2764 Q332.0898,183.0607 333.0786,183.0607 Q333.5425,183.0607 333.9789,182.8623 Q334.4153,182.664 334.8792,182.2367 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="153.125" x="352.4479" y="184.5378">DistanceRoutingLimiter</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="306.7708" x2="523.4375" y1="195.5078" y2="195.5078"/><ellipse cx="317.1875" cy="230.8777" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="186.4583" x="328.6458" y="237.7889">DistanceRoutingLimiter(Distance)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="306.7708" x2="371.3542" y1="213.7136" y2="213.7136"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="374.4792" y="217.5232">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="458.8542" x2="523.4375" y1="213.7136" y2="213.7136"/><!--MD5=[cd215b92bb807d82b6695bdc55fcc68c]
+reverse link RoutingLimiter to CpuTimeRoutingLimiter--><path codeLine="8" d="M235.625,115.9424 C219.0417,131.0257 199.8542,148.4945 182.8958,163.9215 " fill="none" id="RoutingLimiter-backto-CpuTimeRoutingLimiter" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="230.8333,110.4424,251.1563,101.8174,240.6458,121.234,230.8333,110.4424" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[38f12dbce84549e0b4ff57edccfeb2ef]
+reverse link RoutingLimiter to DistanceRoutingLimiter--><path codeLine="15" d="M317.5,115.9424 C334.0833,131.0257 353.2708,148.4945 370.2292,163.9215 " fill="none" id="RoutingLimiter-backto-DistanceRoutingLimiter" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="312.4792,121.234,301.9688,101.8174,322.2917,110.4424,312.4792,121.234" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[cc8d9a94785f06aeed29f9fa5d4c1f34]
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.navigation.routing.limiters"
+    
+    interface RoutingLimiter
+    
+    RoutingLimiter <|- - CpuTimeRoutingLimiter
+    class CpuTimeRoutingLimiter
+    {
+        - -(constructors)- -
+        +CpuTimeRoutingLimiter(PreciseDuration)
+    }
+    
+    RoutingLimiter <|- - DistanceRoutingLimiter
+    class DistanceRoutingLimiter
+    {
+        - -(constructors)- -
+        +DistanceRoutingLimiter(Distance)
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.mesakit.navigation.routing.limiters"
+    
+    interface RoutingLimiter
+    
+    RoutingLimiter <|- - CpuTimeRoutingLimiter
+    class CpuTimeRoutingLimiter
+    {
+        - -(constructors)- -
+        +CpuTimeRoutingLimiter(PreciseDuration)
+    }
+    
+    RoutingLimiter <|- - DistanceRoutingLimiter
+    class DistanceRoutingLimiter
+    {
+        - -(constructors)- -
+        +DistanceRoutingLimiter(Distance)
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 00:55:08 MST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

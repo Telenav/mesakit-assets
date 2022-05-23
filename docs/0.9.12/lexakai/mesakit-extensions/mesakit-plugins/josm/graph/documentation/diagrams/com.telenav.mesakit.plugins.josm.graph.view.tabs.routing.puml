@@ -1,0 +1,15 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.plugins.josm.graph.view.tabs.routing"
+    
+    JPanel <|-- RoutingPanel
+    class RoutingPanel
+    {
+        --(constructors)--
+        +RoutingPanel(GraphPanel)
+    }
+    
+@enduml
+

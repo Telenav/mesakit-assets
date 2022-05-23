@@ -1,0 +1,115 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.plugins.josm.graph.theme"
+    
+    abstract BaseTheme
+    
+    BaseTheme <|-- AnnotationTheme
+    class AnnotationTheme
+    {
+        --
+        +Style styleAnnotationLabel()
+        +Style styleEdgeAnnotationCallout()
+        +Style styleLineCallout()
+        +Style styleVertexAnnotationCallout()
+        --(collection)--
+        +MapDot dotAnnotationLocation()
+        +MapLabel labelAnnotation(String text)
+        +MapLine lineCallout()
+    }
+    
+    KivaKitDarculaTheme <|-- BaseTheme
+    class BaseTheme
+    {
+        --
+        +Style styleGraphActive()
+        +Style styleGraphInactive()
+        --(collection)--
+        +Style styleLabelMap()
+        --(functional)--
+        +Style styleDisabled()
+        +Style styleSelected()
+        --(status)--
+        +Style styleError()
+    }
+    
+    BaseTheme <|-- EdgeTheme
+    class EdgeTheme
+    {
+        --
+        +Style styleEdgeCallout()
+        --(collection)--
+        +MapPolyline edgeHighlighted()
+        +MapPolyline edgeInactive()
+        +MapPolyline edgeSelected()
+        +MapPolyline edgeUnselected()
+        +MapPolyline fattenPolyline(MapPolyline, Edge)
+        +MapPolyline polylineEdge(MapCanvas, Selection.Type, Edge)
+    }
+    
+    BaseTheme <|-- GraphTheme
+    class GraphTheme
+    {
+        --(collection)--
+        +MapBox boxGraphBounds(Graph, boolean active)
+        +MapLabel labelMap(String text)
+    }
+    
+    BaseTheme <|-- PlaceTheme
+    class PlaceTheme
+    {
+        --(collection)--
+        +MapDot dotPlace(Count population)
+        +MapDot dotPlaceSelected(Count population)
+        --(functional)--
+        +Style styleUnselected()
+    }
+    
+    BaseTheme <|-- PolylineTheme
+    class PolylineTheme
+    {
+        --(functional)--
+        +Style styleUnselected()
+        +Style styleZoomedIn()
+        +Style styleZoomedOut()
+    }
+    
+    EdgeTheme <|-- RelationTheme
+    class RelationTheme
+    {
+        --
+        +Style stylePolylineRoute()
+        --(collection)--
+        +MapDot dotNoRoute()
+        +MapDot dotViaNodeBad()
+        +MapDot dotViaNodeSelected()
+        +MapDot dotViaNodeUnselected()
+        +MapPolyline polylineRestriction()
+        +MapPolyline polylineRoute(MapPolyline, Route)
+        +MapPolyline polylineRoute()
+        +MapPolyline polylineRouteSelected()
+        --(functional)--
+        +Style styleSelectedRoute()
+    }
+    
+    BaseTheme <|-- ShapePointTheme
+    class ShapePointTheme
+    {
+    }
+    
+    BaseTheme <|-- VertexTheme
+    class VertexTheme
+    {
+        --
+        +Style styleVertexCallout()
+        --(collection)--
+        +MapDot dotVertexDisabled()
+        +MapDot dotVertexInvalid()
+        +MapDot dotVertexSelected()
+        +MapDot dotVertexUnselected()
+    }
+    
+@enduml
+

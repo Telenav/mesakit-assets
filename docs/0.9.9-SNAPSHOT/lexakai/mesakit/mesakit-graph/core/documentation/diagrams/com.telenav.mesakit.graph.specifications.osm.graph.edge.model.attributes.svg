@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="364.5833px" preserveAspectRatio="none" style="width:1242px;height:364px;background:#333333;" version="1.1" viewBox="0 0 1242 364" width="1242.7083px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="776.0417" x="226.0417" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="753.125" x="237.5" y="30.5583">com.telenav.mesakit.graph.specifications.osm.graph.edge.model.attributes</text><!--MD5=[db40b6440c95f8cc607572d61360fb5f]
+cluster GraphElementAttributes--><polygon fill="#333333" points="1001.0417,52.6611,1169.7917,52.6611,1177.0833,79.8828,1221.875,79.8828,1221.875,157.8695,1001.0417,157.8695,1001.0417,52.6611" style="stroke:#333333;stroke-width:2.0833333333333335;"/><line style="stroke:#333333;stroke-width:2.0833333333333335;" x1="1001.0417" x2="1177.0833" y1="79.8828" y2="79.8828"/><text fill="#C8AC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="156.25" x="1008.3333" y="69.9544">GraphElementAttributes</text><!--MD5=[4334d1f1444605acd8ff33a200d195bd]
+cluster OsmEdgeAttributes--><polygon fill="#333333" points="978.125,200.5778,1117.7083,200.5778,1125,227.7995,1225,227.7995,1225,357.8695,978.125,357.8695,978.125,200.5778" style="stroke:#333333;stroke-width:2.0833333333333335;"/><line style="stroke:#333333;stroke-width:2.0833333333333335;" x1="978.125" x2="1125" y1="227.7995" y2="227.7995"/><text fill="#C8AC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="127.0833" x="985.4167" y="217.8711">OsmEdgeAttributes</text><!--MD5=[aab74cbd59a4fbe0c1f09a2482e4f314]
+class GraphElementAttributes.GraphElementAttribute--><rect fill="#282828" height="48.055" id="GraphElementAttributes.GraphElementAttribute" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="186.4583" x="1018.2292" y="93.2861"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="186.4583" x="1018.2292" y="93.2861"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="186.4583" x="1018.2292" y="116.3411"/><rect fill="none" height="48.055" id="GraphElementAttributes.GraphElementAttribute" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="186.4583" x="1018.2292" y="93.2861"/><ellipse cx="1032.8125" cy="108.9803" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1034.7229,113.4054 Q1034.2957,113.6251 1033.8257,113.7349 Q1033.3557,113.8448 1032.8369,113.8448 Q1030.9937,113.8448 1030.0232,112.6302 Q1029.0527,111.4156 1029.0527,109.1207 Q1029.0527,106.8197 1030.0232,105.6051 Q1030.9937,104.3905 1032.8369,104.3905 Q1033.3557,104.3905 1033.8318,104.5003 Q1034.3079,104.6102 1034.7229,104.8299 L1034.7229,106.8319 Q1034.259,106.4046 1033.8226,106.2063 Q1033.3862,106.0079 1032.9224,106.0079 Q1031.9336,106.0079 1031.4301,106.7922 Q1030.9265,107.5765 1030.9265,109.1207 Q1030.9265,110.6588 1031.4301,111.4431 Q1031.9336,112.2274 1032.9224,112.2274 Q1033.3862,112.2274 1033.8226,112.029 Q1034.259,111.8306 1034.7229,111.4034 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="148.9583" x="1049.4792" y="113.7044">GraphElementAttribute</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1019.2708" x2="1203.6458" y1="124.6745" y2="124.6745"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1019.2708" x2="1203.6458" y1="133.0078" y2="133.0078"/><!--MD5=[6074295767200f6d81cb15c4a3619742]
+class OsmEdgeAttributes.OsmEdgeAttribute--><rect codeLine="7" fill="#282828" height="83.3781" id="OsmEdgeAttributes.OsmEdgeAttribute" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="177.0833" x="1022.9167" y="249.5361"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="177.0833" x="1022.9167" y="249.5361"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="177.0833" x="1022.9167" y="272.5911"/><rect codeLine="7" fill="none" height="83.3781" id="OsmEdgeAttributes.OsmEdgeAttribute" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="177.0833" x="1022.9167" y="249.5361"/><ellipse cx="1046.4063" cy="265.2303" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1048.3167,269.6554 Q1047.8894,269.8751 1047.4194,269.9849 Q1046.9495,270.0948 1046.4307,270.0948 Q1044.5874,270.0948 1043.6169,268.8802 Q1042.6465,267.6656 1042.6465,265.3707 Q1042.6465,263.0697 1043.6169,261.8551 Q1044.5874,260.6405 1046.4307,260.6405 Q1046.9495,260.6405 1047.4255,260.7503 Q1047.9016,260.8602 1048.3167,261.0799 L1048.3167,263.0819 Q1047.8528,262.6546 1047.4164,262.4563 Q1046.98,262.2579 1046.5161,262.2579 Q1045.5273,262.2579 1045.0238,263.0422 Q1044.5203,263.8265 1044.5203,265.3707 Q1044.5203,266.9088 1045.0238,267.6931 Q1045.5273,268.4774 1046.5161,268.4774 Q1046.98,268.4774 1047.4164,268.279 Q1047.8528,268.0806 1048.3167,267.6534 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="119.7917" x="1065.0521" y="269.9544">OsmEdgeAttribute</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1023.9583" x2="1198.9583" y1="280.9245" y2="280.9245"/><ellipse cx="1034.375" cy="316.2944" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="144.7917" x="1045.8333" y="323.2056">OsmEdgeAttribute(String)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1023.9583" x2="1067.7083" y1="299.1302" y2="299.1302"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="1070.8333" y="302.9399">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1155.2083" x2="1198.9583" y1="299.1302" y2="299.1302"/><!--MD5=[1d0b97287d22fb6005c9a70d8238e9b6]
+class EdgeAttributes--><rect fill="#282828" height="48.055" id="EdgeAttributes" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="134.375" x="27.6042" y="93.2861"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="134.375" x="27.6042" y="93.2861"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="134.375" x="27.6042" y="116.3411"/><rect fill="none" height="48.055" id="EdgeAttributes" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="134.375" x="27.6042" y="93.2861"/><ellipse cx="42.1875" cy="108.9803" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M44.0979,113.4054 Q43.6707,113.6251 43.2007,113.7349 Q42.7307,113.8448 42.2119,113.8448 Q40.3687,113.8448 39.3982,112.6302 Q38.4277,111.4156 38.4277,109.1207 Q38.4277,106.8197 39.3982,105.6051 Q40.3687,104.3905 42.2119,104.3905 Q42.7307,104.3905 43.2068,104.5003 Q43.6829,104.6102 44.0979,104.8299 L44.0979,106.8319 Q43.634,106.4046 43.1976,106.2063 Q42.7612,106.0079 42.2974,106.0079 Q41.3086,106.0079 40.8051,106.7922 Q40.3015,107.5765 40.3015,109.1207 Q40.3015,110.6588 40.8051,111.4431 Q41.3086,112.2274 42.2974,112.2274 Q42.7612,112.2274 43.1976,112.029 Q43.634,111.8306 44.0979,111.4034 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="96.875" x="58.8542" y="113.7044">EdgeAttributes</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="28.6458" x2="160.9375" y1="124.6745" y2="124.6745"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="28.6458" x2="160.9375" y1="133.0078" y2="133.0078"/><!--MD5=[36800ff25ed87598ca3593d38dafe329]
+class OsmEdgeAttributes--><rect codeLine="14" fill="#282828" height="111.4563" id="OsmEdgeAttributes" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="170.8333" x="9.375" y="235.4736"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="170.8333" x="9.375" y="235.4736"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="170.8333" x="9.375" y="258.5286"/><rect codeLine="14" fill="none" height="111.4563" id="OsmEdgeAttributes" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="170.8333" x="9.375" y="235.4736"/><ellipse cx="26.7708" cy="251.1678" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M28.6812,255.5929 Q28.254,255.8126 27.784,255.9224 Q27.314,256.0323 26.7952,256.0323 Q24.952,256.0323 23.9815,254.8177 Q23.0111,253.6031 23.0111,251.3082 Q23.0111,249.0072 23.9815,247.7926 Q24.952,246.578 26.7952,246.578 Q27.314,246.578 27.7901,246.6878 Q28.2662,246.7977 28.6812,247.0174 L28.6812,249.0194 Q28.2174,248.5921 27.781,248.3938 Q27.3446,248.1954 26.8807,248.1954 Q25.8919,248.1954 25.3884,248.9797 Q24.8848,249.764 24.8848,251.3082 Q24.8848,252.8463 25.3884,253.6306 Q25.8919,254.4149 26.8807,254.4149 Q27.3446,254.4149 27.781,254.2165 Q28.2174,254.0181 28.6812,253.5909 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="127.0833" x="44.0625" y="255.8919">OsmEdgeAttributes</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="10.4167" x2="179.1667" y1="266.862" y2="266.862"/><polygon fill="#FFFF44" points="20.8333,297.0235,25,301.1902,20.8333,305.3569,16.6667,301.1902" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="117.7083" x="32.2917" y="309.1431">OsmEdgeAttributes()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="51.0417" y1="285.0677" y2="285.0677"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="54.1667" y="288.8774">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="138.5417" x2="179.1667" y1="285.0677" y2="285.0677"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="179.1667" y1="318.8517" y2="318.8517"/><ellipse cx="20.8333" cy="330.3101" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="138.5417" x="32.2917" y="337.2213">OsmEdgeAttributes get()</text><!--MD5=[8340dd4968fa96614fdea17dd7035347]
+class OsmEdgeDifferences--><rect codeLine="22" fill="#282828" height="111.4563" id="OsmEdgeDifferences" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="269.7917" x="198.4375" y="61.5153"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="269.7917" x="198.4375" y="61.5153"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="269.7917" x="198.4375" y="84.5703"/><rect codeLine="22" fill="none" height="111.4563" id="OsmEdgeDifferences" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="269.7917" x="198.4375" y="61.5153"/><ellipse cx="258.3333" cy="77.2095" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M260.2437,81.6345 Q259.8165,81.8542 259.3465,81.9641 Q258.8765,82.074 258.3577,82.074 Q256.5145,82.074 255.544,80.8594 Q254.5736,79.6448 254.5736,77.3499 Q254.5736,75.0488 255.544,73.8342 Q256.5145,72.6196 258.3577,72.6196 Q258.8765,72.6196 259.3526,72.7295 Q259.8287,72.8394 260.2437,73.0591 L260.2437,75.061 Q259.7799,74.6338 259.3435,74.4354 Q258.9071,74.2371 258.4432,74.2371 Q257.4544,74.2371 256.9509,75.0214 Q256.4473,75.8057 256.4473,77.3499 Q256.4473,78.8879 256.9509,79.6722 Q257.4544,80.4565 258.4432,80.4565 Q258.9071,80.4565 259.3435,80.2582 Q259.7799,80.0598 260.2437,79.6326 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="135.4167" x="281.25" y="81.9336">OsmEdgeDifferences</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="199.4792" x2="467.1875" y1="92.9036" y2="92.9036"/><ellipse cx="209.8958" cy="128.2735" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="237.5" x="221.3542" y="135.1847">OsmEdgeDifferences(OsmEdge, OsmEdge)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="199.4792" x2="289.5833" y1="111.1094" y2="111.1094"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="292.7083" y="114.919">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="377.0833" x2="467.1875" y1="111.1094" y2="111.1094"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="199.4792" x2="467.1875" y1="144.8934" y2="144.8934"/><ellipse cx="209.8958" cy="156.3517" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="123.9583" x="221.3542" y="163.2629">Differences compare()</text><!--MD5=[dee6247dee607fc51eef130dfef52984]
+class EdgeProperties--><rect fill="#282828" height="48.055" id="EdgeProperties" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="134.375" x="504.6875" y="93.2861"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="134.375" x="504.6875" y="93.2861"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="134.375" x="504.6875" y="116.3411"/><rect fill="none" height="48.055" id="EdgeProperties" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="134.375" x="504.6875" y="93.2861"/><ellipse cx="519.2708" cy="108.9803" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M521.1812,113.4054 Q520.754,113.6251 520.284,113.7349 Q519.814,113.8448 519.2952,113.8448 Q517.452,113.8448 516.4815,112.6302 Q515.5111,111.4156 515.5111,109.1207 Q515.5111,106.8197 516.4815,105.6051 Q517.452,104.3905 519.2952,104.3905 Q519.814,104.3905 520.2901,104.5003 Q520.7662,104.6102 521.1812,104.8299 L521.1812,106.8319 Q520.7174,106.4046 520.281,106.2063 Q519.8446,106.0079 519.3807,106.0079 Q518.3919,106.0079 517.8884,106.7922 Q517.3848,107.5765 517.3848,109.1207 Q517.3848,110.6588 517.8884,111.4431 Q518.3919,112.2274 519.3807,112.2274 Q519.8446,112.2274 520.281,112.029 Q520.7174,111.8306 521.1812,111.4034 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="96.875" x="535.9375" y="113.7044">EdgeProperties</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="505.7292" x2="638.0208" y1="124.6745" y2="124.6745"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="505.7292" x2="638.0208" y1="133.0078" y2="133.0078"/><!--MD5=[66b6f126dcdf73447ab646afd2747adb]
+class OsmEdgeProperties--><rect codeLine="31" fill="#282828" height="111.4563" id="OsmEdgeProperties" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="171.875" x="485.9375" y="235.4736"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="171.875" x="485.9375" y="235.4736"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="171.875" x="485.9375" y="258.5286"/><rect codeLine="31" fill="none" height="111.4563" id="OsmEdgeProperties" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="171.875" x="485.9375" y="235.4736"/><ellipse cx="503.8021" cy="251.1678" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M505.7125,255.5929 Q505.2852,255.8126 504.8153,255.9224 Q504.3453,256.0323 503.8265,256.0323 Q501.9832,256.0323 501.0128,254.8177 Q500.0423,253.6031 500.0423,251.3082 Q500.0423,249.0072 501.0128,247.7926 Q501.9832,246.578 503.8265,246.578 Q504.3453,246.578 504.8214,246.6878 Q505.2974,246.7977 505.7125,247.0174 L505.7125,249.0194 Q505.2486,248.5921 504.8122,248.3938 Q504.3758,248.1954 503.9119,248.1954 Q502.9232,248.1954 502.4196,248.9797 Q501.9161,249.764 501.9161,251.3082 Q501.9161,252.8463 502.4196,253.6306 Q502.9232,254.4149 503.9119,254.4149 Q504.3758,254.4149 504.8122,254.2165 Q505.2486,254.0181 505.7125,253.5909 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="127.0833" x="521.1979" y="255.8919">OsmEdgeProperties</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="486.9792" x2="656.7708" y1="266.862" y2="266.862"/><polygon fill="#FFFF44" points="497.3958,297.0235,501.5625,301.1902,497.3958,305.3569,493.2292,301.1902" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="118.75" x="508.8542" y="309.1431">OsmEdgeProperties()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="486.9792" x2="528.125" y1="285.0677" y2="285.0677"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="531.25" y="288.8774">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="615.625" x2="656.7708" y1="285.0677" y2="285.0677"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="486.9792" x2="656.7708" y1="318.8517" y2="318.8517"/><ellipse cx="497.3958" cy="330.3101" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="139.5833" x="508.8542" y="337.2213">OsmEdgeProperties get()</text><!--MD5=[43847fe7c03bee51411ac6b2e2a7f690]
+class EdgeProperties.EdgeProperty--><rect fill="#282828" height="48.055" id="EdgeProperties.EdgeProperty" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="122.9167" x="760.4167" y="93.2861"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="122.9167" x="760.4167" y="93.2861"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="122.9167" x="760.4167" y="116.3411"/><rect fill="none" height="48.055" id="EdgeProperties.EdgeProperty" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="122.9167" x="760.4167" y="93.2861"/><ellipse cx="775" cy="108.9803" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M776.9104,113.4054 Q776.4832,113.6251 776.0132,113.7349 Q775.5432,113.8448 775.0244,113.8448 Q773.1812,113.8448 772.2107,112.6302 Q771.2402,111.4156 771.2402,109.1207 Q771.2402,106.8197 772.2107,105.6051 Q773.1812,104.3905 775.0244,104.3905 Q775.5432,104.3905 776.0193,104.5003 Q776.4954,104.6102 776.9104,104.8299 L776.9104,106.8319 Q776.4465,106.4046 776.0101,106.2063 Q775.5737,106.0079 775.1099,106.0079 Q774.1211,106.0079 773.6176,106.7922 Q773.114,107.5765 773.114,109.1207 Q773.114,110.6588 773.6176,111.4431 Q774.1211,112.2274 775.1099,112.2274 Q775.5737,112.2274 776.0101,112.029 Q776.4465,111.8306 776.9104,111.4034 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="85.4167" x="791.6667" y="113.7044">EdgeProperty</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="761.4583" x2="882.2917" y1="124.6745" y2="124.6745"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="761.4583" x2="882.2917" y1="133.0078" y2="133.0078"/><!--MD5=[d24a9ec8cc4b06502699ef84f1e1aaa5]
+class OsmEdgeProperties.OsmEdgeProperty--><rect codeLine="40" fill="#282828" height="83.3781" id="OsmEdgeProperties.OsmEdgeProperty" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="255.2083" x="694.2708" y="249.5361"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="255.2083" x="694.2708" y="249.5361"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="255.2083" x="694.2708" y="272.5911"/><rect codeLine="40" fill="none" height="83.3781" id="OsmEdgeProperties.OsmEdgeProperty" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="255.2083" x="694.2708" y="249.5361"/><ellipse cx="756.7708" cy="265.2303" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M756.3639,261.9324 L755.5155,265.6616 L757.2184,265.6616 Z M755.2653,260.2844 L757.4687,260.2844 L759.9284,269.397 L758.1278,269.397 L757.5663,267.1448 L755.1554,267.1448 L754.6061,269.397 L752.8056,269.397 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="115.625" x="779.6875" y="269.9544">OsmEdgeProperty</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="695.3125" x2="948.4375" y1="280.9245" y2="280.9245"/><polygon fill="#FFFF44" points="705.7292,311.086,709.8958,315.2527,705.7292,319.4194,701.5625,315.2527" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="222.9167" x="717.1875" y="323.2056">OsmEdgeProperty(String, Attribute&lt;?&gt;)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="695.3125" x2="778.125" y1="299.1302" y2="299.1302"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="781.25" y="302.9399">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="865.625" x2="948.4375" y1="299.1302" y2="299.1302"/><!--MD5=[fbadc6b72ebb8b5f1cbab2718bf8c029]
+reverse link GraphElementAttributes.GraphElementAttribute to OsmEdgeAttributes.OsmEdgeAttribute--><path codeLine="6" d="M1111.4583,162.359 C1111.4583,189.1299 1111.4583,223.0882 1111.4583,249.2653 " fill="none" id="GraphElementAttributes.GraphElementAttribute-backto-OsmEdgeAttributes.OsmEdgeAttribute" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1104.1667,162.2965,1111.4583,141.4632,1118.75,162.2965,1104.1667,162.2965" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[1d97aba4ae65171dfa1eff6e1b4d59ac]
+reverse link EdgeAttributes to OsmEdgeAttributes--><path codeLine="13" d="M94.7917,162.4528 C94.7917,184.6299 94.7917,211.7236 94.7917,235.234 " fill="none" id="EdgeAttributes-backto-OsmEdgeAttributes" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="87.5,162.2965,94.7917,141.4632,102.0833,162.2965,87.5,162.2965" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[da36c1fae187c4d17a4d777966cbc429]
+reverse link EdgeProperties to OsmEdgeProperties--><path codeLine="30" d="M571.875,162.4528 C571.875,184.6299 571.875,211.7236 571.875,235.234 " fill="none" id="EdgeProperties-backto-OsmEdgeProperties" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="564.5833,162.2965,571.875,141.4632,579.1667,162.2965,564.5833,162.2965" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[1d7857732afb8b221acd8bc004bd1782]
+reverse link EdgeProperties.EdgeProperty to OsmEdgeProperties.OsmEdgeProperty--><path codeLine="39" d="M821.875,162.359 C821.875,189.1299 821.875,223.0882 821.875,249.2653 " fill="none" id="EdgeProperties.EdgeProperty-backto-OsmEdgeProperties.OsmEdgeProperty" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="814.5833,162.2965,821.875,141.4632,829.1667,162.2965,814.5833,162.2965" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[e6b44da0d02b2955fb5b01d7d64dd3cb]
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.osm.graph.edge.model.attributes"
+    
+    GraphElementAttributes.GraphElementAttribute <|- - OsmEdgeAttributes.OsmEdgeAttribute
+    class OsmEdgeAttributes.OsmEdgeAttribute
+    {
+        - -(constructors)- -
+        +OsmEdgeAttribute(String)
+    }
+    
+    EdgeAttributes <|- - OsmEdgeAttributes
+    class OsmEdgeAttributes
+    {
+        - -(constructors)- -
+        #OsmEdgeAttributes()
+        - -
+        +OsmEdgeAttributes get()
+    }
+    
+    class OsmEdgeDifferences
+    {
+        - -(constructors)- -
+        +OsmEdgeDifferences(OsmEdge, OsmEdge)
+        - -
+        +Differences compare()
+    }
+    
+    EdgeProperties <|- - OsmEdgeProperties
+    class OsmEdgeProperties
+    {
+        - -(constructors)- -
+        #OsmEdgeProperties()
+        - -
+        +OsmEdgeProperties get()
+    }
+    
+    EdgeProperties.EdgeProperty <|- - OsmEdgeProperties.OsmEdgeProperty
+    abstract class OsmEdgeProperties.OsmEdgeProperty
+    {
+        - -(constructors)- -
+        #OsmEdgeProperty(String, Attribute<?>)
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.mesakit.graph.specifications.osm.graph.edge.model.attributes"
+    
+    GraphElementAttributes.GraphElementAttribute <|- - OsmEdgeAttributes.OsmEdgeAttribute
+    class OsmEdgeAttributes.OsmEdgeAttribute
+    {
+        - -(constructors)- -
+        +OsmEdgeAttribute(String)
+    }
+    
+    EdgeAttributes <|- - OsmEdgeAttributes
+    class OsmEdgeAttributes
+    {
+        - -(constructors)- -
+        #OsmEdgeAttributes()
+        - -
+        +OsmEdgeAttributes get()
+    }
+    
+    class OsmEdgeDifferences
+    {
+        - -(constructors)- -
+        +OsmEdgeDifferences(OsmEdge, OsmEdge)
+        - -
+        +Differences compare()
+    }
+    
+    EdgeProperties <|- - OsmEdgeProperties
+    class OsmEdgeProperties
+    {
+        - -(constructors)- -
+        #OsmEdgeProperties()
+        - -
+        +OsmEdgeProperties get()
+    }
+    
+    EdgeProperties.EdgeProperty <|- - OsmEdgeProperties.OsmEdgeProperty
+    abstract class OsmEdgeProperties.OsmEdgeProperty
+    {
+        - -(constructors)- -
+        #OsmEdgeProperty(String, Attribute<?>)
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 00:55:08 MST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,67 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.analytics.classification.classifiers.turn"
+    
+    interface TurnClassifier
+    
+    TurnClassifier <|-- ComplexTurnClassifier
+    class ComplexTurnClassifier
+    {
+        --(constructors)--
+        +ComplexTurnClassifier(Configuration)
+    }
+    
+    class ComplexTurnClassifier.Configuration
+    {
+        --(constructors)--
+        +Configuration()
+        +Configuration(TwoHeadingTurnClassifier, Angle)
+        --
+        +void straight(Angle straight)
+        --(angle)--
+        +Angle straight()
+        +TwoHeadingTurnClassifier twoHeadingClassifier()
+        +void twoHeadingClassifier(TwoHeadingTurnClassifier twoHeadingClassifier)
+    }
+    
+    interface TurnClassifier
+    {
+        --
+        +TurnType type(Route)
+    }
+    
+    enum TurnType
+    {
+        HARD_LEFT
+        HARD_RIGHT
+        IN_PLACE_U_TURN
+        LEFT
+        LEFT_SIDE_STRAIGHT_ON
+        LEFT_SIDE_U_TURN
+        LOOP
+        RIGHT
+        RIGHT_SIDE_STRAIGHT_ON
+        RIGHT_SIDE_U_TURN
+        SHARP_U_TURN
+        SLIGHT_LEFT
+        SLIGHT_RIGHT
+        ZIGZAG_LEFT
+        ZIGZAG_RIGHT
+        ZIGZAG_STRAIGHT_ON
+        ZIGZAG_U_TURN
+    }
+    
+    class TwoHeadingTurnClassifier
+    {
+        --
+        +void hardTurn(Angle hardTurn)
+        +void normalTurn(Angle normalTurn)
+        +void slightTurn(Angle slightTurn)
+        +TurnType type(Headed from, Headed to)
+        +void uTurn(Angle uTurn)
+    }
+    
+@enduml
+

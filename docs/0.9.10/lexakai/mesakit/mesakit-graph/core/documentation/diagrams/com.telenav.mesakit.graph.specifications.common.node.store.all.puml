@@ -1,0 +1,79 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.common.node.store.all"
+    
+    interface AttributeStore
+    interface Unloadable
+    
+    Unloadable <|-- PbfAllGraphElementTagStore
+    class PbfAllGraphElementTagStore
+    {
+        --(constructors)--
+        +PbfAllGraphElementTagStore(Graph, GraphArchive, PbfTagCodec)
+        --(checks)--
+        +boolean isSupported()
+        +boolean isUnloaded()
+        --(collection)--
+        +PbfTagList tags(GraphElement, Location)
+    }
+    
+    Unloadable <|-- PbfAllNodeIdentifierStore
+    class PbfAllNodeIdentifierStore
+    {
+        --(constructors)--
+        +PbfAllNodeIdentifierStore(GraphArchive)
+        --(checks)--
+        +boolean isSupported()
+        +boolean isUnloaded()
+        --(collection)--
+        +MapNodeIdentifier identifier(GraphElement, Location)
+    }
+    
+    Unloadable <|-- PbfAllNodeIndexStore
+    class PbfAllNodeIndexStore
+    {
+        --(constructors)--
+        +PbfAllNodeIndexStore(GraphArchive, Precision)
+        --(checks)--
+        +boolean isSupported()
+        +boolean isUnloaded()
+        --(collection)--
+        +int index(Location)
+    }
+    
+    AttributeStore <|-- PbfAllNodeMetadata
+    class PbfAllNodeMetadata
+    {
+        --(constructors)--
+        +PbfAllNodeMetadata(Graph)
+        --
+        +void pbfTagCodec(PbfTagCodec)
+        +PbfTagCodec pbfTagCodec()
+        +PbfRevisionNumber retrievePbfRevisionNumber(GraphElement)
+        +void storeAttributes(GraphElement)
+        --(collection)--
+        +Time retrievePbfLastModificationTime(GraphElement)
+        +PbfTagList retrievePbfTags(GraphElement)
+        --(identity)--
+        +PbfChangeSetIdentifier retrievePbfChangeSetIdentifier(GraphElement)
+        +PbfUserIdentifier retrievePbfUserIdentifier(GraphElement)
+        --(naming)--
+        +PbfUserName retrievePbfUserName(GraphElement)
+    }
+    
+    Unloadable <|-- PbfAllNodeMetadataStore
+    class PbfAllNodeMetadataStore
+    {
+        --(constructors)--
+        +PbfAllNodeMetadataStore(GraphArchive)
+        --(checks)--
+        +boolean isSupported()
+        +boolean isUnloaded()
+        --(metadata)--
+        +PbfAllNodeMetadata metadata(Location)
+    }
+    
+@enduml
+

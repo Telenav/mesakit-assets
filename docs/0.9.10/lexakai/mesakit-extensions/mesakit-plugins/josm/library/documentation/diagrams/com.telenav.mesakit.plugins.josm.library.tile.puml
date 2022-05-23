@@ -1,0 +1,66 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.plugins.josm.library.tile"
+    
+    abstract BaseComponent
+    abstract AbstractTileCache
+    
+    abstract class AbstractTile
+    {
+        --(time)--
+        +boolean isExpired()
+    }
+    
+    abstract class AbstractTileCache<Request, Tile>
+    {
+        --
+        +Tile get(Request)
+        --(collection)--
+        +void put(Request, Tile)
+        +void remove(Request)
+    }
+    
+    BaseComponent <|-- AbstractTileDownloader
+    abstract class AbstractTileDownloader<Request, Tile>
+    {
+        --(constructors)--
+        #AbstractTileDownloader(AbstractTileCache<Request, Tile>)
+        --
+        +Tile get(Request)
+        +void request(Request)
+        --(extension points)--
+        #Tile onDownload(Request)
+        --(lifecycle)--
+        +void start(TileDownloadedListener<? super Request,? super Tile>)
+        +void stop()
+    }
+    
+    abstract class AbstractTileRequest
+    {
+        --
+        +void forceUpdate(boolean force)
+        +boolean forceUpdate()
+    }
+    
+    enum MapData
+    {
+        NT_NA_13Q2
+        OSM
+        TOMTOM_NA_13M9
+    }
+    
+    AbstractTileCache <|-- SlippyTileCache
+    class SlippyTileCache<Request, Tile>
+    {
+    }
+    
+    interface TileDownloadedListener<Request, Tile>
+    {
+        --
+        +void onDownloaded(Request, Tile oldTile, Tile newTile)
+    }
+    
+@enduml
+

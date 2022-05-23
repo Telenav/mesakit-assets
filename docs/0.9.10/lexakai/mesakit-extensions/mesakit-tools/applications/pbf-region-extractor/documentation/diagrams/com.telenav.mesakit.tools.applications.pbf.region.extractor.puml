@@ -1,0 +1,17 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.tools.applications.pbf.region.extractor"
+    
+    Application <|-- PbfRegionExtractorApplication
+    class PbfRegionExtractorApplication
+    {
+        --(constructors)--
+        #PbfRegionExtractorApplication()
+        --
+        +void main(String[] arguments)
+    }
+    
+@enduml
+

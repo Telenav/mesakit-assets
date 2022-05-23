@@ -1,0 +1,22 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.world.project"
+    
+    KryoTypes <|-- WorldGraphKryoTypes
+    class WorldGraphKryoTypes
+    {
+        --(constructors)--
+        +WorldGraphKryoTypes()
+    }
+    
+    GraphUnitTest <|-- WorldGraphUnitTest
+    class WorldGraphUnitTest
+    {
+        --
+        +void testSetup()
+    }
+    
+@enduml
+

@@ -1,0 +1,46 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.relations.restrictions"
+    
+    enum TurnRestriction.Prohibition
+    {
+        NO
+        ONLY
+    }
+    
+    class TurnRestriction
+    {
+        --(constructors)--
+        +TurnRestriction(EdgeRelation, Route, Route, Route)
+        --
+        +Route from()
+        +Location location()
+        +Route route()
+        +Type type()
+        +Route via()
+        --(angle)--
+        +Heading in()
+        +Heading out()
+        --(checks)--
+        +boolean isBad()
+        --(collection)--
+        +List<Route> routes()
+        --(conversion)--
+        +Route to()
+    }
+    
+    enum TurnRestriction.Type
+    {
+        NO_LEFT
+        NO_RIGHT
+        NO_STRAIGHT_ON
+        NO_U
+        ONLY_LEFT
+        ONLY_RIGHT
+        ONLY_STRAIGHT_ON
+    }
+    
+@enduml
+

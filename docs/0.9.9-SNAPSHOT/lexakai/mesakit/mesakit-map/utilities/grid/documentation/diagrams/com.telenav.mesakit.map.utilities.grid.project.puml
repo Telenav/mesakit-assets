@@ -1,0 +1,15 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.utilities.grid.project"
+    
+    KryoTypes <|-- GridKryoTypes
+    class GridKryoTypes
+    {
+        --(constructors)--
+        +GridKryoTypes()
+    }
+    
+@enduml
+

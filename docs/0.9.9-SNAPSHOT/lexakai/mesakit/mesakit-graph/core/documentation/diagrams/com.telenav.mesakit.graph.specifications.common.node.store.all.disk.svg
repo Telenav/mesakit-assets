@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="741.6667px" preserveAspectRatio="none" style="width:1383px;height:741px;background:#333333;" version="1.1" viewBox="0 0 1383 741" width="1383.3333px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="720.8333" x="324.2188" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="697.9167" x="335.6771" y="30.5583">com.telenav.mesakit.graph.specifications.common.node.store.all.disk</text><!--MD5=[a12378cd9360171972e70466dc43b8e8]
+class AllNodeDiskCell--><rect codeLine="6" fill="#282828" height="146.7794" id="AllNodeDiskCell" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="203.125" x="260.4167" y="194.3278"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="203.125" x="260.4167" y="194.3278"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="203.125" x="260.4167" y="217.3828"/><rect codeLine="6" fill="none" height="146.7794" id="AllNodeDiskCell" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="203.125" x="260.4167" y="194.3278"/><ellipse cx="301.7188" cy="210.022" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M303.6292,214.447 Q303.2019,214.6667 302.7319,214.7766 Q302.262,214.8865 301.7432,214.8865 Q299.8999,214.8865 298.9294,213.6719 Q297.959,212.4573 297.959,210.1624 Q297.959,207.8613 298.9294,206.6467 Q299.8999,205.4321 301.7432,205.4321 Q302.262,205.4321 302.738,205.542 Q303.2141,205.6519 303.6292,205.8716 L303.6292,207.8735 Q303.1653,207.4463 302.7289,207.2479 Q302.2925,207.0496 301.8286,207.0496 Q300.8398,207.0496 300.3363,207.8339 Q299.8328,208.6182 299.8328,210.1624 Q299.8328,211.7004 300.3363,212.4847 Q300.8398,213.269 301.8286,213.269 Q302.2925,213.269 302.7289,213.0707 Q303.1653,212.8723 303.6292,212.4451 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="106.25" x="324.3229" y="214.7461">AllNodeDiskCell</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="261.4583" x2="462.5" y1="225.7161" y2="225.7161"/><ellipse cx="271.875" cy="261.086" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="140.625" x="283.3333" y="267.9972">AllNodeDiskCell(Located)</text><ellipse cx="271.875" cy="280.8309" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="144.7917" x="283.3333" y="287.7421">AllNodeDiskCell(Location)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="261.4583" x2="318.2292" y1="243.9219" y2="243.9219"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="321.3542" y="247.7315">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="405.7292" x2="462.5" y1="243.9219" y2="243.9219"/><ellipse cx="271.875" cy="324.4873" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="170.8333" x="283.3333" y="331.3985">String toFileString(String base)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="261.4583" x2="326.5625" y1="307.3232" y2="307.3232"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="329.6875" y="311.1328">(filesystem)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="397.3958" x2="462.5" y1="307.3232" y2="307.3232"/><!--MD5=[95d53a2455a686578c03580a00d0c491]
+class AllNodeDiskStore--><rect codeLine="15" fill="#282828" height="428.4627" id="AllNodeDiskStore" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="272.9167" x="500.5208" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="272.9167" x="500.5208" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="272.9167" x="500.5208" y="76.7578"/><rect codeLine="15" fill="none" height="428.4627" id="AllNodeDiskStore" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="272.9167" x="500.5208" y="53.7028"/><ellipse cx="572.3958" cy="69.397" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M571.9889,66.099 L571.1405,69.8283 L572.8434,69.8283 Z M570.8903,64.4511 L573.0937,64.4511 L575.5534,73.5636 L573.7528,73.5636 L573.1913,71.3114 L570.7804,71.3114 L570.2311,73.5636 L568.4306,73.5636 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="114.5833" x="595.3125" y="74.1211">AllNodeDiskStore</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="501.5625" x2="772.3958" y1="85.0911" y2="85.0911"/><polygon fill="#FFFF44" points="511.9792,115.2527,516.1458,119.4194,511.9792,123.586,507.8125,119.4194" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="140.625" x="523.4375" y="127.3722">AllNodeDiskStore(Folder)</text><polygon fill="#FFFF44" points="511.9792,134.9976,516.1458,139.1642,511.9792,143.3309,507.8125,139.1642" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="182.2917" x="523.4375" y="147.1171">AllNodeDiskStore(GraphArchive)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="501.5625" x2="593.2292" y1="103.2969" y2="103.2969"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="596.3542" y="107.1065">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="680.7292" x2="772.3958" y1="103.2969" y2="103.2969"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="501.5625" x2="772.3958" y1="156.8258" y2="156.8258"/><ellipse cx="511.9792" cy="168.2841" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="129.1667" x="523.4375" y="175.1953">GraphArchive archive()</text><polygon fill="#FFFF44" points="511.9792,182.8206,516.1458,186.9873,511.9792,191.154,507.8125,186.9873" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="176.0417" x="523.4375" y="194.9402">ZipEntry entry(AllNodeDiskCell)</text><ellipse cx="511.9792" cy="231.6854" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="129.1667" x="523.4375" y="238.5966">boolean containsData()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="501.5625" x2="602.6042" y1="214.5213" y2="214.5213"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="605.7292" y="218.3309">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="671.3542" x2="772.3958" y1="214.5213" y2="214.5213"/><ellipse cx="511.9792" cy="275.3418" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="211.4583" x="523.4375" y="282.253">Iterable&lt;AllNodeDiskCell&gt; DiskCells()</text><ellipse cx="511.9792" cy="295.0867" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="68.75" x="523.4375" y="301.9979">void delete()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="501.5625" x2="601.5625" y1="258.1777" y2="258.1777"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="604.6875" y="261.9873">(filesystem)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="672.3958" x2="772.3958" y1="258.1777" y2="258.1777"/><polygon fill="#FFFF44" points="511.9792,333.5347,516.1458,337.7014,511.9792,341.8681,507.8125,337.7014" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="75" x="523.4375" y="345.6543">String name()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="501.5625" x2="608.8542" y1="321.579" y2="321.579"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="50" x="611.9792" y="325.3886">(naming)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="665.1042" x2="772.3958" y1="321.579" y2="321.579"/><ellipse cx="511.9792" cy="382.3995" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="178.125" x="523.4375" y="389.3107">InputStream in(AllNodeDiskCell)</text><polygon fill="#FFFF44" points="511.9792,396.936,516.1458,401.1027,511.9792,405.2694,507.8125,401.1027" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="221.875" x="523.4375" y="409.0556">DataInputStream input(AllNodeDiskCell)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="501.5625" x2="617.1875" y1="365.2354" y2="365.2354"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="33.3333" x="620.3125" y="369.045">(read)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="656.7708" x2="772.3958" y1="365.2354" y2="365.2354"/><ellipse cx="511.9792" cy="445.8008" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="152.0833" x="523.4375" y="452.712">void saveTo(GraphArchive)</text><polygon fill="#FFFF44" points="511.9792,460.3373,516.1458,464.504,511.9792,468.6707,507.8125,464.504" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="240.625" x="523.4375" y="472.4569">DataOutputStream output(AllNodeDiskCell)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="501.5625" x2="616.1458" y1="428.6367" y2="428.6367"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="35.4167" x="619.2708" y="432.4463">(write)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="657.8125" x2="772.3958" y1="428.6367" y2="428.6367"/><!--MD5=[55982303571a1d71f28b6ebb928af82f]
+class PbfAllNodeDiskStores--><rect codeLine="38" fill="#282828" height="332.8166" id="PbfAllNodeDiskStores" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="359.375" x="810.4167" y="101.0986"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="359.375" x="810.4167" y="101.0986"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="359.375" x="810.4167" y="124.1536"/><rect codeLine="38" fill="none" height="332.8166" id="PbfAllNodeDiskStores" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="359.375" x="810.4167" y="101.0986"/><ellipse cx="911.4583" cy="116.7928" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M913.3687,121.2179 Q912.9415,121.4376 912.4715,121.5474 Q912.0015,121.6573 911.4827,121.6573 Q909.6395,121.6573 908.669,120.4427 Q907.6986,119.2281 907.6986,116.9332 Q907.6986,114.6322 908.669,113.4176 Q909.6395,112.203 911.4827,112.203 Q912.0015,112.203 912.4776,112.3128 Q912.9537,112.4227 913.3687,112.6424 L913.3687,114.6444 Q912.9049,114.2171 912.4685,114.0188 Q912.0321,113.8204 911.5682,113.8204 Q910.5794,113.8204 910.0759,114.6047 Q909.5723,115.389 909.5723,116.9332 Q909.5723,118.4713 910.0759,119.2556 Q910.5794,120.0399 911.5682,120.0399 Q912.0321,120.0399 912.4685,119.8415 Q912.9049,119.6431 913.3687,119.2159 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="142.7083" x="934.375" y="121.5169">PbfAllNodeDiskStores</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="811.4583" x2="1168.75" y1="132.487" y2="132.487"/><ellipse cx="821.875" cy="167.8569" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="220.8333" x="833.3333" y="174.7681">PbfAllNodeDiskStores(Folder, FileName)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="811.4583" x2="946.3542" y1="150.6927" y2="150.6927"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="949.4792" y="154.5024">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1033.8542" x2="1168.75" y1="150.6927" y2="150.6927"/><ellipse cx="821.875" cy="211.5133" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="103.125" x="833.3333" y="218.4245">void add(PbfNode)</text><ellipse cx="821.875" cy="231.2581" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="129.1667" x="833.3333" y="238.1694">boolean containsData()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="811.4583" x2="955.7292" y1="194.3492" y2="194.3492"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="958.8542" y="198.1588">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1024.4792" x2="1168.75" y1="194.3492" y2="194.3492"/><ellipse cx="821.875" cy="274.9146" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="68.75" x="833.3333" y="281.8258">void delete()</text><ellipse cx="821.875" cy="294.6594" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="327.0833" x="833.3333" y="301.5706">PbfAllNodeIdentifierDiskStore pbfNodeIdentifierDiskStore()</text><ellipse cx="821.875" cy="314.4043" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="289.5833" x="833.3333" y="321.3155">PbfAllNodeIndexDiskStore pbfNodeIndexDiskStore()</text><ellipse cx="821.875" cy="334.1492" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="327.0833" x="833.3333" y="341.0604">PbfAllNodeMetadataDiskStore pbfNodeMetadataDiskStore()</text><ellipse cx="821.875" cy="353.894" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="268.75" x="833.3333" y="360.8053">PbfAllNodeTagDiskStore pbfNodeTagDiskStore()</text><ellipse cx="821.875" cy="373.6389" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="105.2083" x="833.3333" y="380.5501">Folder temporary()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="811.4583" x2="954.6875" y1="257.7504" y2="257.7504"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="957.8125" y="261.5601">(filesystem)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1025.5208" x2="1168.75" y1="257.7504" y2="257.7504"/><ellipse cx="821.875" cy="417.2953" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="152.0833" x="833.3333" y="424.2065">void saveTo(GraphArchive)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="811.4583" x2="969.2708" y1="400.1312" y2="400.1312"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="35.4167" x="972.3958" y="403.9408">(write)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1010.9375" x2="1168.75" y1="400.1312" y2="400.1312"/><!--MD5=[427ca537e45307c9229b737669f3b367]
+class PbfAllNodeIdentifierDiskStore--><rect codeLine="57" fill="#282828" height="166.5243" id="PbfAllNodeIdentifierDiskStore" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="282.2917" x="7.2917" y="556.307"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="282.2917" x="7.2917" y="556.307"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="282.2917" x="7.2917" y="579.362"/><rect codeLine="57" fill="none" height="166.5243" id="PbfAllNodeIdentifierDiskStore" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="282.2917" x="7.2917" y="556.307"/><ellipse cx="44.375" cy="572.0011" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M46.2854,576.4262 Q45.8582,576.6459 45.3882,576.7558 Q44.9182,576.8656 44.3994,576.8656 Q42.5562,576.8656 41.5857,575.651 Q40.6152,574.4364 40.6152,572.1415 Q40.6152,569.8405 41.5857,568.6259 Q42.5562,567.4113 44.3994,567.4113 Q44.9182,567.4113 45.3943,567.5212 Q45.8704,567.631 46.2854,567.8507 L46.2854,569.8527 Q45.8215,569.4255 45.3851,569.2271 Q44.9487,569.0287 44.4849,569.0287 Q43.4961,569.0287 42.9926,569.813 Q42.489,570.5973 42.489,572.1415 Q42.489,573.6796 42.9926,574.4639 Q43.4961,575.2482 44.4849,575.2482 Q44.9487,575.2482 45.3851,575.0498 Q45.8215,574.8515 46.2854,574.4242 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="194.7917" x="66.0417" y="576.7253">PbfAllNodeIdentifierDiskStore</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="8.3333" x2="288.5417" y1="587.6953" y2="587.6953"/><ellipse cx="18.75" cy="623.0652" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="208.3333" x="30.2083" y="629.9764">PbfAllNodeIdentifierDiskStore(Folder)</text><ellipse cx="18.75" cy="642.8101" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="250" x="30.2083" y="649.7213">PbfAllNodeIdentifierDiskStore(GraphArchive)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="104.6875" y1="605.9011" y2="605.9011"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="107.8125" y="609.7107">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="192.1875" x2="288.5417" y1="605.9011" y2="605.9011"/><ellipse cx="18.75" cy="686.4665" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="103.125" x="30.2083" y="693.3777">void add(PbfNode)</text><ellipse cx="18.75" cy="706.2113" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="183.3333" x="30.2083" y="713.1226">LongArray load(AllNodeDiskCell)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="114.0625" y1="669.3024" y2="669.3024"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="117.1875" y="673.112">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="182.8125" x2="288.5417" y1="669.3024" y2="669.3024"/><!--MD5=[12a52247bd83fe80f6f203c9d2aee61f]
+class PbfAllNodeIndexDiskStore--><rect codeLine="68" fill="#282828" height="166.5243" id="PbfAllNodeIndexDiskStore" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="263.5417" x="326.0417" y="556.307"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="263.5417" x="326.0417" y="556.307"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="263.5417" x="326.0417" y="579.362"/><rect codeLine="68" fill="none" height="166.5243" id="PbfAllNodeIndexDiskStore" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="263.5417" x="326.0417" y="556.307"/><ellipse cx="365.4688" cy="572.0011" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M367.3792,576.4262 Q366.9519,576.6459 366.4819,576.7558 Q366.012,576.8656 365.4932,576.8656 Q363.6499,576.8656 362.6794,575.651 Q361.709,574.4364 361.709,572.1415 Q361.709,569.8405 362.6794,568.6259 Q363.6499,567.4113 365.4932,567.4113 Q366.012,567.4113 366.488,567.5212 Q366.9641,567.631 367.3792,567.8507 L367.3792,569.8527 Q366.9153,569.4255 366.4789,569.2271 Q366.0425,569.0287 365.5786,569.0287 Q364.5898,569.0287 364.0863,569.813 Q363.5828,570.5973 363.5828,572.1415 Q363.5828,573.6796 364.0863,574.4639 Q364.5898,575.2482 365.5786,575.2482 Q366.0425,575.2482 366.4789,575.0498 Q366.9153,574.8515 367.3792,574.4242 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="170.8333" x="387.6563" y="576.7253">PbfAllNodeIndexDiskStore</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="327.0833" x2="588.5417" y1="587.6953" y2="587.6953"/><ellipse cx="337.5" cy="623.0652" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="189.5833" x="348.9583" y="629.9764">PbfAllNodeIndexDiskStore(Folder)</text><ellipse cx="337.5" cy="642.8101" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="231.25" x="348.9583" y="649.7213">PbfAllNodeIndexDiskStore(GraphArchive)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="327.0833" x2="414.0625" y1="605.9011" y2="605.9011"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="417.1875" y="609.7107">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="501.5625" x2="588.5417" y1="605.9011" y2="605.9011"/><ellipse cx="337.5" cy="686.4665" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="103.125" x="348.9583" y="693.3777">void add(PbfNode)</text><ellipse cx="337.5" cy="706.2113" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="204.1667" x="348.9583" y="713.1226">LongToIntMap load(AllNodeDiskCell)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="327.0833" x2="423.4375" y1="669.3024" y2="669.3024"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="426.5625" y="673.112">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="492.1875" x2="588.5417" y1="669.3024" y2="669.3024"/><!--MD5=[706506440ceeb63b5560431172c2b3bb]
+class PbfAllNodeMetadataDiskStore--><rect codeLine="79" fill="#282828" height="190.4358" id="PbfAllNodeMetadataDiskStore" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="380.2083" x="626.0417" y="544.3278"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="380.2083" x="626.0417" y="544.3278"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="380.2083" x="626.0417" y="567.3828"/><rect codeLine="79" fill="none" height="190.4358" id="PbfAllNodeMetadataDiskStore" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="380.2083" x="626.0417" y="544.3278"/><ellipse cx="711.4583" cy="560.022" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M713.3687,564.447 Q712.9415,564.6667 712.4715,564.7766 Q712.0015,564.8865 711.4827,564.8865 Q709.6395,564.8865 708.669,563.6719 Q707.6986,562.4573 707.6986,560.1624 Q707.6986,557.8613 708.669,556.6467 Q709.6395,555.4321 711.4827,555.4321 Q712.0015,555.4321 712.4776,555.542 Q712.9537,555.6519 713.3687,555.8716 L713.3687,557.8735 Q712.9049,557.4463 712.4685,557.2479 Q712.0321,557.0496 711.5682,557.0496 Q710.5794,557.0496 710.0759,557.8339 Q709.5723,558.6182 709.5723,560.1624 Q709.5723,561.7004 710.0759,562.4847 Q710.5794,563.269 711.5682,563.269 Q712.0321,563.269 712.4685,563.0707 Q712.9049,562.8723 713.3687,562.4451 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="194.7917" x="734.375" y="564.7461">PbfAllNodeMetadataDiskStore</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="627.0833" x2="1005.2083" y1="575.7161" y2="575.7161"/><ellipse cx="637.5" cy="611.086" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="208.3333" x="648.9583" y="617.9972">PbfAllNodeMetadataDiskStore(Folder)</text><ellipse cx="637.5" cy="630.8309" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="250" x="648.9583" y="637.7421">PbfAllNodeMetadataDiskStore(GraphArchive)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="627.0833" x2="772.3958" y1="593.9219" y2="593.9219"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="775.5208" y="597.7315">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="859.8958" x2="1005.2083" y1="593.9219" y2="593.9219"/><ellipse cx="637.5" cy="674.4873" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="103.125" x="648.9583" y="681.3985">void add(PbfNode)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="627.0833" x2="781.7708" y1="657.3232" y2="657.3232"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="784.8958" y="661.1328">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="850.5208" x2="1005.2083" y1="657.3232" y2="657.3232"/><ellipse cx="637.5" cy="718.1437" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="347.9167" x="648.9583" y="725.0549">PbfAllNodeMetadataStore load(GraphArchive, AllNodeDiskCell)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="627.0833" x2="783.3333" y1="700.9796" y2="700.9796"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="59.375" x="786.4583" y="704.7892">(metadata)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="848.9583" x2="1005.2083" y1="700.9796" y2="700.9796"/><!--MD5=[8828eafe4ad99cae41cc18464bdf3dd6]
+class PbfAllNodeTagDiskStore--><rect codeLine="91" fill="#282828" height="190.4358" id="PbfAllNodeTagDiskStore" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="333.3333" x="1043.2292" y="544.3278"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="333.3333" x="1043.2292" y="544.3278"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="333.3333" x="1043.2292" y="567.3828"/><rect codeLine="91" fill="none" height="190.4358" id="PbfAllNodeTagDiskStore" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="333.3333" x="1043.2292" y="544.3278"/><ellipse cx="1122.9167" cy="560.022" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1124.8271,564.447 Q1124.3998,564.6667 1123.9299,564.7766 Q1123.4599,564.8865 1122.9411,564.8865 Q1121.0978,564.8865 1120.1274,563.6719 Q1119.1569,562.4573 1119.1569,560.1624 Q1119.1569,557.8613 1120.1274,556.6467 Q1121.0978,555.4321 1122.9411,555.4321 Q1123.4599,555.4321 1123.936,555.542 Q1124.412,555.6519 1124.8271,555.8716 L1124.8271,557.8735 Q1124.3632,557.4463 1123.9268,557.2479 Q1123.4904,557.0496 1123.0265,557.0496 Q1122.0378,557.0496 1121.5342,557.8339 Q1121.0307,558.6182 1121.0307,560.1624 Q1121.0307,561.7004 1121.5342,562.4847 Q1122.0378,563.269 1123.0265,563.269 Q1123.4904,563.269 1123.9268,563.0707 Q1124.3632,562.8723 1124.8271,562.4451 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="159.375" x="1145.8333" y="564.7461">PbfAllNodeTagDiskStore</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1044.2708" x2="1375.5208" y1="575.7161" y2="575.7161"/><ellipse cx="1054.6875" cy="611.086" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="179.1667" x="1066.1458" y="617.9972">PbfAllNodeTagDiskStore(Folder)</text><ellipse cx="1054.6875" cy="630.8309" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="301.0417" x="1066.1458" y="637.7421">PbfAllNodeTagDiskStore(GraphArchive, PbfTagCodec)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1044.2708" x2="1166.1458" y1="593.9219" y2="593.9219"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="1169.2708" y="597.7315">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1253.6458" x2="1375.5208" y1="593.9219" y2="593.9219"/><ellipse cx="1054.6875" cy="674.4873" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="103.125" x="1066.1458" y="681.3985">void add(PbfNode)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1044.2708" x2="1175.5208" y1="657.3232" y2="657.3232"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="1178.6458" y="661.1328">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1244.2708" x2="1375.5208" y1="657.3232" y2="657.3232"/><ellipse cx="1054.6875" cy="718.1437" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="261.4583" x="1066.1458" y="725.0549">PbfNodeTagStore load(Graph, AllNodeDiskCell)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1044.2708" x2="1190.1042" y1="700.9796" y2="700.9796"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="33.3333" x="1193.2292" y="704.7892">(read)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1229.6875" x2="1375.5208" y1="700.9796" y2="700.9796"/><!--MD5=[138b024d022491e85eeb87e2ef399d44]
+reverse link AllNodeDiskStore to PbfAllNodeIdentifierDiskStore--><path codeLine="56" d="M484.1354,480.0361 C483.3438,480.6403 482.5625,481.234 481.7708,481.8278 C416.0208,531.0882 382.1563,509.3695 307.8125,544.3278 C299.9583,548.0257 291.9896,551.984 284.0104,556.1195 " fill="none" id="AllNodeDiskStore-backto-PbfAllNodeIdentifierDiskStore" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="479.5625,474.3486,500.2708,466.7028,488.8542,485.5986,479.5625,474.3486" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[bcd6d820cd7ba77a8304715a918f4275]
+reverse link AllNodeDiskStore to PbfAllNodeIndexDiskStore--><path codeLine="67" d="M524.5417,500.8695 C515.1354,520.2861 506.0833,538.9736 497.8438,555.9736 " fill="none" id="AllNodeDiskStore-backto-PbfAllNodeIndexDiskStore" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="518.0208,497.609,533.6667,482.0465,531.1458,503.9736,518.0208,497.609" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[3072350c8c676945f779248b12e7063d]
+reverse link AllNodeDiskStore to PbfAllNodeMetadataDiskStore--><path codeLine="78" d="M749.5521,501.1507 C756.7813,516.0674 763.7917,530.5465 770.3958,544.1611 " fill="none" id="AllNodeDiskStore-backto-PbfAllNodeMetadataDiskStore" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="742.8125,503.9736,740.2917,482.0465,755.9375,497.609,742.8125,503.9736" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[62fef57d62e8d3acdce0a2fcaa2e59b0]
+reverse link AllNodeDiskStore to PbfAllNodeTagDiskStore--><path codeLine="90" d="M790.0938,480.3695 C790.7917,480.859 791.4896,481.3486 792.1875,481.8278 C880.3021,542.3695 924.6667,506.0049 1024.4792,544.3278 C1030.5521,546.6611 1036.6771,549.1299 1042.8333,551.7028 " fill="none" id="AllNodeDiskStore-backto-PbfAllNodeTagDiskStore" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="785.5521,486.0778,773.4583,467.6195,794.4271,474.5049,785.5521,486.0778" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[de30c23a5fdf3c2100859d0bc1423468]
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.common.node.store.all.disk"
+    
+    class AllNodeDiskCell
+    {
+        - -(constructors)- -
+        +AllNodeDiskCell(Located)
+        +AllNodeDiskCell(Location)
+        - -(filesystem)- -
+        +String toFileString(String base)
+    }
+    
+    abstract class AllNodeDiskStore
+    {
+        - -(constructors)- -
+        #AllNodeDiskStore(Folder)
+        #AllNodeDiskStore(GraphArchive)
+        - -
+        +GraphArchive archive()
+        #ZipEntry entry(AllNodeDiskCell)
+        - -(collection)- -
+        +boolean containsData()
+        - -(filesystem)- -
+        +Iterable<AllNodeDiskCell> DiskCells()
+        +void delete()
+        - -(naming)- -
+        #String name()
+        - -(read)- -
+        +InputStream in(AllNodeDiskCell)
+        #DataInputStream input(AllNodeDiskCell)
+        - -(write)- -
+        +void saveTo(GraphArchive)
+        #DataOutputStream output(AllNodeDiskCell)
+    }
+    
+    class PbfAllNodeDiskStores
+    {
+        - -(constructors)- -
+        +PbfAllNodeDiskStores(Folder, FileName)
+        - -(collection)- -
+        +void add(PbfNode)
+        +boolean containsData()
+        - -(filesystem)- -
+        +void delete()
+        +PbfAllNodeIdentifierDiskStore pbfNodeIdentifierDiskStore()
+        +PbfAllNodeIndexDiskStore pbfNodeIndexDiskStore()
+        +PbfAllNodeMetadataDiskStore pbfNodeMetadataDiskStore()
+        +PbfAllNodeTagDiskStore pbfNodeTagDiskStore()
+        +Folder temporary()
+        - -(write)- -
+        +void saveTo(GraphArchive)
+    }
+    
+    AllNodeDiskStore <|- - PbfAllNodeIdentifierDiskStore
+    class PbfAllNodeIdentifierDiskStore
+    {
+        - -(constructors)- -
+        +PbfAllNodeIdentifierDiskStore(Folder)
+        +PbfAllNodeIdentifierDiskStore(GraphArchive)
+        - -(collection)- -
+        +void add(PbfNode)
+        +LongArray load(AllNodeDiskCell)
+    }
+    
+    AllNodeDiskStore <|- - PbfAllNodeIndexDiskStore
+    class PbfAllNodeIndexDiskStore
+    {
+        - -(constructors)- -
+        +PbfAllNodeIndexDiskStore(Folder)
+        +PbfAllNodeIndexDiskStore(GraphArchive)
+        - -(collection)- -
+        +void add(PbfNode)
+        +LongToIntMap load(AllNodeDiskCell)
+    }
+    
+    AllNodeDiskStore <|- - PbfAllNodeMetadataDiskStore
+    class PbfAllNodeMetadataDiskStore
+    {
+        - -(constructors)- -
+        +PbfAllNodeMetadataDiskStore(Folder)
+        +PbfAllNodeMetadataDiskStore(GraphArchive)
+        - -(collection)- -
+        +void add(PbfNode)
+        - -(metadata)- -
+        +PbfAllNodeMetadataStore load(GraphArchive, AllNodeDiskCell)
+    }
+    
+    AllNodeDiskStore <|- - PbfAllNodeTagDiskStore
+    class PbfAllNodeTagDiskStore
+    {
+        - -(constructors)- -
+        +PbfAllNodeTagDiskStore(Folder)
+        +PbfAllNodeTagDiskStore(GraphArchive, PbfTagCodec)
+        - -(collection)- -
+        +void add(PbfNode)
+        - -(read)- -
+        +PbfNodeTagStore load(Graph, AllNodeDiskCell)
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.mesakit.graph.specifications.common.node.store.all.disk"
+    
+    class AllNodeDiskCell
+    {
+        - -(constructors)- -
+        +AllNodeDiskCell(Located)
+        +AllNodeDiskCell(Location)
+        - -(filesystem)- -
+        +String toFileString(String base)
+    }
+    
+    abstract class AllNodeDiskStore
+    {
+        - -(constructors)- -
+        #AllNodeDiskStore(Folder)
+        #AllNodeDiskStore(GraphArchive)
+        - -
+        +GraphArchive archive()
+        #ZipEntry entry(AllNodeDiskCell)
+        - -(collection)- -
+        +boolean containsData()
+        - -(filesystem)- -
+        +Iterable<AllNodeDiskCell> DiskCells()
+        +void delete()
+        - -(naming)- -
+        #String name()
+        - -(read)- -
+        +InputStream in(AllNodeDiskCell)
+        #DataInputStream input(AllNodeDiskCell)
+        - -(write)- -
+        +void saveTo(GraphArchive)
+        #DataOutputStream output(AllNodeDiskCell)
+    }
+    
+    class PbfAllNodeDiskStores
+    {
+        - -(constructors)- -
+        +PbfAllNodeDiskStores(Folder, FileName)
+        - -(collection)- -
+        +void add(PbfNode)
+        +boolean containsData()
+        - -(filesystem)- -
+        +void delete()
+        +PbfAllNodeIdentifierDiskStore pbfNodeIdentifierDiskStore()
+        +PbfAllNodeIndexDiskStore pbfNodeIndexDiskStore()
+        +PbfAllNodeMetadataDiskStore pbfNodeMetadataDiskStore()
+        +PbfAllNodeTagDiskStore pbfNodeTagDiskStore()
+        +Folder temporary()
+        - -(write)- -
+        +void saveTo(GraphArchive)
+    }
+    
+    AllNodeDiskStore <|- - PbfAllNodeIdentifierDiskStore
+    class PbfAllNodeIdentifierDiskStore
+    {
+        - -(constructors)- -
+        +PbfAllNodeIdentifierDiskStore(Folder)
+        +PbfAllNodeIdentifierDiskStore(GraphArchive)
+        - -(collection)- -
+        +void add(PbfNode)
+        +LongArray load(AllNodeDiskCell)
+    }
+    
+    AllNodeDiskStore <|- - PbfAllNodeIndexDiskStore
+    class PbfAllNodeIndexDiskStore
+    {
+        - -(constructors)- -
+        +PbfAllNodeIndexDiskStore(Folder)
+        +PbfAllNodeIndexDiskStore(GraphArchive)
+        - -(collection)- -
+        +void add(PbfNode)
+        +LongToIntMap load(AllNodeDiskCell)
+    }
+    
+    AllNodeDiskStore <|- - PbfAllNodeMetadataDiskStore
+    class PbfAllNodeMetadataDiskStore
+    {
+        - -(constructors)- -
+        +PbfAllNodeMetadataDiskStore(Folder)
+        +PbfAllNodeMetadataDiskStore(GraphArchive)
+        - -(collection)- -
+        +void add(PbfNode)
+        - -(metadata)- -
+        +PbfAllNodeMetadataStore load(GraphArchive, AllNodeDiskCell)
+    }
+    
+    AllNodeDiskStore <|- - PbfAllNodeTagDiskStore
+    class PbfAllNodeTagDiskStore
+    {
+        - -(constructors)- -
+        +PbfAllNodeTagDiskStore(Folder)
+        +PbfAllNodeTagDiskStore(GraphArchive, PbfTagCodec)
+        - -(collection)- -
+        +void add(PbfNode)
+        - -(read)- -
+        +PbfNodeTagStore load(Graph, AllNodeDiskCell)
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 00:55:08 MST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

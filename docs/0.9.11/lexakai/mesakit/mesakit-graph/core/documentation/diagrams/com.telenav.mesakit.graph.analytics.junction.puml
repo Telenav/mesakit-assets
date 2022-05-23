@@ -1,0 +1,30 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.analytics.junction"
+    
+    abstract BaseRepeater
+    
+    BaseRepeater <|-- JunctionEdgeFinder
+    abstract class JunctionEdgeFinder
+    {
+        --(constructors)--
+        #JunctionEdgeFinder(EdgeSequence)
+        --
+        #void onConnector(Edge)
+        #void onJunction(Edge)
+        --(search)--
+        +void find()
+    }
+    
+    class JunctionEdgeOptimizer
+    {
+        --(constructors)--
+        +JunctionEdgeOptimizer(EdgeSet)
+        --
+        +EdgeSet optimize()
+    }
+    
+@enduml
+

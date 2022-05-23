@@ -1,0 +1,26 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.query.compiler"
+    
+    interface ANTLRErrorListener
+    
+    GraphQueryBaseVisitor <|-- GraphQueryCompiler
+    class GraphQueryCompiler
+    {
+        --
+        +Program compile(ParseTree, Maximum maximumClosureLength)
+    }
+    
+    ANTLRErrorListener <|-- GraphQueryErrorListener
+    class GraphQueryErrorListener
+    {
+        --(constructors)--
+        +GraphQueryErrorListener(Callback<String>)
+        --(status)--
+        +boolean error()
+    }
+    
+@enduml
+

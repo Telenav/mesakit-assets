@@ -1,0 +1,21 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.tools.applications.pbf.graph.world.extractor"
+    
+    enum PbfWorldGraphExtractorApplication.Mode
+    {
+        CONVERT
+        EXTRACT
+    }
+    
+    Application <|-- PbfWorldGraphExtractorApplication
+    class PbfWorldGraphExtractorApplication
+    {
+        --
+        +void main(String[] arguments)
+    }
+    
+@enduml
+

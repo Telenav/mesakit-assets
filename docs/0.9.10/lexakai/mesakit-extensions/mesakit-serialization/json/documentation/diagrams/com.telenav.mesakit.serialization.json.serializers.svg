@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="254.1667px" preserveAspectRatio="none" style="width:1890px;height:254px;background:#333333;" version="1.1" viewBox="0 0 1890 254" width="1890.625px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="512.5" x="681.7708" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="489.5833" x="693.2292" y="30.5583">com.telenav.mesakit.serialization.json.serializers</text><!--MD5=[9de60207c76e1bae7fa69c76e15bc4fc]
+class JsonSerializerDeserializer--><rect codeLine="6" fill="#282828" height="48.055" id="JsonSerializerDeserializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="203.125" x="331.7708" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="203.125" x="331.7708" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="203.125" x="331.7708" y="76.7578"/><rect codeLine="6" fill="none" height="48.055" id="JsonSerializerDeserializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="203.125" x="331.7708" y="53.7028"/><ellipse cx="346.3542" cy="69.397" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M343.7581,66.5588 L343.7581,64.9719 L349.1842,64.9719 L349.1842,66.5588 L347.3714,66.5588 L347.3714,72.4976 L349.1842,72.4976 L349.1842,74.0845 L343.7581,74.0845 L343.7581,72.4976 L345.5709,72.4976 L345.5709,66.5588 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="165.625" x="363.0208" y="74.1211">JsonSerializerDeserializer</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="332.8125" x2="533.8542" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="332.8125" x2="533.8542" y1="93.4245" y2="93.4245"/><!--MD5=[3a02e24aed122bd624ab5f4d81125687]
+class PrimitiveGsonSerializer--><rect fill="#282828" height="48.055" id="PrimitiveGsonSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="187.5" x="1314.5833" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="187.5" x="1314.5833" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="187.5" x="1314.5833" y="76.7578"/><rect fill="none" height="48.055" id="PrimitiveGsonSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="187.5" x="1314.5833" y="53.7028"/><ellipse cx="1329.1667" cy="69.397" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1331.0771,73.822 Q1330.6498,74.0417 1330.1799,74.1516 Q1329.7099,74.2615 1329.1911,74.2615 Q1327.3478,74.2615 1326.3774,73.0469 Q1325.4069,71.8323 1325.4069,69.5374 Q1325.4069,67.2363 1326.3774,66.0217 Q1327.3478,64.8071 1329.1911,64.8071 Q1329.7099,64.8071 1330.186,64.917 Q1330.662,65.0269 1331.0771,65.2466 L1331.0771,67.2485 Q1330.6132,66.8213 1330.1768,66.6229 Q1329.7404,66.4246 1329.2765,66.4246 Q1328.2878,66.4246 1327.7842,67.2089 Q1327.2807,67.9932 1327.2807,69.5374 Q1327.2807,71.0754 1327.7842,71.8597 Q1328.2878,72.644 1329.2765,72.644 Q1329.7404,72.644 1330.1768,72.4457 Q1330.6132,72.2473 1331.0771,71.8201 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="150" x="1345.8333" y="74.1211">PrimitiveGsonSerializer</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1315.625" x2="1501.0417" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1315.625" x2="1501.0417" y1="93.4245" y2="93.4245"/><!--MD5=[4d3b2e9d33d36010f3d71ed9218c835d]
+class DistanceGsonSerializer--><rect codeLine="9" fill="#282828" height="83.3781" id="DistanceGsonSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="186.4583" x="976.5625" y="164.1195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="186.4583" x="976.5625" y="164.1195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="186.4583" x="976.5625" y="187.1745"/><rect codeLine="9" fill="none" height="83.3781" id="DistanceGsonSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="186.4583" x="976.5625" y="164.1195"/><ellipse cx="991.1458" cy="179.8136" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M993.0562,184.2387 Q992.629,184.4584 992.159,184.5683 Q991.689,184.6781 991.1702,184.6781 Q989.327,184.6781 988.3565,183.4635 Q987.3861,182.2489 987.3861,179.954 Q987.3861,177.653 988.3565,176.4384 Q989.327,175.2238 991.1702,175.2238 Q991.689,175.2238 992.1651,175.3337 Q992.6412,175.4435 993.0562,175.6632 L993.0562,177.6652 Q992.5924,177.238 992.156,177.0396 Q991.7196,176.8412 991.2557,176.8412 Q990.2669,176.8412 989.7634,177.6255 Q989.2598,178.4098 989.2598,179.954 Q989.2598,181.4921 989.7634,182.2764 Q990.2669,183.0607 991.2557,183.0607 Q991.7196,183.0607 992.156,182.8623 Q992.5924,182.664 993.0562,182.2367 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="148.9583" x="1007.8125" y="184.5378">DistanceGsonSerializer</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="977.6042" x2="1161.9792" y1="195.5078" y2="195.5078"/><ellipse cx="988.0208" cy="230.8777" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="136.4583" x="999.4792" y="237.7889">DistanceGsonSerializer()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="977.6042" x2="1026.0417" y1="213.7136" y2="213.7136"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="1029.1667" y="217.5232">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1113.5417" x2="1161.9792" y1="213.7136" y2="213.7136"/><!--MD5=[33a9ca5e1d9712882fc835888ad95aec]
+class IdentifierGsonSerializer--><rect codeLine="16" fill="#282828" height="83.3781" id="IdentifierGsonSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="189.5833" x="1200" y="164.1195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="189.5833" x="1200" y="164.1195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="189.5833" x="1200" y="187.1745"/><rect codeLine="16" fill="none" height="83.3781" id="IdentifierGsonSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="189.5833" x="1200" y="164.1195"/><ellipse cx="1214.5833" cy="179.8136" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1216.4937,184.2387 Q1216.0665,184.4584 1215.5965,184.5683 Q1215.1265,184.6781 1214.6077,184.6781 Q1212.7645,184.6781 1211.794,183.4635 Q1210.8236,182.2489 1210.8236,179.954 Q1210.8236,177.653 1211.794,176.4384 Q1212.7645,175.2238 1214.6077,175.2238 Q1215.1265,175.2238 1215.6026,175.3337 Q1216.0787,175.4435 1216.4937,175.6632 L1216.4937,177.6652 Q1216.0299,177.238 1215.5935,177.0396 Q1215.1571,176.8412 1214.6932,176.8412 Q1213.7044,176.8412 1213.2009,177.6255 Q1212.6973,178.4098 1212.6973,179.954 Q1212.6973,181.4921 1213.2009,182.2764 Q1213.7044,183.0607 1214.6932,183.0607 Q1215.1571,183.0607 1215.5935,182.8623 Q1216.0299,182.664 1216.4937,182.2367 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="152.0833" x="1231.25" y="184.5378">IdentifierGsonSerializer</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1201.0417" x2="1388.5417" y1="195.5078" y2="195.5078"/><ellipse cx="1211.4583" cy="230.8777" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="138.5417" x="1222.9167" y="237.7889">IdentifierGsonSerializer()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1201.0417" x2="1251.0417" y1="213.7136" y2="213.7136"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="1254.1667" y="217.5232">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1338.5417" x2="1388.5417" y1="213.7136" y2="213.7136"/><!--MD5=[3ea34d8e71cd01f76210a1a3ece0ec8c]
+class LatitudeGsonSerializer--><rect codeLine="23" fill="#282828" height="48.055" id="LatitudeGsonSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="183.3333" x="7.2917" y="181.8278"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="183.3333" x="7.2917" y="181.8278"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="183.3333" x="7.2917" y="204.8828"/><rect codeLine="23" fill="none" height="48.055" id="LatitudeGsonSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="183.3333" x="7.2917" y="181.8278"/><ellipse cx="21.875" cy="197.522" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M23.7854,201.947 Q23.3582,202.1667 22.8882,202.2766 Q22.4182,202.3865 21.8994,202.3865 Q20.0562,202.3865 19.0857,201.1719 Q18.1152,199.9573 18.1152,197.6624 Q18.1152,195.3613 19.0857,194.1467 Q20.0562,192.9321 21.8994,192.9321 Q22.4182,192.9321 22.8943,193.042 Q23.3704,193.1519 23.7854,193.3716 L23.7854,195.3735 Q23.3215,194.9463 22.8851,194.7479 Q22.4487,194.5496 21.9849,194.5496 Q20.9961,194.5496 20.4926,195.3339 Q19.989,196.1182 19.989,197.6624 Q19.989,199.2004 20.4926,199.9847 Q20.9961,200.769 21.9849,200.769 Q22.4487,200.769 22.8851,200.5707 Q23.3215,200.3723 23.7854,199.9451 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="145.8333" x="38.5417" y="202.2461">LatitudeGsonSerializer</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="189.5833" y1="213.2161" y2="213.2161"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="189.5833" y1="221.5495" y2="221.5495"/><!--MD5=[fe2b6f65acb06c737df5e4b636b5a46a]
+class LocationGsonSerializer--><rect codeLine="28" fill="#282828" height="48.055" id="LocationGsonSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="185.4167" x="227.0833" y="181.8278"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="185.4167" x="227.0833" y="181.8278"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="185.4167" x="227.0833" y="204.8828"/><rect codeLine="28" fill="none" height="48.055" id="LocationGsonSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="185.4167" x="227.0833" y="181.8278"/><ellipse cx="241.6667" cy="197.522" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M243.5771,201.947 Q243.1498,202.1667 242.6799,202.2766 Q242.2099,202.3865 241.6911,202.3865 Q239.8478,202.3865 238.8774,201.1719 Q237.9069,199.9573 237.9069,197.6624 Q237.9069,195.3613 238.8774,194.1467 Q239.8478,192.9321 241.6911,192.9321 Q242.2099,192.9321 242.686,193.042 Q243.162,193.1519 243.5771,193.3716 L243.5771,195.3735 Q243.1132,194.9463 242.6768,194.7479 Q242.2404,194.5496 241.7765,194.5496 Q240.7878,194.5496 240.2842,195.3339 Q239.7807,196.1182 239.7807,197.6624 Q239.7807,199.2004 240.2842,199.9847 Q240.7878,200.769 241.7765,200.769 Q242.2404,200.769 242.6768,200.5707 Q243.1132,200.3723 243.5771,199.9451 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="147.9167" x="258.3333" y="202.2461">LocationGsonSerializer</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="228.125" x2="411.4583" y1="213.2161" y2="213.2161"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="228.125" x2="411.4583" y1="221.5495" y2="221.5495"/><!--MD5=[0f6757cb6984050d8022a1c534440337]
+class LongitudeGsonSerializer--><rect codeLine="33" fill="#282828" height="48.055" id="LongitudeGsonSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="195.8333" x="448.9583" y="181.8278"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="195.8333" x="448.9583" y="181.8278"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="195.8333" x="448.9583" y="204.8828"/><rect codeLine="33" fill="none" height="48.055" id="LongitudeGsonSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="195.8333" x="448.9583" y="181.8278"/><ellipse cx="463.5417" cy="197.522" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M465.4521,201.947 Q465.0248,202.1667 464.5549,202.2766 Q464.0849,202.3865 463.5661,202.3865 Q461.7228,202.3865 460.7524,201.1719 Q459.7819,199.9573 459.7819,197.6624 Q459.7819,195.3613 460.7524,194.1467 Q461.7228,192.9321 463.5661,192.9321 Q464.0849,192.9321 464.561,193.042 Q465.037,193.1519 465.4521,193.3716 L465.4521,195.3735 Q464.9882,194.9463 464.5518,194.7479 Q464.1154,194.5496 463.6515,194.5496 Q462.6628,194.5496 462.1592,195.3339 Q461.6557,196.1182 461.6557,197.6624 Q461.6557,199.2004 462.1592,199.9847 Q462.6628,200.769 463.6515,200.769 Q464.1154,200.769 464.5518,200.5707 Q464.9882,200.3723 465.4521,199.9451 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="158.3333" x="480.2083" y="202.2461">LongitudeGsonSerializer</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="450" x2="643.75" y1="213.2161" y2="213.2161"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="450" x2="643.75" y1="221.5495" y2="221.5495"/><!--MD5=[e34c84dc210682e6c89621bc0d57f2dd]
+class RectangleGsonSerializer--><rect codeLine="38" fill="#282828" height="83.3781" id="RectangleGsonSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="192.7083" x="1426.5625" y="164.1195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="192.7083" x="1426.5625" y="164.1195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="192.7083" x="1426.5625" y="187.1745"/><rect codeLine="38" fill="none" height="83.3781" id="RectangleGsonSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="192.7083" x="1426.5625" y="164.1195"/><ellipse cx="1441.1458" cy="179.8136" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1443.0562,184.2387 Q1442.629,184.4584 1442.159,184.5683 Q1441.689,184.6781 1441.1702,184.6781 Q1439.327,184.6781 1438.3565,183.4635 Q1437.3861,182.2489 1437.3861,179.954 Q1437.3861,177.653 1438.3565,176.4384 Q1439.327,175.2238 1441.1702,175.2238 Q1441.689,175.2238 1442.1651,175.3337 Q1442.6412,175.4435 1443.0562,175.6632 L1443.0562,177.6652 Q1442.5924,177.238 1442.156,177.0396 Q1441.7196,176.8412 1441.2557,176.8412 Q1440.2669,176.8412 1439.7634,177.6255 Q1439.2598,178.4098 1439.2598,179.954 Q1439.2598,181.4921 1439.7634,182.2764 Q1440.2669,183.0607 1441.2557,183.0607 Q1441.7196,183.0607 1442.156,182.8623 Q1442.5924,182.664 1443.0562,182.2367 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="155.2083" x="1457.8125" y="184.5378">RectangleGsonSerializer</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1427.6042" x2="1618.2292" y1="195.5078" y2="195.5078"/><ellipse cx="1438.0208" cy="230.8777" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="142.7083" x="1449.4792" y="237.7889">RectangleGsonSerializer()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1427.6042" x2="1479.1667" y1="213.7136" y2="213.7136"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="1482.2917" y="217.5232">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1566.6667" x2="1618.2292" y1="213.7136" y2="213.7136"/><!--MD5=[e584c94a96b01cac02128707f9ee7543]
+class RectangleInDegreesGsonSerializer--><rect codeLine="45" fill="#282828" height="48.055" id="RectangleInDegreesGsonSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="258.3333" x="681.25" y="181.8278"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="258.3333" x="681.25" y="181.8278"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="258.3333" x="681.25" y="204.8828"/><rect codeLine="45" fill="none" height="48.055" id="RectangleInDegreesGsonSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="258.3333" x="681.25" y="181.8278"/><ellipse cx="695.8333" cy="197.522" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M697.7437,201.947 Q697.3165,202.1667 696.8465,202.2766 Q696.3765,202.3865 695.8577,202.3865 Q694.0145,202.3865 693.044,201.1719 Q692.0736,199.9573 692.0736,197.6624 Q692.0736,195.3613 693.044,194.1467 Q694.0145,192.9321 695.8577,192.9321 Q696.3765,192.9321 696.8526,193.042 Q697.3287,193.1519 697.7437,193.3716 L697.7437,195.3735 Q697.2799,194.9463 696.8435,194.7479 Q696.4071,194.5496 695.9432,194.5496 Q694.9544,194.5496 694.4509,195.3339 Q693.9473,196.1182 693.9473,197.6624 Q693.9473,199.2004 694.4509,199.9847 Q694.9544,200.769 695.9432,200.769 Q696.4071,200.769 696.8435,200.5707 Q697.2799,200.3723 697.7437,199.9451 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="220.8333" x="712.5" y="202.2461">RectangleInDegreesGsonSerializer</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="682.2917" x2="938.5417" y1="213.2161" y2="213.2161"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="682.2917" x2="938.5417" y1="221.5495" y2="221.5495"/><!--MD5=[2da5773a760df11e0c650bc810021280]
+class SpeedCategoryGsonSerializer--><rect codeLine="50" fill="#282828" height="83.3781" id="SpeedCategoryGsonSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="227.0833" x="1656.25" y="164.1195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="227.0833" x="1656.25" y="164.1195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="227.0833" x="1656.25" y="187.1745"/><rect codeLine="50" fill="none" height="83.3781" id="SpeedCategoryGsonSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="227.0833" x="1656.25" y="164.1195"/><ellipse cx="1670.8333" cy="179.8136" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1672.7437,184.2387 Q1672.3165,184.4584 1671.8465,184.5683 Q1671.3765,184.6781 1670.8577,184.6781 Q1669.0145,184.6781 1668.044,183.4635 Q1667.0736,182.2489 1667.0736,179.954 Q1667.0736,177.653 1668.044,176.4384 Q1669.0145,175.2238 1670.8577,175.2238 Q1671.3765,175.2238 1671.8526,175.3337 Q1672.3287,175.4435 1672.7437,175.6632 L1672.7437,177.6652 Q1672.2799,177.238 1671.8435,177.0396 Q1671.4071,176.8412 1670.9432,176.8412 Q1669.9544,176.8412 1669.4509,177.6255 Q1668.9473,178.4098 1668.9473,179.954 Q1668.9473,181.4921 1669.4509,182.2764 Q1669.9544,183.0607 1670.9432,183.0607 Q1671.4071,183.0607 1671.8435,182.8623 Q1672.2799,182.664 1672.7437,182.2367 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="189.5833" x="1687.5" y="184.5378">SpeedCategoryGsonSerializer</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1657.2917" x2="1882.2917" y1="195.5078" y2="195.5078"/><ellipse cx="1667.7083" cy="230.8777" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="172.9167" x="1679.1667" y="237.7889">SpeedCategoryGsonSerializer()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1657.2917" x2="1726.0417" y1="213.7136" y2="213.7136"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="1729.1667" y="217.5232">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1813.5417" x2="1882.2917" y1="213.7136" y2="213.7136"/><!--MD5=[ca80b092cba997068c2fdfbbab0c9a29]
+reverse link PrimitiveGsonSerializer to DistanceGsonSerializer--><path codeLine="8" d="M1326.7813,109.0674 C1277.5313,127.4007 1214.6042,150.8278 1163.3333,169.9215 " fill="none" id="PrimitiveGsonSerializer-backto-DistanceGsonSerializer" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1324.5625,102.109,1346.6354,101.6715,1329.6563,115.7757,1324.5625,102.109" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[c25bf3a3f6aa21ef37eb2550bff39c1e]
+reverse link PrimitiveGsonSerializer to IdentifierGsonSerializer--><path codeLine="15" d="M1373.5,117.3695 C1360.2188,132.1195 1345.0313,148.9736 1331.5625,163.9215 " fill="none" id="PrimitiveGsonSerializer-backto-IdentifierGsonSerializer" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1368.1458,112.4215,1387.5104,101.8174,1378.9792,122.182,1368.1458,112.4215" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[916383c628ccc85cdd123024cca31599]
+reverse link JsonSerializerDeserializer to LatitudeGsonSerializer--><path codeLine="22" d="M352.6979,109.0986 C293.3229,131.4736 213.8438,161.4424 159.7604,181.8278 " fill="none" id="JsonSerializerDeserializer-backto-LatitudeGsonSerializer" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="350.3229,102.2028,372.3958,101.6715,355.4688,115.8486,350.3229,102.2028" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[16fff5d5dfdbc2c5a99b14ac4ef3318f]
+reverse link JsonSerializerDeserializer to LocationGsonSerializer--><path codeLine="27" d="M398.3229,117.5674 C379.375,138.5986 356.6146,163.8695 340.4896,181.7757 " fill="none" id="JsonSerializerDeserializer-backto-LocationGsonSerializer" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="393.1458,112.4215,412.5104,101.8174,403.9792,122.182,393.1458,112.4215" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[c046f7b8ca7911737eca9d1ed44471de]
+reverse link JsonSerializerDeserializer to LongitudeGsonSerializer--><path codeLine="32" d="M468.3438,117.5674 C487.2917,138.5986 510.0521,163.8695 526.1771,181.7757 " fill="none" id="JsonSerializerDeserializer-backto-LongitudeGsonSerializer" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="462.6875,122.182,454.1563,101.8174,473.5208,112.4215,462.6875,122.182" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[6d42ff7b0dcffe2876ac67ffa1aa1f5d]
+reverse link PrimitiveGsonSerializer to RectangleGsonSerializer--><path codeLine="37" d="M1443.4792,117.3695 C1456.8958,132.1195 1472.2188,148.9736 1485.8021,163.9215 " fill="none" id="PrimitiveGsonSerializer-backto-RectangleGsonSerializer" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1437.9688,122.1403,1429.3542,101.8174,1448.7604,112.3278,1437.9688,122.1403" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[d0188e2fa3354c65c8269f625642029b]
+reverse link JsonSerializerDeserializer to RectangleInDegreesGsonSerializer--><path codeLine="44" d="M522.0833,108.3695 C589.2708,130.8278 680.1979,161.2132 741.8438,181.8278 " fill="none" id="JsonSerializerDeserializer-backto-RectangleInDegreesGsonSerializer" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="519.5,115.1924,502.0625,101.6715,524.125,101.359,519.5,115.1924" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[aa38538b737a0739facc8c0b8d6ae627]
+reverse link PrimitiveGsonSerializer to SpeedCategoryGsonSerializer--><path codeLine="49" d="M1494.125,108.6195 C1542.5625,125.5049 1603.6875,146.8278 1656.0729,165.0882 " fill="none" id="PrimitiveGsonSerializer-backto-SpeedCategoryGsonSerializer" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1491.4792,115.4215,1474.2083,101.6715,1496.2813,101.6507,1491.4792,115.4215" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[68cd42c726aba1866249d2c44d035196]
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.serialization.json.serializers"
+    
+    interface JsonSerializerDeserializer
+    
+    PrimitiveGsonSerializer <|- - DistanceGsonSerializer
+    class DistanceGsonSerializer
+    {
+        - -(constructors)- -
+        +DistanceGsonSerializer()
+    }
+    
+    PrimitiveGsonSerializer <|- - IdentifierGsonSerializer
+    class IdentifierGsonSerializer
+    {
+        - -(constructors)- -
+        +IdentifierGsonSerializer()
+    }
+    
+    JsonSerializerDeserializer <|- - LatitudeGsonSerializer
+    class LatitudeGsonSerializer
+    {
+    }
+    
+    JsonSerializerDeserializer <|- - LocationGsonSerializer
+    class LocationGsonSerializer
+    {
+    }
+    
+    JsonSerializerDeserializer <|- - LongitudeGsonSerializer
+    class LongitudeGsonSerializer
+    {
+    }
+    
+    PrimitiveGsonSerializer <|- - RectangleGsonSerializer
+    class RectangleGsonSerializer
+    {
+        - -(constructors)- -
+        +RectangleGsonSerializer()
+    }
+    
+    JsonSerializerDeserializer <|- - RectangleInDegreesGsonSerializer
+    class RectangleInDegreesGsonSerializer
+    {
+    }
+    
+    PrimitiveGsonSerializer <|- - SpeedCategoryGsonSerializer
+    class SpeedCategoryGsonSerializer
+    {
+        - -(constructors)- -
+        +SpeedCategoryGsonSerializer()
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.mesakit.serialization.json.serializers"
+    
+    interface JsonSerializerDeserializer
+    
+    PrimitiveGsonSerializer <|- - DistanceGsonSerializer
+    class DistanceGsonSerializer
+    {
+        - -(constructors)- -
+        +DistanceGsonSerializer()
+    }
+    
+    PrimitiveGsonSerializer <|- - IdentifierGsonSerializer
+    class IdentifierGsonSerializer
+    {
+        - -(constructors)- -
+        +IdentifierGsonSerializer()
+    }
+    
+    JsonSerializerDeserializer <|- - LatitudeGsonSerializer
+    class LatitudeGsonSerializer
+    {
+    }
+    
+    JsonSerializerDeserializer <|- - LocationGsonSerializer
+    class LocationGsonSerializer
+    {
+    }
+    
+    JsonSerializerDeserializer <|- - LongitudeGsonSerializer
+    class LongitudeGsonSerializer
+    {
+    }
+    
+    PrimitiveGsonSerializer <|- - RectangleGsonSerializer
+    class RectangleGsonSerializer
+    {
+        - -(constructors)- -
+        +RectangleGsonSerializer()
+    }
+    
+    JsonSerializerDeserializer <|- - RectangleInDegreesGsonSerializer
+    class RectangleInDegreesGsonSerializer
+    {
+    }
+    
+    PrimitiveGsonSerializer <|- - SpeedCategoryGsonSerializer
+    class SpeedCategoryGsonSerializer
+    {
+        - -(constructors)- -
+        +SpeedCategoryGsonSerializer()
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 00:55:08 MST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

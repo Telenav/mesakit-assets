@@ -1,0 +1,30 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.osm.graph.edge.model"
+    
+    Edge <|-- OsmEdge
+    class OsmEdge
+    {
+        --(constructors)--
+        +OsmEdge(Graph, EdgeIdentifier)
+        +OsmEdge(Graph, long)
+        +OsmEdge(Graph, long, int)
+        --(primitive)--
+        +boolean computeDoubleDigitized(Angle maximumHeadingDeviation)
+    }
+    
+    HeavyWeightEdge <|-- OsmHeavyWeightEdge
+    class OsmHeavyWeightEdge
+    {
+        --(constructors)--
+        +OsmHeavyWeightEdge(Graph, long)
+        +OsmHeavyWeightEdge(HeavyWeightEdge)
+        --(primitive)--
+        +Boolean isKnownDoubleDigitized()
+        +void knownDoubleDigitized(Boolean isDoubleDigitized)
+    }
+    
+@enduml
+

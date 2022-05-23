@@ -1,0 +1,15 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.tools.applications.pbf.metadata"
+    
+    Application <|-- PbfMetadataApplication
+    class PbfMetadataApplication
+    {
+        --
+        +void main(String[] arguments)
+    }
+    
+@enduml
+

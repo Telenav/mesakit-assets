@@ -1,0 +1,22 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.ui.desktop.graphics.style"
+    
+    Stroke <|-- MapStroke
+    class MapStroke
+    {
+        --(constructors)--
+        #MapStroke()
+        #MapStroke(MapStroke)
+        --
+        +void apply(Graphics2D, MapCanvas)
+        --(collection)--
+        +MapStroke stroke()
+        +MapStroke stroke(Distance width)
+        +MapStroke withWidth(Distance width)
+    }
+    
+@enduml
+

@@ -1,0 +1,24 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.plugins.josm.graph"
+    
+    abstract BaseJosmPlugin
+    
+    FileImporter <|-- GraphFileImporter
+    class GraphFileImporter
+    {
+        --(constructors)--
+        +GraphFileImporter(GraphPlugin)
+    }
+    
+    BaseJosmPlugin <|-- GraphPlugin
+    class GraphPlugin
+    {
+        --(constructors)--
+        +GraphPlugin(PluginInformation)
+    }
+    
+@enduml
+

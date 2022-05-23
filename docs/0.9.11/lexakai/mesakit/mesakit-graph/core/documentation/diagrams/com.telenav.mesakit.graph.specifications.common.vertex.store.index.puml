@@ -1,0 +1,15 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.common.vertex.store.index"
+    
+    GraphElementSpatialIndex <|-- VertexSpatialIndex
+    class VertexSpatialIndex
+    {
+        --(constructors)--
+        +VertexSpatialIndex(Graph, Count)
+    }
+    
+@enduml
+

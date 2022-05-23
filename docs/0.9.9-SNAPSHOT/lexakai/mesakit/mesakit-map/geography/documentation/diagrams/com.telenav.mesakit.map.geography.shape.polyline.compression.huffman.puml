@@ -1,0 +1,45 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.geography.shape.polyline.compression.huffman"
+    
+    abstract BaseComponent
+    
+    interface CompressibleCollection
+    
+    Polyline <|-- HuffmanPolyline
+    CompressibleCollection <|-- HuffmanPolyline
+    class HuffmanPolyline
+    {
+        --(constructors)--
+        #HuffmanPolyline()
+        +HuffmanPolyline(ByteList)
+        +HuffmanPolyline(Polyline)
+        --
+        +Polyline decompress()
+        --(primitive)--
+        +ByteList asBytes()
+    }
+    
+    BaseComponent <|-- HuffmanPolylineCodec
+    class HuffmanPolylineCodec
+    {
+        --(constructors)--
+        +HuffmanPolylineCodec()
+        --
+        +long[] decode(ByteList input)
+        +void encode(ByteArray output, Polyline)
+    }
+    
+    GeographyUnitTest <|-- HuffmanPolylineTest
+    class HuffmanPolylineTest
+    {
+        --
+        +void testCompression()
+        +void testDecompress()
+        +void testSegment()
+    }
+    
+@enduml
+

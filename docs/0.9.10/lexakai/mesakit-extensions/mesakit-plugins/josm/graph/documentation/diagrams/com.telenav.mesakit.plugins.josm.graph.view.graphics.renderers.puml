@@ -1,0 +1,106 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.plugins.josm.graph.view.graphics.renderers"
+    
+    Renderer <|-- DebugAnnotationRenderer
+    class DebugAnnotationRenderer
+    {
+        --(constructors)--
+        +DebugAnnotationRenderer(MapCanvas, ViewModel)
+        --
+        +void drawAnnotations()
+    }
+    
+    Renderer <|-- EdgeLabelRenderer
+    class EdgeLabelRenderer
+    {
+        --(constructors)--
+        +EdgeLabelRenderer(MapCanvas, ViewModel)
+        --
+        +void draw(Selection.Type)
+    }
+    
+    Renderer <|-- EdgeRenderer
+    class EdgeRenderer
+    {
+        --(constructors)--
+        +EdgeRenderer(MapCanvas, ViewModel)
+        --
+        +void draw(Selection.Type)
+    }
+    
+    enum VisibleEdges.Mode
+    {
+        EDGES
+        RELATIONS
+    }
+    
+    class PlaceRenderer
+    {
+        --(constructors)--
+        +PlaceRenderer(MapCanvas, ViewModel)
+        --
+        +void draw(Selection.Type)
+    }
+    
+    class PolylineRenderer
+    {
+        --(constructors)--
+        +PolylineRenderer(MapCanvas, ViewModel)
+        --
+        +void draw(Polyline)
+        +void draw(Polyline, Style)
+        +void drawSelectedPolylines()
+    }
+    
+    class RelationRenderer
+    {
+        --(constructors)--
+        +RelationRenderer(MapCanvas, ViewModel)
+        --
+        +void draw(Selection.Type)
+    }
+    
+    abstract class Renderer
+    {
+        --(constructors)--
+        #Renderer(MapCanvas, ViewModel)
+        --
+        #void callout(Location, MapDot, Style, String text)
+        #ViewModel model()
+        --(checks)--
+        #boolean isVisible(Edge)
+        --(collection)--
+        #MapCanvas canvas()
+    }
+    
+    class ShapePointRenderer
+    {
+        --(constructors)--
+        +ShapePointRenderer(MapCanvas, ViewModel)
+        --
+        +void draw(Edge)
+    }
+    
+    class VertexRenderer
+    {
+        --(constructors)--
+        +VertexRenderer(MapCanvas, ViewModel)
+        --
+        +void draw(Selection.Type)
+        +void draw(Edge selected)
+    }
+    
+    class VisibleEdges
+    {
+        --(constructors)--
+        +VisibleEdges(MapCanvas, ViewModel, Mode)
+        --
+        +EdgeSet edges()
+        +EdgeSet edges(Selection.Type)
+    }
+    
+@enduml
+

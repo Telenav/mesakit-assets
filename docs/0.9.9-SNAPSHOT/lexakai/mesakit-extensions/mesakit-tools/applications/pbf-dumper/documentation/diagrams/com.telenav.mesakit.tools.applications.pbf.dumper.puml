@@ -1,0 +1,15 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.tools.applications.pbf.dumper"
+    
+    Application <|-- PbfDumperApplication
+    class PbfDumperApplication
+    {
+        --
+        +void main(String[] arguments)
+    }
+    
+@enduml
+

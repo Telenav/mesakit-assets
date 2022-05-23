@@ -1,0 +1,116 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.plugins.josm.graph.model"
+    
+    enum VisibleEdges.Mode
+    {
+        EDGES
+        RELATIONS
+    }
+    
+    class Selection
+    {
+        --
+        +void highlight(EdgeSet)
+        +boolean is(Type, Place)
+        +boolean is(Type, EdgeRelation)
+        +boolean is(Edge, Type)
+        +boolean is(Type, Polyline)
+        +Place placeForPoint(Point2D)
+        +GraphElement previous()
+        +boolean sameEdgeStack(List<Edge> edges)
+        +boolean sameRelationStack(List<EdgeRelation> relations)
+        +boolean sameVertexStack(List<Vertex> vertexes)
+        +EdgeRelation select(EdgeRelation selectedEdgeRelation)
+        +void select(Set<Polyline> polylines)
+        +void select(ShapePoint selectedShapePoint)
+        +void select(Polyline)
+        +void select(Place selectedPlace)
+        +Edge select(Edge)
+        +void select(Layer selectedLayer)
+        +Vertex select(Vertex selectedVertex)
+        +void selectedEdgeStack(List<Edge> edges)
+        +Set<Polyline> selectedPolylines()
+        +void selectedRelationStack(List<EdgeRelation> relations)
+        +void selectedVertexStack(List<Vertex> vertexes)
+        +void shape(EdgeRelation, Shape)
+        +void shape(Edge, Shape)
+        +void shape(Place, Shape)
+        +Shape shape(Edge)
+        +void shape(ShapePoint, Shape)
+        +void shape(Vertex, Shape)
+        +ShapePoint shapePointForPoint(Graph, Point2D)
+        --(checks)--
+        +boolean isHighlighted(Edge)
+        +boolean isSelected(EdgeRelation)
+        +boolean isSelected(Place)
+        +boolean isSelected(Vertex)
+        +boolean isSelected(Layer)
+        +boolean isSelected(ShapePoint)
+        +boolean isSelected(Polyline)
+        +boolean isSelected(Edge)
+        --(collection)--
+        +void clear()
+        +void clearPolylines()
+        +void clearShapes()
+        +List<Edge> edgesForPoint(MapCanvas, Graph, DrawingPoint, boolean snapToNearby)
+        +List<EdgeRelation> relationsForPoint(Point2D)
+        +List<Vertex> vertexesForPoint(Point2D)
+        --(functional)--
+        +EdgeSet highlightedEdges()
+        +Edge selectedEdge()
+        +EdgeRelation selectedRelation()
+        +ShapePoint selectedShapePoint()
+        +Vertex selectedVertex()
+        --(iteration)--
+        +GraphElement next()
+    }
+    
+    enum Selection.Type
+    {
+        HIGHLIGHTED
+        INACTIVE
+        RESTRICTED
+        SELECTED
+        UNSELECTED
+    }
+    
+    class ViewModel
+    {
+        --(constructors)--
+        +ViewModel(GraphPanel)
+        --
+        +void activeLayer(boolean activeLayer)
+        +Rectangle bounds()
+        +void bounds(Rectangle bounds)
+        +void debug(boolean debug)
+        +boolean debug()
+        +void drawn(Rectangle2D drawn)
+        +EdgeSequence forwardEdges(Matcher<Edge>)
+        +void graph(Graph)
+        +Graph graph()
+        +GraphPanel graphPanel()
+        +boolean intersectsDrawnRectangle(Rectangle2D)
+        +Selection selection()
+        +void visibleEdges(VisibleEdges)
+        +VisibleEdges visibleEdges()
+        --(checks)--
+        +boolean isActiveLayer()
+        +boolean isWorldGraph()
+        --(collection)--
+        +void clearDrawnRectangles()
+    }
+    
+    class VisibleEdges
+    {
+        --(constructors)--
+        +VisibleEdges(MapCanvas, ViewModel, Mode)
+        --
+        +EdgeSet edges()
+        +EdgeSet edges(Selection.Type)
+    }
+    
+@enduml
+

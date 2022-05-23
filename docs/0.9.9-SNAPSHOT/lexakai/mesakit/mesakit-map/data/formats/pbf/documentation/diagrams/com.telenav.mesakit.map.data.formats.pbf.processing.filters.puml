@@ -1,0 +1,68 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.data.formats.pbf.processing.filters"
+    
+    abstract BaseStringConverter
+    
+    interface Filter
+    
+    BaseStringConverter <|-- WayFilter.Converter
+    class WayFilter.Converter
+    {
+        --(constructors)--
+        +Converter(Listener)
+    }
+    
+    BaseStringConverter <|-- RelationFilter.Converter
+    class RelationFilter.Converter
+    {
+        --(constructors)--
+        +Converter(Listener)
+    }
+    
+    class PbfFilters
+    {
+        --(read)--
+        +void loadAll()
+    }
+    
+    Filter <|-- RelationFilter
+    class RelationFilter
+    {
+        --(constructors)--
+        +RelationFilter(String, String)
+        --
+        +String description()
+        --(filtering)--
+        +void exclude(String type)
+        +RelationFilter forName(String name)
+        +void include(String type)
+        +SwitchParser.Builder<RelationFilter> relationFilterSwitchParser(Listener)
+        +SwitchParser.Builder<RelationFilter> relationFilterSwitchParser(Listener, String name, String description)
+        #boolean isExcluded(PbfRelation)
+        #boolean isIncluded(PbfRelation)
+    }
+    
+    Filter <|-- WayFilter
+    class WayFilter
+    {
+        --(constructors)--
+        +WayFilter(String, String)
+        --
+        +String description()
+        --(filtering)--
+        +void exclude(String highway)
+        +WayFilter exclude(String name, Resource)
+        +WayFilter forName(String name)
+        +void include(String highway)
+        +WayFilter include(String name, Resource)
+        +SwitchParser.Builder<WayFilter> wayFilterSwitchParser(Listener, String name, String description)
+        +SwitchParser.Builder<WayFilter> wayFilterSwitchParser(Listener)
+        #boolean isExcluded(PbfWay)
+        #boolean isIncluded(PbfWay)
+    }
+    
+@enduml
+

@@ -1,0 +1,36 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.query.program.expressions.terminal"
+    
+    interface BooleanExpression
+    
+    Node <|-- Compare
+    BooleanExpression <|-- Compare
+    class Compare
+    {
+        --(constructors)--
+        +Compare(Type, ValueExpression, ValueExpression)
+    }
+    
+    Node <|-- Contains
+    BooleanExpression <|-- Contains
+    class Contains
+    {
+        --(constructors)--
+        +Contains(ValueExpression, ValueExpression)
+    }
+    
+    enum Compare.Type
+    {
+        EQUAL
+        GREATER_THAN
+        GREATER_THAN_OR_EQUAL
+        LESS_THAN
+        LESS_THAN_OR_EQUAL
+        NOT_EQUAL
+    }
+    
+@enduml
+

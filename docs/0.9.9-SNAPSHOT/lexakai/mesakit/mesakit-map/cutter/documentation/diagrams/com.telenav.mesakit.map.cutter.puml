@@ -1,0 +1,38 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.cutter"
+    
+    abstract class Cut
+    {
+        --(constructors)--
+        #Cut(PbfRegionCutter)
+        --
+        +Set<Resource> cut()
+    }
+    
+    PbfRegionCutter --> Cut : "cuts with"
+    PbfRegionCutter o-- WayFilter : "filters ways with"
+    PbfRegionCutter o-- RegionSet : "regions to extract"
+    class PbfRegionCutter
+    {
+        --(constructors)--
+        +PbfRegionCutter(Source<PbfDataSource>, Folder, WayFilter)
+        --
+        +void regionsToExtract(RegionSet regionsToExtract)
+        --cutting--
+        +ResourceList cut()
+    }
+    
+    Project <|-- PbfRegionCutterProject
+    class PbfRegionCutterProject
+    {
+        --(constructors)--
+        #PbfRegionCutterProject()
+        --
+        +PbfRegionCutterProject get()
+    }
+    
+@enduml
+

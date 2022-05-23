@@ -1,0 +1,24 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.common"
+    
+    DataSpecification <|-- CommonDataSpecification
+    class CommonDataSpecification
+    {
+        --(constructors)--
+        #CommonDataSpecification()
+        --
+        +CommonDataSpecification get()
+    }
+    
+    Graph <|-- CommonGraph
+    class CommonGraph
+    {
+        --(constructors)--
+        +CommonGraph(Metadata)
+    }
+    
+@enduml
+

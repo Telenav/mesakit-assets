@@ -1,0 +1,1061 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph"
+    
+    abstract BaseValidator
+    abstract BaseRepeater
+    abstract BaseStringConverter
+    
+    interface Named
+    interface Comparable
+    interface Serializable
+    interface LocationSequence
+    interface Iterable
+    interface Road
+    interface Validatable
+    interface KryoSerializable
+    interface Bounded
+    interface LongKeyed
+    interface Located
+    interface Intersectable
+    interface AsIndentedString
+    interface Indexed
+    interface Stringable
+    
+    Route <|-- Route.ConcatenatedRoute
+    class Route.ConcatenatedRoute
+    {
+    }
+    
+    BaseStringConverter <|-- Vertex.Converter
+    class Vertex.Converter
+    {
+        --(constructors)--
+        +Converter(Graph, Listener)
+    }
+    
+    BaseStringConverter <|-- Route.Converter
+    class Route.Converter
+    {
+        --(constructors)--
+        +Converter(Graph, Separators, Listener)
+        +Converter(Graph, Separators, Listener, Edge.Converter)
+    }
+    
+    BaseStringConverter <|-- Metadata.Converter
+    class Metadata.Converter
+    {
+        --(constructors)--
+        +Converter(Listener)
+    }
+    
+    BaseStringConverter <|-- Edge.Converter
+    class Edge.Converter
+    {
+        --(constructors)--
+        +Converter(Graph, Listener)
+    }
+    
+    BaseStringConverter <|-- EdgeRelation.Converter
+    class EdgeRelation.Converter
+    {
+        --(constructors)--
+        +Converter(Graph, Listener)
+    }
+    
+    enum Metadata.CountType
+    {
+        ALLOW_ESTIMATE
+        REQUIRE_EXACT
+    }
+    
+    GraphElement <|-- Edge
+    Bounded <|-- Edge
+    Intersectable <|-- Edge
+    Road <|-- Edge
+    LocationSequence <|-- Edge
+    abstract class Edge
+    {
+        --(constructors)--
+        #Edge(Edge)
+        #Edge(Graph, EdgeIdentifier)
+        #Edge(Graph, long)
+        #Edge(Graph, long, int)
+        --
+        +BridgeType bridgeType()
+        +Continent continent()
+        +Country country()
+        +County county()
+        +boolean crosses(Edge that)
+        +Differences differencesFrom(Edge that)
+        +Distance distanceTo(Edge that)
+        +boolean entersRoundabout()
+        +Edge forward()
+        +Speed freeFlowForFunctionalClass()
+        +SpeedCategory freeFlowSpeed()
+        +EdgeSet fromEdgesWithoutThisEdge()
+        +GradeSeparation fromGradeSeparation()
+        +Location fromLocation()
+        +Edge hardestLeft(Angle tolerance)
+        +Edge hardestRight(Angle tolerance)
+        +EdgeSequence inEdgeSequence()
+        +EdgeSet inEdges()
+        +Route inRoute(Navigator, RouteLimiter)
+        +boolean leadsTo(Edge that)
+        +boolean leadsTo(Route that)
+        +boolean leadsToFork()
+        +MetropolitanArea metropolitanArea()
+        +Edge mostStraightOn(Angle tolerance)
+        +EdgeSet nearbyEdges(Distance range, Matcher<Edge>)
+        +Route nonBranchingRoute(Maximum maximumEdges)
+        +Vertex oppositeVertex(Vertex)
+        +boolean osmIsDestinationTagged()
+        +boolean osmIsLink()
+        +boolean osmIsMotorwayJunctionReferenceTagged()
+        +boolean osmIsOneWay()
+        +boolean osmIsProposed()
+        +boolean osmIsRoundabout()
+        +EdgeSet otherEdges(Vertex)
+        +EdgeSequence outEdgeSequence()
+        +EdgeSet outEdges()
+        +Route outRoute(Navigator, RouteLimiter)
+        +Edge previous()
+        +Set<EdgeRelation> relations()
+        +Edge reverse()
+        +RoadSurface roadSurface()
+        +Route route(Navigator, RouteLimiter)
+        +Route route(Navigator, Maximum)
+        +Route route(Matcher<Edge>)
+        +Route route(Navigator, Distance maximum)
+        +Set<SignPostSupport> signPostSupport()
+        +Speed speedLimit()
+        +State state()
+        +boolean supportsNodeIdentifiers()
+        +Set<EdgeRelation> turnRestrictions()
+        +Set<EdgeRelation> turnRestrictionsBeginningAt()
+        +TurnType turnType(Edge that)
+        +TurnType turnType(Edge that, TwoHeadingTurnClassifier)
+        +Type type()
+        +Vertex vertexConnecting(Edge that)
+        +Route wayAsRoute()
+        --(angle)--
+        +Heading finalHeading()
+        +Heading heading()
+        +Heading initialHeading()
+        +Angle leftTurnAngleTo(Edge that)
+        +Angle rightTurnAngleTo(Edge that)
+        +Angle straightOnTurnAngleTo(Edge that)
+        +Angle turnAngleTo(Edge that, Chirality)
+        --(checks)--
+        +boolean hasRoadName()
+        +boolean hasSameRoadNameAs(Edge that)
+        +boolean hasSameStandardizedBaseNameAs(Edge that)
+        +boolean isClipped()
+        +boolean isClosedToThroughTraffic()
+        +boolean isConnectedTo(Vertex)
+        +boolean isConnectedTo(Edge that)
+        +boolean isConnector()
+        +boolean isDrivable()
+        +boolean isForward()
+        +boolean isForwardOrReverseOf(Edge that)
+        +boolean isIntersectionEdge()
+        +boolean isJoiningEdge()
+        +boolean isJunctionEdge()
+        +boolean isLink()
+        +boolean isLoop()
+        +boolean isMainRoad()
+        +boolean isMoreImportantThan(Edge that)
+        +boolean isNamed()
+        +boolean isNameless()
+        +boolean isNavigable(TransportMode)
+        +boolean isNormal()
+        +boolean isOffRamp()
+        +boolean isOnRamp()
+        +boolean isOnSameRoadAs(Edge that)
+        +boolean isOnSameRoadWithSameTypeAs(Edge that)
+        +boolean isOnSameWay(Edge that)
+        +boolean isOneWay()
+        +boolean isParallelTo(Edge that)
+        +boolean isPerpendicularTo(Edge that)
+        +boolean isRamp()
+        +boolean isReverse()
+        +boolean isRoundabout()
+        +boolean isRoutingShortCut()
+        +boolean isSameFunctionalClassAs(Edge that)
+        +boolean isSegment()
+        +boolean isShaped()
+        +boolean isSoftCut()
+        +boolean isTollRoad()
+        +boolean isTwoWay()
+        +boolean isUnderConstruction()
+        --(collection)--
+        +MapWayIdentifier directionalWayIdentifier()
+        +Segment firstSegment()
+        +MapNodeIdentifier fromNodeIdentifier()
+        +Count hovLaneCount()
+        +Segment lastSegment()
+        +MapLocale locale()
+        +MapEdgeIdentifier mapEdgeIdentifier()
+        +MapWay mapWay()
+        +void populateWithTestValues()
+        +List<RoadName> roadNames(RoadName.Type)
+        +List<MapNodeIdentifier> shapePointNodeIdentifiers()
+        +List<ShapePoint> shapePoints()
+        +List<ShapePoint> shapePointsWithoutVertexes()
+        +MapNodeIdentifier toNodeIdentifier()
+        --(conversion)--
+        +Segment asSegment()
+        +EdgeSet toEdgesWithoutThisEdge()
+        +GradeSeparation toGradeSeparation()
+        +Location toLocation()
+        +long toLocationAsLong()
+        +VertexIdentifier toVertexIdentifier()
+        --(distance)--
+        +long lengthInMillimeters()
+        --(functional)--
+        +EdgeSet connectedEdges()
+        +EdgeSet connectedEdgesWithoutReversed()
+        +EdgeSet inEdgesWithoutReversed()
+        +EdgeSet outEdgesWithoutReversed()
+        --(identity)--
+        +VertexIdentifier fromVertexIdentifier()
+        +EdgeIdentifier rawIdentifier()
+        --(iteration)--
+        +Edge next()
+        --(lifecycle)--
+        +Vertex endNearestTo(Located)
+        +boolean leadsToDeadEnd()
+        +boolean osmIsExitToTagged()
+        --(matching)--
+        +Matcher<Edge> intersecting(Rectangle bounds)
+        +Matcher<Edge> within(Rectangle bounds)
+        --(naming)--
+        +String displayRoadName()
+        +Route nonBranchingRouteWithSameName(Maximum extensionNumber)
+        +Set<RoadName> roadNames()
+        +String safeRoadName()
+        --(primitive)--
+        +long fromLocationAsLong()
+        +boolean osmCouldBeDoubleDigitized()
+        +Boolean osmIsDoubleDigitized()
+        +Distance osmMaximumDoubleDigitizationSeparation()
+        --(service)--
+        +boolean osmIsServiceWay()
+        --(time)--
+        +Duration travelTime(Speed)
+        +Duration travelTime()
+        +Duration travelTimeForFunctionalClass()
+        +int travelTimeInMilliseconds()
+    }
+    
+    GraphElement <|-- EdgeRelation
+    Bounded <|-- EdgeRelation
+    class EdgeRelation
+    {
+        --(constructors)--
+        #EdgeRelation(EdgeRelation)
+        +EdgeRelation(Graph, RelationIdentifier)
+        +EdgeRelation(Graph, long)
+        +EdgeRelation(Graph, long, int)
+        --
+        +Type classify()
+        +EdgeSet edgeSet()
+        +boolean is(Type)
+        +Distance length()
+        +Location location()
+        +EdgeRelationMember memberInRole(String role)
+        +TurnRestriction turnRestriction()
+        +TurnRestriction.Type turnRestrictionType()
+        +Type type()
+        +Location viaNodeLocation()
+        --(checks)--
+        +boolean hasNetworkOrRefTag()
+        +boolean isAdasNode()
+        +boolean isMoreImportantThan(EdgeRelation that)
+        +boolean isNoTurnRestriction()
+        +boolean isOnlyTurnRestriction()
+        +boolean isRestriction()
+        +boolean isTurnRestriction()
+        +boolean isValidOsmTurnRestriction()
+        --(collection)--
+        +RouteList asRoutes()
+        +ObjectList<Edge> edges()
+        +List<GraphElement> elements()
+        +Edge firstEdge()
+        +List<EdgeRelationMember> members()
+        +List<PbfWayIdentifier> pbfWayIdentifiers()
+        --(conversion)--
+        +PbfRelation asPbfRelation()
+        +Route asRoute()
+    }
+    
+    AsIndentedString <|-- EdgeRelationMember
+    class EdgeRelationMember
+    {
+        --(constructors)--
+        +EdgeRelationMember(EdgeRelation, MapIdentifier, String)
+        --
+        +GraphElement element()
+        +Location location()
+        +EdgeRelation relation()
+        +String role()
+        +Route route()
+        +Vertex vertex()
+        --(checks)--
+        +boolean isNode()
+        +boolean isRelation()
+        +boolean isWay()
+        --(collection)--
+        +Edge firstEdge()
+        +MapIdentifier identifier()
+        +MapIdentifier.Type type()
+        --(filesystem)--
+        +boolean exists()
+    }
+    
+    enum EdgeRelationMemberRole
+    {
+        AL
+        BACKWARD
+        BUILDING
+        CARTO
+        CF
+        COUNTRY
+        EMPTY
+        FORWARD
+        FROM
+        GATE
+        GP
+        INNER
+        NEGATIVE_ONE
+        NEGATIVE_TWO
+        ONE
+        ORDER1
+        ORDER2
+        ORDER8
+        OUTER
+        PART
+        POI
+        RG
+        SC
+        THREE
+        TO
+        TOLL_BOOTH
+        TWO
+        VARIABLE_SPEED_SIGN
+        VIA
+        ZERO
+    }
+    
+    BaseValidator <|-- GraphElement.ElementValidator
+    abstract class GraphElement.ElementValidator
+    {
+    }
+    
+    class GraphLimits.Estimated
+    {
+    }
+    
+    BaseRepeater <|-- Graph
+    AsIndentedString <|-- Graph
+    Named <|-- Graph
+    abstract class Graph
+    {
+        --(constructors)--
+        #Graph(Metadata)
+        --
+        +GraphArchive archive()
+        +Graph attachObject(T object)
+        +Rectangle bounds()
+        +Graph createCompatible(Metadata)
+        +Graph createCompatible()
+        +Graph createCompatible(File input)
+        +Graph createCompatible(String name)
+        +DataSpecification dataSpecification()
+        +Differences differencesFrom(Graph that, Rectangle bounds, Maximum maximumDifferences)
+        +Edge edgeNearest(Location, Distance near)
+        +Edge edgeNearest(Location)
+        +Edge edgeNearest(Location, Distance near, Edge.TransportMode)
+        +EdgeStore edgeStore()
+        +EdgeSequence edges()
+        +EdgeSequence edgesIntersecting(Rectangle bounds)
+        +EdgeSequence edgesIntersecting(Rectangle bounds, Matcher<Edge>, EdgeSequence.Type)
+        +EdgeSequence edgesIntersecting(Rectangle bounds, Matcher<Edge>)
+        +EdgeSet equivalentEdges(Edge)
+        +EdgeSequence forwardEdges()
+        +EdgeSequence forwardEdgesIntersecting(Rectangle bounds)
+        +EdgeSequence forwardEdgesIntersecting(Rectangle bounds, Matcher<Edge>)
+        +EdgeSequence forwardEdgesNear(Location, Distance)
+        +ArchivedGraphStore graphStore()
+        +Stream<Edge> parallelStream()
+        +Place placeNear(Location)
+        +PlaceStore placeStore()
+        +Precision precision()
+        +RelationStore relationStore()
+        +RelationSet relationsIntersecting(Rectangle bounds, Matcher<EdgeRelation>)
+        +RelationSet relationsIntersecting(Rectangle bounds)
+        +Resource resource()
+        +Set<EdgeRelation> restrictionRelationsIntersecting(Rectangle bounds)
+        +ShapePoint shapePointForLocation(Location)
+        +ShapePointStore shapePointStore()
+        +Stream<Edge> stream()
+        +boolean supports(Attribute<?>)
+        +Set<EdgeRelation> turnRestrictionRelations()
+        +void unload()
+        +Vertex vertexNear(Location, Distance near, RoadFunctionalClass minimumFunctionalClass)
+        +Vertex vertexNear(Location, Distance near)
+        +Vertex vertexNearest(Location)
+        +Vertex vertexNearest(Location, Distance maximum, RoadFunctionalClass minimumFunctionalClass)
+        +Vertex vertexNearest(Location, Distance maximum)
+        +VertexStore vertexStore()
+        +VertexSequence vertexes()
+        +VertexSequence vertexesInside(Rectangle bounds)
+        +VertexSequence vertexesInside(Rectangle bounds, Matcher<Vertex>)
+        --(checks)--
+        +boolean hasTags()
+        +boolean isComposite()
+        +boolean isOsm()
+        +boolean isUnloaded()
+        --(collection)--
+        +Iterator<List<Edge>> batches(Count batchSize)
+        +boolean contains(EdgeIdentifier)
+        +boolean contains(VertexIdentifier)
+        +boolean contains(Vertex)
+        +boolean contains(MapRelationIdentifier)
+        +boolean contains(PbfWayIdentifier)
+        +boolean contains(PlaceIdentifier)
+        +boolean contains(MapNodeIdentifier)
+        +boolean contains(Edge)
+        +boolean contains(MapIdentifier)
+        +boolean contains(EdgeRelation)
+        +Count edgeCount()
+        +GraphElement elementForMapIdentifier(MapIdentifier)
+        +void estimatedMemorySize(Bytes size)
+        +Bytes estimatedMemorySize()
+        +Count forwardEdgeCount()
+        +boolean isEmpty()
+        +Count placeCount()
+        +Iterable<Place> places()
+        +Iterable<Place> placesInside(Rectangle bounds)
+        +Iterable<Place> placesInside(Region<?>)
+        +List<Place> placesNear(Location, Count minimumPopulation, Distance minimumDistanceBetweenPlaces, Distance maximumDistance, Count maximum)
+        +Iterable<Place> placesNear(Location, Count minimumPopulation, Distance maximumDistance, Count maximum)
+        +List<Place> placesWithNonZeroPopulation()
+        +List<Place> placesWithPopulationOfAtLeast(Count minimumPopulation)
+        +Count relationCount()
+        +EdgeRelation relationForMapRelationIdentifier(MapRelationIdentifier)
+        +Iterable<EdgeRelation> relations()
+        +List<ShapePoint> shapePoints(Polyline)
+        +Count vertexCount()
+        +Count wayCount()
+        --(factory)--
+        +T newEdge(EdgeIdentifier)
+        +T newHeavyWeightEdge(EdgeIdentifier)
+        +T newHeavyWeightPlace(PlaceIdentifier)
+        +T newHeavyWeightRelation(RelationIdentifier)
+        +T newHeavyWeightVertex(VertexIdentifier)
+        +T newPlace(PlaceIdentifier)
+        +T newRelation(RelationIdentifier)
+        +ShapePoint newShapePoint(ShapePointIdentifier, Location)
+        +T newVertex(VertexIdentifier)
+        --(functional)--
+        +T attachedObject()
+        +Graph clippedTo(Rectangle bounds)
+        +Graph createConstrained(GraphConstraints)
+        +Graph createConstrained(Matcher<Edge>)
+        +Graph createDecimated(Distance minimumLength, Angle maximumDeviation, ProgressReporter)
+        +EdgeAttributes supportedEdgeAttributes()
+        +PlaceAttributes supportedPlaceAttributes()
+        +RelationAttributes supportedRelationAttributes()
+        +VertexAttributes supportedVertexAttributes()
+        --(identity)--
+        +Edge edgeForIdentifier(EdgeIdentifier)
+        +Edge edgeForIdentifier(long identifier)
+        +Edge edgeForIdentifier(MapEdgeIdentifier)
+        +Place placeForIdentifier(PlaceIdentifier)
+        +EdgeRelation relationForIdentifier(RelationIdentifier)
+        +Route routeForWayIdentifier(MapWayIdentifier)
+        +Version version()
+        +Vertex vertexForIdentifier(VertexIdentifier)
+        +Vertex vertexForNodeIdentifier(MapNodeIdentifier)
+        +Set<PbfWayIdentifier> wayIdentifiers()
+        --(io)--
+        +void close()
+        --(messaging)--
+        +boolean supportsFullPbfNodeInformation()
+        --(metadata)--
+        +Metadata metadata()
+        +Metadata metadata(Metadata)
+        --(naming)--
+        +Graph name(String name)
+        --(read)--
+        +Metadata load(GraphLoader, GraphConstraints)
+        +void load(GraphArchive)
+        +Metadata load(GraphLoader)
+        +Graph loadAll(AttributeSet)
+        +Graph loadAll()
+        +Graph loadAllExcept(AttributeSet)
+        +void loadFreeFlow(Resource)
+        +void loadSpeedPattern(Resource)
+        +void loadTurnRestrictions(Resource)
+        --(write)--
+        +void save(GraphArchive)
+    }
+    
+    Named <|-- GraphElement
+    Indexed <|-- GraphElement
+    LongKeyed <|-- GraphElement
+    Validatable <|-- GraphElement
+    AsIndentedString <|-- GraphElement
+    abstract class GraphElement
+    {
+        --(constructors)--
+        #GraphElement()
+        --
+        +GraphElementAttributes<?> attributes()
+        +Rectangle bounds()
+        +DataSpecification dataSpecification()
+        +DataSupplier dataSupplier()
+        +void graph(Graph)
+        +Graph graph()
+        +PbfRevisionNumber pbfRevisionNumber()
+        +GraphElementPropertySet<? extends GraphElement> properties()
+        +boolean supports(Attribute<?>)
+        +Tag tag(String key)
+        +String tagValue(String key)
+        #GraphElementStore store()
+        #Graph subgraph()
+        --(checks)--
+        +boolean hasTag(String key)
+        +boolean isHeavyWeight()
+        +boolean isInside(Rectangle bounds)
+        +boolean isOsm()
+        +boolean isUniDb()
+        --(collection)--
+        +void index(int index)
+        +Time lastModificationTime()
+        +PbfTagList tagList()
+        +PbfTagMap tagMap()
+        --(conversion)--
+        +GraphElement asHeavyWeight()
+        --(identity)--
+        +GraphElementIdentifier identifier()
+        +void identifier(long identifier)
+        +long identifierAsLong()
+        +MapIdentifier mapIdentifier()
+        +PbfChangeSetIdentifier pbfChangeSetIdentifier()
+        +PbfUserIdentifier pbfUserIdentifier()
+        --(metadata)--
+        +Metadata metadata()
+        --(naming)--
+        +PbfUserName pbfUserName()
+    }
+    
+    KryoTypes <|-- GraphKryoTypes
+    class GraphKryoTypes
+    {
+        --(constructors)--
+        +GraphKryoTypes()
+    }
+    
+    class GraphLimits
+    {
+    }
+    
+    GraphElement <|-- GraphNode
+    Located <|-- GraphNode
+    abstract class GraphNode
+    {
+        --(conversion)--
+        +PbfNode asPbfNode()
+        --(primitive)--
+        +long locationAsLong()
+    }
+    
+    Project <|-- GraphProject
+    class GraphProject
+    {
+        --(constructors)--
+        +GraphProject()
+        --(filesystem)--
+        +Folder graphFolder()
+        +Folder overpassFolder()
+        +Folder userGraphFolder()
+        --(serialization)--
+        +SerializationSessionFactory serializationFactory()
+    }
+    
+    GeographyRandomValueFactory <|-- GraphRandomValueFactory
+    class GraphRandomValueFactory
+    {
+        --(constructors)--
+        +GraphRandomValueFactory()
+        +GraphRandomValueFactory(long)
+        --(factory)--
+        +BetweenCrossRoads newBetweenCrossStreets()
+        +Intersection newIntersection()
+        +RoadName newStreetName()
+    }
+    
+    RegionUnitTest <|-- GraphUnitTest
+    abstract class GraphUnitTest
+    {
+        --(constructors)--
+        #GraphUnitTest()
+        --
+        +Graph osmBellevueWashington()
+        +Graph osmBuffalo()
+        +Graph osmDowntownSeattle()
+        +Graph osmDowntownSeattleTest()
+        +Graph osmGreenLakeSeattle()
+        +Graph osmGreenLakeSeattleLarge()
+        +Graph osmHuronCharter()
+        #Edge edge(Graph, double fromLatitude, double fromLongitude, double toLatitude, double toLongitude)
+        #Edge edgeNear(Graph, double latitude, double longitude)
+        #EdgeSet edges(Edge... edges)
+        #Location location(String location)
+        #Edge osmDowntownSeattleTestEdge(long identifier)
+        #EdgeSet osmDowntownSeattleTestEdges(long... identifiers)
+        #Route osmDowntownSeattleTestRoute(long... identifiers)
+        #HeavyWeightEdge osmEdge(Graph, int index, int identifier)
+        #OsmGraph osmGraph()
+        #Edge osmGreenLakeSeattleEdge(long identifier)
+        #HeavyWeightRelation osmRelation(int identifier, int index)
+        #HeavyWeightVertex osmVertex(Graph, int index, int identifier, Location)
+        #Route route(Edge... edges)
+        #HeavyWeightEdge testEdge(long identifier)
+        #Vertex vertex(Graph, double latitude, double longitude)
+        --(iteration)--
+        #HeavyWeightEdge nextOsmEdge(Graph)
+        #HeavyWeightRelation nextOsmRelation()
+        --(time)--
+        #Location locationInDegreesMinutesAndSeconds(String location)
+    }
+    
+    class GraphLimits.Limit
+    {
+    }
+    
+    BaseStringConverter <|-- Route.MapIdentifierConverter
+    class Route.MapIdentifierConverter
+    {
+        --(constructors)--
+        +MapIdentifierConverter(Graph, Separators, Listener)
+    }
+    
+    Named <|-- Metadata
+    AsIndentedString <|-- Metadata
+    KryoSerializable <|-- Metadata
+    Validatable <|-- Metadata
+    class Metadata
+    {
+        --(constructors)--
+        +Metadata()
+        --
+        +void configure(PbfDataSource reader)
+        +Rectangle dataBounds()
+        +DataFormat dataFormat()
+        +Precision dataPrecision()
+        +DataSpecification dataSpecification()
+        +DataSupplier dataSupplier()
+        +String descriptor()
+        +String property(String key)
+        +PbfTagCodec tagCodec()
+        --(building)--
+        +DataBuild dataBuild()
+        --(checks)--
+        +boolean isOsm()
+        +boolean isUniDb()
+        --(collection)--
+        +Count count(CountType, Class<? extends GraphElement>)
+        +Bytes dataSize()
+        +Count edgeCount(CountType)
+        +Count edgeRelationCount(CountType)
+        +Count forwardEdgeCount(CountType)
+        +Count graphElementCount(CountType)
+        +Count nodeCount(CountType)
+        +Count placeCount(CountType)
+        +Count relationCount(CountType)
+        +Count shapePointCount(CountType)
+        +Count vertexCount(CountType)
+        +Count wayCount(CountType)
+        --(factory)--
+        +Graph newGraph()
+        --(filesystem)--
+        +FileName asFileName()
+        +Folder asFolder()
+        --(identity)--
+        +DataVersion dataVersion()
+        --(metadata)--
+        +Metadata add(Metadata that)
+        +Metadata assertValid(ValidationType)
+        +Metadata defaultMetadata()
+        +Metadata from(File input, CountType)
+        +Metadata from(File input)
+        +SwitchParser.Builder<Metadata> metadataSwitchParser()
+        +SwitchParser.Builder<Metadata> metadataSwitchParser(String name, String description)
+        +Metadata of(DataSpecification, DataSupplier, DataFormat)
+        +Metadata osm(DataSupplier, DataFormat)
+        +Metadata parse(FileName)
+        +Metadata parse(Folder)
+        +Metadata parse(String value)
+        +Metadata parseDescriptor(String value)
+        +Metadata withCodecFrequencies(PropertyMap keyCharacterCodecFrequencies, PropertyMap keyStringCodecFrequencies, PropertyMap valueCharacterCodecFrequencies, PropertyMap valueStringCodecFrequencies, PropertyMap roadNameCharacterCodecFrequencies)
+        +Metadata withDataBounds(Rectangle bounds)
+        +Metadata withDataBuild(DataBuild)
+        +Metadata withDataFormat(DataFormat)
+        +Metadata withDataPrecision(Precision)
+        +Metadata withDataSize(Bytes dataSize)
+        +Metadata withDataSpecification(DataSpecification)
+        +Metadata withDataSupplier(DataSupplier)
+        +Metadata withDataVersion(DataVersion)
+        +Metadata withEdgeCount(Count edges)
+        +Metadata withEdgeRelationCount(Count edgeRelations)
+        +Metadata withForwardEdgeCount(Count forwardEdges)
+        +Metadata withMetadata(Metadata)
+        +Metadata withName(String name)
+        +Metadata withNodeCount(Count nodes)
+        +Metadata withPlaceCount(Count places)
+        +Metadata withProperties(Map<String,String> properties)
+        +Metadata withRelationCount(Count relations)
+        +Metadata withShapePointCount(Count shapePoints)
+        +Metadata withVertexCount(Count vertexes)
+        +Metadata withWayCount(Count ways)
+        --(primitive)--
+        +HuffmanCharacterCodec roadNameCharacterCodec()
+    }
+    
+    Route <|-- Route.OneEdgeRoute
+    class Route.OneEdgeRoute
+    {
+        --(constructors)--
+        +OneEdgeRoute(Edge)
+    }
+    
+    GraphElement <|-- Place
+    Located <|-- Place
+    Bounded <|-- Place
+    Intersectable <|-- Place
+    Comparable <|-- Place
+    Serializable <|-- Place
+    class Place
+    {
+        --(constructors)--
+        #Place()
+        #Place(Place)
+        +Place(Graph, PlaceIdentifier)
+        +Place(Graph, long)
+        +Place(Graph, long, int)
+        --
+        +Continent continent()
+        +Country country()
+        +County county()
+        +Differences differences(Place that)
+        +Distance distanceTo(Located that)
+        +MetropolitanArea metropolitanArea()
+        +State state()
+        +Type type()
+        --(checks)--
+        +boolean isCity()
+        +boolean isLargerThan(Place that)
+        +boolean isPopulationExact()
+        +boolean isSmallerThan(Place that)
+        +boolean isTown()
+        +boolean isVillage()
+        --(collection)--
+        +Count population()
+        +List<Region<?>> regions()
+    }
+    
+    abstract class GraphRandomValueFactory.RandomListBuilder<T>
+    {
+        --(constructors)--
+        #RandomListBuilder(int, int)
+        --(collection)--
+        +List<T> list()
+        --(factory)--
+        #T newElement()
+    }
+    
+    interface Road
+    {
+        --
+        +Vertex from()
+        +Distance length()
+        +RoadFunctionalClass roadFunctionalClass()
+        +Polyline roadShape()
+        +RoadState roadState()
+        +RoadSubType roadSubType()
+        +RoadType roadType()
+        --(checks)--
+        +boolean isValid()
+        --(collection)--
+        +Count laneCount()
+        +MapWayIdentifier wayIdentifier()
+        --(conversion)--
+        +Route asRoute()
+        +Vertex to()
+        --(functional)--
+        +Road reversed()
+        --(naming)--
+        +RoadName roadName(RoadName.Type)
+        +RoadName roadName()
+    }
+    
+    Iterable <|-- Route
+    Bounded <|-- Route
+    Stringable <|-- Route
+    abstract class Route
+    {
+        --
+        +Route append(Route)
+        +Route append(Count maximum, Route that)
+        +Route append(Count maximum, Edge)
+        +Route append(Edge)
+        +Route connect(Edge)
+        +Route connect(Route that)
+        +boolean connectsToSameRoad()
+        +Location crossStreet(RoadNameStandardizer, RoadName)
+        +Distance distanceToDecisionPoint()
+        +Route forEdges(Iterable<Edge> edges)
+        +Route forEdges(Edge... edges)
+        +Route forVertexes(Iterable<Vertex> vertexes)
+        +Route fromEdge(Edge)
+        +Edge get(int index)
+        +Graph graph()
+        +Route head()
+        +boolean leadsTo(Route that)
+        +boolean leadsTo(Edge)
+        +Distance length()
+        +boolean meets(Route that)
+        +Edge middleEdge()
+        +boolean overlaps(Route that)
+        +Stream<Edge> parallelStream()
+        +Polyline polyline()
+        +Route prepend(Route)
+        +Route prepend(Edge, Distance maximum)
+        +Route prepend(Edge)
+        +Polyline roughPolyline()
+        +Set<SignPostSupport> signPostSupport()
+        +Route startingAt(Edge start, int limit)
+        +Route startingAt(Edge start)
+        +Stream<Edge> stream()
+        +Route trimLeadingWay()
+        +Route trimTrailingWay()
+        +Vertex turnVertexInSharpUTurn(Angle maximumTurnAngle)
+        +Route upTo(Edge end)
+        --(checks)--
+        +boolean canAppend(Count maximum, Route that)
+        +boolean canAppend(Route that)
+        +boolean isConnectedTo(Edge)
+        +boolean isInPlaceUTurn()
+        +boolean isInside(Rectangle bounds)
+        +boolean isLoop()
+        +boolean isParallel(Edge that)
+        +boolean isReversible()
+        +boolean isSameRoadAs(Edge that)
+        +boolean isSharpUTurn(Angle maximumTurnAngle)
+        +boolean isStraight()
+        --(collection)--
+        +LongArray asIdentifierArray()
+        +List<Edge> asList()
+        +MapRoute asMapRoute()
+        +boolean contains(Route that)
+        +boolean contains(Vertex that)
+        +boolean contains(Edge that)
+        +boolean containsRepeatedEdge()
+        +Count count()
+        +Count edgeCount()
+        +Edge first()
+        +Route forLongArray(Graph, long[] identifiers)
+        +Iterable<Vertex> interiorVertexes()
+        +Edge last()
+        +List<Route> sectionedAtNonUTurnDecisionPoints()
+        +List<ShapePoint> shapePoints()
+        +int size()
+        +ObjectList<Edge> tail(Count)
+        +Count vertexCount()
+        +Iterable<Location> vertexLocations()
+        +Iterable<Vertex> vertexes()
+        +Route withoutFirst()
+        +Route withoutLast()
+        --(conversion)--
+        +EdgeSet asEdgeSet()
+        +VertexSet asVertexSet()
+        +PbfWay asWay()
+        +String toWayIdentifierString()
+        --(distance)--
+        +long lengthInMillimeters()
+        #long offsetInMillimeters(Distance startOffset, Distance endOffset)
+        #long totalLengthInMillimeters()
+        --(functional)--
+        +Route reversed()
+        --(io)--
+        +boolean connectsTwoCloseJunctions()
+        --(lifecycle)--
+        +Vertex end()
+        +EdgeSet endEdges()
+        +Distance endOffset()
+        +Vertex start()
+        +EdgeSet startEdges()
+        +Distance startOffset()
+        +Route withEndOffset(Distance offset)
+        +Route withStartOffset(Distance offset)
+        #void checkEndOffset(Distance offset)
+        #void checkStartOffset(Distance offset)
+        --(primitive)--
+        +boolean connectsTwoDoubleDigitizedRoads()
+        +boolean connectsTwoDoubleDigitizedRoads2()
+        +boolean connectsTwoDoubleDigitizedRoadsWithDifferentNames()
+        +Edge doubleDigitizedEdge()
+        --(time)--
+        +Duration functionalClassTravelTime()
+        +Duration travelTime()
+        +int travelTimeInMilliseconds()
+    }
+    
+    class RouteBuilder
+    {
+        --
+        +void append(Route that)
+        +void append(Edge)
+        +Distance length()
+        +void prepend(Route that)
+        +void prepend(Edge)
+        +Route route()
+        +void safeAppend(Edge)
+        +void safeAppend(Route)
+        --(checks)--
+        +boolean canAppend(Route)
+        +boolean canAppend(Edge)
+        +boolean isValid()
+        --(collection)--
+        +boolean canSafeSmartAdd(Edge)
+        +boolean safeSmartAdd(Route)
+        +boolean safeSmartAdd(Edge)
+        +int size()
+        +void smartAdd(Edge)
+    }
+    
+    GraphNode <|-- ShapePoint
+    class ShapePoint
+    {
+        --(constructors)--
+        +ShapePoint(Graph, long)
+        --
+        +ShapePoint location(long location)
+    }
+    
+    enum Edge.SignPostSupport
+    {
+        DESTINATION_TAGGED
+        EXIT_TO_TAGGED
+        MOTORWAY_JUNCTION_REFERENCE_TAGGED
+    }
+    
+    enum Edge.TransportMode
+    {
+        ANY
+        BIKE
+        DRIVE
+        WALK
+    }
+    
+    enum Place.Type
+    {
+        CITY
+        HAMLET
+        NEIGHBORHOOD
+        SUBURB
+        TOWN
+        UNKNOWN
+        VILLAGE
+    }
+    
+    enum Edge.Type
+    {
+        NORMAL
+        NULL
+        ROUTING_SHORTCUT
+    }
+    
+    enum EdgeRelation.Type
+    {
+        BAD_TURN_RESTRICTION
+        GRADE_SEPARATION
+        OTHER
+        ROUTE
+        TURN_RESTRICTION
+        UNIDB_ACCESS_RESTRICTION
+        UNIDB_ADAS_MAXSPEED
+        UNIDB_ADAS_NODE
+        UNIDB_BARRIER
+        UNIDB_BIFURCATION
+        UNIDB_BLACKSPOT
+        UNIDB_CONDITIONAL_ONEWAY
+        UNIDB_CONSTRUCTION
+        UNIDB_DIVIDED_JUNCTION
+        UNIDB_GENERIC_JUNCTION_VIEW
+        UNIDB_JUNCTION_VIEW
+        UNIDB_LANE_CONNECTIVITY
+        UNIDB_MISSING_TYPE
+        UNIDB_NATURAL_GUIDANCE
+        UNIDB_NO_THROUGH_RESTRICTION
+        UNIDB_ONE_WAY
+        UNIDB_RESTRICTION
+        UNIDB_SAFETY_CAMERA
+        UNIDB_SIGNPOST
+        UNIDB_THROUGH_RESTRICTION
+        UNIDB_TIMED_SPEED_LIMIT
+        UNIDB_TRAFFIC_SIGN
+        UNIDB_TRAFFIC_SIGNAL
+        UNIDB_TRAFFIC_SIGNALS
+        UNIDB_UNSUPPORTED
+        UNKNOWN
+    }
+    
+    GraphNode <|-- Vertex
+    class Vertex
+    {
+        --(constructors)--
+        +Vertex(Graph, VertexIdentifier)
+        +Vertex(Graph, long)
+        --
+        +Differences differences(Vertex that, Rectangle bounds)
+        +Edge edgeBetween(Vertex)
+        +EdgeSequence edgeSequence()
+        +Edge edgeTo(Vertex that)
+        +EdgeSet edges()
+        +EdgeSet edgesBetween(Vertex that)
+        +EdgeSet edgesTo(Vertex)
+        +GradeSeparation gradeSeparation()
+        +EdgeSequence inEdgeSequence()
+        +EdgeSet inEdges()
+        +EdgeSequence outEdgeSequence()
+        +EdgeSet outEdges()
+        --(checks)--
+        +boolean isClipped()
+        +boolean isConnectedTo(Vertex that)
+        +boolean isDeadEnd()
+        +boolean isDecisionPoint()
+        +boolean isIntersection()
+        +boolean isMergeVertex()
+        +boolean isOnFreeway()
+        +boolean isSynthetic()
+        +boolean isTaggedAsDeadEnd()
+        +boolean isThroughVertex()
+        --(collection)--
+        +Count edgeCount()
+        +Count inEdgeCount()
+        +MapNodeIdentifier nodeIdentifier()
+        +Count outEdgeCount()
+        --(filesystem)--
+        +HeavyWeightVertex asHeavyWeightCopy()
+        --(matching)--
+        +Matcher<Vertex> inside(Rectangle bounds)
+    }
+    
+@enduml
+

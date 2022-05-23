@@ -1,0 +1,15 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.serialization.json"
+    
+    abstract BaseGsonFactorySource
+    
+    BaseGsonFactorySource <|-- MesaKitGsonFactorySource
+    class MesaKitGsonFactorySource
+    {
+    }
+    
+@enduml
+

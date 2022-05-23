@@ -1,0 +1,52 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.ui.desktop.theme.shapes"
+    
+    class Bounds
+    {
+    }
+    
+    class Edges
+    {
+    }
+    
+    class Labels
+    {
+    }
+    
+    class Lines
+    {
+    }
+    
+    class Locations
+    {
+    }
+    
+    class Places
+    {
+    }
+    
+    class Polylines
+    {
+    }
+    
+    class Relations
+    {
+    }
+    
+    class Roads
+    {
+    }
+    
+    class ShapePoints
+    {
+    }
+    
+    class Vertexes
+    {
+    }
+    
+@enduml
+

@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1021.875px" preserveAspectRatio="none" style="width:1363px;height:1021px;background:#333333;" version="1.1" viewBox="0 0 1363 1021" width="1363.5417px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="145.8333" x="601.8229" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="122.9167" x="613.2813" y="30.5583">PBF Tagging</text><!--MD5=[d79730e212aaab83526b3c982ee56b6e]
+class PbfTagFilter--><rect codeLine="17" fill="#282828" height="83.3781" id="PbfTagFilter" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="152.0833" x="433.8542" y="398.4945"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="152.0833" x="433.8542" y="398.4945"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="152.0833" x="433.8542" y="421.5495"/><rect codeLine="17" fill="none" height="83.3781" id="PbfTagFilter" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="152.0833" x="433.8542" y="398.4945"/><ellipse cx="464.8438" cy="414.1886" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M462.2477,411.3505 L462.2477,409.7636 L467.6737,409.7636 L467.6737,411.3505 L465.861,411.3505 L465.861,417.2892 L467.6737,417.2892 L467.6737,418.8761 L462.2477,418.8761 L462.2477,417.2892 L464.0605,417.2892 L464.0605,411.3505 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="78.125" x="485.1563" y="418.9128">PbfTagFilter</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="434.8958" x2="584.8958" y1="429.8828" y2="429.8828"/><ellipse cx="445.3125" cy="465.2527" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="119.7917" x="456.7708" y="472.1639">boolean accepts(Tag)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="434.8958" x2="480.7292" y1="448.0886" y2="448.0886"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="52.0833" x="483.8542" y="451.8982">(filtering)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="539.0625" x2="584.8958" y1="448.0886" y2="448.0886"/><!--MD5=[a73d0c2ecfbfe908f655a2bb439c5095]
+class Keyed--><rect codeLine="7" fill="#282828" height="48.055" id="Keyed" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="77.0833" x="134.8958" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="77.0833" x="134.8958" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="77.0833" x="134.8958" y="76.7578"/><rect codeLine="7" fill="none" height="48.055" id="Keyed" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="77.0833" x="134.8958" y="53.7028"/><ellipse cx="149.4792" cy="69.397" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M146.8831,66.5588 L146.8831,64.9719 L152.3092,64.9719 L152.3092,66.5588 L150.4964,66.5588 L150.4964,72.4976 L152.3092,72.4976 L152.3092,74.0845 L146.8831,74.0845 L146.8831,72.4976 L148.6959,72.4976 L148.6959,66.5588 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="39.5833" x="166.1458" y="74.1211">Keyed</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="135.9375" x2="210.9375" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="135.9375" x2="210.9375" y1="93.4245" y2="93.4245"/><!--MD5=[19c5389150046187c3588e0fe3bbc0c4]
+class PbfTagMap--><rect codeLine="56" fill="#282828" height="494.9422" id="PbfTagMap" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="328.125" x="9.375" y="192.7653"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="328.125" x="9.375" y="192.7653"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="328.125" x="9.375" y="215.8203"/><rect codeLine="56" fill="none" height="494.9422" id="PbfTagMap" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="328.125" x="9.375" y="192.7653"/><ellipse cx="130.2083" cy="208.4595" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M132.1187,212.8845 Q131.6915,213.1042 131.2215,213.2141 Q130.7515,213.324 130.2327,213.324 Q128.3895,213.324 127.419,212.1094 Q126.4486,210.8948 126.4486,208.5999 Q126.4486,206.2988 127.419,205.0842 Q128.3895,203.8696 130.2327,203.8696 Q130.7515,203.8696 131.2276,203.9795 Q131.7037,204.0894 132.1187,204.3091 L132.1187,206.311 Q131.6549,205.8838 131.2185,205.6854 Q130.7821,205.4871 130.3182,205.4871 Q129.3294,205.4871 128.8259,206.2714 Q128.3223,207.0557 128.3223,208.5999 Q128.3223,210.1379 128.8259,210.9222 Q129.3294,211.7065 130.3182,211.7065 Q130.7821,211.7065 131.2185,211.5082 Q131.6549,211.3098 132.1187,210.8826 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="71.875" x="153.125" y="213.1836">PbfTagMap</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="10.4167" x2="336.4583" y1="224.1536" y2="224.1536"/><polygon fill="#FFFF44" points="20.8333,254.3152,25,258.4819,20.8333,262.6485,16.6667,258.4819" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="84.375" x="32.2917" y="266.4347">PbfTagMap(int)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="129.6875" y1="242.3594" y2="242.3594"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="132.8125" y="246.169">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="217.1875" x2="336.4583" y1="242.3594" y2="242.3594"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="336.4583" y1="276.1434" y2="276.1434"/><ellipse cx="20.8333" cy="287.6017" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="229.1667" x="32.2917" y="294.5129">String get(String key, String defaultValue)</text><ellipse cx="20.8333" cy="307.3466" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="105.2083" x="32.2917" y="314.2578">Tag tag(String key)</text><ellipse cx="20.8333" cy="327.0915" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="210.4167" x="32.2917" y="334.0027">int valueAsNaturalNumber(String key)</text><ellipse cx="20.8333" cy="346.8363" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="165.625" x="32.2917" y="353.7476">boolean valueIsNo(String key)</text><ellipse cx="20.8333" cy="366.5812" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="169.7917" x="32.2917" y="373.4924">boolean valueIsYes(String key)</text><ellipse cx="20.8333" cy="410.2376" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="179.1667" x="32.2917" y="417.1488">boolean containsKey(String key)</text><ellipse cx="20.8333" cy="429.9825" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="107.2917" x="32.2917" y="436.8937">PbfTagMap create()</text><ellipse cx="20.8333" cy="449.7274" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="222.9167" x="32.2917" y="456.6386">PbfTagMap from(Collection&lt;Tag&gt; tags)</text><ellipse cx="20.8333" cy="469.4722" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="295.8333" x="32.2917" y="476.3835">PbfTagMap from(Collection&lt;Tag&gt; tags, PbfTagFilter)</text><ellipse cx="20.8333" cy="489.2171" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="100" x="32.2917" y="496.1283">boolean isEmpty()</text><ellipse cx="20.8333" cy="508.962" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="130.2083" x="32.2917" y="515.8732">Iterator&lt;String&gt; keys()</text><ellipse cx="20.8333" cy="528.7069" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="181.25" x="32.2917" y="535.6181">void put(String key, String value)</text><ellipse cx="20.8333" cy="548.4517" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="177.0833" x="32.2917" y="555.363">void putAll(Iterable&lt;Tag&gt; tags)</text><ellipse cx="20.8333" cy="568.1966" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="47.9167" x="32.2917" y="575.1078">int size()</text><ellipse cx="20.8333" cy="587.9415" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="129.1667" x="32.2917" y="594.8527">String value(String key)</text><ellipse cx="20.8333" cy="607.6864" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="172.9167" x="32.2917" y="614.5976">StringList valueSplit(String key)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="139.0625" y1="393.0735" y2="393.0735"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="142.1875" y="396.8831">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="207.8125" x2="336.4583" y1="393.0735" y2="393.0735"/><ellipse cx="20.8333" cy="651.3428" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="139.5833" x="32.2917" y="658.254">int valueAsInt(String key)</text><ellipse cx="20.8333" cy="671.0876" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="163.5417" x="32.2917" y="677.9989">long valueAsLong(String key)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="141.6667" y1="634.1787" y2="634.1787"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="57.2917" x="144.7917" y="637.9883">(primitive)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="205.2083" x2="336.4583" y1="634.1787" y2="634.1787"/><!--MD5=[d78db216e393aee26594d0bbb4b8a4c2]
+class EmptyPbfTagMap--><rect codeLine="10" fill="#282828" height="83.3781" id="EmptyPbfTagMap" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="150" x="20.3125" y="866.2028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="150" x="20.3125" y="866.2028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="150" x="20.3125" y="889.2578"/><rect codeLine="10" fill="none" height="83.3781" id="EmptyPbfTagMap" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="150" x="20.3125" y="866.2028"/><ellipse cx="34.8958" cy="881.897" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M36.8062,886.322 Q36.379,886.5417 35.909,886.6516 Q35.439,886.7615 34.9202,886.7615 Q33.077,886.7615 32.1065,885.5469 Q31.1361,884.3323 31.1361,882.0374 Q31.1361,879.7363 32.1065,878.5217 Q33.077,877.3071 34.9202,877.3071 Q35.439,877.3071 35.9151,877.417 Q36.3912,877.5269 36.8062,877.7466 L36.8062,879.7485 Q36.3424,879.3213 35.906,879.1229 Q35.4696,878.9246 35.0057,878.9246 Q34.0169,878.9246 33.5134,879.7089 Q33.0098,880.4932 33.0098,882.0374 Q33.0098,883.5754 33.5134,884.3597 Q34.0169,885.144 35.0057,885.144 Q35.4696,885.144 35.906,884.9457 Q36.3424,884.7473 36.8062,884.3201 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="112.5" x="51.5625" y="886.6211">EmptyPbfTagMap</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="21.3542" x2="169.2708" y1="897.5911" y2="897.5911"/><polygon fill="#FFFF44" points="31.7708,927.7527,35.9375,931.9194,31.7708,936.086,27.6042,931.9194" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="104.1667" x="43.2292" y="939.8722">EmptyPbfTagMap()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="21.3542" x2="51.5625" y1="915.7969" y2="915.7969"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="54.6875" y="919.6065">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="139.0625" x2="169.2708" y1="915.7969" y2="915.7969"/><!--MD5=[39d6d2ea03de602dbf4d534e70c872a9]
+class Tag--><rect fill="#282828" height="48.055" id="Tag" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="61.4583" x="814.5833" y="883.9111"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="61.4583" x="814.5833" y="883.9111"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="61.4583" x="814.5833" y="906.9661"/><rect fill="none" height="48.055" id="Tag" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="61.4583" x="814.5833" y="883.9111"/><ellipse cx="829.1667" cy="899.6053" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M831.0771,904.0304 Q830.6498,904.2501 830.1799,904.3599 Q829.7099,904.4698 829.1911,904.4698 Q827.3478,904.4698 826.3774,903.2552 Q825.4069,902.0406 825.4069,899.7457 Q825.4069,897.4447 826.3774,896.2301 Q827.3478,895.0155 829.1911,895.0155 Q829.7099,895.0155 830.186,895.1253 Q830.662,895.2352 831.0771,895.4549 L831.0771,897.4569 Q830.6132,897.0296 830.1768,896.8313 Q829.7404,896.6329 829.2765,896.6329 Q828.2878,896.6329 827.7842,897.4172 Q827.2807,898.2015 827.2807,899.7457 Q827.2807,901.2838 827.7842,902.0681 Q828.2878,902.8524 829.2765,902.8524 Q829.7404,902.8524 830.1768,902.654 Q830.6132,902.4556 831.0771,902.0284 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="23.9583" x="845.8333" y="904.3294">Tag</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="815.625" x2="875" y1="915.2995" y2="915.2995"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="815.625" x2="875" y1="923.6328" y2="923.6328"/><!--MD5=[56a5e24547e9848fa048dca0457945be]
+class PbfTagList--><rect codeLine="24" fill="#282828" height="550.0102" id="PbfTagList" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="325" x="1031.7708" y="165.1611"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="325" x="1031.7708" y="165.1611"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="325" x="1031.7708" y="188.2161"/><rect codeLine="24" fill="none" height="550.0102" id="PbfTagList" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="325" x="1031.7708" y="165.1611"/><ellipse cx="1152.6042" cy="180.8553" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1154.5146,185.2804 Q1154.0873,185.5001 1153.6174,185.6099 Q1153.1474,185.7198 1152.6286,185.7198 Q1150.7853,185.7198 1149.8149,184.5052 Q1148.8444,183.2906 1148.8444,180.9957 Q1148.8444,178.6947 1149.8149,177.4801 Q1150.7853,176.2655 1152.6286,176.2655 Q1153.1474,176.2655 1153.6235,176.3753 Q1154.0995,176.4852 1154.5146,176.7049 L1154.5146,178.7069 Q1154.0507,178.2796 1153.6143,178.0813 Q1153.1779,177.8829 1152.714,177.8829 Q1151.7253,177.8829 1151.2217,178.6672 Q1150.7182,179.4515 1150.7182,180.9957 Q1150.7182,182.5338 1151.2217,183.3181 Q1151.7253,184.1024 1152.714,184.1024 Q1153.1779,184.1024 1153.6143,183.904 Q1154.0507,183.7056 1154.5146,183.2784 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="68.75" x="1175.5208" y="185.5794">PbfTagList</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1032.8125" x2="1355.7292" y1="196.5495" y2="196.5495"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1032.8125" x2="1355.7292" y1="204.8828" y2="204.8828"/><ellipse cx="1043.2292" cy="216.3411" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="105.2083" x="1054.6875" y="223.2524">Tag get(String key)</text><ellipse cx="1043.2292" cy="236.086" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="98.9583" x="1054.6875" y="242.9972">Tag get(int index)</text><ellipse cx="1043.2292" cy="255.8309" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="190.625" x="1054.6875" y="262.7421">void retainOnly(Set&lt;String&gt; keys)</text><ellipse cx="1043.2292" cy="299.4873" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="92.7083" x="1054.6875" y="306.3985">boolean isValid()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1032.8125" x2="1167.7083" y1="282.3232" y2="282.3232"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="46.875" x="1170.8333" y="286.1328">(checks)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1220.8333" x2="1355.7292" y1="282.3232" y2="282.3232"/><ellipse cx="1043.2292" cy="343.1437" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="111.4583" x="1054.6875" y="350.0549">PbfTagList add(Tag)</text><ellipse cx="1043.2292" cy="362.8886" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="217.7083" x="1054.6875" y="369.7998">PbfTagList add(String key, String value)</text><ellipse cx="1043.2292" cy="382.6335" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="213.5417" x="1054.6875" y="389.5447">PbfTagList addAll(Iterable&lt;Tag&gt; tags)</text><ellipse cx="1043.2292" cy="402.3783" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="103.125" x="1054.6875" y="409.2896">List&lt;Tag&gt; asList()</text><ellipse cx="1043.2292" cy="422.1232" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="179.1667" x="1054.6875" y="429.0344">boolean containsKey(String key)</text><ellipse cx="1043.2292" cy="441.8681" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="96.875" x="1054.6875" y="448.7793">PbfTagList copy()</text><ellipse cx="1043.2292" cy="461.613" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="104.1667" x="1054.6875" y="468.5242">PbfTagList create()</text><ellipse cx="1043.2292" cy="481.3578" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="219.7917" x="1054.6875" y="488.269">PbfTagList from(Collection&lt;Tag&gt; tags)</text><ellipse cx="1043.2292" cy="501.1027" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="292.7083" x="1054.6875" y="508.0139">PbfTagList from(Collection&lt;Tag&gt; tags, PbfTagFilter)</text><ellipse cx="1043.2292" cy="520.8476" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="100" x="1054.6875" y="527.7588">boolean isEmpty()</text><ellipse cx="1043.2292" cy="540.5924" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="196.875" x="1054.6875" y="547.5037">PbfTagList matchingKey(String key)</text><ellipse cx="1043.2292" cy="560.3373" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="102.0833" x="1054.6875" y="567.2485">PbfTagList of(Tag)</text><ellipse cx="1043.2292" cy="580.0822" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="152.0833" x="1054.6875" y="586.9934">void removeKey(String key)</text><ellipse cx="1043.2292" cy="599.8271" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="268.75" x="1054.6875" y="606.7383">PbfTagList set(int index, String key, String value)</text><ellipse cx="1043.2292" cy="619.5719" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="47.9167" x="1054.6875" y="626.4832">int size()</text><ellipse cx="1043.2292" cy="639.3168" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="106.25" x="1054.6875" y="646.228">PbfTagList sorted()</text><ellipse cx="1043.2292" cy="659.0617" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="167.7083" x="1054.6875" y="665.9729">String valueForKey(String key)</text><ellipse cx="1043.2292" cy="678.8066" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="279.1667" x="1054.6875" y="685.7178">String valueForKey(String key, String defaultValue)</text><ellipse cx="1043.2292" cy="698.5514" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="186.4583" x="1054.6875" y="705.4626">PbfTagList withoutKey(String key)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1032.8125" x2="1159.8958" y1="325.9796" y2="325.9796"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="1163.0208" y="329.7892">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1228.6458" x2="1355.7292" y1="325.9796" y2="325.9796"/><!--MD5=[92c7f35f41c1a9021289ca75e2accaf4]
+class PbfTagPatternFilter--><rect codeLine="84" fill="#282828" height="214.3473" id="PbfTagPatternFilter" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="570.8333" x="206.7708" y="800.5778"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="570.8333" x="206.7708" y="800.5778"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="570.8333" x="206.7708" y="823.6328"/><rect codeLine="84" fill="none" height="214.3473" id="PbfTagPatternFilter" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="570.8333" x="206.7708" y="800.5778"/><ellipse cx="422.9167" cy="816.272" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M424.8271,820.697 Q424.3998,820.9167 423.9299,821.0266 Q423.4599,821.1365 422.9411,821.1365 Q421.0978,821.1365 420.1274,819.9219 Q419.1569,818.7073 419.1569,816.4124 Q419.1569,814.1113 420.1274,812.8967 Q421.0978,811.6821 422.9411,811.6821 Q423.4599,811.6821 423.936,811.792 Q424.412,811.9019 424.8271,812.1216 L424.8271,814.1235 Q424.3632,813.6963 423.9268,813.4979 Q423.4904,813.2996 423.0265,813.2996 Q422.0378,813.2996 421.5342,814.0839 Q421.0307,814.8682 421.0307,816.4124 Q421.0307,817.9504 421.5342,818.7347 Q422.0378,819.519 423.0265,819.519 Q423.4904,819.519 423.9268,819.3207 Q424.3632,819.1223 424.8271,818.6951 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="123.9583" x="445.8333" y="820.9961">PbfTagPatternFilter</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="207.8125" x2="776.5625" y1="831.9661" y2="831.9661"/><ellipse cx="218.2292" cy="867.336" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="147.9167" x="229.6875" y="874.2472">PbfTagPatternFilter(String)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="207.8125" x2="448.4375" y1="850.1719" y2="850.1719"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="451.5625" y="853.9815">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="535.9375" x2="776.5625" y1="850.1719" y2="850.1719"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="207.8125" x2="776.5625" y1="883.9559" y2="883.9559"/><ellipse cx="218.2292" cy="895.4142" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="161.4583" x="229.6875" y="902.3254">Set&lt;String&gt; allFilteredTags()</text><ellipse cx="218.2292" cy="915.1591" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="152.0833" x="229.6875" y="922.0703">Set&lt;String&gt; rejectedTags()</text><ellipse cx="218.2292" cy="958.8155" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="251.0417" x="229.6875" y="965.7267">PbfTagPatternFilter forPattern(String pattern)</text><ellipse cx="218.2292" cy="978.5604" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="538.5417" x="229.6875" y="985.4716">SwitchParser.Builder&lt;PbfTagPatternFilter&gt; tagFilterSwitchParser(String name, String description)</text><ellipse cx="218.2292" cy="998.3053" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="365.625" x="229.6875" y="1005.2165">SwitchParser.Builder&lt;PbfTagPatternFilter&gt; tagFilterSwitchParser()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="207.8125" x2="463.0208" y1="941.6514" y2="941.6514"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="52.0833" x="466.1458" y="945.461">(filtering)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="521.3542" x2="776.5625" y1="941.6514" y2="941.6514"/><!--MD5=[b1e210ffc7c989b1f4aba02912a48aa9]
+class PbfTags--><rect codeLine="98" fill="#282828" height="146.7794" id="PbfTags" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="337.5" x="657.8125" y="366.7236"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="337.5" x="657.8125" y="366.7236"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="337.5" x="657.8125" y="389.7786"/><rect codeLine="98" fill="none" height="146.7794" id="PbfTags" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="337.5" x="657.8125" y="366.7236"/><ellipse cx="793.2292" cy="382.4178" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M795.1396,386.8429 Q794.7123,387.0626 794.2424,387.1724 Q793.7724,387.2823 793.2536,387.2823 Q791.4103,387.2823 790.4399,386.0677 Q789.4694,384.8531 789.4694,382.5582 Q789.4694,380.2572 790.4399,379.0426 Q791.4103,377.828 793.2536,377.828 Q793.7724,377.828 794.2485,377.9378 Q794.7245,378.0477 795.1396,378.2674 L795.1396,380.2694 Q794.6757,379.8421 794.2393,379.6438 Q793.8029,379.4454 793.339,379.4454 Q792.3503,379.4454 791.8467,380.2297 Q791.3432,381.014 791.3432,382.5582 Q791.3432,384.0963 791.8467,384.8806 Q792.3503,385.6649 793.339,385.6649 Q793.8029,385.6649 794.2393,385.4665 Q794.6757,385.2681 795.1396,384.8409 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="52.0833" x="816.1458" y="387.1419">PbfTags</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="658.8542" x2="994.2708" y1="398.112" y2="398.112"/><ellipse cx="669.2708" cy="433.4819" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="305.2083" x="680.7292" y="440.3931">PropertyMap tags(String prefix, Collection&lt;Tag&gt; tags)</text><ellipse cx="669.2708" cy="453.2267" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="303.125" x="680.7292" y="460.1379">List&lt;Tag&gt; tags(String prefix, PropertyMap properties)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="658.8542" x2="792.1875" y1="416.3177" y2="416.3177"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="795.3125" y="420.1274">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="860.9375" x2="994.2708" y1="416.3177" y2="416.3177"/><ellipse cx="669.2708" cy="496.8831" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="96.875" x="680.7292" y="503.7944">Tag parse(String)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="658.8542" x2="797.9167" y1="479.719" y2="479.719"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="51.0417" x="801.0417" y="483.5286">(parsing)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="855.2083" x2="994.2708" y1="479.719" y2="479.719"/><!--MD5=[cc942af7ae38b17b678e2ecccc557737]
+reverse link PbfTagMap to EmptyPbfTagMap--><path codeLine="9" d="M128.625,708.307 C118.2292,770.2549 108.3854,828.8903 102.1354,866.1507 " fill="none" id="PbfTagMap-backto-EmptyPbfTagMap" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="121.4479,706.984,132.0833,687.6507,135.8333,709.4007,121.4479,706.984" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[ad57c19ac60e931f9d8ac4882e497226]
+link PbfTagFilter to Tag--><path codeLine="16" d="M520.3854,482.0778 C537.0313,540.057 574.4271,646.734 639.0625,715.1611 C693.6875,772.9945 741.9792,742.5153 796.3542,800.5778 C817.1354,822.7653 830.3542,855.3278 837.75,878.557 " fill="none" id="PbfTagFilter-to-Tag" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="839.3229,883.6507,840.5418,873.4642,837.7881,878.6737,832.5786,875.9199,839.3229,883.6507" style="stroke:#545454;stroke-width:1.5625;"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="38.5417" x="755.7292" y="762.6628">filters</text><!--MD5=[c8a6b7b4b88f4c6d9233f6e4bfdff5df]
+link PbfTagList to Tag--><path codeLine="23" d="M1031.5,713.5361 C1017.6979,732.8174 1003.4896,751.609 989.0625,769.3278 C954.6354,811.6195 907.9792,854.057 877.2917,880.3695 " fill="none" id="PbfTagList-to-Tag" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="873.25,883.807,883.0914,880.9089,877.2181,880.4334,877.6936,874.56,873.25,883.807" style="stroke:#545454;stroke-width:1.5625;"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="40.625" x="1005.7292" y="762.6628">stores</text><!--MD5=[8b40e2470dba9ca1d038d72d18121892]
+reverse link Keyed to PbfTagMap--><path codeLine="54" d="M173.4375,122.6299 C173.4375,141.9007 173.4375,166.1611 173.4375,192.6403 " fill="none" id="Keyed-backto-PbfTagMap" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="166.1458,122.6299,173.4375,101.7965,180.7292,122.6299,166.1458,122.6299" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[bbdb956dbc56d14ff1f462eec549b843]
+link PbfTagMap to Tag--><path codeLine="55" d="M337.8125,655.0257 C361.8646,677.6299 387.8021,698.4215 415.1042,715.1611 C497.4375,765.6299 531.2083,748.5882 625.5208,769.3278 C700.9063,785.9007 735.375,753.2549 796.3542,800.5778 C821.0729,819.7549 833.7708,854.3278 839.9583,878.8174 " fill="none" id="PbfTagMap-to-Tag" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="841.1875,883.8799,843.0188,873.7854,839.9557,878.8193,834.9219,875.7562,841.1875,883.8799" style="stroke:#545454;stroke-width:1.5625;"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="40.625" x="629.6875" y="762.6628">stores</text><!--MD5=[b494e1d0b9c72b23ebdcad1360657f46]
+reverse link PbfTagFilter to PbfTagPatternFilter--><path codeLine="83" d="M507.5313,503.3799 C504.6458,579.2445 499.7188,708.7132 496.2292,800.5049 " fill="none" id="PbfTagFilter-backto-PbfTagPatternFilter" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="500.2604,502.6611,508.3438,482.1195,514.8333,503.2132,500.2604,502.6611" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[19808d32ec61d77a74356442bacb26b6]
+link PbfTags to Tag--><path codeLine="97" d="M829.4896,513.9528 C833.7083,618.6507 841.2917,807.057 844.1667,878.4007 " fill="none" id="PbfTags-to-Tag" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="844.3854,883.734,848.173,874.1996,844.1767,878.5299,839.8463,874.5336,844.3854,883.734" style="stroke:#545454;stroke-width:1.5625;"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="133.3333" x="843.2292" y="762.6628">provides utilities for</text><!--MD5=[bd98e0b51a3a1ff42dd9216c3280c25d]
+@startuml
+
+    !include lexakai.theme
+    
+    title "PBF Tagging"
+    
+    interface PbfTagFilter
+    interface Keyed
+    
+    PbfTagMap <|- - EmptyPbfTagMap
+    class EmptyPbfTagMap
+    {
+        - -(constructors)- -
+        #EmptyPbfTagMap()
+    }
+    
+    PbfTagFilter - -> Tag : "filters"
+    interface PbfTagFilter
+    {
+        - -(filtering)- -
+        +boolean accepts(Tag)
+    }
+    
+    PbfTagList - -> Tag : "stores"
+    class PbfTagList
+    {
+        - -
+        +Tag get(String key)
+        +Tag get(int index)
+        +void retainOnly(Set<String> keys)
+        - -(checks)- -
+        +boolean isValid()
+        - -(collection)- -
+        +PbfTagList add(Tag)
+        +PbfTagList add(String key, String value)
+        +PbfTagList addAll(Iterable<Tag> tags)
+        +List<Tag> asList()
+        +boolean containsKey(String key)
+        +PbfTagList copy()
+        +PbfTagList create()
+        +PbfTagList from(Collection<Tag> tags)
+        +PbfTagList from(Collection<Tag> tags, PbfTagFilter)
+        +boolean isEmpty()
+        +PbfTagList matchingKey(String key)
+        +PbfTagList of(Tag)
+        +void removeKey(String key)
+        +PbfTagList set(int index, String key, String value)
+        +int size()
+        +PbfTagList sorted()
+        +String valueForKey(String key)
+        +String valueForKey(String key, String defaultValue)
+        +PbfTagList withoutKey(String key)
+    }
+    
+    Keyed <|- - PbfTagMap
+    PbfTagMap - -> Tag : "stores"
+    class PbfTagMap
+    {
+        - -(constructors)- -
+        #PbfTagMap(int)
+        - -
+        +String get(String key, String defaultValue)
+        +Tag tag(String key)
+        +int valueAsNaturalNumber(String key)
+        +boolean valueIsNo(String key)
+        +boolean valueIsYes(String key)
+        - -(collection)- -
+        +boolean containsKey(String key)
+        +PbfTagMap create()
+        +PbfTagMap from(Collection<Tag> tags)
+        +PbfTagMap from(Collection<Tag> tags, PbfTagFilter)
+        +boolean isEmpty()
+        +Iterator<String> keys()
+        +void put(String key, String value)
+        +void putAll(Iterable<Tag> tags)
+        +int size()
+        +String value(String key)
+        +StringList valueSplit(String key)
+        - -(primitive)- -
+        +int valueAsInt(String key)
+        +long valueAsLong(String key)
+    }
+    
+    PbfTagFilter <|- - PbfTagPatternFilter
+    class PbfTagPatternFilter
+    {
+        - -(constructors)- -
+        +PbfTagPatternFilter(String)
+        - -
+        +Set<String> allFilteredTags()
+        +Set<String> rejectedTags()
+        - -(filtering)- -
+        +PbfTagPatternFilter forPattern(String pattern)
+        +SwitchParser.Builder<PbfTagPatternFilter> tagFilterSwitchParser(String name, String description)
+        +SwitchParser.Builder<PbfTagPatternFilter> tagFilterSwitchParser()
+    }
+    
+    PbfTags - -> Tag : "provides utilities for"
+    class PbfTags
+    {
+        - -(collection)- -
+        +PropertyMap tags(String prefix, Collection<Tag> tags)
+        +List<Tag> tags(String prefix, PropertyMap properties)
+        - -(parsing)- -
+        +Tag parse(String)
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "PBF Tagging"
+    
+    interface PbfTagFilter
+    interface Keyed
+    
+    PbfTagMap <|- - EmptyPbfTagMap
+    class EmptyPbfTagMap
+    {
+        - -(constructors)- -
+        #EmptyPbfTagMap()
+    }
+    
+    PbfTagFilter - -> Tag : "filters"
+    interface PbfTagFilter
+    {
+        - -(filtering)- -
+        +boolean accepts(Tag)
+    }
+    
+    PbfTagList - -> Tag : "stores"
+    class PbfTagList
+    {
+        - -
+        +Tag get(String key)
+        +Tag get(int index)
+        +void retainOnly(Set<String> keys)
+        - -(checks)- -
+        +boolean isValid()
+        - -(collection)- -
+        +PbfTagList add(Tag)
+        +PbfTagList add(String key, String value)
+        +PbfTagList addAll(Iterable<Tag> tags)
+        +List<Tag> asList()
+        +boolean containsKey(String key)
+        +PbfTagList copy()
+        +PbfTagList create()
+        +PbfTagList from(Collection<Tag> tags)
+        +PbfTagList from(Collection<Tag> tags, PbfTagFilter)
+        +boolean isEmpty()
+        +PbfTagList matchingKey(String key)
+        +PbfTagList of(Tag)
+        +void removeKey(String key)
+        +PbfTagList set(int index, String key, String value)
+        +int size()
+        +PbfTagList sorted()
+        +String valueForKey(String key)
+        +String valueForKey(String key, String defaultValue)
+        +PbfTagList withoutKey(String key)
+    }
+    
+    Keyed <|- - PbfTagMap
+    PbfTagMap - -> Tag : "stores"
+    class PbfTagMap
+    {
+        - -(constructors)- -
+        #PbfTagMap(int)
+        - -
+        +String get(String key, String defaultValue)
+        +Tag tag(String key)
+        +int valueAsNaturalNumber(String key)
+        +boolean valueIsNo(String key)
+        +boolean valueIsYes(String key)
+        - -(collection)- -
+        +boolean containsKey(String key)
+        +PbfTagMap create()
+        +PbfTagMap from(Collection<Tag> tags)
+        +PbfTagMap from(Collection<Tag> tags, PbfTagFilter)
+        +boolean isEmpty()
+        +Iterator<String> keys()
+        +void put(String key, String value)
+        +void putAll(Iterable<Tag> tags)
+        +int size()
+        +String value(String key)
+        +StringList valueSplit(String key)
+        - -(primitive)- -
+        +int valueAsInt(String key)
+        +long valueAsLong(String key)
+    }
+    
+    PbfTagFilter <|- - PbfTagPatternFilter
+    class PbfTagPatternFilter
+    {
+        - -(constructors)- -
+        +PbfTagPatternFilter(String)
+        - -
+        +Set<String> allFilteredTags()
+        +Set<String> rejectedTags()
+        - -(filtering)- -
+        +PbfTagPatternFilter forPattern(String pattern)
+        +SwitchParser.Builder<PbfTagPatternFilter> tagFilterSwitchParser(String name, String description)
+        +SwitchParser.Builder<PbfTagPatternFilter> tagFilterSwitchParser()
+    }
+    
+    PbfTags - -> Tag : "provides utilities for"
+    class PbfTags
+    {
+        - -(collection)- -
+        +PropertyMap tags(String prefix, Collection<Tag> tags)
+        +List<Tag> tags(String prefix, PropertyMap properties)
+        - -(parsing)- -
+        +Tag parse(String)
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 00:55:08 MST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

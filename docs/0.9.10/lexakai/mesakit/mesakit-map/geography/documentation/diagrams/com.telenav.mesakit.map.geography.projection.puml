@@ -1,0 +1,26 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.geography.projection"
+    
+    class MetricCoordinate
+    {
+        --(constructors)--
+        +MetricCoordinate(double, double)
+        --(distance)--
+        +double xInMeters()
+        +double yInMeters()
+        --(io)--
+        +boolean isCloseTo(MetricCoordinate that)
+    }
+    
+    interface MetricProjection
+    {
+        --(conversion)--
+        +MetricCoordinate toCoordinate(Location)
+        +Location toLocation(MetricCoordinate)
+    }
+    
+@enduml
+

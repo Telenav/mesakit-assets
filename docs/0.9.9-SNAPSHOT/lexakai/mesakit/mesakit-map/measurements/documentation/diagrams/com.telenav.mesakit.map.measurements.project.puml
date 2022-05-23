@@ -1,0 +1,38 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.measurements.project"
+    
+    KryoTypes <|-- MeasurementsKryoTypes
+    class MeasurementsKryoTypes
+    {
+        --(constructors)--
+        +MeasurementsKryoTypes()
+    }
+    
+    RandomValueFactory <|-- MeasurementsRandomValueFactory
+    class MeasurementsRandomValueFactory
+    {
+        --(constructors)--
+        +MeasurementsRandomValueFactory()
+        +MeasurementsRandomValueFactory(long)
+        --(factory)--
+        +Angle newAngle()
+        +Angle newAngle(Angle minimum, Angle maximum)
+        +Area newArea()
+        +Area newArea(Area minimum, Area maximum)
+        +Distance newDistance()
+        +Distance newDistance(Distance minimum, Distance maximum)
+        +Speed newSpeed()
+    }
+    
+    KryoUnitTest <|-- MeasurementsUnitTest
+    class MeasurementsUnitTest
+    {
+        --(factory)--
+        #MeasurementsRandomValueFactory random()
+    }
+    
+@enduml
+

@@ -1,0 +1,18 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.query.program.statements"
+    
+    interface Statement
+    
+    Node <|-- Select
+    Statement <|-- Select
+    class Select
+    {
+        --(constructors)--
+        +Select(BooleanExpression)
+    }
+    
+@enduml
+

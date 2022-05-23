@@ -1,0 +1,15 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.region.countries.states.cities"
+    
+    City <|-- Seattle
+    class Seattle
+    {
+        --(constructors)--
+        +Seattle()
+    }
+    
+@enduml
+

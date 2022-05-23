@@ -1,0 +1,54 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.matching.snapping"
+    
+    PolylineSnap <|-- EdgeSnap
+    class EdgeSnap
+    {
+        --(constructors)--
+        +EdgeSnap(Edge, PolylineSnap)
+        --
+        +Edge edge()
+    }
+    
+    class EdgeSnapper
+    {
+        --
+        +PolylineSnap snap(Edge, T point)
+    }
+    
+    class GraphSnap
+    {
+        --(constructors)--
+        +GraphSnap(Edge, PolylineSnap, Map<Edge, PolylineSnap>)
+        --
+        +Edge closestEdge()
+        +PolylineSnap polylineSnap()
+        --(checks)--
+        +boolean isAmbiguous()
+        --(collection)--
+        +Map<Edge,PolylineSnap> candidates()
+    }
+    
+    class GraphSnapper
+    {
+        --(constructors)--
+        +GraphSnapper(Graph, Distance, Heading, Edge.TransportMode)
+        --
+        +GraphSnap snap(Location, Heading)
+    }
+    
+    EdgeSnap <|-- IndexedEdgeSnap
+    class IndexedEdgeSnap
+    {
+        --(constructors)--
+        +IndexedEdgeSnap(Edge, PolylineSnap, int)
+        +IndexedEdgeSnap(EdgeSnap, int)
+        --(collection)--
+        +int index()
+    }
+    
+@enduml
+

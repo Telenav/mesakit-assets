@@ -1,0 +1,78 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.world.repository"
+    
+    abstract BaseStringConverter
+    
+    interface Serializable
+    interface Source
+    
+    enum WorldGraphRepositoryFolder.Check
+    {
+        EXISTS
+        IS_VALID
+    }
+    
+    BaseStringConverter <|-- WorldGraphRepositoryFolder.Converter
+    class WorldGraphRepositoryFolder.Converter
+    {
+        --(constructors)--
+        +Converter(Listener, Check)
+    }
+    
+    BaseStringConverter <|-- WorldGraphRepository.Converter
+    class WorldGraphRepository.Converter
+    {
+        --(constructors)--
+        +Converter(Listener)
+    }
+    
+    Source <|-- WorldGraphReference
+    Serializable <|-- WorldGraphReference
+    class WorldGraphReference
+    {
+        --(constructors)--
+        +WorldGraphReference(Deployment, WorldGraph)
+        +WorldGraphReference(Deployment, WorldGraphRepositoryFolder)
+        --
+        +void release()
+        +WorldCellReference worldCellSource(GridCell)
+        --(math)--
+        +void increment()
+    }
+    
+    Folder <|-- WorldGraphRepository
+    Serializable <|-- WorldGraphRepository
+    class WorldGraphRepository
+    {
+        --(constructors)--
+        +WorldGraphRepository()
+        +WorldGraphRepository(Folder)
+        --(command line parsing)--
+        +SwitchParser.Builder<WorldGraphRepository> worldGraphRepositorySwitchParser(String description)
+        --(filesystem)--
+        +WorldGraphRepositoryFolder folder(Metadata)
+        +WorldGraphRepositoryFolder folder(FilePath subfolder, Metadata)
+        +WorldGraphRepositoryFolder temporaryFolder()
+        +WorldGraphRepositoryFolder temporaryFolder(FilePath subfolder)
+    }
+    
+    Folder <|-- WorldGraphRepositoryFolder
+    Serializable <|-- WorldGraphRepositoryFolder
+    class WorldGraphRepositoryFolder
+    {
+        --
+        +void ensure(Check)
+        +WorldGraphRepository repository()
+        --(checks)--
+        +boolean isTemporary()
+        --(filesystem)--
+        +File indexFile()
+        --(messaging)--
+        +Message check(Folder, Check)
+    }
+    
+@enduml
+

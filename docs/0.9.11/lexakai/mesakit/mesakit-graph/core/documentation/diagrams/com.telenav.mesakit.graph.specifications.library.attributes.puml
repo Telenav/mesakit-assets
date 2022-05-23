@@ -1,0 +1,128 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.library.attributes"
+    
+    interface Comparable
+    interface Iterable
+    interface Unloadable
+    interface NamedObject
+    interface RegistryTrait
+    
+    Comparable <|-- Attribute
+    class Attribute<T>
+    {
+        --(constructors)--
+        #Attribute(String)
+        --(identity)--
+        +int identifier()
+        --(naming)--
+        +String name()
+    }
+    
+    Iterable <|-- AttributeList
+    class AttributeList
+    {
+        --(constructors)--
+        +AttributeList()
+        +AttributeList(ObjectList<Attribute<?>>)
+        --(collection)--
+        +Attribute<?> add(Attribute<?>)
+        +void addAll(List<Attribute<?>>)
+        +void addAll(AttributeList that)
+        +ObjectList<Attribute<?>> attributes()
+        +boolean contains(Attribute<T>)
+        +boolean contains(String attributeName)
+        +void remove(Attribute<?>)
+        --(lifecycle)--
+        +String join(String separator)
+    }
+    
+    Unloadable <|-- AttributeLoader
+    NamedObject <|-- AttributeLoader
+    class AttributeLoader
+    {
+        --(constructors)--
+        +AttributeLoader(String)
+        --
+        +void allocateAll()
+        +void attach(FieldArchive)
+        +Collection<AttributeReference<?>> references()
+        +boolean supports(Attribute<?>)
+        --(checks)--
+        +boolean isLoaded()
+        --(collection)--
+        +void add(AttributeReference<?>)
+        +ObjectList<Attribute<?>> attributes()
+        --(read)--
+        +boolean load(Attribute<?>)
+        +void loadAll(AttributeSet)
+        +void loadAll()
+        +void loadAllExcept(AttributeSet)
+        +void loadRequired(Attribute<?>)
+    }
+    
+    RegistryTrait <|-- AttributeReference
+    NamedObject <|-- AttributeReference
+    class AttributeReference<Referent>
+    {
+        --(constructors)--
+        +AttributeReference(AttributeStore, Attribute<?>, String, Factory<Referent>)
+        --
+        +Referent allocate()
+        +void attach(FieldArchive)
+        +Attribute<?> attribute()
+        +boolean retrieveBoolean(Quantizable index)
+        +T retrieveObject(Quantizable index, LongMapFactory<T>)
+        +String retrieveString(Quantizable index)
+        +void storeBoolean(Quantizable index, Boolean value)
+        +void storeBoolean(Quantizable index, boolean value)
+        +void storeObject(Quantizable index, Quantizable value)
+        +void storeObject(Quantizable index, long value)
+        +void storeString(Quantizable index, String value)
+        +void unload()
+        #void onAllocated()
+        #void onLoaded(Referent value)
+        --(checks)--
+        +boolean isLoaded()
+        --(collection)--
+        +ObjectList<T> retrieveObjectList(Quantizable index, LongMapFactory<T>)
+        +ObjectList<T> retrieveSignedObjectList(Quantizable index, LongMapFactory<T>)
+        +void storeObjectList(Quantizable index, List<? extends Quantizable> values)
+        --(naming)--
+        +String fieldName()
+        --(primitive)--
+        +int retrieveInt(Quantizable index)
+        +long retrieveLong(Quantizable index)
+        --(read)--
+        +boolean load()
+    }
+    
+    class AttributeSet
+    {
+        --
+        +Set<Attribute<?>> attributes()
+        +AttributeSet of(Attribute<?>... attributes)
+        --(collection)--
+        +void add(Attribute<?>)
+        +boolean contains(Attribute<?>)
+    }
+    
+    interface NamedObject
+    NamedObject <|-- AttributeStore
+    interface AttributeStore
+    {
+        --
+        +GraphArchive archive()
+        +AttributeLoader attributeLoader()
+        +Graph graph()
+        +boolean supports(Attribute<?>)
+        --(collection)--
+        +AttributeList attributes()
+        +Estimate initialSize()
+        +int size()
+    }
+    
+@enduml
+

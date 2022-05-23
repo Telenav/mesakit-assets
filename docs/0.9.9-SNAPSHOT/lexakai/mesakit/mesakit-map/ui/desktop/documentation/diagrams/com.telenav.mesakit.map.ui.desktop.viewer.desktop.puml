@@ -1,0 +1,73 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.ui.desktop.viewer.desktop"
+    
+    abstract BaseViewer
+    abstract BaseRepeater
+    
+    interface MouseListener
+    interface InteractiveView
+    interface Viewer
+    interface MouseWheelListener
+    interface MouseMotionListener
+    
+    BaseRepeater <|-- BaseViewer
+    Viewer <|-- BaseViewer
+    abstract class BaseViewer
+    {
+        --(factory)--
+        #View newView(String title)
+    }
+    
+    KivaKitPanel <|-- DesktopViewPanel
+    InteractiveView <|-- DesktopViewPanel
+    MouseMotionListener <|-- DesktopViewPanel
+    MouseListener <|-- DesktopViewPanel
+    MouseWheelListener <|-- DesktopViewPanel
+    class DesktopViewPanel
+    {
+        --(constructors)--
+        +DesktopViewPanel(Listener)
+    }
+    
+    BaseViewer <|-- DesktopViewer
+    class DesktopViewer
+    {
+    }
+    
+    class ViewModel.Entry
+    {
+        --(constructors)--
+        +Entry(DrawableIdentifier, MapDrawable)
+        --
+        +void shape(Shape)
+        +void viewable(MapDrawable viewable)
+    }
+    
+    enum DesktopViewPanel.State
+    {
+        PAUSED
+        RUNNING
+        STEPPING
+    }
+    
+    class ViewModel
+    {
+        --
+        +Rectangle bounds()
+        +void draw(DrawingSurface)
+        +void pullToFront(DrawableIdentifier)
+        +void select(Point)
+        +void update(DrawableIdentifier, MapDrawable viewable)
+        --(collection)--
+        +void add(MapDrawable viewable)
+        +void clear()
+        +void map(Function<MapDrawable,MapDrawable>)
+        +void pushToBack(DrawableIdentifier)
+        +void remove(DrawableIdentifier)
+    }
+    
+@enduml
+

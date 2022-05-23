@@ -1,0 +1,16 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.query"
+    
+    class GraphQuery
+    {
+        --
+        +Set<Route> execute(ProgressReporter, EdgeSequence candidates, String query, Maximum maximumMatches, Callback<String> errorHandler)
+        --(lifecycle)--
+        +void stop()
+    }
+    
+@enduml
+

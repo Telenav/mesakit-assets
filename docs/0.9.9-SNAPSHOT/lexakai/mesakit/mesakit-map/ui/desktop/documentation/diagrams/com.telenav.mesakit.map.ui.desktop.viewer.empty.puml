@@ -1,0 +1,21 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.ui.desktop.viewer.empty"
+    
+    interface InteractiveView
+    interface Viewer
+    
+    InteractiveView <|-- NullInteractiveView
+    class NullInteractiveView
+    {
+    }
+    
+    Viewer <|-- NullViewer
+    class NullViewer
+    {
+    }
+    
+@enduml
+

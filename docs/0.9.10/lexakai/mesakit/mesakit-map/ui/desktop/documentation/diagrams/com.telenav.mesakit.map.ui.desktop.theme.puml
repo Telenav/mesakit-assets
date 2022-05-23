@@ -1,0 +1,20 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.ui.desktop.theme"
+    
+    class MapColors
+    {
+    }
+    
+    class MapStrokes
+    {
+    }
+    
+    class MapStyles
+    {
+    }
+    
+@enduml
+

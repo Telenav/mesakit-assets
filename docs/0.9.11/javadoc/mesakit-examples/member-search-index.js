@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.telenav.mesakit.examples.map.measurements","c":"LocationExample","l":"LocationExample()","u":"%3Cinit%3E()"},{"p":"com.telenav.mesakit.examples.map.measurements","c":"LocationExample","l":"main(String[])","u":"main(java.lang.String[])"}];updateSearchResults();

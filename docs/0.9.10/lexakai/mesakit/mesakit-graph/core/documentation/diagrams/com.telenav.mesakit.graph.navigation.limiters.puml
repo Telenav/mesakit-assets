@@ -1,0 +1,30 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.navigation.limiters"
+    
+    interface RouteLimiter
+    
+    RouteLimiter <|-- EdgeCountRouteLimiter
+    class EdgeCountRouteLimiter
+    {
+        --(constructors)--
+        +EdgeCountRouteLimiter(Count)
+    }
+    
+    RouteLimiter <|-- LengthRouteLimiter
+    class LengthRouteLimiter
+    {
+        --(constructors)--
+        +LengthRouteLimiter(Distance, Type)
+    }
+    
+    enum LengthRouteLimiter.Type
+    {
+        LENIENT
+        STRICT
+    }
+    
+@enduml
+

@@ -1,0 +1,51 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.io.archive"
+    
+    abstract BaseStringConverter
+    
+    interface Named
+    
+    BaseStringConverter <|-- GraphArchive.Converter
+    class GraphArchive.Converter
+    {
+        --(constructors)--
+        +Converter(Listener, ProgressReporter)
+    }
+    
+    FieldArchive <|-- GraphArchive
+    Named <|-- GraphArchive
+    class GraphArchive
+    {
+        --(constructors)--
+        +GraphArchive(Listener, File, ZipArchive.Mode, ProgressReporter)
+        --
+        +Resource forSpecifier(Listener, String specifier)
+        +Resource resource()
+        --(command line parsing)--
+        +ArgumentParser.Builder<Graph> argumentParser(String description)
+        +SwitchParser.Builder<Graph> graphArchiveSwitchParser(String name, String description)
+        +SwitchParser.Builder<GraphList> graphListSwitchParser(String name, String description)
+        --(filtering)--
+        +boolean accepts(FileName)
+        --(metadata)--
+        +Metadata metadata()
+        +void saveMetadata(Metadata)
+        --(read)--
+        +Graph load(Listener)
+        +Graph loadAll(Listener)
+        --(time)--
+        +Time lastModified()
+    }
+    
+    BaseStringConverter <|-- GraphArchive.ListConverter
+    class GraphArchive.ListConverter
+    {
+        --(constructors)--
+        +ListConverter(Listener)
+    }
+    
+@enduml
+

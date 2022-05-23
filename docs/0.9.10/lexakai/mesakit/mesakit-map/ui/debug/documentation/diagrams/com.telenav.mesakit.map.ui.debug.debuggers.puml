@@ -1,0 +1,33 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.ui.debug.debuggers"
+    
+    abstract BaseRepeater
+    
+    interface PolygonSpatialIndexDebugger
+    interface RTreeSpatialIndexDebugger
+    
+    PolygonSpatialIndexDebugger <|-- PolygonSpatialIndexVisualDebugger
+    class PolygonSpatialIndexVisualDebugger
+    {
+        --(constructors)--
+        +PolygonSpatialIndexVisualDebugger(View)
+    }
+    
+    BaseRepeater <|-- RTreeSpatialIndexVisualDebugger
+    RTreeSpatialIndexDebugger <|-- RTreeSpatialIndexVisualDebugger
+    class RTreeSpatialIndexVisualDebugger<T>
+    {
+        --(constructors)--
+        +RTreeSpatialIndexVisualDebugger(Listener, String)
+        --
+        +void updateView(Node<T>)
+        +void updateView(Leaf<T>, T element)
+        --(collection)--
+        +void removeNodeFromView(Node<T>)
+    }
+    
+@enduml
+

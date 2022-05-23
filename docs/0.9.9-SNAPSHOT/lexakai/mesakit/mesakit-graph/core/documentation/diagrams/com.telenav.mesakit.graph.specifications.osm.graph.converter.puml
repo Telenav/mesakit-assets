@@ -1,0 +1,27 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.osm.graph.converter"
+    
+    PbfToGraphConverter.Configuration <|-- OsmPbfToGraphConverter.Configuration
+    class OsmPbfToGraphConverter.Configuration
+    {
+        --
+        +void markJunctionEdges(boolean markJunctionEdges)
+        +void markRampsAndConnectors(boolean markRampsAndConnectors)
+        --(configuration)--
+        +PbfToGraphConverter.Configuration analysisType(AnalysisType)
+        --(primitive)--
+        +void markDoubleDigitizedEdges(boolean markDoubleDigitizedEdges)
+    }
+    
+    PbfToGraphConverter <|-- OsmPbfToGraphConverter
+    class OsmPbfToGraphConverter
+    {
+        --(constructors)--
+        +OsmPbfToGraphConverter(Metadata)
+    }
+    
+@enduml
+

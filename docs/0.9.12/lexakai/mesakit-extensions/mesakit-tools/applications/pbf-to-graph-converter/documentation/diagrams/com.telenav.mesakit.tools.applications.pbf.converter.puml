@@ -1,0 +1,26 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.tools.applications.pbf.converter"
+    
+    abstract BaseRepeater
+    
+    BaseRepeater <|-- Conversion
+    class Conversion
+    {
+        --(constructors)--
+        +Conversion(PbfToGraphConverterApplication, CommandLine, Folder)
+        --(filesystem)--
+        +File convert(File input)
+    }
+    
+    Application <|-- PbfToGraphConverterApplication
+    class PbfToGraphConverterApplication
+    {
+        --
+        +void main(String[] arguments)
+    }
+    
+@enduml
+

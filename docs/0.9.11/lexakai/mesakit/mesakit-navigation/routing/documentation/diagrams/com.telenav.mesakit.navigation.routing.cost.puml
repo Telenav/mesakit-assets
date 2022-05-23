@@ -1,0 +1,62 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.navigation.routing.cost"
+    
+    interface Comparable
+    
+    Comparable <|-- Cost
+    class Cost
+    {
+        --
+        +Cost inverse(double value)
+        +Cost of(double value)
+        --(checks)--
+        +boolean isGreaterThan(Cost that)
+        +boolean isLessThan(Cost that)
+        --(functional)--
+        +Cost weighted(Weight)
+        --(math)--
+        +Cost add(Cost that)
+        +boolean isMaximum()
+        +Cost maximum(Cost that)
+        +Cost minimum(Cost that)
+        +Cost times(double multiplier)
+        --(primitive)--
+        +double asDouble()
+    }
+    
+    interface CostFunction
+    {
+        --
+        +Cost cost(Edge)
+        --(functional)--
+        +CostFunction weighted(Weight)
+        +CostFunction weightedSum(Weight, CostFunction that)
+        --(math)--
+        +CostFunction maximum(CostFunction that)
+        +CostFunction minimum(CostFunction that)
+        +CostFunction plus(CostFunction that)
+    }
+    
+    interface EdgePermissionFunction
+    {
+        --
+        +Permission allowed(Edge)
+    }
+    
+    enum EdgePermissionFunction.Permission
+    {
+        MAYBE
+        YES
+    }
+    
+    interface RoutePermissionFunction
+    {
+        --
+        +boolean allowed(Route)
+    }
+    
+@enduml
+

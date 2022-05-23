@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="302.0833px" preserveAspectRatio="none" style="width:587px;height:302px;background:#333333;" version="1.1" viewBox="0 0 587 302" width="587.5px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="575" x="2.0833" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="552.0833" x="13.5417" y="30.5583">com.telenav.mesakit.plugins.josm.graph.view.tabs.tags</text><!--MD5=[36afe292eb27441132c327893668631d]
+class JPanel--><rect fill="#282828" height="48.055" id="JPanel" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="77.0833" x="252.3438" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="77.0833" x="252.3438" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="77.0833" x="252.3438" y="76.7578"/><rect fill="none" height="48.055" id="JPanel" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="77.0833" x="252.3438" y="53.7028"/><ellipse cx="266.9271" cy="69.397" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M268.8375,73.822 Q268.4102,74.0417 267.9403,74.1516 Q267.4703,74.2615 266.9515,74.2615 Q265.1082,74.2615 264.1378,73.0469 Q263.1673,71.8323 263.1673,69.5374 Q263.1673,67.2363 264.1378,66.0217 Q265.1082,64.8071 266.9515,64.8071 Q267.4703,64.8071 267.9464,64.917 Q268.4224,65.0269 268.8375,65.2466 L268.8375,67.2485 Q268.3736,66.8213 267.9372,66.6229 Q267.5008,66.4246 267.0369,66.4246 Q266.0482,66.4246 265.5446,67.2089 Q265.0411,67.9932 265.0411,69.5374 Q265.0411,71.0754 265.5446,71.8597 Q266.0482,72.644 267.0369,72.644 Q267.5008,72.644 267.9372,72.4457 Q268.3736,72.2473 268.8375,71.8201 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="39.5833" x="283.5938" y="74.1211">JPanel</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="253.3854" x2="328.3854" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="253.3854" x2="328.3854" y1="93.4245" y2="93.4245"/><!--MD5=[7a785d0e70a8132ef92a9f9a2de5f28a]
+class KeysColumn--><rect codeLine="7" fill="#282828" height="48.055" id="KeysColumn" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="119.7917" x="54.9479" y="205.7861"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="119.7917" x="54.9479" y="205.7861"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="119.7917" x="54.9479" y="228.8411"/><rect codeLine="7" fill="none" height="48.055" id="KeysColumn" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="119.7917" x="54.9479" y="205.7861"/><ellipse cx="69.5313" cy="221.4803" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M71.4417,225.9054 Q71.0144,226.1251 70.5444,226.2349 Q70.0745,226.3448 69.5557,226.3448 Q67.7124,226.3448 66.7419,225.1302 Q65.7715,223.9156 65.7715,221.6207 Q65.7715,219.3197 66.7419,218.1051 Q67.7124,216.8905 69.5557,216.8905 Q70.0745,216.8905 70.5505,217.0003 Q71.0266,217.1102 71.4417,217.3299 L71.4417,219.3319 Q70.9778,218.9046 70.5414,218.7063 Q70.105,218.5079 69.6411,218.5079 Q68.6523,218.5079 68.1488,219.2922 Q67.6453,220.0765 67.6453,221.6207 Q67.6453,223.1588 68.1488,223.9431 Q68.6523,224.7274 69.6411,224.7274 Q70.105,224.7274 70.5414,224.529 Q70.9778,224.3306 71.4417,223.9034 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="82.2917" x="86.1979" y="226.2044">KeysColumn</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="55.9896" x2="173.6979" y1="237.1745" y2="237.1745"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="55.9896" x2="173.6979" y1="245.5078" y2="245.5078"/><!--MD5=[8c15245df8b5e7f1e3db89364508e6c5]
+class TagPanel--><rect codeLine="12" fill="#282828" height="131.2012" id="TagPanel" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="159.375" x="211.1979" y="164.1195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="159.375" x="211.1979" y="164.1195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="159.375" x="211.1979" y="187.1745"/><rect codeLine="12" fill="none" height="131.2012" id="TagPanel" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="159.375" x="211.1979" y="164.1195"/><ellipse cx="254.4271" cy="179.8136" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M256.3375,184.2387 Q255.9102,184.4584 255.4403,184.5683 Q254.9703,184.6781 254.4515,184.6781 Q252.6082,184.6781 251.6378,183.4635 Q250.6673,182.2489 250.6673,179.954 Q250.6673,177.653 251.6378,176.4384 Q252.6082,175.2238 254.4515,175.2238 Q254.9703,175.2238 255.4464,175.3337 Q255.9224,175.4435 256.3375,175.6632 L256.3375,177.6652 Q255.8736,177.238 255.4372,177.0396 Q255.0008,176.8412 254.5369,176.8412 Q253.5482,176.8412 253.0446,177.6255 Q252.5411,178.4098 252.5411,179.954 Q252.5411,181.4921 253.0446,182.2764 Q253.5482,183.0607 254.5369,183.0607 Q255.0008,183.0607 255.4372,182.8623 Q255.8736,182.664 256.3375,182.2367 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="58.3333" x="277.3438" y="184.5378">TagPanel</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="212.2396" x2="369.5313" y1="195.5078" y2="195.5078"/><ellipse cx="222.6563" cy="230.8777" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="121.875" x="234.1146" y="237.7889">TagPanel(GraphPanel)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="212.2396" x2="247.1354" y1="213.7136" y2="213.7136"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="250.2604" y="217.5232">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="334.6354" x2="369.5313" y1="213.7136" y2="213.7136"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="212.2396" x2="369.5313" y1="247.4976" y2="247.4976"/><ellipse cx="222.6563" cy="258.9559" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="127.0833" x="234.1146" y="265.8671">void layer(GraphLayer)</text><ellipse cx="222.6563" cy="278.7008" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="76.0417" x="234.1146" y="285.612">void refresh()</text><!--MD5=[5f56fee120f21fce704131030e8fd917]
+class ValuesColumn--><rect codeLine="22" fill="#282828" height="48.055" id="ValuesColumn" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="131.25" x="407.5521" y="205.7861"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="131.25" x="407.5521" y="205.7861"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="131.25" x="407.5521" y="228.8411"/><rect codeLine="22" fill="none" height="48.055" id="ValuesColumn" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="131.25" x="407.5521" y="205.7861"/><ellipse cx="422.1354" cy="221.4803" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M424.0458,225.9054 Q423.6186,226.1251 423.1486,226.2349 Q422.6786,226.3448 422.1598,226.3448 Q420.3166,226.3448 419.3461,225.1302 Q418.3757,223.9156 418.3757,221.6207 Q418.3757,219.3197 419.3461,218.1051 Q420.3166,216.8905 422.1598,216.8905 Q422.6786,216.8905 423.1547,217.0003 Q423.6308,217.1102 424.0458,217.3299 L424.0458,219.3319 Q423.5819,218.9046 423.1455,218.7063 Q422.7091,218.5079 422.2453,218.5079 Q421.2565,218.5079 420.753,219.2922 Q420.2494,220.0765 420.2494,221.6207 Q420.2494,223.1588 420.753,223.9431 Q421.2565,224.7274 422.2453,224.7274 Q422.7091,224.7274 423.1455,224.529 Q423.5819,224.3306 424.0458,223.9034 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="93.75" x="438.8021" y="226.2044">ValuesColumn</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="408.5938" x2="537.7604" y1="237.1745" y2="237.1745"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="408.5938" x2="537.7604" y1="245.5078" y2="245.5078"/><!--MD5=[fd8b913239415edac89c263e0724d37d]
+reverse link JPanel to KeysColumn--><path codeLine="6" d="M247.6875,115.5049 C214.6771,143.6403 170.1771,181.557 142,205.5674 " fill="none" id="JPanel-backto-KeysColumn" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="243.1771,109.7757,263.7604,101.807,252.6354,120.8695,243.1771,109.7757" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[720ec436fa8856e83e9b0ddacd26af53]
+reverse link JPanel to TagPanel--><path codeLine="11" d="M290.8854,122.9945 C290.8854,135.8695 290.8854,150.2132 290.8854,164.0674 " fill="none" id="JPanel-backto-TagPanel" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="283.5938,122.6403,290.8854,101.807,298.1771,122.6403,283.5938,122.6403" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[d2a9fd8530b4d4aa2b854a5a4daaec02]
+reverse link JPanel to ValuesColumn--><path codeLine="21" d="M335.1458,115.1195 C369.375,143.2965 415.7396,181.4424 445.0625,205.5674 " fill="none" id="JPanel-backto-ValuesColumn" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="330.4271,120.682,318.9688,101.807,339.6875,109.4215,330.4271,120.682" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[d6cc170af09c67e365cd1b0aefb8f1f0]
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.plugins.josm.graph.view.tabs.tags"
+    
+    JPanel <|- - KeysColumn
+    class KeysColumn
+    {
+    }
+    
+    JPanel <|- - TagPanel
+    class TagPanel
+    {
+        - -(constructors)- -
+        +TagPanel(GraphPanel)
+        - -
+        +void layer(GraphLayer)
+        +void refresh()
+    }
+    
+    JPanel <|- - ValuesColumn
+    class ValuesColumn
+    {
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.mesakit.plugins.josm.graph.view.tabs.tags"
+    
+    JPanel <|- - KeysColumn
+    class KeysColumn
+    {
+    }
+    
+    JPanel <|- - TagPanel
+    class TagPanel
+    {
+        - -(constructors)- -
+        +TagPanel(GraphPanel)
+        - -
+        +void layer(GraphLayer)
+        +void refresh()
+    }
+    
+    JPanel <|- - ValuesColumn
+    class ValuesColumn
+    {
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 00:55:08 MST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

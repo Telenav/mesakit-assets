@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="733.3333px" preserveAspectRatio="none" style="width:4232px;height:733px;background:#333333;" version="1.1" viewBox="0 0 4232 733" width="4232.2917px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="228.125" x="1995.0521" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="205.2083" x="2006.5104" y="30.5583">Administrative areas</text><!--MD5=[bdb7a498ae268604f9dee9fee1851af7]
+class Region--><rect fill="#282828" height="48.055" id="Region" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="82.2917" x="2230.2083" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="82.2917" x="2230.2083" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="82.2917" x="2230.2083" y="76.7578"/><rect fill="none" height="48.055" id="Region" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="82.2917" x="2230.2083" y="53.7028"/><ellipse cx="2244.7917" cy="69.397" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M2246.7021,73.822 Q2246.2748,74.0417 2245.8049,74.1516 Q2245.3349,74.2615 2244.8161,74.2615 Q2242.9728,74.2615 2242.0024,73.0469 Q2241.0319,71.8323 2241.0319,69.5374 Q2241.0319,67.2363 2242.0024,66.0217 Q2242.9728,64.8071 2244.8161,64.8071 Q2245.3349,64.8071 2245.811,64.917 Q2246.287,65.0269 2246.7021,65.2466 L2246.7021,67.2485 Q2246.2382,66.8213 2245.8018,66.6229 Q2245.3654,66.4246 2244.9015,66.4246 Q2243.9128,66.4246 2243.4092,67.2089 Q2242.9057,67.9932 2242.9057,69.5374 Q2242.9057,71.0754 2243.4092,71.8597 Q2243.9128,72.644 2244.9015,72.644 Q2245.3654,72.644 2245.8018,72.4457 Q2246.2382,72.2473 2246.7021,71.8201 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="44.7917" x="2261.4583" y="74.1211">Region</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="2231.25" x2="2311.4583" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="2231.25" x2="2311.4583" y1="93.4245" y2="93.4245"/><!--MD5=[9466097c40aeafc62ec36a0cc4f3c955]
+class City--><rect codeLine="7" fill="#282828" height="131.2012" id="City" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="221.875" x="7.2917" y="379.7445"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="221.875" x="7.2917" y="379.7445"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="221.875" x="7.2917" y="402.7995"/><rect codeLine="7" fill="none" height="131.2012" id="City" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="221.875" x="7.2917" y="379.7445"/><ellipse cx="97.9167" cy="395.4386" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M99.8271,399.8637 Q99.3998,400.0834 98.9299,400.1933 Q98.4599,400.3031 97.9411,400.3031 Q96.0978,400.3031 95.1274,399.0885 Q94.1569,397.8739 94.1569,395.579 Q94.1569,393.278 95.1274,392.0634 Q96.0978,390.8488 97.9411,390.8488 Q98.4599,390.8488 98.936,390.9587 Q99.412,391.0685 99.8271,391.2882 L99.8271,393.2902 Q99.3632,392.863 98.9268,392.6646 Q98.4904,392.4662 98.0265,392.4662 Q97.0378,392.4662 96.5342,393.2505 Q96.0307,394.0348 96.0307,395.579 Q96.0307,397.1171 96.5342,397.9014 Q97.0378,398.6857 98.0265,398.6857 Q98.4904,398.6857 98.9268,398.4873 Q99.3632,398.289 99.8271,397.8617 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="26.0417" x="120.8333" y="400.1628">City</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="8.3333" x2="228.125" y1="411.1328" y2="411.1328"/><ellipse cx="18.75" cy="446.5027" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="189.5833" x="30.2083" y="453.4139">City(State, RegionInstance&lt;City&gt;)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="74.4792" y1="429.3386" y2="429.3386"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="77.6042" y="433.1482">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="161.9792" x2="228.125" y1="429.3386" y2="429.3386"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="228.125" y1="463.1226" y2="463.1226"/><ellipse cx="18.75" cy="474.5809" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="171.875" x="30.2083" y="481.4921">City forIdentity(RegionIdentity)</text><ellipse cx="18.75" cy="494.3258" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="185.4167" x="30.2083" y="501.237">City forRegionCode(RegionCode)</text><!--MD5=[e2c3cf1f717dbe59ae4ba9c73a677022]
+class Continent--><rect codeLine="17" fill="#282828" height="317.2384" id="Continent" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="527.0833" x="266.1458" y="286.5153"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="527.0833" x="266.1458" y="286.5153"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="527.0833" x="266.1458" y="309.5703"/><rect codeLine="17" fill="none" height="317.2384" id="Continent" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="527.0833" x="266.1458" y="286.5153"/><ellipse cx="490.1042" cy="302.2095" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M489.6973,298.9115 L488.8489,302.6408 L490.5518,302.6408 Z M488.5986,297.2636 L490.802,297.2636 L493.2617,306.3761 L491.4612,306.3761 L490.8997,304.1239 L488.4888,304.1239 L487.9395,306.3761 L486.1389,306.3761 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="64.5833" x="513.0208" y="306.9336">Continent</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="267.1875" x2="792.1875" y1="317.9036" y2="317.9036"/><polygon fill="#FFFF44" points="277.6042,348.0652,281.7708,352.2319,277.6042,356.3985,273.4375,352.2319" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="222.9167" x="289.0625" y="360.1847">Continent(RegionInstance&lt;Continent&gt;)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="267.1875" x2="485.9375" y1="336.1094" y2="336.1094"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="489.0625" y="339.919">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="573.4375" x2="792.1875" y1="336.1094" y2="336.1094"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="267.1875" x2="792.1875" y1="369.8934" y2="369.8934"/><ellipse cx="277.6042" cy="381.3517" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="154.1667" x="289.0625" y="388.2629">Collection&lt;Continent&gt; all()</text><ellipse cx="277.6042" cy="401.0966" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="268.75" x="289.0625" y="408.0078">RegionBorderCache&lt;Continent&gt; borderCache()</text><ellipse cx="277.6042" cy="420.8415" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="185.4167" x="289.0625" y="427.7527">Collection&lt;Country&gt; countries()</text><ellipse cx="277.6042" cy="440.5863" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="69.7917" x="289.0625" y="447.4976">void create()</text><ellipse cx="277.6042" cy="460.3312" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="205.2083" x="289.0625" y="467.2424">Continent forIdentity(RegionIdentity)</text><ellipse cx="277.6042" cy="480.0761" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="179.1667" x="289.0625" y="486.9873">Continent forLocation(Location)</text><ellipse cx="277.6042" cy="523.7325" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="221.875" x="289.0625" y="530.6437">List&lt;Country&gt; allSupportedCountries()</text><ellipse cx="277.6042" cy="543.4774" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="150" x="289.0625" y="550.3886">boolean contains(Country)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="267.1875" x2="495.3125" y1="506.5684" y2="506.5684"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="498.4375" y="510.378">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="564.0625" x2="792.1875" y1="506.5684" y2="506.5684"/><ellipse cx="277.6042" cy="587.1338" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="494.7917" x="289.0625" y="594.045">SwitchParser.Builder&lt;Continent&gt; continentSwitchParser(String name, String description)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="267.1875" x2="460.4167" y1="569.9697" y2="569.9697"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="132.2917" x="463.5417" y="573.7793">(command line parsing)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="598.9583" x2="792.1875" y1="569.9697" y2="569.9697"/><!--MD5=[deb4e1f6eb1e3c1256fdb830f96abfbb]
+class Country--><rect codeLine="36" fill="#282828" height="562.5102" id="Country" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="508.3333" x="829.6875" y="164.1195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="508.3333" x="829.6875" y="164.1195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="508.3333" x="829.6875" y="187.1745"/><rect codeLine="36" fill="none" height="562.5102" id="Country" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="508.3333" x="829.6875" y="164.1195"/><ellipse cx="1050.5208" cy="179.8136" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M1050.1139,176.5157 L1049.2655,180.245 L1050.9684,180.245 Z M1049.0153,174.8678 L1051.2187,174.8678 L1053.6784,183.9803 L1051.8778,183.9803 L1051.3163,181.7281 L1048.9054,181.7281 L1048.3561,183.9803 L1046.5556,183.9803 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="52.0833" x="1073.4375" y="184.5378">Country</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="830.7292" x2="1336.9792" y1="195.5078" y2="195.5078"/><polygon fill="#FFFF44" points="841.1458,225.6694,845.3125,229.836,841.1458,234.0027,836.9792,229.836" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="265.625" x="852.6042" y="237.7889">Country(Continent, RegionInstance&lt;Country&gt;)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="830.7292" x2="1040.1042" y1="213.7136" y2="213.7136"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="1043.2292" y="217.5232">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1127.6042" x2="1336.9792" y1="213.7136" y2="213.7136"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="830.7292" x2="1336.9792" y1="247.4976" y2="247.4976"/><ellipse cx="841.1458" cy="258.9559" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="144.7917" x="852.6042" y="265.8671">Collection&lt;Country&gt; all()</text><ellipse cx="841.1458" cy="278.7008" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="203.125" x="852.6042" y="285.612">Collection&lt;Country&gt; allSupported()</text><ellipse cx="841.1458" cy="298.4456" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="234.375" x="852.6042" y="305.3569">RegionInstance&lt;Country&gt; baseInstance()</text><ellipse cx="841.1458" cy="318.1905" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="185.4167" x="852.6042" y="325.1017">RegionIdentity baseRegionCode()</text><ellipse cx="841.1458" cy="337.9354" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="259.375" x="852.6042" y="344.8466">RegionBorderCache&lt;Country&gt; borderCache()</text><ellipse cx="841.1458" cy="357.6803" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="137.5" x="852.6042" y="364.5915">DrivingSide drivingSide()</text><ellipse cx="841.1458" cy="377.4251" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="195.8333" x="852.6042" y="384.3363">Country forIdentity(RegionIdentity)</text><ellipse cx="841.1458" cy="397.17" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="172.9167" x="852.6042" y="404.0812">Country forIsoCode(String iso)</text><ellipse cx="841.1458" cy="416.9149" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="169.7917" x="852.6042" y="423.8261">Country forLocation(Location)</text><ellipse cx="841.1458" cy="436.6597" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="240.625" x="852.6042" y="443.571">Country forNumericCountryCode(int code)</text><ellipse cx="841.1458" cy="456.4046" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="209.375" x="852.6042" y="463.3158">Country forRegionCode(RegionCode)</text><ellipse cx="841.1458" cy="476.1495" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="132.2917" x="852.6042" y="483.0607">Set&lt;Country&gt; islands()</text><ellipse cx="841.1458" cy="495.8944" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="176.0417" x="852.6042" y="502.8056">Set&lt;Country&gt; largeCountries()</text><ellipse cx="841.1458" cy="515.6392" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="293.75" x="852.6042" y="522.5505">Collection&lt;Country&gt; matching(Matcher&lt;Country&gt;)</text><ellipse cx="841.1458" cy="559.2957" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="132.2917" x="852.6042" y="566.2069">Iterable&lt;State&gt; states()</text><polygon fill="#FFFF44" points="841.1458,573.8322,845.3125,577.9989,841.1458,582.1655,836.9792,577.9989" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="377.0833" x="852.6042" y="585.9517">List&lt;LanguageIsoCode&gt; languages(LanguageIsoCode... languages)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="830.7292" x2="1049.4792" y1="542.1316" y2="542.1316"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="1052.6042" y="545.9412">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1118.2292" x2="1336.9792" y1="542.1316" y2="542.1316"/><ellipse cx="841.1458" cy="622.6969" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="476.0417" x="852.6042" y="629.6082">SwitchParser.Builder&lt;Country&gt; countrySwitchParser(String name, String description)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="830.7292" x2="1014.5833" y1="605.5328" y2="605.5328"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="132.2917" x="1017.7083" y="609.3424">(command line parsing)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1153.125" x2="1336.9792" y1="605.5328" y2="605.5328"/><ellipse cx="841.1458" cy="666.3534" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="212.5" x="852.6042" y="673.2646">Country forIdentifier(RegionIdentifier)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="830.7292" x2="1055.7292" y1="649.1892" y2="649.1892"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="50" x="1058.8542" y="652.9989">(identity)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1111.9792" x2="1336.9792" y1="649.1892" y2="649.1892"/><ellipse cx="841.1458" cy="710.0098" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="290.625" x="852.6042" y="716.921">Collection&lt;Country&gt; allLargerThan(Area minimum)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="830.7292" x2="1062.5" y1="692.8457" y2="692.8457"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="36.4583" x="1065.625" y="696.6553">(math)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1105.2083" x2="1336.9792" y1="692.8457" y2="692.8457"/><!--MD5=[b8c3349295d742255946c45c28d3bc5e]
+class County--><rect codeLine="67" fill="#282828" height="317.2384" id="County" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="497.9167" x="1374.4792" y="286.5153"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="497.9167" x="1374.4792" y="286.5153"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="497.9167" x="1374.4792" y="309.5703"/><rect codeLine="67" fill="none" height="317.2384" id="County" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="497.9167" x="1374.4792" y="286.5153"/><ellipse cx="1592.7083" cy="302.2095" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1594.6187,306.6345 Q1594.1915,306.8542 1593.7215,306.9641 Q1593.2515,307.074 1592.7327,307.074 Q1590.8895,307.074 1589.919,305.8594 Q1588.9486,304.6448 1588.9486,302.3499 Q1588.9486,300.0488 1589.919,298.8342 Q1590.8895,297.6196 1592.7327,297.6196 Q1593.2515,297.6196 1593.7276,297.7295 Q1594.2037,297.8394 1594.6187,298.0591 L1594.6187,300.061 Q1594.1549,299.6338 1593.7185,299.4354 Q1593.2821,299.2371 1592.8182,299.2371 Q1591.8294,299.2371 1591.3259,300.0214 Q1590.8223,300.8057 1590.8223,302.3499 Q1590.8223,303.8879 1591.3259,304.6722 Q1591.8294,305.4565 1592.8182,305.4565 Q1593.2821,305.4565 1593.7185,305.2582 Q1594.1549,305.0598 1594.6187,304.6326 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="46.875" x="1615.625" y="306.9336">County</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1375.5208" x2="1871.3542" y1="317.9036" y2="317.9036"/><ellipse cx="1385.9375" cy="353.2735" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="227.0833" x="1397.3958" y="360.1847">County(State, RegionInstance&lt;County&gt;)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1375.5208" x2="1579.6875" y1="336.1094" y2="336.1094"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="1582.8125" y="339.919">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1667.1875" x2="1871.3542" y1="336.1094" y2="336.1094"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1375.5208" x2="1871.3542" y1="369.8934" y2="369.8934"/><ellipse cx="1385.9375" cy="381.3517" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="243.75" x="1397.3958" y="388.2629">Collection&lt;County&gt; all(Matcher&lt;County&gt;)</text><ellipse cx="1385.9375" cy="401.0966" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="139.5833" x="1397.3958" y="408.0078">Collection&lt;County&gt; all()</text><ellipse cx="1385.9375" cy="420.8415" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="254.1667" x="1397.3958" y="427.7527">RegionBorderCache&lt;County&gt; borderCache()</text><ellipse cx="1385.9375" cy="440.5863" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="190.625" x="1397.3958" y="447.4976">County forIdentity(RegionIdentity)</text><ellipse cx="1385.9375" cy="460.3312" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="164.5833" x="1397.3958" y="467.2424">County forLocation(Location)</text><ellipse cx="1385.9375" cy="480.0761" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="204.1667" x="1397.3958" y="486.9873">County forRegionCode(RegionCode)</text><ellipse cx="1385.9375" cy="499.821" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="65.625" x="1397.3958" y="506.7322">State state()</text><ellipse cx="1385.9375" cy="543.4774" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="465.625" x="1397.3958" y="550.3886">SwitchParser.Builder&lt;County&gt; countySwitchParser(String name, String description)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1375.5208" x2="1554.1667" y1="526.3133" y2="526.3133"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="132.2917" x="1557.2917" y="530.1229">(command line parsing)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1692.7083" x2="1871.3542" y1="526.3133" y2="526.3133"/><ellipse cx="1385.9375" cy="587.1338" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="207.2917" x="1397.3958" y="594.045">County forIdentifier(RegionIdentifier)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1375.5208" x2="1595.3125" y1="569.9697" y2="569.9697"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="50" x="1598.4375" y="573.7793">(identity)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1651.5625" x2="1871.3542" y1="569.9697" y2="569.9697"/><!--MD5=[c4d681900983498091bbbc67674786ba]
+class District--><rect codeLine="86" fill="#282828" height="111.4563" id="District" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="254.1667" x="1908.8542" y="389.6403"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="254.1667" x="1908.8542" y="389.6403"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="254.1667" x="1908.8542" y="412.6953"/><rect codeLine="86" fill="none" height="111.4563" id="District" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="254.1667" x="1908.8542" y="389.6403"/><ellipse cx="2004.6875" cy="405.3345" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M2006.5979,409.7595 Q2006.1707,409.9792 2005.7007,410.0891 Q2005.2307,410.199 2004.7119,410.199 Q2002.8687,410.199 2001.8982,408.9844 Q2000.9277,407.7698 2000.9277,405.4749 Q2000.9277,403.1738 2001.8982,401.9592 Q2002.8687,400.7446 2004.7119,400.7446 Q2005.2307,400.7446 2005.7068,400.8545 Q2006.1829,400.9644 2006.5979,401.1841 L2006.5979,403.186 Q2006.134,402.7588 2005.6976,402.5604 Q2005.2612,402.3621 2004.7974,402.3621 Q2003.8086,402.3621 2003.3051,403.1464 Q2002.8015,403.9307 2002.8015,405.4749 Q2002.8015,407.0129 2003.3051,407.7972 Q2003.8086,408.5815 2004.7974,408.5815 Q2005.2612,408.5815 2005.6976,408.3832 Q2006.134,408.1848 2006.5979,407.7576 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="47.9167" x="2027.6042" y="410.0586">District</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1909.8958" x2="2161.9792" y1="421.0286" y2="421.0286"/><ellipse cx="1920.3125" cy="456.3985" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="221.875" x="1931.7708" y="463.3097">District(City, RegionInstance&lt;District&gt;)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1909.8958" x2="1992.1875" y1="439.2344" y2="439.2344"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="1995.3125" y="443.044">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="2079.6875" x2="2161.9792" y1="439.2344" y2="439.2344"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1909.8958" x2="2161.9792" y1="473.0184" y2="473.0184"/><ellipse cx="1920.3125" cy="484.4767" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="53.125" x="1931.7708" y="491.3879">City city()</text><!--MD5=[52dc2b4107ef748ccc501c6c11e6c5fe]
+class MetropolitanArea--><rect codeLine="95" fill="#282828" height="317.2384" id="MetropolitanArea" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="613.5417" x="2200" y="286.5153"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="613.5417" x="2200" y="286.5153"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="613.5417" x="2200" y="309.5703"/><rect codeLine="95" fill="none" height="317.2384" id="MetropolitanArea" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="613.5417" x="2200" y="286.5153"/><ellipse cx="2443.2292" cy="302.2095" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M2445.1396,306.6345 Q2444.7123,306.8542 2444.2424,306.9641 Q2443.7724,307.074 2443.2536,307.074 Q2441.4103,307.074 2440.4399,305.8594 Q2439.4694,304.6448 2439.4694,302.3499 Q2439.4694,300.0488 2440.4399,298.8342 Q2441.4103,297.6196 2443.2536,297.6196 Q2443.7724,297.6196 2444.2485,297.7295 Q2444.7245,297.8394 2445.1396,298.0591 L2445.1396,300.061 Q2444.6757,299.6338 2444.2393,299.4354 Q2443.8029,299.2371 2443.339,299.2371 Q2442.3503,299.2371 2441.8467,300.0214 Q2441.3432,300.8057 2441.3432,302.3499 Q2441.3432,303.8879 2441.8467,304.6722 Q2442.3503,305.4565 2443.339,305.4565 Q2443.8029,305.4565 2444.2393,305.2582 Q2444.6757,305.0598 2445.1396,304.6326 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="112.5" x="2466.1458" y="306.9336">MetropolitanArea</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="2201.0417" x2="2812.5" y1="317.9036" y2="317.9036"/><ellipse cx="2211.4583" cy="353.2735" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="339.5833" x="2222.9167" y="360.1847">MetropolitanArea(State, RegionInstance&lt;MetropolitanArea&gt;)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="2201.0417" x2="2463.0208" y1="336.1094" y2="336.1094"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="2466.1458" y="339.919">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="2550.5208" x2="2812.5" y1="336.1094" y2="336.1094"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="2201.0417" x2="2812.5" y1="369.8934" y2="369.8934"/><ellipse cx="2211.4583" cy="381.3517" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="195.8333" x="2222.9167" y="388.2629">Collection&lt;MetropolitanArea&gt; all()</text><ellipse cx="2211.4583" cy="401.0966" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="310.4167" x="2222.9167" y="408.0078">RegionBorderCache&lt;MetropolitanArea&gt; borderCache()</text><ellipse cx="2211.4583" cy="420.8415" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="246.875" x="2222.9167" y="427.7527">MetropolitanArea forIdentity(RegionIdentity)</text><ellipse cx="2211.4583" cy="440.5863" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="220.8333" x="2222.9167" y="447.4976">MetropolitanArea forLocation(Location)</text><ellipse cx="2211.4583" cy="460.3312" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="260.4167" x="2222.9167" y="467.2424">MetropolitanArea forRegionCode(RegionCode)</text><ellipse cx="2211.4583" cy="480.0761" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="395.8333" x="2222.9167" y="486.9873">Collection&lt;MetropolitanArea&gt; matching(Matcher&lt;MetropolitanArea&gt;)</text><ellipse cx="2211.4583" cy="499.821" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="65.625" x="2222.9167" y="506.7322">State state()</text><ellipse cx="2211.4583" cy="543.4774" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="581.25" x="2222.9167" y="550.3886">SwitchParser.Builder&lt;MetropolitanArea&gt; metropolitanAreaSwitchParser(String name, String description)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="2201.0417" x2="2437.5" y1="526.3133" y2="526.3133"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="132.2917" x="2440.625" y="530.1229">(command line parsing)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="2576.0417" x2="2812.5" y1="526.3133" y2="526.3133"/><ellipse cx="2211.4583" cy="587.1338" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="263.5417" x="2222.9167" y="594.045">MetropolitanArea forIdentifier(RegionIdentifier)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="2201.0417" x2="2478.6458" y1="569.9697" y2="569.9697"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="50" x="2481.7708" y="573.7793">(identity)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="2534.8958" x2="2812.5" y1="569.9697" y2="569.9697"/><!--MD5=[8232c2c74eb14e6d75c91cad28995c8f]
+class RectangularRegion--><rect codeLine="114" fill="#282828" height="83.3781" id="RectangularRegion" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="190.625" x="2850" y="403.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="190.625" x="2850" y="403.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="190.625" x="2850" y="426.7578"/><rect codeLine="114" fill="none" height="83.3781" id="RectangularRegion" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="190.625" x="2850" y="403.7028"/><ellipse cx="2879.1146" cy="419.397" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M2881.025,423.822 Q2880.5977,424.0417 2880.1278,424.1516 Q2879.6578,424.2615 2879.139,424.2615 Q2877.2957,424.2615 2876.3253,423.0469 Q2875.3548,421.8323 2875.3548,419.5374 Q2875.3548,417.2363 2876.3253,416.0217 Q2877.2957,414.8071 2879.139,414.8071 Q2879.6578,414.8071 2880.1339,414.917 Q2880.6099,415.0269 2881.025,415.2466 L2881.025,417.2485 Q2880.5611,416.8213 2880.1247,416.6229 Q2879.6883,416.4246 2879.2244,416.4246 Q2878.2357,416.4246 2877.7321,417.2089 Q2877.2286,417.9932 2877.2286,419.5374 Q2877.2286,421.0754 2877.7321,421.8597 Q2878.2357,422.644 2879.2244,422.644 Q2879.6883,422.644 2880.1247,422.4457 Q2880.5611,422.2473 2881.025,421.8201 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="120.8333" x="2899.0104" y="424.1211">RectangularRegion</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="2851.0417" x2="3039.5833" y1="435.0911" y2="435.0911"/><ellipse cx="2861.4583" cy="470.461" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="158.3333" x="2872.9167" y="477.3722">RectangularRegion(GridCell)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="2851.0417" x2="2901.5625" y1="453.2969" y2="453.2969"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="2904.6875" y="457.1065">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="2989.0625" x2="3039.5833" y1="453.2969" y2="453.2969"/><!--MD5=[60d6b92408f98aed8df94d5c6e04aa63]
+class State--><rect codeLine="121" fill="#282828" height="459.6191" id="State" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="472.9167" x="3077.6042" y="215.682"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="472.9167" x="3077.6042" y="215.682"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="472.9167" x="3077.6042" y="238.737"/><rect codeLine="121" fill="none" height="459.6191" id="State" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="472.9167" x="3077.6042" y="215.682"/><ellipse cx="3290.625" cy="231.3761" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M3292.5354,235.8012 Q3292.1082,236.0209 3291.6382,236.1308 Q3291.1682,236.2406 3290.6494,236.2406 Q3288.8062,236.2406 3287.8357,235.026 Q3286.8652,233.8114 3286.8652,231.5165 Q3286.8652,229.2155 3287.8357,228.0009 Q3288.8062,226.7863 3290.6494,226.7863 Q3291.1682,226.7863 3291.6443,226.8962 Q3292.1204,227.006 3292.5354,227.2257 L3292.5354,229.2277 Q3292.0715,228.8005 3291.6351,228.6021 Q3291.1987,228.4037 3290.7349,228.4037 Q3289.7461,228.4037 3289.2426,229.188 Q3288.739,229.9723 3288.739,231.5165 Q3288.739,233.0546 3289.2426,233.8389 Q3289.7461,234.6232 3290.7349,234.6232 Q3291.1987,234.6232 3291.6351,234.4248 Q3292.0715,234.2265 3292.5354,233.7992 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="32.2917" x="3313.5417" y="236.1003">State</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3078.6458" x2="3549.4792" y1="247.0703" y2="247.0703"/><ellipse cx="3089.0625" cy="282.4402" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="218.75" x="3100.5208" y="289.3514">State(Country, RegionInstance&lt;State&gt;)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="3078.6458" x2="3270.3125" y1="265.2761" y2="265.2761"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="3273.4375" y="269.0857">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="3357.8125" x2="3549.4792" y1="265.2761" y2="265.2761"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="3078.6458" x2="3549.4792" y1="299.0601" y2="299.0601"/><ellipse cx="3089.0625" cy="310.5184" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="126.0417" x="3100.5208" y="317.4296">Collection&lt;State&gt; all()</text><ellipse cx="3089.0625" cy="330.2633" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="216.6667" x="3100.5208" y="337.1745">Collection&lt;State&gt; all(Matcher&lt;State&gt;)</text><ellipse cx="3089.0625" cy="350.0081" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="240.625" x="3100.5208" y="356.9194">RegionBorderCache&lt;State&gt; borderCache()</text><ellipse cx="3089.0625" cy="369.753" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="97.9167" x="3100.5208" y="376.6642">Set&lt;City&gt; cities()</text><ellipse cx="3089.0625" cy="389.4979" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="135.4167" x="3100.5208" y="396.4091">Set&lt;County&gt; counties()</text><ellipse cx="3089.0625" cy="409.2428" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="170.8333" x="3100.5208" y="416.154">County county(RegionIdentity)</text><ellipse cx="3089.0625" cy="428.9876" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="177.0833" x="3100.5208" y="435.8988">State forIdentity(RegionIdentity)</text><ellipse cx="3089.0625" cy="448.7325" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="151.0417" x="3100.5208" y="455.6437">State forLocation(Location)</text><ellipse cx="3089.0625" cy="468.4774" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="190.625" x="3100.5208" y="475.3886">State forRegionCode(RegionCode)</text><ellipse cx="3089.0625" cy="488.2222" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="339.5833" x="3100.5208" y="495.1335">MetropolitanArea metropolitanArea(RegionIdentity identifier)</text><ellipse cx="3089.0625" cy="507.9671" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="247.9167" x="3100.5208" y="514.8783">Set&lt;MetropolitanArea&gt; metropolitanAreas()</text><ellipse cx="3089.0625" cy="551.6235" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="144.7917" x="3100.5208" y="558.5347">boolean contains(County)</text><ellipse cx="3089.0625" cy="571.3684" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="201.0417" x="3100.5208" y="578.2796">boolean contains(MetropolitanArea)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="3078.6458" x2="3279.6875" y1="534.4594" y2="534.4594"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="3282.8125" y="538.269">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="3348.4375" x2="3549.4792" y1="534.4594" y2="534.4594"/><ellipse cx="3089.0625" cy="615.0248" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="440.625" x="3100.5208" y="621.936">SwitchParser.Builder&lt;State&gt; stateSwitchParser(String name, String description)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="3078.6458" x2="3244.7917" y1="597.8607" y2="597.8607"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="132.2917" x="3247.9167" y="601.6703">(command line parsing)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="3383.3333" x2="3549.4792" y1="597.8607" y2="597.8607"/><ellipse cx="3089.0625" cy="658.6812" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="193.75" x="3100.5208" y="665.5924">State forIdentifier(RegionIdentifier)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="3078.6458" x2="3285.9375" y1="641.5171" y2="641.5171"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="50" x="3289.0625" y="645.3267">(identity)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="3342.1875" x2="3549.4792" y1="641.5171" y2="641.5171"/><!--MD5=[9bc2086a53d0681dfc2627ec643a14f6]
+class TimeZone--><rect codeLine="147" fill="#282828" height="258.0037" id="TimeZone" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="526.0417" x="3587.5" y="316.2028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="526.0417" x="3587.5" y="316.2028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="526.0417" x="3587.5" y="339.2578"/><rect codeLine="147" fill="none" height="258.0037" id="TimeZone" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="526.0417" x="3587.5" y="316.2028"/><ellipse cx="3810.9375" cy="331.897" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M3812.8479,336.322 Q3812.4207,336.5417 3811.9507,336.6516 Q3811.4807,336.7615 3810.9619,336.7615 Q3809.1187,336.7615 3808.1482,335.5469 Q3807.1777,334.3323 3807.1777,332.0374 Q3807.1777,329.7363 3808.1482,328.5217 Q3809.1187,327.3071 3810.9619,327.3071 Q3811.4807,327.3071 3811.9568,327.417 Q3812.4329,327.5269 3812.8479,327.7466 L3812.8479,329.7485 Q3812.384,329.3213 3811.9476,329.1229 Q3811.5112,328.9246 3811.0474,328.9246 Q3810.0586,328.9246 3809.5551,329.7089 Q3809.0515,330.4932 3809.0515,332.0374 Q3809.0515,333.5754 3809.5551,334.3597 Q3810.0586,335.144 3811.0474,335.144 Q3811.5112,335.144 3811.9476,334.9457 Q3812.384,334.7473 3812.8479,334.3201 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="64.5833" x="3833.8542" y="336.6211">TimeZone</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3588.5417" x2="4112.5" y1="347.5911" y2="347.5911"/><ellipse cx="3598.9583" cy="382.961" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="222.9167" x="3610.4167" y="389.8722">TimeZone(RegionInstance&lt;TimeZone&gt;)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="3588.5417" x2="3806.7708" y1="365.7969" y2="365.7969"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="3809.8958" y="369.6065">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="3894.2708" x2="4112.5" y1="365.7969" y2="365.7969"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="3588.5417" x2="4112.5" y1="399.5809" y2="399.5809"/><ellipse cx="3598.9583" cy="411.0392" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="268.75" x="3610.4167" y="417.9504">RegionBorderCache&lt;TimeZone&gt; borderCache()</text><ellipse cx="3598.9583" cy="454.6956" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="101.0417" x="3610.4167" y="461.6069">ZoneId asZoneId()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="3588.5417" x2="3811.9792" y1="437.5315" y2="437.5315"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="70.8333" x="3815.1042" y="441.3411">(conversion)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="3889.0625" x2="4112.5" y1="437.5315" y2="437.5315"/><ellipse cx="3598.9583" cy="498.3521" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="205.2083" x="3610.4167" y="505.2633">TimeZone forIdentity(RegionIdentity)</text><ellipse cx="3598.9583" cy="518.0969" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="179.1667" x="3610.4167" y="525.0081">TimeZone forLocation(Location)</text><ellipse cx="3598.9583" cy="537.8418" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="218.75" x="3610.4167" y="544.753">TimeZone forRegionCode(RegionCode)</text><ellipse cx="3598.9583" cy="557.5867" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="493.75" x="3610.4167" y="564.4979">SwitchParser.Builder&lt;TimeZone&gt; timeZoneSwitchParser(String name, String description)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="3588.5417" x2="3831.25" y1="481.1879" y2="481.1879"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="32.2917" x="3834.375" y="484.9976">(time)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="3869.7917" x2="4112.5" y1="481.1879" y2="481.1879"/><!--MD5=[1b1562314ef50edf921bad0cd204186a]
+class World--><rect codeLine="163" fill="#282828" height="48.055" id="World" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="75" x="4150.5208" y="421.4111"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="75" x="4150.5208" y="421.4111"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="75" x="4150.5208" y="444.4661"/><rect codeLine="163" fill="none" height="48.055" id="World" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="75" x="4150.5208" y="421.4111"/><ellipse cx="4165.1042" cy="437.1053" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M4167.0146,441.5304 Q4166.5873,441.7501 4166.1174,441.8599 Q4165.6474,441.9698 4165.1286,441.9698 Q4163.2853,441.9698 4162.3149,440.7552 Q4161.3444,439.5406 4161.3444,437.2457 Q4161.3444,434.9447 4162.3149,433.7301 Q4163.2853,432.5155 4165.1286,432.5155 Q4165.6474,432.5155 4166.1235,432.6253 Q4166.5995,432.7352 4167.0146,432.9549 L4167.0146,434.9569 Q4166.5507,434.5296 4166.1143,434.3313 Q4165.6779,434.1329 4165.214,434.1329 Q4164.2253,434.1329 4163.7217,434.9172 Q4163.2182,435.7015 4163.2182,437.2457 Q4163.2182,438.7838 4163.7217,439.5681 Q4164.2253,440.3524 4165.214,440.3524 Q4165.6779,440.3524 4166.1143,440.154 Q4166.5507,439.9556 4167.0146,439.5284 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="37.5" x="4181.7708" y="441.8294">World</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="4151.5625" x2="4224.4792" y1="452.7995" y2="452.7995"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="4151.5625" x2="4224.4792" y1="461.1328" y2="461.1328"/><!--MD5=[9537296dd5f10548edc03caec0225e6c]
+reverse link Region to City--><path codeLine="6" d="M2209.1979,79.5153 C1877.8021,84.057 330.8333,108.1924 247.3958,164.1195 C174.8646,212.734 142.3333,313.0465 128.2708,379.5049 " fill="none" id="Region-backto-City" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="2209.1458,72.2236,2230.0833,79.234,2209.3438,86.807,2209.1458,72.2236" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[ca7790104dd11934f737cbef24b969e7]
+reverse link Region to Continent--><path codeLine="16" d="M2209.125,79.7445 C1946.9271,84.5049 939.8125,106.4111 810.9375,164.1195 C749.7604,191.5153 694.4792,238.5257 649.4375,286.307 " fill="none" id="Region-backto-Continent" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="2209.1458,72.4528,2230.1042,79.3799,2209.4063,87.0361,2209.1458,72.4528" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[952a348bbd7d4f3c19379b2679180a30]
+reverse link Region to Country--><path codeLine="35" d="M2209.1875,78.9632 C2028.5938,80.5674 1507.2604,91.5257 1355.7292,164.1195 C1349.7708,166.9736 1343.8646,170.0153 1338.0313,173.234 " fill="none" id="Region-backto-Country" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="2209.3021,71.6611,2230.1875,78.7965,2209.4167,86.2445,2209.3021,71.6611" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[3886420392e6df17afd442ac3a5f1edf]
+reverse link Region to County--><path codeLine="66" d="M2209.1042,81.5986 C2130.1771,87.6507 1992.125,106.3486 1890.1042,164.1195 C1835.4688,195.057 1785.1667,240.7757 1743.3229,286.3486 " fill="none" id="Region-backto-County" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="2208.9063,74.307,2230.1875,80.182,2209.8854,88.8486,2208.9063,74.307" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[48ec16effda0413ba794d7e3aeaf7193]
+reverse link Region to District--><path codeLine="85" d="M2226.7604,115.807 C2211.375,129.9424 2194.7604,146.8382 2181.7708,164.1195 C2127.7292,236.0153 2083.0833,330.7965 2057.9688,389.6299 " fill="none" id="Region-backto-District" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="2222.3125,110.0049,2242.75,101.6611,2231.9792,120.932,2222.3125,110.0049" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[b7f3491c148ecb9c0ea0358029771402]
+reverse link Region to MetropolitanArea--><path codeLine="94" d="M2297.5938,119.4528 C2323.75,160.0778 2365.5833,225.057 2404.9896,286.2549 " fill="none" id="Region-backto-MetropolitanArea" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="2291.4063,123.3174,2286.2604,101.8486,2303.6667,115.4215,2291.4063,123.3174" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[447cd5989168c448948ca7b21a63defc]
+reverse link Region to RectangularRegion--><path codeLine="113" d="M2333.625,80.5986 C2463.0625,85.734 2755.4688,103.8486 2831.7708,164.1195 C2907.1458,223.6611 2932.7813,341.2653 2941.2708,403.4945 " fill="none" id="Region-backto-RectangularRegion" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="2333.0625,87.8799,2312.5104,79.8278,2333.6042,73.307,2333.0625,87.8799" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[8c9bf3ca4a0052f6cf2ec497e18102f3]
+reverse link Region to State--><path codeLine="120" d="M2334.0104,79.8382 C2497.3438,83.6611 2932.2396,99.7965 3058.8542,164.1195 C3085.6979,177.7549 3111.0938,195.4632 3134.6979,215.359 " fill="none" id="Region-backto-State" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="2333.5,87.1195,2312.8333,79.3695,2333.8125,72.5361,2333.5,87.1195" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[828b635ee8403d7e8c9301fbd85f1f59]
+reverse link Region to TimeZone--><path codeLine="146" d="M2333.5938,80.234 C2576.9063,86.5882 3455.9688,112.8903 3569.2708,164.1195 C3642.9063,197.4111 3708.0938,258.9945 3757.1146,315.9528 " fill="none" id="Region-backto-TimeZone" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="2333.3438,87.5257,2312.7083,79.7028,2333.7188,72.9424,2333.3438,87.5257" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[02f95ac390a172ecbcf4b32bd52e7fd8]
+reverse link Region to World--><path codeLine="162" d="M2334.125,79.432 C2650.9583,83.3903 4062.0938,104.3174 4131.7708,164.1195 C4208.0104,229.557 4198.8333,366.7965 4191.6667,421.307 " fill="none" id="Region-backto-World" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="2333.5833,86.7236,2312.8333,79.1715,2333.7604,72.1403,2333.5833,86.7236" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[92ab6c480898004b2c957c6b2681de63]
+@startuml
+
+    !include lexakai.theme
+    
+    title "Administrative areas"
+    
+    Region <|- - City
+    class City
+    {
+        - -(constructors)- -
+        +City(State, RegionInstance<City>)
+        - -
+        +City forIdentity(RegionIdentity)
+        +City forRegionCode(RegionCode)
+    }
+    
+    Region <|- - Continent
+    abstract class Continent
+    {
+        - -(constructors)- -
+        #Continent(RegionInstance<Continent>)
+        - -
+        +Collection<Continent> all()
+        +RegionBorderCache<Continent> borderCache()
+        +Collection<Country> countries()
+        +void create()
+        +Continent forIdentity(RegionIdentity)
+        +Continent forLocation(Location)
+        - -(collection)- -
+        +List<Country> allSupportedCountries()
+        +boolean contains(Country)
+        - -(command line parsing)- -
+        +SwitchParser.Builder<Continent> continentSwitchParser(String name, String description)
+    }
+    
+    Region <|- - Country
+    abstract class Country
+    {
+        - -(constructors)- -
+        #Country(Continent, RegionInstance<Country>)
+        - -
+        +Collection<Country> all()
+        +Collection<Country> allSupported()
+        +RegionInstance<Country> baseInstance()
+        +RegionIdentity baseRegionCode()
+        +RegionBorderCache<Country> borderCache()
+        +DrivingSide drivingSide()
+        +Country forIdentity(RegionIdentity)
+        +Country forIsoCode(String iso)
+        +Country forLocation(Location)
+        +Country forNumericCountryCode(int code)
+        +Country forRegionCode(RegionCode)
+        +Set<Country> islands()
+        +Set<Country> largeCountries()
+        +Collection<Country> matching(Matcher<Country>)
+        - -(collection)- -
+        +Iterable<State> states()
+        #List<LanguageIsoCode> languages(LanguageIsoCode... languages)
+        - -(command line parsing)- -
+        +SwitchParser.Builder<Country> countrySwitchParser(String name, String description)
+        - -(identity)- -
+        +Country forIdentifier(RegionIdentifier)
+        - -(math)- -
+        +Collection<Country> allLargerThan(Area minimum)
+    }
+    
+    Region <|- - County
+    class County
+    {
+        - -(constructors)- -
+        +County(State, RegionInstance<County>)
+        - -
+        +Collection<County> all(Matcher<County>)
+        +Collection<County> all()
+        +RegionBorderCache<County> borderCache()
+        +County forIdentity(RegionIdentity)
+        +County forLocation(Location)
+        +County forRegionCode(RegionCode)
+        +State state()
+        - -(command line parsing)- -
+        +SwitchParser.Builder<County> countySwitchParser(String name, String description)
+        - -(identity)- -
+        +County forIdentifier(RegionIdentifier)
+    }
+    
+    Region <|- - District
+    class District
+    {
+        - -(constructors)- -
+        +District(City, RegionInstance<District>)
+        - -
+        +City city()
+    }
+    
+    Region <|- - MetropolitanArea
+    class MetropolitanArea
+    {
+        - -(constructors)- -
+        +MetropolitanArea(State, RegionInstance<MetropolitanArea>)
+        - -
+        +Collection<MetropolitanArea> all()
+        +RegionBorderCache<MetropolitanArea> borderCache()
+        +MetropolitanArea forIdentity(RegionIdentity)
+        +MetropolitanArea forLocation(Location)
+        +MetropolitanArea forRegionCode(RegionCode)
+        +Collection<MetropolitanArea> matching(Matcher<MetropolitanArea>)
+        +State state()
+        - -(command line parsing)- -
+        +SwitchParser.Builder<MetropolitanArea> metropolitanAreaSwitchParser(String name, String description)
+        - -(identity)- -
+        +MetropolitanArea forIdentifier(RegionIdentifier)
+    }
+    
+    Region <|- - RectangularRegion
+    class RectangularRegion
+    {
+        - -(constructors)- -
+        +RectangularRegion(GridCell)
+    }
+    
+    Region <|- - State
+    class State
+    {
+        - -(constructors)- -
+        +State(Country, RegionInstance<State>)
+        - -
+        +Collection<State> all()
+        +Collection<State> all(Matcher<State>)
+        +RegionBorderCache<State> borderCache()
+        +Set<City> cities()
+        +Set<County> counties()
+        +County county(RegionIdentity)
+        +State forIdentity(RegionIdentity)
+        +State forLocation(Location)
+        +State forRegionCode(RegionCode)
+        +MetropolitanArea metropolitanArea(RegionIdentity identifier)
+        +Set<MetropolitanArea> metropolitanAreas()
+        - -(collection)- -
+        +boolean contains(County)
+        +boolean contains(MetropolitanArea)
+        - -(command line parsing)- -
+        +SwitchParser.Builder<State> stateSwitchParser(String name, String description)
+        - -(identity)- -
+        +State forIdentifier(RegionIdentifier)
+    }
+    
+    Region <|- - TimeZone
+    class TimeZone
+    {
+        - -(constructors)- -
+        +TimeZone(RegionInstance<TimeZone>)
+        - -
+        +RegionBorderCache<TimeZone> borderCache()
+        - -(conversion)- -
+        +ZoneId asZoneId()
+        - -(time)- -
+        +TimeZone forIdentity(RegionIdentity)
+        +TimeZone forLocation(Location)
+        +TimeZone forRegionCode(RegionCode)
+        +SwitchParser.Builder<TimeZone> timeZoneSwitchParser(String name, String description)
+    }
+    
+    Region <|- - World
+    class World
+    {
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "Administrative areas"
+    
+    Region <|- - City
+    class City
+    {
+        - -(constructors)- -
+        +City(State, RegionInstance<City>)
+        - -
+        +City forIdentity(RegionIdentity)
+        +City forRegionCode(RegionCode)
+    }
+    
+    Region <|- - Continent
+    abstract class Continent
+    {
+        - -(constructors)- -
+        #Continent(RegionInstance<Continent>)
+        - -
+        +Collection<Continent> all()
+        +RegionBorderCache<Continent> borderCache()
+        +Collection<Country> countries()
+        +void create()
+        +Continent forIdentity(RegionIdentity)
+        +Continent forLocation(Location)
+        - -(collection)- -
+        +List<Country> allSupportedCountries()
+        +boolean contains(Country)
+        - -(command line parsing)- -
+        +SwitchParser.Builder<Continent> continentSwitchParser(String name, String description)
+    }
+    
+    Region <|- - Country
+    abstract class Country
+    {
+        - -(constructors)- -
+        #Country(Continent, RegionInstance<Country>)
+        - -
+        +Collection<Country> all()
+        +Collection<Country> allSupported()
+        +RegionInstance<Country> baseInstance()
+        +RegionIdentity baseRegionCode()
+        +RegionBorderCache<Country> borderCache()
+        +DrivingSide drivingSide()
+        +Country forIdentity(RegionIdentity)
+        +Country forIsoCode(String iso)
+        +Country forLocation(Location)
+        +Country forNumericCountryCode(int code)
+        +Country forRegionCode(RegionCode)
+        +Set<Country> islands()
+        +Set<Country> largeCountries()
+        +Collection<Country> matching(Matcher<Country>)
+        - -(collection)- -
+        +Iterable<State> states()
+        #List<LanguageIsoCode> languages(LanguageIsoCode... languages)
+        - -(command line parsing)- -
+        +SwitchParser.Builder<Country> countrySwitchParser(String name, String description)
+        - -(identity)- -
+        +Country forIdentifier(RegionIdentifier)
+        - -(math)- -
+        +Collection<Country> allLargerThan(Area minimum)
+    }
+    
+    Region <|- - County
+    class County
+    {
+        - -(constructors)- -
+        +County(State, RegionInstance<County>)
+        - -
+        +Collection<County> all(Matcher<County>)
+        +Collection<County> all()
+        +RegionBorderCache<County> borderCache()
+        +County forIdentity(RegionIdentity)
+        +County forLocation(Location)
+        +County forRegionCode(RegionCode)
+        +State state()
+        - -(command line parsing)- -
+        +SwitchParser.Builder<County> countySwitchParser(String name, String description)
+        - -(identity)- -
+        +County forIdentifier(RegionIdentifier)
+    }
+    
+    Region <|- - District
+    class District
+    {
+        - -(constructors)- -
+        +District(City, RegionInstance<District>)
+        - -
+        +City city()
+    }
+    
+    Region <|- - MetropolitanArea
+    class MetropolitanArea
+    {
+        - -(constructors)- -
+        +MetropolitanArea(State, RegionInstance<MetropolitanArea>)
+        - -
+        +Collection<MetropolitanArea> all()
+        +RegionBorderCache<MetropolitanArea> borderCache()
+        +MetropolitanArea forIdentity(RegionIdentity)
+        +MetropolitanArea forLocation(Location)
+        +MetropolitanArea forRegionCode(RegionCode)
+        +Collection<MetropolitanArea> matching(Matcher<MetropolitanArea>)
+        +State state()
+        - -(command line parsing)- -
+        +SwitchParser.Builder<MetropolitanArea> metropolitanAreaSwitchParser(String name, String description)
+        - -(identity)- -
+        +MetropolitanArea forIdentifier(RegionIdentifier)
+    }
+    
+    Region <|- - RectangularRegion
+    class RectangularRegion
+    {
+        - -(constructors)- -
+        +RectangularRegion(GridCell)
+    }
+    
+    Region <|- - State
+    class State
+    {
+        - -(constructors)- -
+        +State(Country, RegionInstance<State>)
+        - -
+        +Collection<State> all()
+        +Collection<State> all(Matcher<State>)
+        +RegionBorderCache<State> borderCache()
+        +Set<City> cities()
+        +Set<County> counties()
+        +County county(RegionIdentity)
+        +State forIdentity(RegionIdentity)
+        +State forLocation(Location)
+        +State forRegionCode(RegionCode)
+        +MetropolitanArea metropolitanArea(RegionIdentity identifier)
+        +Set<MetropolitanArea> metropolitanAreas()
+        - -(collection)- -
+        +boolean contains(County)
+        +boolean contains(MetropolitanArea)
+        - -(command line parsing)- -
+        +SwitchParser.Builder<State> stateSwitchParser(String name, String description)
+        - -(identity)- -
+        +State forIdentifier(RegionIdentifier)
+    }
+    
+    Region <|- - TimeZone
+    class TimeZone
+    {
+        - -(constructors)- -
+        +TimeZone(RegionInstance<TimeZone>)
+        - -
+        +RegionBorderCache<TimeZone> borderCache()
+        - -(conversion)- -
+        +ZoneId asZoneId()
+        - -(time)- -
+        +TimeZone forIdentity(RegionIdentity)
+        +TimeZone forLocation(Location)
+        +TimeZone forRegionCode(RegionCode)
+        +SwitchParser.Builder<TimeZone> timeZoneSwitchParser(String name, String description)
+    }
+    
+    Region <|- - World
+    class World
+    {
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 00:55:08 MST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,75 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.identifiers.collections"
+    
+    abstract BaseStringConverter
+    
+    BaseStringConverter <|-- NodeIdentifierList.Converter
+    class NodeIdentifierList.Converter
+    {
+        --(constructors)--
+        +Converter(Listener, Separators)
+    }
+    
+    BaseStringConverter <|-- EdgeIdentifierList.Converter
+    class EdgeIdentifierList.Converter
+    {
+        --(constructors)--
+        +Converter(Listener, Separators)
+    }
+    
+    BaseStringConverter <|-- WayIdentifierList.Converter
+    class WayIdentifierList.Converter
+    {
+        --(constructors)--
+        +Converter(Listener, Separators)
+    }
+    
+    BaseStringConverter <|-- RelationIdentifierList.Converter
+    class RelationIdentifierList.Converter
+    {
+        --(constructors)--
+        +Converter(Listener, Separators)
+    }
+    
+    ObjectList <|-- EdgeIdentifierList
+    class EdgeIdentifierList
+    {
+        --(constructors)--
+        +EdgeIdentifierList(List<EdgeIdentifier>)
+        +EdgeIdentifierList(Maximum)
+        --(collection)--
+        +WayIdentifierList asPbfWayIdentifierList()
+    }
+    
+    ObjectList <|-- NodeIdentifierList
+    class NodeIdentifierList
+    {
+        --(constructors)--
+        +NodeIdentifierList(List<MapNodeIdentifier>)
+        +NodeIdentifierList(Maximum)
+    }
+    
+    ObjectList <|-- RelationIdentifierList
+    class RelationIdentifierList
+    {
+        --(constructors)--
+        +RelationIdentifierList(List<MapRelationIdentifier>)
+        +RelationIdentifierList(Maximum)
+    }
+    
+    ObjectList <|-- WayIdentifierList
+    class WayIdentifierList
+    {
+        --(constructors)--
+        +WayIdentifierList(List<PbfWayIdentifier>)
+        +WayIdentifierList(Maximum)
+        --(collection)--
+        +WayIdentifierList fromEdges(Maximum count, Iterable<Edge> edges)
+        +WayIdentifierList parse(String)
+    }
+    
+@enduml
+

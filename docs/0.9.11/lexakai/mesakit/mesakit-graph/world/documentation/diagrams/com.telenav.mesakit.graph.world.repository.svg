@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="420.8333px" preserveAspectRatio="none" style="width:1967px;height:420px;background:#333333;" version="1.1" viewBox="0 0 1967 420" width="1967.7083px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="462.5" x="745.5729" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="439.5833" x="757.0313" y="30.5583">com.telenav.mesakit.graph.world.repository</text><!--MD5=[52bedbae2537bfbb2dff45d03e08a0f0]
+cluster WorldGraphRepositoryFolder--><polygon fill="#333333" points="16.6667,196.4111,215.625,196.4111,222.9167,223.6328,383.3333,223.6328,383.3333,357.8695,16.6667,357.8695,16.6667,196.4111" style="stroke:#333333;stroke-width:2.0833333333333335;"/><line style="stroke:#333333;stroke-width:2.0833333333333335;" x1="16.6667" x2="222.9167" y1="223.6328" y2="223.6328"/><text fill="#C8AC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="186.4583" x="23.9583" y="213.7044">WorldGraphRepositoryFolder</text><!--MD5=[408eb0a7fede12eb2908037fe3059be7]
+cluster WorldGraphRepository--><polygon fill="#333333" points="425,198.4945,583.3333,198.4945,590.625,225.7161,636.4583,225.7161,636.4583,355.7861,425,355.7861,425,198.4945" style="stroke:#333333;stroke-width:2.0833333333333335;"/><line style="stroke:#333333;stroke-width:2.0833333333333335;" x1="425" x2="590.625" y1="225.7161" y2="225.7161"/><text fill="#C8AC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="145.8333" x="432.2917" y="215.7878">WorldGraphRepository</text><!--MD5=[c691757fa3a947841057034d652ab40f]
+class WorldGraphRepositoryFolder.Check--><rect codeLine="11" fill="#282828" height="87.5448" id="WorldGraphRepositoryFolder.Check" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="77.0833" x="281.25" y="245.3695"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="77.0833" x="281.25" y="245.3695"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="77.0833" x="281.25" y="268.4245"/><rect codeLine="11" fill="none" height="87.5448" id="WorldGraphRepositoryFolder.Check" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="77.0833" x="281.25" y="245.3695"/><ellipse cx="295.8333" cy="261.0636" fill="#CF6300" rx="10.4167" ry="10.4167" style="stroke:#EF8300;stroke-width:1.0416666666666667;"/><path d="M298.8892,265.7511 L293.2129,265.7511 L293.2129,256.6386 L298.8892,256.6386 L298.8892,258.2255 L295.0134,258.2255 L295.0134,260.1908 L298.5229,260.1908 L298.5229,261.7778 L295.0134,261.7778 L295.0134,264.1642 L298.8892,264.1642 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="39.5833" x="312.5" y="265.7878">Check</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="282.2917" x2="357.2917" y1="276.7578" y2="276.7578"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="36.4583" x="290.625" y="295.1274">EXISTS</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="48.9583" x="290.625" y="314.8722">IS_VALID</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="282.2917" x2="357.2917" y1="324.5809" y2="324.5809"/><!--MD5=[0e3e565e3100db7d1d178afd13bdb686]
+class WorldGraphRepositoryFolder.Converter--><rect codeLine="18" fill="#282828" height="83.3781" id="WorldGraphRepositoryFolder.Converter" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="182.2917" x="61.9792" y="247.4528"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="182.2917" x="61.9792" y="247.4528"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="182.2917" x="61.9792" y="270.5078"/><rect codeLine="18" fill="none" height="83.3781" id="WorldGraphRepositoryFolder.Converter" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="182.2917" x="61.9792" y="247.4528"/><ellipse cx="114.0625" cy="263.147" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M115.9729,267.572 Q115.5457,267.7917 115.0757,267.9016 Q114.6057,268.0115 114.0869,268.0115 Q112.2437,268.0115 111.2732,266.7969 Q110.3027,265.5823 110.3027,263.2874 Q110.3027,260.9863 111.2732,259.7717 Q112.2437,258.5571 114.0869,258.5571 Q114.6057,258.5571 115.0818,258.667 Q115.5579,258.7769 115.9729,258.9966 L115.9729,260.9985 Q115.509,260.5713 115.0726,260.3729 Q114.6362,260.1746 114.1724,260.1746 Q113.1836,260.1746 112.6801,260.9589 Q112.1765,261.7432 112.1765,263.2874 Q112.1765,264.8254 112.6801,265.6097 Q113.1836,266.394 114.1724,266.394 Q114.6362,266.394 115.0726,266.1957 Q115.509,265.9973 115.9729,265.5701 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="63.5417" x="136.9792" y="267.8711">Converter</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="63.0208" x2="243.2292" y1="278.8411" y2="278.8411"/><ellipse cx="73.4375" cy="314.211" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="150" x="84.8958" y="321.1222">Converter(Listener, Check)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="63.0208" x2="109.375" y1="297.0469" y2="297.0469"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="112.5" y="300.8565">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="196.875" x2="243.2292" y1="297.0469" y2="297.0469"/><!--MD5=[d05f793e34aa1a4a0e96f71d326d3303]
+class WorldGraphRepository.Converter--><rect codeLine="25" fill="#282828" height="83.3781" id="WorldGraphRepository.Converter" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="141.6667" x="469.7917" y="247.4528"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="141.6667" x="469.7917" y="247.4528"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="141.6667" x="469.7917" y="270.5078"/><rect codeLine="25" fill="none" height="83.3781" id="WorldGraphRepository.Converter" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="141.6667" x="469.7917" y="247.4528"/><ellipse cx="502.6563" cy="263.147" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M504.5667,267.572 Q504.1394,267.7917 503.6694,267.9016 Q503.1995,268.0115 502.6807,268.0115 Q500.8374,268.0115 499.8669,266.7969 Q498.8965,265.5823 498.8965,263.2874 Q498.8965,260.9863 499.8669,259.7717 Q500.8374,258.5571 502.6807,258.5571 Q503.1995,258.5571 503.6755,258.667 Q504.1516,258.7769 504.5667,258.9966 L504.5667,260.9985 Q504.1028,260.5713 503.6664,260.3729 Q503.23,260.1746 502.7661,260.1746 Q501.7773,260.1746 501.2738,260.9589 Q500.7703,261.7432 500.7703,263.2874 Q500.7703,264.8254 501.2738,265.6097 Q501.7773,266.394 502.7661,266.394 Q503.23,266.394 503.6664,266.1957 Q504.1028,265.9973 504.5667,265.5701 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="63.5417" x="523.3854" y="267.8711">Converter</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="470.8333" x2="610.4167" y1="278.8411" y2="278.8411"/><ellipse cx="481.25" cy="314.211" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="109.375" x="492.7083" y="321.1222">Converter(Listener)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="470.8333" x2="496.875" y1="297.0469" y2="297.0469"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="500" y="300.8565">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="584.375" x2="610.4167" y1="297.0469" y2="297.0469"/><!--MD5=[9aa687ed59f428548907e723dba1087a]
+class BaseStringConverter--><rect codeLine="6" fill="#282828" height="48.055" id="BaseStringConverter" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="169.7917" x="261.9792" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="169.7917" x="261.9792" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="169.7917" x="261.9792" y="76.7578"/><rect codeLine="6" fill="none" height="48.055" id="BaseStringConverter" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="169.7917" x="261.9792" y="53.7028"/><ellipse cx="276.5625" cy="69.397" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M276.1556,66.099 L275.3072,69.8283 L277.0101,69.8283 Z M275.057,64.4511 L277.2603,64.4511 L279.7201,73.5636 L277.9195,73.5636 L277.358,71.3114 L274.9471,71.3114 L274.3978,73.5636 L272.5972,73.5636 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="132.2917" x="293.2292" y="74.1211">BaseStringConverter</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="263.0208" x2="430.7292" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="263.0208" x2="430.7292" y1="93.4245" y2="93.4245"/><!--MD5=[cc3de0a176daa3c4ec875deafdf5ddd1]
+class Serializable--><rect codeLine="8" fill="#282828" height="48.055" id="Serializable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="111.4583" x="1154.6875" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="111.4583" x="1154.6875" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="111.4583" x="1154.6875" y="76.7578"/><rect codeLine="8" fill="none" height="48.055" id="Serializable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="111.4583" x="1154.6875" y="53.7028"/><ellipse cx="1169.2708" cy="69.397" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M1166.6748,66.5588 L1166.6748,64.9719 L1172.1008,64.9719 L1172.1008,66.5588 L1170.2881,66.5588 L1170.2881,72.4976 L1172.1008,72.4976 L1172.1008,74.0845 L1166.6748,74.0845 L1166.6748,72.4976 L1168.4875,72.4976 L1168.4875,66.5588 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="73.9583" x="1185.9375" y="74.1211">Serializable</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1155.7292" x2="1265.1042" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1155.7292" x2="1265.1042" y1="93.4245" y2="93.4245"/><!--MD5=[43d3c0ba1d3b9c6f5e40c8769cc5b343]
+class Source--><rect codeLine="9" fill="#282828" height="48.055" id="Source" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="80.2083" x="820.3125" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="80.2083" x="820.3125" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="80.2083" x="820.3125" y="76.7578"/><rect codeLine="9" fill="none" height="48.055" id="Source" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="80.2083" x="820.3125" y="53.7028"/><ellipse cx="834.8958" cy="69.397" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M832.2998,66.5588 L832.2998,64.9719 L837.7258,64.9719 L837.7258,66.5588 L835.9131,66.5588 L835.9131,72.4976 L837.7258,72.4976 L837.7258,74.0845 L832.2998,74.0845 L832.2998,72.4976 L834.1125,72.4976 L834.1125,66.5588 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="42.7083" x="851.5625" y="74.1211">Source</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="821.3542" x2="899.4792" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="821.3542" x2="899.4792" y1="93.4245" y2="93.4245"/><!--MD5=[08a52fad0e20906129ce0f187ba3e58e]
+class WorldGraphReference--><rect codeLine="33" fill="#282828" height="194.6025" id="WorldGraphReference" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="397.9167" x="661.4583" y="191.7236"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="397.9167" x="661.4583" y="191.7236"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="397.9167" x="661.4583" y="214.7786"/><rect codeLine="33" fill="none" height="194.6025" id="WorldGraphReference" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="397.9167" x="661.4583" y="191.7236"/><ellipse cx="783.8542" cy="207.4178" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M785.7646,211.8429 Q785.3373,212.0626 784.8674,212.1724 Q784.3974,212.2823 783.8786,212.2823 Q782.0353,212.2823 781.0649,211.0677 Q780.0944,209.8531 780.0944,207.5582 Q780.0944,205.2572 781.0649,204.0426 Q782.0353,202.828 783.8786,202.828 Q784.3974,202.828 784.8735,202.9378 Q785.3495,203.0477 785.7646,203.2674 L785.7646,205.2694 Q785.3007,204.8421 784.8643,204.6438 Q784.4279,204.4454 783.964,204.4454 Q782.9753,204.4454 782.4717,205.2297 Q781.9682,206.014 781.9682,207.5582 Q781.9682,209.0963 782.4717,209.8806 Q782.9753,210.6649 783.964,210.6649 Q784.4279,210.6649 784.8643,210.4665 Q785.3007,210.2681 785.7646,209.8409 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="138.5417" x="806.7708" y="212.1419">WorldGraphReference</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="662.5" x2="1058.3333" y1="223.112" y2="223.112"/><ellipse cx="672.9167" cy="258.4819" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="269.7917" x="684.375" y="265.3931">WorldGraphReference(Deployment, WorldGraph)</text><ellipse cx="672.9167" cy="278.2267" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="365.625" x="684.375" y="285.1379">WorldGraphReference(Deployment, WorldGraphRepositoryFolder)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="662.5" x2="816.6667" y1="241.3177" y2="241.3177"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="819.7917" y="245.1274">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="904.1667" x2="1058.3333" y1="241.3177" y2="241.3177"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="662.5" x2="1058.3333" y1="294.8466" y2="294.8466"/><ellipse cx="672.9167" cy="306.3049" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="75" x="684.375" y="313.2161">void release()</text><ellipse cx="672.9167" cy="326.0498" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="255.2083" x="684.375" y="332.961">WorldCellReference worldCellSource(GridCell)</text><ellipse cx="672.9167" cy="369.7062" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="91.6667" x="684.375" y="376.6174">void increment()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="662.5" x2="839.0625" y1="352.5421" y2="352.5421"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="36.4583" x="842.1875" y="356.3517">(math)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="881.7708" x2="1058.3333" y1="352.5421" y2="352.5421"/><!--MD5=[d1dcc9c41ef051a777528f9336a950e3]
+class Folder--><rect fill="#282828" height="48.055" id="Folder" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="78.125" x="1461.9792" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="78.125" x="1461.9792" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="78.125" x="1461.9792" y="76.7578"/><rect fill="none" height="48.055" id="Folder" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="78.125" x="1461.9792" y="53.7028"/><ellipse cx="1476.5625" cy="69.397" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1478.4729,73.822 Q1478.0457,74.0417 1477.5757,74.1516 Q1477.1057,74.2615 1476.5869,74.2615 Q1474.7437,74.2615 1473.7732,73.0469 Q1472.8027,71.8323 1472.8027,69.5374 Q1472.8027,67.2363 1473.7732,66.0217 Q1474.7437,64.8071 1476.5869,64.8071 Q1477.1057,64.8071 1477.5818,64.917 Q1478.0579,65.0269 1478.4729,65.2466 L1478.4729,67.2485 Q1478.009,66.8213 1477.5726,66.6229 Q1477.1362,66.4246 1476.6724,66.4246 Q1475.6836,66.4246 1475.1801,67.2089 Q1474.6765,67.9932 1474.6765,69.5374 Q1474.6765,71.0754 1475.1801,71.8597 Q1475.6836,72.644 1476.6724,72.644 Q1477.1362,72.644 1477.5726,72.4457 Q1478.009,72.2473 1478.4729,71.8201 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="40.625" x="1493.2292" y="74.1211">Folder</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1463.0208" x2="1539.0625" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1463.0208" x2="1539.0625" y1="93.4245" y2="93.4245"/><!--MD5=[6dc684007d8786dfe58abab52ab9777c]
+class WorldGraphRepository--><rect codeLine="47" fill="#282828" height="249.6704" id="WorldGraphRepository" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="598.9583" x="1361.9792" y="164.1195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="598.9583" x="1361.9792" y="164.1195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="598.9583" x="1361.9792" y="187.1745"/><rect codeLine="47" fill="none" height="249.6704" id="WorldGraphRepository" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="598.9583" x="1361.9792" y="164.1195"/><ellipse cx="1581.25" cy="179.8136" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1583.1604,184.2387 Q1582.7332,184.4584 1582.2632,184.5683 Q1581.7932,184.6781 1581.2744,184.6781 Q1579.4312,184.6781 1578.4607,183.4635 Q1577.4902,182.2489 1577.4902,179.954 Q1577.4902,177.653 1578.4607,176.4384 Q1579.4312,175.2238 1581.2744,175.2238 Q1581.7932,175.2238 1582.2693,175.3337 Q1582.7454,175.4435 1583.1604,175.6632 L1583.1604,177.6652 Q1582.6965,177.238 1582.2601,177.0396 Q1581.8237,176.8412 1581.3599,176.8412 Q1580.3711,176.8412 1579.8676,177.6255 Q1579.364,178.4098 1579.364,179.954 Q1579.364,181.4921 1579.8676,182.2764 Q1580.3711,183.0607 1581.3599,183.0607 Q1581.8237,183.0607 1582.2601,182.8623 Q1582.6965,182.664 1583.1604,182.2367 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="145.8333" x="1604.1667" y="184.5378">WorldGraphRepository</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1363.0208" x2="1959.8958" y1="195.5078" y2="195.5078"/><ellipse cx="1373.4375" cy="230.8777" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="135.4167" x="1384.8958" y="237.7889">WorldGraphRepository()</text><ellipse cx="1373.4375" cy="250.6226" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="170.8333" x="1384.8958" y="257.5338">WorldGraphRepository(Folder)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1363.0208" x2="1617.7083" y1="213.7136" y2="213.7136"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="1620.8333" y="217.5232">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1705.2083" x2="1959.8958" y1="213.7136" y2="213.7136"/><ellipse cx="1373.4375" cy="294.279" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="566.6667" x="1384.8958" y="301.1902">SwitchParser.Builder&lt;WorldGraphRepository&gt; worldGraphRepositorySwitchParser(String description)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1363.0208" x2="1592.1875" y1="277.1149" y2="277.1149"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="132.2917" x="1595.3125" y="280.9245">(command line parsing)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1730.7292" x2="1959.8958" y1="277.1149" y2="277.1149"/><ellipse cx="1373.4375" cy="337.9354" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="257.2917" x="1384.8958" y="344.8466">WorldGraphRepositoryFolder folder(Metadata)</text><ellipse cx="1373.4375" cy="357.6803" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="363.5417" x="1384.8958" y="364.5915">WorldGraphRepositoryFolder folder(FilePath subfolder, Metadata)</text><ellipse cx="1373.4375" cy="377.4251" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="267.7083" x="1384.8958" y="384.3363">WorldGraphRepositoryFolder temporaryFolder()</text><ellipse cx="1373.4375" cy="397.17" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="367.7083" x="1384.8958" y="404.0812">WorldGraphRepositoryFolder temporaryFolder(FilePath subfolder)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1363.0208" x2="1626.0417" y1="320.7713" y2="320.7713"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="1629.1667" y="324.5809">(filesystem)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1696.875" x2="1959.8958" y1="320.7713" y2="320.7713"/><!--MD5=[adc036351e98185cce140c4734609a5d]
+class WorldGraphRepositoryFolder--><rect codeLine="63" fill="#282828" height="218.514" id="WorldGraphRepositoryFolder" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="229.1667" x="1095.8333" y="179.7445"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="229.1667" x="1095.8333" y="179.7445"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="229.1667" x="1095.8333" y="202.7995"/><rect codeLine="63" fill="none" height="218.514" id="WorldGraphRepositoryFolder" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="229.1667" x="1095.8333" y="179.7445"/><ellipse cx="1112.7604" cy="195.4386" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1114.6708,199.8637 Q1114.2436,200.0834 1113.7736,200.1933 Q1113.3036,200.3031 1112.7848,200.3031 Q1110.9416,200.3031 1109.9711,199.0885 Q1109.0007,197.8739 1109.0007,195.579 Q1109.0007,193.278 1109.9711,192.0634 Q1110.9416,190.8488 1112.7848,190.8488 Q1113.3036,190.8488 1113.7797,190.9587 Q1114.2558,191.0685 1114.6708,191.2882 L1114.6708,193.2902 Q1114.2069,192.863 1113.7705,192.6646 Q1113.3341,192.4662 1112.8703,192.4662 Q1111.8815,192.4662 1111.378,193.2505 Q1110.8744,194.0348 1110.8744,195.579 Q1110.8744,197.1171 1111.378,197.9014 Q1111.8815,198.6857 1112.8703,198.6857 Q1113.3341,198.6857 1113.7705,198.4873 Q1114.2069,198.289 1114.6708,197.8617 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="186.4583" x="1129.9479" y="200.1628">WorldGraphRepositoryFolder</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1096.875" x2="1323.9583" y1="211.1328" y2="211.1328"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1096.875" x2="1323.9583" y1="219.4661" y2="219.4661"/><ellipse cx="1107.2917" cy="230.9245" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="108.3333" x="1118.75" y="237.8357">void ensure(Check)</text><ellipse cx="1107.2917" cy="250.6694" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="196.875" x="1118.75" y="257.5806">WorldGraphRepository repository()</text><ellipse cx="1107.2917" cy="294.3258" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="127.0833" x="1118.75" y="301.237">boolean isTemporary()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1096.875" x2="1183.8542" y1="277.1617" y2="277.1617"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="46.875" x="1186.9792" y="280.9713">(checks)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1236.9792" x2="1323.9583" y1="277.1617" y2="277.1617"/><ellipse cx="1107.2917" cy="337.9822" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="80.2083" x="1118.75" y="344.8934">File indexFile()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1096.875" x2="1175" y1="320.8181" y2="320.8181"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="1178.125" y="324.6277">(filesystem)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1245.8333" x2="1323.9583" y1="320.8181" y2="320.8181"/><ellipse cx="1107.2917" cy="381.6386" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="167.7083" x="1118.75" y="388.5498">Message check(Folder, Check)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1096.875" x2="1172.9167" y1="364.4745" y2="364.4745"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="68.75" x="1176.0417" y="368.2841">(messaging)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1247.9167" x2="1323.9583" y1="364.4745" y2="364.4745"/><!--MD5=[270fd0ff1514b30fb5e25694fe0361ca]
+reverse link BaseStringConverter to WorldGraphRepositoryFolder.Converter--><path codeLine="17" d="M308.4167,116.7132 C293.8438,131.359 277.2292,148.3486 262.5,164.1195 C237.0417,191.3903 209.2292,222.932 188.0208,247.3695 " fill="none" id="BaseStringConverter-backto-WorldGraphRepositoryFolder.Converter" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="303.3438,111.484,323.2396,101.9215,313.6458,121.7965,303.3438,111.484" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[ec19d38297ec130bc7b97db2c703ba96]
+reverse link BaseStringConverter to WorldGraphRepository.Converter--><path codeLine="24" d="M404.4896,113.2236 C425.25,127.3695 447.8958,144.932 465.625,164.1195 C488.4896,188.8799 507.9688,221.682 521.3438,247.3278 " fill="none" id="BaseStringConverter-backto-WorldGraphRepository.Converter" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="400.3438,119.234,386.9063,101.7236,408.3333,107.0257,400.3438,119.234" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[68da110a149d77daaf7d5eaa0a94e719]
+reverse link Source to WorldGraphReference--><path codeLine="31" d="M860.4167,122.7549 C860.4167,142.8486 860.4167,167.5049 860.4167,191.5778 " fill="none" id="Source-backto-WorldGraphReference" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="853.125,122.7445,860.4167,101.9111,867.7083,122.7445,853.125,122.7445" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[8f771b40ed0341e9a0ef26c510cedc70]
+reverse link Serializable to WorldGraphReference--><path codeLine="32" d="M1153.8125,112.5674 C1117.7292,134.1507 1069.0104,163.2965 1021.6354,191.6299 " fill="none" id="Serializable-backto-WorldGraphReference" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1150.3333,106.1507,1171.9583,101.7132,1157.8229,118.6611,1150.3333,106.1507" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[c854fa92aff22d52f84b4973e94a655e]
+reverse link Folder to WorldGraphRepository--><path codeLine="45" d="M1531.5625,118.5361 C1541.8021,131.9111 1553.8333,147.5986 1566.3646,163.9528 " fill="none" id="Folder-backto-WorldGraphRepository" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1525.7083,122.8799,1518.8229,101.9111,1537.2813,114.0153,1525.7083,122.8799" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[3e3b2939bf6c8ab711b69ea81acf6a52]
+reverse link Serializable to WorldGraphRepository--><path codeLine="46" d="M1279.2813,110.6715 C1311.3229,125.5465 1351.6979,144.2861 1394.125,163.984 " fill="none" id="Serializable-backto-WorldGraphRepository" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1275.8021,117.0986,1259.9792,101.7132,1281.9479,103.8695,1275.8021,117.0986" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[273ebc3a31404c2cc0dc0b2051005f25]
+reverse link Folder to WorldGraphRepositoryFolder--><path codeLine="61" d="M1442.9583,105.8278 C1412.3333,121.2028 1374.8021,141.807 1343.75,164.1195 C1336.9479,169.0049 1330.125,174.2132 1323.3646,179.6195 " fill="none" id="Folder-backto-WorldGraphRepositoryFolder" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1440.0208,99.1507,1461.9375,96.5153,1446.4479,112.2445,1440.0208,99.1507" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[2e652c38511c3045b0ff5dca394ce44f]
+reverse link Serializable to WorldGraphRepositoryFolder--><path codeLine="62" d="M1210.4167,122.807 C1210.4167,139.5153 1210.4167,159.3695 1210.4167,179.4215 " fill="none" id="Serializable-backto-WorldGraphRepositoryFolder" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1203.125,122.7445,1210.4167,101.9111,1217.7083,122.7445,1203.125,122.7445" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[5ce910c1a18106f12369261168a7d787]
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.world.repository"
+    
+    abstract BaseStringConverter
+    
+    interface Serializable
+    interface Source
+    
+    enum WorldGraphRepositoryFolder.Check
+    {
+        EXISTS
+        IS_VALID
+    }
+    
+    BaseStringConverter <|- - WorldGraphRepositoryFolder.Converter
+    class WorldGraphRepositoryFolder.Converter
+    {
+        - -(constructors)- -
+        +Converter(Listener, Check)
+    }
+    
+    BaseStringConverter <|- - WorldGraphRepository.Converter
+    class WorldGraphRepository.Converter
+    {
+        - -(constructors)- -
+        +Converter(Listener)
+    }
+    
+    Source <|- - WorldGraphReference
+    Serializable <|- - WorldGraphReference
+    class WorldGraphReference
+    {
+        - -(constructors)- -
+        +WorldGraphReference(Deployment, WorldGraph)
+        +WorldGraphReference(Deployment, WorldGraphRepositoryFolder)
+        - -
+        +void release()
+        +WorldCellReference worldCellSource(GridCell)
+        - -(math)- -
+        +void increment()
+    }
+    
+    Folder <|- - WorldGraphRepository
+    Serializable <|- - WorldGraphRepository
+    class WorldGraphRepository
+    {
+        - -(constructors)- -
+        +WorldGraphRepository()
+        +WorldGraphRepository(Folder)
+        - -(command line parsing)- -
+        +SwitchParser.Builder<WorldGraphRepository> worldGraphRepositorySwitchParser(String description)
+        - -(filesystem)- -
+        +WorldGraphRepositoryFolder folder(Metadata)
+        +WorldGraphRepositoryFolder folder(FilePath subfolder, Metadata)
+        +WorldGraphRepositoryFolder temporaryFolder()
+        +WorldGraphRepositoryFolder temporaryFolder(FilePath subfolder)
+    }
+    
+    Folder <|- - WorldGraphRepositoryFolder
+    Serializable <|- - WorldGraphRepositoryFolder
+    class WorldGraphRepositoryFolder
+    {
+        - -
+        +void ensure(Check)
+        +WorldGraphRepository repository()
+        - -(checks)- -
+        +boolean isTemporary()
+        - -(filesystem)- -
+        +File indexFile()
+        - -(messaging)- -
+        +Message check(Folder, Check)
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.mesakit.graph.world.repository"
+    
+    abstract BaseStringConverter
+    
+    interface Serializable
+    interface Source
+    
+    enum WorldGraphRepositoryFolder.Check
+    {
+        EXISTS
+        IS_VALID
+    }
+    
+    BaseStringConverter <|- - WorldGraphRepositoryFolder.Converter
+    class WorldGraphRepositoryFolder.Converter
+    {
+        - -(constructors)- -
+        +Converter(Listener, Check)
+    }
+    
+    BaseStringConverter <|- - WorldGraphRepository.Converter
+    class WorldGraphRepository.Converter
+    {
+        - -(constructors)- -
+        +Converter(Listener)
+    }
+    
+    Source <|- - WorldGraphReference
+    Serializable <|- - WorldGraphReference
+    class WorldGraphReference
+    {
+        - -(constructors)- -
+        +WorldGraphReference(Deployment, WorldGraph)
+        +WorldGraphReference(Deployment, WorldGraphRepositoryFolder)
+        - -
+        +void release()
+        +WorldCellReference worldCellSource(GridCell)
+        - -(math)- -
+        +void increment()
+    }
+    
+    Folder <|- - WorldGraphRepository
+    Serializable <|- - WorldGraphRepository
+    class WorldGraphRepository
+    {
+        - -(constructors)- -
+        +WorldGraphRepository()
+        +WorldGraphRepository(Folder)
+        - -(command line parsing)- -
+        +SwitchParser.Builder<WorldGraphRepository> worldGraphRepositorySwitchParser(String description)
+        - -(filesystem)- -
+        +WorldGraphRepositoryFolder folder(Metadata)
+        +WorldGraphRepositoryFolder folder(FilePath subfolder, Metadata)
+        +WorldGraphRepositoryFolder temporaryFolder()
+        +WorldGraphRepositoryFolder temporaryFolder(FilePath subfolder)
+    }
+    
+    Folder <|- - WorldGraphRepositoryFolder
+    Serializable <|- - WorldGraphRepositoryFolder
+    class WorldGraphRepositoryFolder
+    {
+        - -
+        +void ensure(Check)
+        +WorldGraphRepository repository()
+        - -(checks)- -
+        +boolean isTemporary()
+        - -(filesystem)- -
+        +File indexFile()
+        - -(messaging)- -
+        +Message check(Folder, Check)
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 00:55:08 MST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

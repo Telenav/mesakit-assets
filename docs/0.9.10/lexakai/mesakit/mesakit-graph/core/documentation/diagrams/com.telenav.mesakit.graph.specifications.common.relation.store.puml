@@ -1,0 +1,26 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.common.relation.store"
+    
+    ArchivedGraphElementStore <|-- RelationStore
+    class RelationStore
+    {
+        --(constructors)--
+        +RelationStore(Graph)
+        --
+        +EdgeRelation.Type retrieveType(EdgeRelation)
+        +Location retrieveViaNodeLocation(EdgeRelation)
+        +void storeAttributes(EdgeRelation)
+        +void storeViaNodeLocation(EdgeRelation)
+        --(collection)--
+        +Count add(Iterable<? extends EdgeRelation> relations, GraphConstraints)
+        +boolean contains(MapRelationIdentifier)
+        +List<EdgeRelationMember> retrieveMembers(EdgeRelation)
+        --(identity)--
+        +EdgeRelation relationForIdentifier(MapRelationIdentifier)
+    }
+    
+@enduml
+

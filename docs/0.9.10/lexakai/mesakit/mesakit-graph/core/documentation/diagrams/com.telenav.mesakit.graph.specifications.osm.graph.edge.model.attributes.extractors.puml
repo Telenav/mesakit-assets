@@ -1,0 +1,31 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.osm.graph.edge.model.attributes.extractors"
+    
+    abstract BaseExtractor
+    
+    BaseExtractor <|-- LastModifierExtractor
+    class LastModifierExtractor
+    {
+        --(constructors)--
+        +LastModifierExtractor(Listener)
+    }
+    
+    BaseExtractor <|-- PlaceExtractor
+    class PlaceExtractor
+    {
+        --(constructors)--
+        +PlaceExtractor(Listener, Metadata, LocationExtractor)
+    }
+    
+    BaseExtractor <|-- SpeedLimitExtractor
+    class SpeedLimitExtractor
+    {
+        --(constructors)--
+        +SpeedLimitExtractor(Listener)
+    }
+    
+@enduml
+

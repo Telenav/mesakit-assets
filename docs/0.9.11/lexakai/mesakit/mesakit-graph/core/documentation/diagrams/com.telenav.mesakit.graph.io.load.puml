@@ -1,0 +1,86 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.io.load"
+    
+    abstract BaseRepeater
+    abstract BaseStringConverter
+    
+    interface Named
+    
+    BaseStringConverter <|-- SmartGraphLoader.Converter
+    class SmartGraphLoader.Converter
+    {
+        --(constructors)--
+        +Converter(Listener, PbfToGraphConverter.Configuration)
+    }
+    
+    class GraphConstraints
+    {
+        --(constructors)--
+        +GraphConstraints()
+        --
+        +Rectangle bounds()
+        +boolean clips(Edge)
+        +EdgeSequence edges(Iterable<Edge> edges)
+        +boolean includes(Place)
+        +boolean includes(EdgeRelation)
+        +boolean includes(Edge)
+        +boolean includes(Vertex)
+        +RelationSequence relations(Iterable<EdgeRelation> relations)
+        +VertexSequence vertexes(Iterable<Vertex> vertexes)
+        +GraphConstraints withoutEdgeRelations()
+        --(collection)--
+        +MessageList satisfies(GraphConstraints required)
+        --(functional)--
+        +GraphConstraints withBounds(Rectangle bounds)
+        --(matching)--
+        +Matcher<Edge> edgeMatcher()
+        +Matcher<Place> placeMatcher()
+        +Matcher<Vertex> vertexMatcher()
+        +GraphConstraints withEdgeMatcher(Matcher<Edge> edgeMatcher)
+        +GraphConstraints withEdgeRelationMatcher(Matcher<EdgeRelation>)
+        +GraphConstraints withPlaceMatcher(Matcher<Place>)
+        +GraphConstraints withVertexMatcher(Matcher<Vertex>)
+    }
+    
+    interface Repeater
+    Repeater <|-- GraphLoader
+    interface GraphLoader
+    {
+        --
+        +void onCommit(GraphStore)
+        +Resource resource()
+        +ValidationType validation()
+        --(extension points)--
+        +Metadata onLoad(GraphStore, GraphConstraints)
+    }
+    
+    BaseRepeater <|-- SmartGraphLoader
+    Named <|-- SmartGraphLoader
+    class SmartGraphLoader
+    {
+        --(constructors)--
+        +SmartGraphLoader(File)
+        +SmartGraphLoader(File, PbfToGraphConverter.Configuration)
+        --(filtering)--
+        +boolean accepts(FileName)
+        --(parsing)--
+        +ArgumentParser.Builder<SmartGraphLoader> graphArgumentParser(Listener, String description)
+        +ArgumentParser.Builder<SmartGraphLoader> graphArgumentParser(Listener, String description, PbfToGraphConverter.Configuration)
+        +SwitchParser.Builder<SmartGraphLoader> graphSwitchParser(Listener, PbfToGraphConverter.Configuration)
+        +SwitchParser.Builder<SmartGraphLoader> graphSwitchParser(Listener)
+        +SwitchParser.Builder<SmartGraphLoader> graphSwitchParser(Listener, String name, String description)
+        +SwitchParser.Builder<SmartGraphLoader> graphSwitchParser(Listener, String name, String description, PbfToGraphConverter.Configuration)
+        +SmartGraphLoader parse(Listener, String specifier)
+        --(read)--
+        +Graph load(Listener)
+        +Graph load()
+        +Graph load(Listener, ProgressReporter)
+        --(time)--
+        +Time lastModified()
+    }
+    
+@enduml
+

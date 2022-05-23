@@ -1,0 +1,40 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.analytics.classification.classifiers.road"
+    
+    interface EdgeClassifier
+    
+    EdgeClassifier <|-- OneWayClassifier
+    class OneWayClassifier
+    {
+    }
+    
+    EdgeClassifier <|-- RoadLanesClassifier
+    class RoadLanesClassifier
+    {
+    }
+    
+    EdgeClassifier <|-- RoadNameClassifier
+    class RoadNameClassifier
+    {
+    }
+    
+    EdgeClassifier <|-- RoadSpeedLimitClassifier
+    class RoadSpeedLimitClassifier
+    {
+    }
+    
+    EdgeClassifier <|-- RoadSurfaceClassifier
+    class RoadSurfaceClassifier
+    {
+    }
+    
+    EdgeClassifier <|-- ServiceWayClassifier
+    class ServiceWayClassifier
+    {
+    }
+    
+@enduml
+

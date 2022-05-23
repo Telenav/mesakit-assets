@@ -1,0 +1,207 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.world"
+    
+    abstract BaseIterable
+    
+    interface Named
+    interface Serializable
+    interface NamedObject
+    interface RegistryTrait
+    
+    enum WorldGraph.AccessMode
+    {
+        CREATE
+        READ
+        WRITE
+    }
+    
+    BaseIterable <|-- WorldGraphIndex.CastingIterableAdapter
+    class WorldGraphIndex.CastingIterableAdapter<T, AS>
+    {
+        --(constructors)--
+        +CastingIterableAdapter(Source<Iterator<T>>)
+    }
+    
+    Edge.Converter <|-- WorldEdge.Converter
+    class WorldEdge.Converter
+    {
+        --(constructors)--
+        +Converter(WorldGraph, Listener)
+    }
+    
+    Edge <|-- WorldEdge
+    class WorldEdge
+    {
+        --(constructors)--
+        +WorldEdge(WorldCell, Edge)
+        +WorldEdge(WorldCell, EdgeIdentifier)
+        +WorldEdge(WorldEdgeIdentifier)
+        --
+        +WorldCell worldCell()
+    }
+    
+    EdgeSequence <|-- WorldEdgeSequence
+    class WorldEdgeSequence
+    {
+        --(constructors)--
+        +WorldEdgeSequence(WorldCell, Iterable<Edge>)
+        --(collection)--
+        +WorldEdge first()
+    }
+    
+    EdgeSet <|-- WorldEdgeSet
+    class WorldEdgeSet
+    {
+        --(constructors)--
+        +WorldEdgeSet(Estimate)
+        +WorldEdgeSet(Estimate, WorldCell, EdgeSet)
+        --(collection)--
+        +void add(WorldCell, Edge)
+        +void add(WorldEdge)
+        +void addAll(WorldCell, EdgeSet)
+    }
+    
+    Graph <|-- WorldGraph
+    class WorldGraph
+    {
+        --
+        +WorldGraph create(WorldGraphRepositoryFolder, Metadata)
+        +EdgeSequence edgesInside(Region)
+        +EdgeSequence forwardEdgesInside(Region)
+        +AccessMode mode()
+        +RelationSet relationsInside(Region)
+        +VertexSequence vertexesInside(Region)
+        +WorldGrid worldGrid()
+        --(factory)--
+        +Graph newCellGraph()
+        --(filesystem)--
+        +WorldGraphRepositoryFolder folder()
+        --(identity)--
+        +Version worldGraphVersion()
+        --(primitive)--
+        +Bytes estimatedMemorySize(WorldCell)
+        --(read)--
+        +WorldGraph load(WorldGraphRepositoryFolder local)
+        +WorldGraph loadRemote(WorldGraphRepositoryFolder local, WorldGraphRepositoryFolder remote)
+    }
+    
+    class WorldGraphConfiguration
+    {
+        --
+        +WorldGraphRepository localRepository()
+        +void localRepository(Folder local)
+        +void remoteRepository(Folder remote)
+        +WorldGraphRepository remoteRepository()
+        --(collection)--
+        +void cellSize(Angle size)
+        +Angle cellSize()
+        --(functional)--
+        +WorldGraphRepositoryFolder materializedGraphFolder(Metadata)
+        +WorldGraphRepository materializedRepository()
+    }
+    
+    DeploymentSet <|-- WorldGraphDeployments
+    class WorldGraphDeployments
+    {
+        --(constructors)--
+        +WorldGraphDeployments(Listener)
+        --(configuration)--
+        +Deployment localDeployment()
+    }
+    
+    Named <|-- WorldGraphIndex
+    Serializable <|-- WorldGraphIndex
+    NamedObject <|-- WorldGraphIndex
+    RegistryTrait <|-- WorldGraphIndex
+    class WorldGraphIndex
+    {
+        --
+        +Place placeForLocation(Location)
+        +void worldGraph(WorldGraph)
+        --(collection)--
+        +WorldGraphIndex create()
+        +void index(WorldCell, Graph cellGraph)
+        +WorldGraphIndex load(File)
+        +WorldGraphIndex loadFrom(File)
+        +Bytes memorySize(WorldCell)
+        +Count placeCount()
+        +Iterable<Place> placesInside(Rectangle bounds)
+        --(identity)--
+        +Version version()
+        +WorldCell worldCellForWayIdentifier(WorldGrid, MapWayIdentifier)
+        --(metadata)--
+        +Metadata metadata()
+        --(write)--
+        +void save(File, Metadata)
+    }
+    
+    KryoTypes <|-- WorldGraphKryoTypes
+    class WorldGraphKryoTypes
+    {
+        --(constructors)--
+        +WorldGraphKryoTypes()
+    }
+    
+    Project <|-- WorldGraphProject
+    class WorldGraphProject
+    {
+        --(constructors)--
+        +WorldGraphProject()
+        --(identity)--
+        +Version worldGraphVersion()
+    }
+    
+    GraphUnitTest <|-- WorldGraphUnitTest
+    class WorldGraphUnitTest
+    {
+        --(constructors)--
+        +WorldGraphUnitTest()
+    }
+    
+    Place <|-- WorldPlace
+    class WorldPlace
+    {
+        --(constructors)--
+        #WorldPlace()
+        +WorldPlace(WorldCell, Place)
+        +WorldPlace(WorldPlaceIdentifier)
+        --
+        +WorldCell worldCell()
+    }
+    
+    EdgeRelation <|-- WorldRelation
+    class WorldRelation
+    {
+        --(constructors)--
+        +WorldRelation(WorldCell, EdgeRelation)
+        +WorldRelation(WorldRelationIdentifier)
+        --
+        +WorldCell worldCell()
+    }
+    
+    EdgeRelationMember <|-- WorldRelationMember
+    class WorldRelationMember
+    {
+        --(constructors)--
+        +WorldRelationMember(WorldRelation, WorldCell, MapIdentifier, String)
+        --
+        +WorldCell worldCell()
+    }
+    
+    Vertex <|-- WorldVertex
+    class WorldVertex
+    {
+        --(constructors)--
+        +WorldVertex(WorldCell, Vertex)
+        +WorldVertex(WorldCell, VertexIdentifier)
+        +WorldVertex(WorldVertexIdentifier)
+        --
+        +WorldCell worldCell()
+        #Vertex vertex(WorldVertex)
+    }
+    
+@enduml
+

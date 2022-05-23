@@ -1,0 +1,17 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.tools.applications.graph.dumper"
+    
+    Application <|-- GraphDumperApplication
+    class GraphDumperApplication
+    {
+        --(constructors)--
+        #GraphDumperApplication()
+        --
+        +void main(String[] arguments)
+    }
+    
+@enduml
+

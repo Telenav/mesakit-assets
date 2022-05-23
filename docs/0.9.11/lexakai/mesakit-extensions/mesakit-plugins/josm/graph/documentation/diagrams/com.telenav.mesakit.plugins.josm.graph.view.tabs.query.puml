@@ -1,0 +1,33 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.plugins.josm.graph.view.tabs.query"
+    
+    JPanel <|-- MatchesPanel
+    class MatchesPanel
+    {
+        --(constructors)--
+        +MatchesPanel(GraphPanel)
+        --(collection)--
+        +void addAll(Set<Route> result)
+        +void clear()
+    }
+    
+    enum QueryPanel.Mode
+    {
+        PROGRESS_BAR
+        QUERY_TOOLS
+    }
+    
+    JPanel <|-- QueryPanel
+    class QueryPanel
+    {
+        --(constructors)--
+        +QueryPanel(GraphPanel)
+        --
+        +MatchesPanel matchesPanel()
+    }
+    
+@enduml
+

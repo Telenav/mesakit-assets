@@ -1,0 +1,29 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.region.countries.states"
+    
+    State <|-- California
+    class California
+    {
+        --(constructors)--
+        +California()
+    }
+    
+    State <|-- NewYork
+    class NewYork
+    {
+        --(constructors)--
+        +NewYork()
+    }
+    
+    State <|-- Washington
+    class Washington
+    {
+        --(constructors)--
+        +Washington()
+    }
+    
+@enduml
+

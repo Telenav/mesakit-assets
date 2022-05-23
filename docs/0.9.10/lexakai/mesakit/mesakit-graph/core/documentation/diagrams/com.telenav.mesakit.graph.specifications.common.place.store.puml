@@ -1,0 +1,23 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.common.place.store"
+    
+    ArchivedGraphElementStore <|-- PlaceStore
+    class PlaceStore
+    {
+        --(constructors)--
+        +PlaceStore(Graph)
+        --
+        +Location retrieveLocation(Place)
+        +Place.Type retrieveType(Place)
+        --(collection)--
+        +Count retrievePopulation(Place)
+        +QuadTreeSpatialIndex<Place> spatialIndex()
+        --(naming)--
+        +String retrieveName(Place)
+    }
+    
+@enduml
+
