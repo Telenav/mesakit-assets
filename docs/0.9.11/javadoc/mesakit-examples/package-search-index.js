@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"mesakit.map.examples","l":"com.telenav.mesakit.examples.map.measurements"}];updateSearchResults();
