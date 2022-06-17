@@ -1,0 +1,25 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.io.load.loaders.decimation"
+    
+    abstract BaseGraphLoader
+    
+    BaseGraphLoader <|-- DecimatingGraphLoader
+    class DecimatingGraphLoader
+    {
+        --(constructors)--
+        +DecimatingGraphLoader(Graph, Distance, Angle, ProgressReporter)
+    }
+    
+    Navigator <|-- DecimationNavigator
+    class DecimationNavigator
+    {
+        --(constructors)--
+        +DecimationNavigator(Edge, EdgeSet, Angle)
+    }
+    
+@enduml
+

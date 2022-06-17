@@ -1,0 +1,10 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "mesakit-map-shapefile"
+    
+    artifact mesakit_map_shapefile
+    
+@enduml

@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1942.7083px" preserveAspectRatio="none" style="width:1607px;height:1942px;background:#333333;" version="1.1" viewBox="0 0 1607 1942" width="1607.2917px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="287.5" x="652.6042" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="264.5833" x="664.0625" y="30.5583">Geographic Measurements</text><!--MD5=[7a4729d26b999f6a4650b01106c103c5]
+class Comparable--><rect codeLine="7" fill="#282828" height="48.055" id="Comparable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="115.625" x="796.875" y="387.0361"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="115.625" x="796.875" y="387.0361"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="115.625" x="796.875" y="410.0911"/><rect codeLine="7" fill="none" height="48.055" id="Comparable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="115.625" x="796.875" y="387.0361"/><ellipse cx="811.4583" cy="402.7303" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M808.8623,399.8922 L808.8623,398.3053 L814.2883,398.3053 L814.2883,399.8922 L812.4756,399.8922 L812.4756,405.8309 L814.2883,405.8309 L814.2883,407.4178 L808.8623,407.4178 L808.8623,405.8309 L810.675,405.8309 L810.675,399.8922 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="78.125" x="828.125" y="407.4544">Comparable</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="797.9167" x2="911.4583" y1="418.4245" y2="418.4245"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="797.9167" x2="911.4583" y1="426.7578" y2="426.7578"/><!--MD5=[6d406fcfe80da012147bddd81032b7d3]
+class Headed--><rect codeLine="165" fill="#282828" height="83.3781" id="Headed" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="134.375" x="7.2917" y="1044.8486"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="134.375" x="7.2917" y="1044.8486"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="134.375" x="7.2917" y="1067.9036"/><rect codeLine="165" fill="none" height="83.3781" id="Headed" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="134.375" x="7.2917" y="1044.8486"/><ellipse cx="43.9063" cy="1060.5428" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M41.3102,1057.7047 L41.3102,1056.1178 L46.7362,1056.1178 L46.7362,1057.7047 L44.9235,1057.7047 L44.9235,1063.6434 L46.7362,1063.6434 L46.7362,1065.2303 L41.3102,1065.2303 L41.3102,1063.6434 L43.123,1063.6434 L43.123,1057.7047 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="47.9167" x="65.4688" y="1065.2669">Headed</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="8.3333" x2="140.625" y1="1076.237" y2="1076.237"/><ellipse cx="18.75" cy="1111.6069" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="102.0833" x="30.2083" y="1118.5181">Heading heading()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="52.0833" y1="1094.4427" y2="1094.4427"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="38.5417" x="55.2083" y="1098.2524">(angle)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="96.875" x2="140.625" y1="1094.4427" y2="1094.4427"/><!--MD5=[4ec63378fea7d2ffaac9ae799bac9d15]
+class QuantumComparable--><rect codeLine="9" fill="#282828" height="48.055" id="QuantumComparable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="176.0417" x="142.7083" y="387.0361"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="176.0417" x="142.7083" y="387.0361"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="176.0417" x="142.7083" y="410.0911"/><rect codeLine="9" fill="none" height="48.055" id="QuantumComparable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="176.0417" x="142.7083" y="387.0361"/><ellipse cx="157.2917" cy="402.7303" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M154.6956,399.8922 L154.6956,398.3053 L160.1217,398.3053 L160.1217,399.8922 L158.3089,399.8922 L158.3089,405.8309 L160.1217,405.8309 L160.1217,407.4178 L154.6956,407.4178 L154.6956,405.8309 L156.5084,405.8309 L156.5084,399.8922 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="138.5417" x="173.9583" y="407.4544">QuantumComparable</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="143.75" x2="317.7083" y1="418.4245" y2="418.4245"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="143.75" x2="317.7083" y1="426.7578" y2="426.7578"/><!--MD5=[28a1623e36e8f41cdb0f5a8c6f905351]
+class IntegerNumeric--><rect codeLine="10" fill="#282828" height="48.055" id="IntegerNumeric" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="136.4583" x="355.2083" y="387.0361"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="136.4583" x="355.2083" y="387.0361"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="136.4583" x="355.2083" y="410.0911"/><rect codeLine="10" fill="none" height="48.055" id="IntegerNumeric" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="136.4583" x="355.2083" y="387.0361"/><ellipse cx="369.7917" cy="402.7303" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M367.1956,399.8922 L367.1956,398.3053 L372.6217,398.3053 L372.6217,399.8922 L370.8089,399.8922 L370.8089,405.8309 L372.6217,405.8309 L372.6217,407.4178 L367.1956,407.4178 L367.1956,405.8309 L369.0084,405.8309 L369.0084,399.8922 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="98.9583" x="386.4583" y="407.4544">IntegerNumeric</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="356.25" x2="490.625" y1="418.4245" y2="418.4245"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="356.25" x2="490.625" y1="426.7578" y2="426.7578"/><!--MD5=[7aca7191f476af6561cf4f43a12cda50]
+class Validatable--><rect codeLine="11" fill="#282828" height="48.055" id="Validatable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="109.375" x="528.125" y="387.0361"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="109.375" x="528.125" y="387.0361"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="109.375" x="528.125" y="410.0911"/><rect codeLine="11" fill="none" height="48.055" id="Validatable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="109.375" x="528.125" y="387.0361"/><ellipse cx="542.7083" cy="402.7303" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M540.1123,399.8922 L540.1123,398.3053 L545.5383,398.3053 L545.5383,399.8922 L543.7256,399.8922 L543.7256,405.8309 L545.5383,405.8309 L545.5383,407.4178 L540.1123,407.4178 L540.1123,405.8309 L541.925,405.8309 L541.925,399.8922 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="71.875" x="559.375" y="407.4544">Validatable</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="529.1667" x2="636.4583" y1="418.4245" y2="418.4245"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="529.1667" x2="636.4583" y1="426.7578" y2="426.7578"/><!--MD5=[bf4550a9339f72ca621189a6baa10b43]
+class Quantizable--><rect codeLine="12" fill="#282828" height="48.055" id="Quantizable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="115.625" x="1057.2917" y="387.0361"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="115.625" x="1057.2917" y="387.0361"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="115.625" x="1057.2917" y="410.0911"/><rect codeLine="12" fill="none" height="48.055" id="Quantizable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="115.625" x="1057.2917" y="387.0361"/><ellipse cx="1071.875" cy="402.7303" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M1069.279,399.8922 L1069.279,398.3053 L1074.705,398.3053 L1074.705,399.8922 L1072.8923,399.8922 L1072.8923,405.8309 L1074.705,405.8309 L1074.705,407.4178 L1069.279,407.4178 L1069.279,405.8309 L1071.0917,405.8309 L1071.0917,399.8922 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="78.125" x="1088.5417" y="407.4544">Quantizable</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1058.3333" x2="1171.875" y1="418.4245" y2="418.4245"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1058.3333" x2="1171.875" y1="426.7578" y2="426.7578"/><!--MD5=[721900c9b1e6ee6a764f2567704251f9]
+class Angle--><rect codeLine="18" fill="#282828" height="755.7922" id="Angle" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="481.25" x="182.8125" y="708.3903"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="481.25" x="182.8125" y="708.3903"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="481.25" x="182.8125" y="731.4453"/><rect codeLine="18" fill="none" height="755.7922" id="Angle" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="481.25" x="182.8125" y="708.3903"/><ellipse cx="397.3958" cy="724.0845" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M399.3062,728.5095 Q398.879,728.7292 398.409,728.8391 Q397.939,728.949 397.4202,728.949 Q395.577,728.949 394.6065,727.7344 Q393.6361,726.5198 393.6361,724.2249 Q393.6361,721.9238 394.6065,720.7092 Q395.577,719.4946 397.4202,719.4946 Q397.939,719.4946 398.4151,719.6045 Q398.8912,719.7144 399.3062,719.9341 L399.3062,721.936 Q398.8424,721.5088 398.406,721.3104 Q397.9696,721.1121 397.5057,721.1121 Q396.5169,721.1121 396.0134,721.8964 Q395.5098,722.6807 395.5098,724.2249 Q395.5098,725.7629 396.0134,726.5472 Q396.5169,727.3315 397.5057,727.3315 Q397.9696,727.3315 398.406,727.1332 Q398.8424,726.9348 399.3062,726.5076 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="37.5" x="420.3125" y="728.8086">Angle</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="183.8542" x2="663.0208" y1="739.7786" y2="739.7786"/><polygon fill="#FFFF44" points="194.2708,769.9402,198.4375,774.1069,194.2708,778.2735,190.1042,774.1069" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="40.625" x="205.7292" y="782.0597">Angle()</text><polygon fill="#FFFF44" points="194.2708,789.6851,198.4375,793.8517,194.2708,798.0184,190.1042,793.8517" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="65.625" x="205.7292" y="801.8046">Angle(long)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="183.8542" x2="379.6875" y1="757.9844" y2="757.9844"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="382.8125" y="761.794">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="467.1875" x2="663.0208" y1="757.9844" y2="757.9844"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="183.8542" x2="663.0208" y1="811.5133" y2="811.5133"/><ellipse cx="194.2708" cy="822.9716" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="204.1667" x="205.7292" y="829.8828">Distance projectionOnEarthSurface()</text><ellipse cx="194.2708" cy="866.628" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="206.25" x="205.7292" y="873.5392">Angle absoluteDifference(Angle that)</text><ellipse cx="194.2708" cy="886.3729" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="448.9583" x="205.7292" y="893.2841">SwitchParser.Builder&lt;Angle&gt; angleSwitchParser(String name, String description)</text><ellipse cx="194.2708" cy="906.1178" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="108.3333" x="205.7292" y="913.029">double asDegrees()</text><ellipse cx="194.2708" cy="925.8626" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="114.5833" x="205.7292" y="932.7738">int asMicrodegrees()</text><ellipse cx="194.2708" cy="945.6075" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="106.25" x="205.7292" y="952.5187">double asRadians()</text><ellipse cx="194.2708" cy="965.3524" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="187.5" x="205.7292" y="972.2636">Angle bisect(Angle that, Chirality)</text><ellipse cx="194.2708" cy="985.0972" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="175" x="205.7292" y="992.0085">Angle degrees(double degrees)</text><ellipse cx="194.2708" cy="1004.8421" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="150" x="205.7292" y="1011.7533">double degreesPerRadian()</text><ellipse cx="194.2708" cy="1024.587" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="237.5" x="205.7292" y="1031.4982">Angle difference(Angle that, Chirality type)</text><ellipse cx="194.2708" cy="1044.3319" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="152.0833" x="205.7292" y="1051.2431">Angle dividedBy(double by)</text><ellipse cx="194.2708" cy="1064.0767" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="318.75" x="205.7292" y="1070.988">boolean isOppositeDirection(Angle that, Angle tolerance)</text><ellipse cx="194.2708" cy="1083.8216" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="215.625" x="205.7292" y="1090.7328">Angle microdegrees(int microdegrees)</text><ellipse cx="194.2708" cy="1103.5665" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="217.7083" x="205.7292" y="1110.4777">Angle nanodegrees(long nanodegrees)</text><ellipse cx="194.2708" cy="1123.3114" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="168.75" x="205.7292" y="1130.2226">Angle radians(double radians)</text><ellipse cx="194.2708" cy="1143.0562" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="92.7083" x="205.7292" y="1149.9674">Angle reversed()</text><ellipse cx="194.2708" cy="1162.8011" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="168.75" x="205.7292" y="1169.7123">Angle times(double multiplier)</text><polygon fill="#FFFF44" points="194.2708,1177.3376,198.4375,1181.5043,194.2708,1185.671,190.1042,1181.5043" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="177.0833" x="205.7292" y="1189.4572">long maximumInNanoDegrees()</text><polygon fill="#FFFF44" points="194.2708,1197.0825,198.4375,1201.2492,194.2708,1205.4159,190.1042,1201.2492" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="173.9583" x="205.7292" y="1209.2021">long minimumInNanoDegrees()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="183.8542" x2="401.0417" y1="849.4639" y2="849.4639"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="38.5417" x="404.1667" y="853.2735">(angle)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="445.8333" x2="663.0208" y1="849.4639" y2="849.4639"/><ellipse cx="194.2708" cy="1245.9473" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="97.9167" x="205.7292" y="1252.8585">boolean isAcute()</text><ellipse cx="194.2708" cy="1265.6921" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="271.875" x="205.7292" y="1272.6034">boolean isBetween(Angle, Angle b, Chirality type)</text><ellipse cx="194.2708" cy="1285.437" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="247.9167" x="205.7292" y="1292.3482">boolean isClose(Angle that, Angle tolerance)</text><ellipse cx="194.2708" cy="1305.1819" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="346.875" x="205.7292" y="1312.0931">boolean isCloseOrReverseIsClose(Angle that, Angle tolerance)</text><ellipse cx="194.2708" cy="1324.9268" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="119.7917" x="205.7292" y="1331.838">boolean isMaximum()</text><ellipse cx="194.2708" cy="1344.6716" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="116.6667" x="205.7292" y="1351.5828">boolean isMinimum()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="183.8542" x2="396.875" y1="1228.7832" y2="1228.7832"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="46.875" x="400" y="1232.5928">(checks)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="450" x2="663.0208" y1="1228.7832" y2="1228.7832"/><ellipse cx="194.2708" cy="1388.328" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="205.7292" y="1395.2393">int asDm5()</text><ellipse cx="194.2708" cy="1408.0729" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="205.7292" y="1414.9841">int asDm6()</text><ellipse cx="194.2708" cy="1427.8178" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="205.7292" y="1434.729">int asDm7()</text><ellipse cx="194.2708" cy="1447.5627" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="122.9167" x="205.7292" y="1454.4739">long asNanodegrees()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="183.8542" x2="384.8958" y1="1371.1639" y2="1371.1639"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="70.8333" x="388.0208" y="1374.9736">(conversion)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="461.9792" x2="663.0208" y1="1371.1639" y2="1371.1639"/><!--MD5=[7cfcec95ce8c7b3cc21f2a5540b61e10]
+class Area--><rect codeLine="59" fill="#282828" height="538.5986" id="Area" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="307.2917" x="701.0417" y="817.2445"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="307.2917" x="701.0417" y="817.2445"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="307.2917" x="701.0417" y="840.2995"/><rect codeLine="59" fill="none" height="538.5986" id="Area" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="307.2917" x="701.0417" y="817.2445"/><ellipse cx="832.8125" cy="832.9386" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M834.7229,837.3637 Q834.2957,837.5834 833.8257,837.6933 Q833.3557,837.8031 832.8369,837.8031 Q830.9937,837.8031 830.0232,836.5885 Q829.0527,835.3739 829.0527,833.079 Q829.0527,830.778 830.0232,829.5634 Q830.9937,828.3488 832.8369,828.3488 Q833.3557,828.3488 833.8318,828.4587 Q834.3079,828.5685 834.7229,828.7882 L834.7229,830.7902 Q834.259,830.363 833.8226,830.1646 Q833.3862,829.9662 832.9224,829.9662 Q831.9336,829.9662 831.4301,830.7505 Q830.9265,831.5348 830.9265,833.079 Q830.9265,834.6171 831.4301,835.4014 Q831.9336,836.1857 832.9224,836.1857 Q833.3862,836.1857 833.8226,835.9873 Q834.259,835.789 834.7229,835.3617 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="29.1667" x="855.7292" y="837.6628">Area</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="702.0833" x2="1007.2917" y1="848.6328" y2="848.6328"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="702.0833" x2="1007.2917" y1="856.9661" y2="856.9661"/><ellipse cx="712.5" cy="868.4245" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="144.7917" x="723.9583" y="875.3357">Area difference(Area that)</text><ellipse cx="712.5" cy="888.1694" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="222.9167" x="723.9583" y="895.0806">Area of(Distance width, Distance height)</text><ellipse cx="712.5" cy="907.9142" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="143.75" x="723.9583" y="914.8254">double ratio(Area divisor)</text><ellipse cx="712.5" cy="927.6591" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="202.0833" x="723.9583" y="934.5703">Area squareFeet(double squareFeet)</text><ellipse cx="712.5" cy="971.3155" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="186.4583" x="723.9583" y="978.2267">boolean isGreaterThan(Area that)</text><ellipse cx="712.5" cy="991.0604" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="245.8333" x="723.9583" y="997.9716">boolean isGreaterThanOrEqualTo(Area that)</text><ellipse cx="712.5" cy="1010.8053" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="169.7917" x="723.9583" y="1017.7165">boolean isLessThan(Area that)</text><ellipse cx="712.5" cy="1030.5501" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="229.1667" x="723.9583" y="1037.4613">boolean isLessThanOrEqualTo(Area that)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="702.0833" x2="828.125" y1="954.1514" y2="954.1514"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="46.875" x="831.25" y="957.961">(checks)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="881.25" x2="1007.2917" y1="954.1514" y2="954.1514"/><ellipse cx="712.5" cy="1074.2065" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="123.9583" x="723.9583" y="1081.1178">double asSquareFeet()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="702.0833" x2="816.1458" y1="1057.0424" y2="1057.0424"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="70.8333" x="819.2708" y="1060.8521">(conversion)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="893.2292" x2="1007.2917" y1="1057.0424" y2="1057.0424"/><ellipse cx="712.5" cy="1117.863" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="160.4167" x="723.9583" y="1124.7742">double asSquareKilometers()</text><ellipse cx="712.5" cy="1137.6078" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="138.5417" x="723.9583" y="1144.519">double asSquareMeters()</text><ellipse cx="712.5" cy="1157.3527" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="129.1667" x="723.9583" y="1164.2639">double asSquareMiles()</text><ellipse cx="712.5" cy="1177.0976" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="275" x="723.9583" y="1184.0088">Area squareKilometers(double squareKilometers)</text><ellipse cx="712.5" cy="1196.8424" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="231.25" x="723.9583" y="1203.7537">Area squareMeters(double squareMeters)</text><ellipse cx="712.5" cy="1216.5873" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="212.5" x="723.9583" y="1223.4985">Area squareMiles(double squareMiles)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="702.0833" x2="823.9583" y1="1100.6989" y2="1100.6989"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="55.2083" x="827.0833" y="1104.5085">(distance)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="885.4167" x2="1007.2917" y1="1100.6989" y2="1100.6989"/><ellipse cx="712.5" cy="1260.2437" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="143.75" x="723.9583" y="1267.1549">Area maximum(Area that)</text><ellipse cx="712.5" cy="1279.9886" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="140.625" x="723.9583" y="1286.8998">Area minimum(Area that)</text><ellipse cx="712.5" cy="1299.7335" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="122.9167" x="723.9583" y="1306.6447">Area minus(Area that)</text><ellipse cx="712.5" cy="1319.4784" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="112.5" x="723.9583" y="1326.3896">Area plus(Area that)</text><ellipse cx="712.5" cy="1339.2232" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="162.5" x="723.9583" y="1346.1344">Area times(double multiplier)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="702.0833" x2="833.3333" y1="1243.0796" y2="1243.0796"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="36.4583" x="836.4583" y="1246.8892">(math)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="876.0417" x2="1007.2917" y1="1243.0796" y2="1243.0796"/><!--MD5=[cc8bdd4a75b8c12356a13db8d1cdad21]
+class Average--><rect fill="#282828" height="48.055" id="Average" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="89.5833" x="1256.7708" y="132.8695"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="89.5833" x="1256.7708" y="132.8695"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="89.5833" x="1256.7708" y="155.9245"/><rect fill="none" height="48.055" id="Average" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="89.5833" x="1256.7708" y="132.8695"/><ellipse cx="1271.3542" cy="148.5636" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1273.2646,152.9887 Q1272.8373,153.2084 1272.3674,153.3183 Q1271.8974,153.4281 1271.3786,153.4281 Q1269.5353,153.4281 1268.5649,152.2135 Q1267.5944,150.9989 1267.5944,148.704 Q1267.5944,146.403 1268.5649,145.1884 Q1269.5353,143.9738 1271.3786,143.9738 Q1271.8974,143.9738 1272.3735,144.0837 Q1272.8495,144.1935 1273.2646,144.4132 L1273.2646,146.4152 Q1272.8007,145.988 1272.3643,145.7896 Q1271.9279,145.5912 1271.464,145.5912 Q1270.4753,145.5912 1269.9717,146.3755 Q1269.4682,147.1598 1269.4682,148.704 Q1269.4682,150.2421 1269.9717,151.0264 Q1270.4753,151.8107 1271.464,151.8107 Q1271.9279,151.8107 1272.3643,151.6123 Q1272.8007,151.414 1273.2646,150.9867 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="52.0833" x="1288.0208" y="153.2878">Average</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1257.8125" x2="1345.3125" y1="164.2578" y2="164.2578"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1257.8125" x2="1345.3125" y1="172.5911" y2="172.5911"/><!--MD5=[aeb42329359f5fcb579cd9d27c6ab4dc]
+class AverageDistance--><rect codeLine="90" fill="#282828" height="111.4563" id="AverageDistance" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="183.3333" x="1209.8958" y="355.2653"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="183.3333" x="1209.8958" y="355.2653"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="183.3333" x="1209.8958" y="378.3203"/><rect codeLine="90" fill="none" height="111.4563" id="AverageDistance" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="183.3333" x="1209.8958" y="355.2653"/><ellipse cx="1241.3542" cy="370.9595" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1243.2646,375.3845 Q1242.8373,375.6042 1242.3674,375.7141 Q1241.8974,375.824 1241.3786,375.824 Q1239.5353,375.824 1238.5649,374.6094 Q1237.5944,373.3948 1237.5944,371.0999 Q1237.5944,368.7988 1238.5649,367.5842 Q1239.5353,366.3696 1241.3786,366.3696 Q1241.8974,366.3696 1242.3735,366.4795 Q1242.8495,366.5894 1243.2646,366.8091 L1243.2646,368.811 Q1242.8007,368.3838 1242.3643,368.1854 Q1241.9279,367.9871 1241.464,367.9871 Q1240.4753,367.9871 1239.9717,368.7714 Q1239.4682,369.5557 1239.4682,371.0999 Q1239.4682,372.6379 1239.9717,373.4222 Q1240.4753,374.2065 1241.464,374.2065 Q1241.9279,374.2065 1242.3643,374.0082 Q1242.8007,373.8098 1243.2646,373.3826 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="108.3333" x="1261.7708" y="375.6836">AverageDistance</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1210.9375" x2="1392.1875" y1="386.6536" y2="386.6536"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1210.9375" x2="1392.1875" y1="394.987" y2="394.987"/><ellipse cx="1221.3542" cy="406.4453" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="151.0417" x="1232.8125" y="413.3565">Distance averageDistance()</text><ellipse cx="1221.3542" cy="450.1017" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="104.1667" x="1232.8125" y="457.0129">void add(Distance)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1210.9375" x2="1267.1875" y1="432.9376" y2="432.9376"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="1270.3125" y="436.7472">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1335.9375" x2="1392.1875" y1="432.9376" y2="432.9376"/><!--MD5=[cc15daeb8b4e6bacf34831777829d2c1]
+class Distance--><rect codeLine="112" fill="#282828" height="1005.2307" id="Distance" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="513.5417" x="1044.7917" y="583.9111"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="513.5417" x="1044.7917" y="583.9111"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="513.5417" x="1044.7917" y="606.9661"/><rect codeLine="112" fill="none" height="1005.2307" id="Distance" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="513.5417" x="1044.7917" y="583.9111"/><ellipse cx="1266.1458" cy="599.6053" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1268.0562,604.0304 Q1267.629,604.2501 1267.159,604.3599 Q1266.689,604.4698 1266.1702,604.4698 Q1264.327,604.4698 1263.3565,603.2552 Q1262.3861,602.0406 1262.3861,599.7457 Q1262.3861,597.4447 1263.3565,596.2301 Q1264.327,595.0155 1266.1702,595.0155 Q1266.689,595.0155 1267.1651,595.1253 Q1267.6412,595.2352 1268.0562,595.4549 L1268.0562,597.4569 Q1267.5924,597.0296 1267.156,596.8313 Q1266.7196,596.6329 1266.2557,596.6329 Q1265.2669,596.6329 1264.7634,597.4172 Q1264.2598,598.2015 1264.2598,599.7457 Q1264.2598,601.2838 1264.7634,602.0681 Q1265.2669,602.8524 1266.2557,602.8524 Q1266.7196,602.8524 1267.156,602.654 Q1267.5924,602.4556 1268.0562,602.0284 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="56.25" x="1289.0625" y="604.3294">Distance</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1045.8333" x2="1557.2917" y1="615.2995" y2="615.2995"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1045.8333" x2="1557.2917" y1="623.6328" y2="623.6328"/><ellipse cx="1056.25" cy="635.0911" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="123.9583" x="1067.7083" y="642.0024">Area by(Distance that)</text><ellipse cx="1056.25" cy="654.836" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="188.5417" x="1067.7083" y="661.7472">Distance difference(Distance that)</text><ellipse cx="1056.25" cy="674.5809" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="142.7083" x="1067.7083" y="681.4921">Distance feet(double feet)</text><ellipse cx="1056.25" cy="694.3258" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="170.8333" x="1067.7083" y="701.237">Distance of(double value, Unit)</text><ellipse cx="1056.25" cy="714.0706" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="165.625" x="1067.7083" y="720.9819">double ratio(Distance divisor)</text><ellipse cx="1056.25" cy="757.7271" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="190.625" x="1067.7083" y="764.6383">Distance degrees(double degrees)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1045.8333" x2="1279.1667" y1="740.5629" y2="740.5629"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="38.5417" x="1282.2917" y="744.3726">(angle)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1323.9583" x2="1557.2917" y1="740.5629" y2="740.5629"/><ellipse cx="1056.25" cy="801.3835" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="208.3333" x="1067.7083" y="808.2947">boolean isGreaterThan(Distance that)</text><ellipse cx="1056.25" cy="821.1283" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="267.7083" x="1067.7083" y="828.0396">boolean isGreaterThanOrEqualTo(Distance that)</text><ellipse cx="1056.25" cy="840.8732" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="191.6667" x="1067.7083" y="847.7844">boolean isLessThan(Distance that)</text><ellipse cx="1056.25" cy="860.6181" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="251.0417" x="1067.7083" y="867.5293">boolean isLessThanOrEqualTo(Distance that)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1045.8333" x2="1275" y1="784.2194" y2="784.2194"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="46.875" x="1278.125" y="788.029">(checks)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1328.125" x2="1557.2917" y1="784.2194" y2="784.2194"/><ellipse cx="1056.25" cy="904.2745" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="85.4167" x="1067.7083" y="911.1857">double as(Unit)</text><ellipse cx="1056.25" cy="924.0194" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="88.5417" x="1067.7083" y="930.9306">Angle asAngle()</text><ellipse cx="1056.25" cy="943.7642" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="116.6667" x="1067.7083" y="950.6755">long asCentimeters()</text><ellipse cx="1056.25" cy="963.5091" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="108.3333" x="1067.7083" y="970.4203">double asDegrees()</text><ellipse cx="1056.25" cy="983.254" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="88.5417" x="1067.7083" y="990.1652">double asDm5()</text><ellipse cx="1056.25" cy="1002.9989" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="88.5417" x="1067.7083" y="1009.9101">double asDm6()</text><ellipse cx="1056.25" cy="1022.7437" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="85.4167" x="1067.7083" y="1029.6549">double asFeet()</text><ellipse cx="1056.25" cy="1042.4886" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="76.0417" x="1067.7083" y="1049.3998">int asInt(Unit)</text><ellipse cx="1056.25" cy="1062.2335" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="121.875" x="1067.7083" y="1069.1447">double asKilometers()</text><ellipse cx="1056.25" cy="1081.9784" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="100" x="1067.7083" y="1088.8896">double asMeters()</text><ellipse cx="1056.25" cy="1101.7232" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="90.625" x="1067.7083" y="1108.6344">double asMiles()</text><ellipse cx="1056.25" cy="1121.4681" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="109.375" x="1067.7083" y="1128.3793">long asMillimeters()</text><ellipse cx="1056.25" cy="1141.213" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="187.5" x="1067.7083" y="1148.1242">String toCommaSeparatedString()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1045.8333" x2="1263.0208" y1="887.1104" y2="887.1104"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="70.8333" x="1266.1458" y="890.92">(conversion)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1340.1042" x2="1557.2917" y1="887.1104" y2="887.1104"/><ellipse cx="1056.25" cy="1184.8694" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="218.75" x="1067.7083" y="1191.7806">Distance centimeters(long centimeters)</text><ellipse cx="1056.25" cy="1204.6143" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="217.7083" x="1067.7083" y="1211.5255">Distance kilometers(double kilometers)</text><ellipse cx="1056.25" cy="1224.3591" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="178.125" x="1067.7083" y="1231.2703">Distance meters(double meters)</text><ellipse cx="1056.25" cy="1244.104" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="159.375" x="1067.7083" y="1251.0152">Distance miles(double miles)</text><ellipse cx="1056.25" cy="1263.8489" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="210.4167" x="1067.7083" y="1270.7601">Distance millimeters(long millimeters)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1045.8333" x2="1270.8333" y1="1167.7053" y2="1167.7053"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="55.2083" x="1273.9583" y="1171.5149">(distance)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1332.2917" x2="1557.2917" y1="1167.7053" y2="1167.7053"/><ellipse cx="1056.25" cy="1307.5053" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="83.3333" x="1067.7083" y="1314.4165">Area squared()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1045.8333" x2="1266.1458" y1="1290.3412" y2="1290.3412"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="1269.2708" y="1294.1508">(functional)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1336.9792" x2="1557.2917" y1="1290.3412" y2="1290.3412"/><ellipse cx="1056.25" cy="1351.1617" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="153.125" x="1067.7083" y="1358.0729">Distance add(Distance that)</text><ellipse cx="1056.25" cy="1370.9066" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="188.5417" x="1067.7083" y="1377.8178">Distance dividedBy(Count divisor)</text><ellipse cx="1056.25" cy="1390.6514" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="187.5" x="1067.7083" y="1397.5627">Distance maximum(Distance that)</text><ellipse cx="1056.25" cy="1410.3963" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="184.375" x="1067.7083" y="1417.3075">Distance minimum(Distance that)</text><ellipse cx="1056.25" cy="1430.1412" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="166.6667" x="1067.7083" y="1437.0524">Distance minus(Distance that)</text><ellipse cx="1056.25" cy="1449.8861" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="202.0833" x="1067.7083" y="1456.7973">Percent percentageOf(Distance that)</text><ellipse cx="1056.25" cy="1469.6309" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="184.375" x="1067.7083" y="1476.5422">Distance times(double multiplier)</text><ellipse cx="1056.25" cy="1489.3758" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="131.25" x="1067.7083" y="1496.287">Distance times(Percent)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1045.8333" x2="1280.2083" y1="1333.9976" y2="1333.9976"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="36.4583" x="1283.3333" y="1337.8072">(math)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1322.9167" x2="1557.2917" y1="1333.9976" y2="1333.9976"/><ellipse cx="1056.25" cy="1533.0322" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="401.0417" x="1067.7083" y="1539.9434">ArgumentParser.Builder&lt;Distance&gt; argumentParser(String description)</text><ellipse cx="1056.25" cy="1552.7771" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="481.25" x="1067.7083" y="1559.6883">SwitchParser.Builder&lt;Distance&gt; distanceSwitchParser(String name, String description)</text><ellipse cx="1056.25" cy="1572.522" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="156.25" x="1067.7083" y="1579.4332">Distance parse(String value)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1045.8333" x2="1272.9167" y1="1515.8681" y2="1515.8681"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="51.0417" x="1276.0417" y="1519.6777">(parsing)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1330.2083" x2="1557.2917" y1="1515.8681" y2="1515.8681"/><!--MD5=[02f7077ed79257124e28b791f351f1d7]
+class Direction--><rect codeLine="98" fill="#282828" height="206.014" id="Direction" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="96.875" x="1383.3333" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="96.875" x="1383.3333" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="96.875" x="1383.3333" y="76.7578"/><rect codeLine="98" fill="none" height="206.014" id="Direction" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="96.875" x="1383.3333" y="53.7028"/><ellipse cx="1397.9167" cy="69.397" fill="#CF6300" rx="10.4167" ry="10.4167" style="stroke:#EF8300;stroke-width:1.0416666666666667;"/><path d="M1400.9725,74.0845 L1395.2962,74.0845 L1395.2962,64.9719 L1400.9725,64.9719 L1400.9725,66.5588 L1397.0968,66.5588 L1397.0968,68.5242 L1400.6063,68.5242 L1400.6063,70.1111 L1397.0968,70.1111 L1397.0968,72.4976 L1400.9725,72.4976 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="59.375" x="1414.5833" y="74.1211">Direction</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1384.375" x2="1479.1667" y1="85.0911" y2="85.0911"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="28.125" x="1392.7083" y="103.4607">EAST</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="40.625" x="1392.7083" y="123.2056">NORTH</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="68.75" x="1392.7083" y="142.9504">NORTHEAST</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="69.7917" x="1392.7083" y="162.6953">NORTHWEST</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="39.5833" x="1392.7083" y="182.4402">SOUTH</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="67.7083" x="1392.7083" y="202.1851">SOUTHEAST</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="68.75" x="1392.7083" y="221.9299">SOUTHWEST</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="29.1667" x="1392.7083" y="241.6748">WEST</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1384.375" x2="1479.1667" y1="251.3835" y2="251.3835"/><!--MD5=[ccd503f1890fbd141595fb620d777213]
+class Heading--><rect codeLine="173" fill="#282828" height="261.0819" id="Heading" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="263.5417" x="22.9167" y="1674.5361"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="263.5417" x="22.9167" y="1674.5361"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="263.5417" x="22.9167" y="1697.5911"/><rect codeLine="173" fill="none" height="261.0819" id="Heading" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="263.5417" x="22.9167" y="1674.5361"/><ellipse cx="120.8333" cy="1690.2303" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M122.7437,1694.6554 Q122.3165,1694.8751 121.8465,1694.9849 Q121.3765,1695.0948 120.8577,1695.0948 Q119.0145,1695.0948 118.044,1693.8802 Q117.0736,1692.6656 117.0736,1690.3707 Q117.0736,1688.0697 118.044,1686.8551 Q119.0145,1685.6405 120.8577,1685.6405 Q121.3765,1685.6405 121.8526,1685.7503 Q122.3287,1685.8602 122.7437,1686.0799 L122.7437,1688.0819 Q122.2799,1687.6546 121.8435,1687.4563 Q121.4071,1687.2579 120.9432,1687.2579 Q119.9544,1687.2579 119.4509,1688.0422 Q118.9473,1688.8265 118.9473,1690.3707 Q118.9473,1691.9088 119.4509,1692.6931 Q119.9544,1693.4774 120.9432,1693.4774 Q121.4071,1693.4774 121.8435,1693.279 Q122.2799,1693.0806 122.7437,1692.6534 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="53.125" x="143.75" y="1694.9544">Heading</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="23.9583" x2="285.4167" y1="1705.9245" y2="1705.9245"/><ellipse cx="34.375" cy="1741.2944" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="198.9583" x="45.8333" y="1748.2056">Direction asApproximateDirection()</text><ellipse cx="34.375" cy="1761.0392" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="171.875" x="45.8333" y="1767.9504">Heading average(Heading that)</text><ellipse cx="34.375" cy="1780.7841" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="214.5833" x="45.8333" y="1787.6953">Heading bisect(Heading that, Chirality)</text><ellipse cx="34.375" cy="1800.529" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="188.5417" x="45.8333" y="1807.4402">Heading degrees(double degrees)</text><ellipse cx="34.375" cy="1820.2738" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="229.1667" x="45.8333" y="1827.1851">Heading microdegrees(int microdegrees)</text><ellipse cx="34.375" cy="1840.0187" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="180.2083" x="45.8333" y="1846.9299">Heading minimum(Heading that)</text><ellipse cx="34.375" cy="1859.7636" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="231.25" x="45.8333" y="1866.6748">Heading nanodegrees(long nanodegrees)</text><ellipse cx="34.375" cy="1879.5085" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="146.875" x="45.8333" y="1886.4197">Heading parse(String text)</text><ellipse cx="34.375" cy="1899.2533" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="190.625" x="45.8333" y="1906.1646">Heading quantize(Angle quantum)</text><ellipse cx="34.375" cy="1918.9982" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="182.2917" x="45.8333" y="1925.9094">Heading radians(double radians)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="23.9583" x2="132.2917" y1="1724.1302" y2="1724.1302"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="38.5417" x="135.4167" y="1727.9399">(angle)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="177.0833" x2="285.4167" y1="1724.1302" y2="1724.1302"/><!--MD5=[93c87fdd6b22d8091fb2672926bd3db4]
+class Slope--><rect codeLine="189" fill="#282828" height="131.2012" id="Slope" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="205.2083" x="322.9167" y="1739.6403"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="205.2083" x="322.9167" y="1739.6403"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="205.2083" x="322.9167" y="1762.6953"/><rect codeLine="189" fill="none" height="131.2012" id="Slope" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="205.2083" x="322.9167" y="1739.6403"/><ellipse cx="400.5208" cy="1755.3345" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M402.4312,1759.7595 Q402.004,1759.9792 401.534,1760.0891 Q401.064,1760.199 400.5452,1760.199 Q398.702,1760.199 397.7315,1758.9844 Q396.7611,1757.7698 396.7611,1755.4749 Q396.7611,1753.1738 397.7315,1751.9592 Q398.702,1750.7446 400.5452,1750.7446 Q401.064,1750.7446 401.5401,1750.8545 Q402.0162,1750.9644 402.4312,1751.1841 L402.4312,1753.186 Q401.9674,1752.7588 401.531,1752.5604 Q401.0946,1752.3621 400.6307,1752.3621 Q399.6419,1752.3621 399.1384,1753.1464 Q398.6348,1753.9307 398.6348,1755.4749 Q398.6348,1757.0129 399.1384,1757.7972 Q399.6419,1758.5815 400.6307,1758.5815 Q401.0946,1758.5815 401.531,1758.3832 Q401.9674,1758.1848 402.4312,1757.7576 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="35.4167" x="423.4375" y="1760.0586">Slope</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="323.9583" x2="527.0833" y1="1771.0286" y2="1771.0286"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="323.9583" x2="527.0833" y1="1779.362" y2="1779.362"/><ellipse cx="334.375" cy="1790.8203" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="153.125" x="345.8333" y="1797.7315">Slope difference(Slope that)</text><ellipse cx="334.375" cy="1810.5652" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="85.4167" x="345.8333" y="1817.4764">Slope of(Angle)</text><ellipse cx="334.375" cy="1854.2216" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="172.9167" x="345.8333" y="1861.1328">Slope degrees(double degrees)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="323.9583" x2="403.125" y1="1837.0575" y2="1837.0575"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="38.5417" x="406.25" y="1840.8671">(angle)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="447.9167" x2="527.0833" y1="1837.0575" y2="1837.0575"/><!--MD5=[ee9488d59ae591c160ed77b2bd860180]
+class Span--><rect codeLine="199" fill="#282828" height="174.8576" id="Span" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="169.7917" x="1430.2083" y="323.4945"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="169.7917" x="1430.2083" y="323.4945"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="169.7917" x="1430.2083" y="346.5495"/><rect codeLine="199" fill="none" height="174.8576" id="Span" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="169.7917" x="1430.2083" y="323.4945"/><ellipse cx="1492.1875" cy="339.1886" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1494.0979,343.6137 Q1493.6707,343.8334 1493.2007,343.9433 Q1492.7307,344.0531 1492.2119,344.0531 Q1490.3687,344.0531 1489.3982,342.8385 Q1488.4277,341.6239 1488.4277,339.329 Q1488.4277,337.028 1489.3982,335.8134 Q1490.3687,334.5988 1492.2119,334.5988 Q1492.7307,334.5988 1493.2068,334.7087 Q1493.6829,334.8185 1494.0979,335.0382 L1494.0979,337.0402 Q1493.634,336.613 1493.1976,336.4146 Q1492.7612,336.2162 1492.2974,336.2162 Q1491.3086,336.2162 1490.8051,337.0005 Q1490.3015,337.7848 1490.3015,339.329 Q1490.3015,340.8671 1490.8051,341.6514 Q1491.3086,342.4357 1492.2974,342.4357 Q1492.7612,342.4357 1493.1976,342.2373 Q1493.634,342.039 1494.0979,341.6117 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="31.25" x="1515.1042" y="343.9128">Span</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1431.25" x2="1598.9583" y1="354.8828" y2="354.8828"/><ellipse cx="1441.6667" cy="390.2527" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="137.5" x="1453.125" y="397.1639">Span(Distance, Distance)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1431.25" x2="1471.3542" y1="373.0886" y2="373.0886"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="1474.4792" y="376.8982">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1558.8542" x2="1598.9583" y1="373.0886" y2="373.0886"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1431.25" x2="1598.9583" y1="406.8726" y2="406.8726"/><ellipse cx="1441.6667" cy="418.3309" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="94.7917" x="1453.125" y="425.2421">Distance length()</text><ellipse cx="1441.6667" cy="461.9873" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="80.2083" x="1453.125" y="468.8985">Distance end()</text><ellipse cx="1441.6667" cy="481.7322" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="85.4167" x="1453.125" y="488.6434">Distance start()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1431.25" x2="1485.4167" y1="444.8232" y2="444.8232"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="53.125" x="1488.5417" y="448.6328">(lifecycle)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1544.7917" x2="1598.9583" y1="444.8232" y2="444.8232"/><!--MD5=[95c9aea8b4960ca88c6aa2f8e225e559]
+reverse link Validatable to Angle--><path codeLine="14" d="M572.5313,455.4945 C559.8021,509.2445 536.8646,606.2028 512.7188,708.2028 " fill="none" id="Validatable-backto-Angle" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="565.4375,453.807,577.3229,435.2132,579.625,457.1715,565.4375,453.807" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[0fc419a0fb22f18700ed0c8a2c18db25]
+reverse link IntegerNumeric to Angle--><path codeLine="15" d="M423.4375,456.2236 C423.4375,510.109 423.4375,606.6611 423.4375,708.2028 " fill="none" id="IntegerNumeric-backto-Angle" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="416.1458,456.0465,423.4375,435.2132,430.7292,456.0465,416.1458,456.0465" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[d315670cb1f2dff53c7d479cf8df710f]
+reverse link QuantumComparable to Angle--><path codeLine="16" d="M243.1667,455.4945 C258.5417,509.2445 286.2917,606.2028 315.4792,708.2028 " fill="none" id="QuantumComparable-backto-Angle" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="236.0833,457.2549,237.3646,435.2132,250.1042,453.2445,236.0833,457.2549" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[222f768c2bcc00c91de9dee3d6c4a3b0]
+reverse link Comparable to Angle--><path codeLine="17" d="M810.8854,448.8903 C773.6875,481.7028 720.5,532.359 682.8125,583.9111 C654.4583,622.6924 627.4583,664.9945 602.3333,708.057 " fill="none" id="Comparable-backto-Angle" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="806.2188,443.2757,826.7292,435.1299,815.7813,454.2965,806.2188,443.2757" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[44e743ca3e9026ee152e029e9de668f4]
+reverse link Comparable to Area--><path codeLine="58" d="M854.6875,456.5153 C854.6875,529.7028 854.6875,680.984 854.6875,816.8382 " fill="none" id="Comparable-backto-Area" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="847.3958,456.0465,854.6875,435.2132,861.9792,456.0465,847.3958,456.0465" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[d1e7316155b25d872e58453e9c95484c]
+reverse link Average to AverageDistance--><path codeLine="88" d="M1301.5625,201.9945 C1301.5625,244.5674 1301.5625,309.1403 1301.5625,355.0257 " fill="none" id="Average-backto-AverageDistance" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1294.2708,201.9632,1301.5625,181.1299,1308.8542,201.9632,1294.2708,201.9632" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[3f27d43cbd619a5e88bf567d72f739e5]
+link AverageDistance to Distance--><path codeLine="89" d="M1301.5625,466.859 C1301.5625,495.7965 1301.5625,534.3799 1301.5625,578.2132 " fill="none" id="AverageDistance-to-Distance" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="1301.5625,583.5778,1305.7292,574.2028,1301.5625,578.3695,1297.3958,574.2028,1301.5625,583.5778" style="stroke:#545454;stroke-width:1.5625;"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="63.5417" x="1305.7292" y="545.9961">computes</text><!--MD5=[fff6c5ea5e1fce6183295f4fdb13b406]
+reverse link Quantizable to Distance--><path codeLine="110" d="M1127.1354,455.5049 C1135.6875,486.3799 1148.1875,531.5153 1162.625,583.6715 " fill="none" id="Quantizable-backto-Distance" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1120.0521,457.2445,1121.5208,435.2132,1134.1042,453.3486,1120.0521,457.2445" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[1db2383a74bde815db8774cb798833a3]
+reverse link Comparable to Distance--><path codeLine="111" d="M897.8646,448.8382 C934.875,481.7861 988.1354,532.682 1026.5625,583.9111 C1032.6667,592.057 1038.7292,600.3486 1044.7292,608.7757 " fill="none" id="Comparable-backto-Distance" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="892.9688,454.2445,882.1146,435.0257,902.5833,443.2757,892.9688,454.2445" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[7678c7ce1b1716952cf3988c84d0878a]
+link Headed to Heading--><path codeLine="164" d="M66.3021,1128.2028 C49.1771,1221.2549 14.9896,1456.1299 64.0625,1643.2861 C66.3229,1651.8903 69.1458,1660.5257 72.4063,1669.0674 " fill="none" id="Headed-to-Heading" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="74.4896,1674.3799,74.9689,1664.1319,72.599,1669.5268,67.204,1667.1568,74.4896,1674.3799" style="stroke:#545454;stroke-width:1.5625;"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="57.2917" x="68.2292" y="1636.6211">specifies</text><!--MD5=[c4a698e245a68928d2dcdd18e7c57fa0]
+reverse link Headed to Heading--><path codeLine="172" d="M81.4063,1149.432 C94.4167,1265.6715 122.7604,1518.932 140.1354,1674.1924 " fill="none" id="Headed-backto-Heading" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="74.125,1149.9215,79.0521,1128.4007,88.6146,1148.2965,74.125,1149.9215" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[337c698ca8bbd6b9fdbb575df25d4adc]
+reverse link Angle to Heading--><path codeLine="171" d="M274.5417,1484.6195 C248.8646,1553.0882 223.9063,1619.6507 203.4688,1674.1403 " fill="none" id="Angle-backto-Heading" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="267.8333,1481.7236,281.9792,1464.7757,281.4896,1486.8486,267.8333,1481.7236" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[c0906a5f06a15da70a4c9e132b65cbb4]
+reverse link Angle to Slope--><path codeLine="188" d="M424.5938,1485.6195 C424.8854,1584.6299 425.1563,1679.5361 425.3333,1739.6195 " fill="none" id="Angle-backto-Slope" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="417.3021,1485.6299,424.5313,1464.7757,431.8854,1485.5882,417.3021,1485.6299" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[d93ef91021354e2e9b7e2ff2c1054158]
+reverse link Span to Distance--><path codeLine="198" d="M1483.4583,511.8278 C1476.5938,533.4945 1468.8854,557.7965 1460.625,583.859 " fill="none" id="Span-backto-Distance" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#333333" points="1487.625,498.7028,1481.7653,503.4025,1483.8497,510.6191,1489.7094,505.9194,1487.625,498.7028" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[e5207f06f42d0e09be69edfc0c1b137e]
+@startuml
+
+    !include lexakai.theme
+    
+    title "Geographic Measurements"
+    
+    interface Comparable
+    interface Headed
+    interface QuantumComparable
+    interface IntegerNumeric
+    interface Validatable
+    interface Quantizable
+    
+    Validatable <|- - Angle
+    IntegerNumeric <|- - Angle
+    QuantumComparable <|- - Angle
+    Comparable <|- - Angle
+    class Angle
+    {
+        - -(constructors)- -
+        #Angle()
+        #Angle(long)
+        - -
+        +Distance projectionOnEarthSurface()
+        - -(angle)- -
+        +Angle absoluteDifference(Angle that)
+        +SwitchParser.Builder<Angle> angleSwitchParser(String name, String description)
+        +double asDegrees()
+        +int asMicrodegrees()
+        +double asRadians()
+        +Angle bisect(Angle that, Chirality)
+        +Angle degrees(double degrees)
+        +double degreesPerRadian()
+        +Angle difference(Angle that, Chirality type)
+        +Angle dividedBy(double by)
+        +boolean isOppositeDirection(Angle that, Angle tolerance)
+        +Angle microdegrees(int microdegrees)
+        +Angle nanodegrees(long nanodegrees)
+        +Angle radians(double radians)
+        +Angle reversed()
+        +Angle times(double multiplier)
+        #long maximumInNanoDegrees()
+        #long minimumInNanoDegrees()
+        - -(checks)- -
+        +boolean isAcute()
+        +boolean isBetween(Angle, Angle b, Chirality type)
+        +boolean isClose(Angle that, Angle tolerance)
+        +boolean isCloseOrReverseIsClose(Angle that, Angle tolerance)
+        +boolean isMaximum()
+        +boolean isMinimum()
+        - -(conversion)- -
+        +int asDm5()
+        +int asDm6()
+        +int asDm7()
+        +long asNanodegrees()
+    }
+    
+    Comparable <|- - Area
+    class Area
+    {
+        - -
+        +Area difference(Area that)
+        +Area of(Distance width, Distance height)
+        +double ratio(Area divisor)
+        +Area squareFeet(double squareFeet)
+        - -(checks)- -
+        +boolean isGreaterThan(Area that)
+        +boolean isGreaterThanOrEqualTo(Area that)
+        +boolean isLessThan(Area that)
+        +boolean isLessThanOrEqualTo(Area that)
+        - -(conversion)- -
+        +double asSquareFeet()
+        - -(distance)- -
+        +double asSquareKilometers()
+        +double asSquareMeters()
+        +double asSquareMiles()
+        +Area squareKilometers(double squareKilometers)
+        +Area squareMeters(double squareMeters)
+        +Area squareMiles(double squareMiles)
+        - -(math)- -
+        +Area maximum(Area that)
+        +Area minimum(Area that)
+        +Area minus(Area that)
+        +Area plus(Area that)
+        +Area times(double multiplier)
+    }
+    
+    Average <|- - AverageDistance
+    AverageDistance - -> Distance : "computes"
+    class AverageDistance
+    {
+        - -
+        +Distance averageDistance()
+        - -(collection)- -
+        +void add(Distance)
+    }
+    
+    enum Direction
+    {
+        EAST
+        NORTH
+        NORTHEAST
+        NORTHWEST
+        SOUTH
+        SOUTHEAST
+        SOUTHWEST
+        WEST
+    }
+    
+    Quantizable <|- - Distance
+    Comparable <|- - Distance
+    class Distance
+    {
+        - -
+        +Area by(Distance that)
+        +Distance difference(Distance that)
+        +Distance feet(double feet)
+        +Distance of(double value, Unit)
+        +double ratio(Distance divisor)
+        - -(angle)- -
+        +Distance degrees(double degrees)
+        - -(checks)- -
+        +boolean isGreaterThan(Distance that)
+        +boolean isGreaterThanOrEqualTo(Distance that)
+        +boolean isLessThan(Distance that)
+        +boolean isLessThanOrEqualTo(Distance that)
+        - -(conversion)- -
+        +double as(Unit)
+        +Angle asAngle()
+        +long asCentimeters()
+        +double asDegrees()
+        +double asDm5()
+        +double asDm6()
+        +double asFeet()
+        +int asInt(Unit)
+        +double asKilometers()
+        +double asMeters()
+        +double asMiles()
+        +long asMillimeters()
+        +String toCommaSeparatedString()
+        - -(distance)- -
+        +Distance centimeters(long centimeters)
+        +Distance kilometers(double kilometers)
+        +Distance meters(double meters)
+        +Distance miles(double miles)
+        +Distance millimeters(long millimeters)
+        - -(functional)- -
+        +Area squared()
+        - -(math)- -
+        +Distance add(Distance that)
+        +Distance dividedBy(Count divisor)
+        +Distance maximum(Distance that)
+        +Distance minimum(Distance that)
+        +Distance minus(Distance that)
+        +Percent percentageOf(Distance that)
+        +Distance times(double multiplier)
+        +Distance times(Percent)
+        - -(parsing)- -
+        +ArgumentParser.Builder<Distance> argumentParser(String description)
+        +SwitchParser.Builder<Distance> distanceSwitchParser(String name, String description)
+        +Distance parse(String value)
+    }
+    
+    Headed - -> Heading : "specifies"
+    interface Headed
+    {
+        - -(angle)- -
+        +Heading heading()
+    }
+    
+    Angle <|- - Heading
+    Headed <|- - Heading
+    class Heading
+    {
+        - -(angle)- -
+        +Direction asApproximateDirection()
+        +Heading average(Heading that)
+        +Heading bisect(Heading that, Chirality)
+        +Heading degrees(double degrees)
+        +Heading microdegrees(int microdegrees)
+        +Heading minimum(Heading that)
+        +Heading nanodegrees(long nanodegrees)
+        +Heading parse(String text)
+        +Heading quantize(Angle quantum)
+        +Heading radians(double radians)
+    }
+    
+    Angle <|- - Slope
+    class Slope
+    {
+        - -
+        +Slope difference(Slope that)
+        +Slope of(Angle)
+        - -(angle)- -
+        +Slope degrees(double degrees)
+    }
+    
+    Span o- - Distance
+    class Span
+    {
+        - -(constructors)- -
+        +Span(Distance, Distance)
+        - -
+        +Distance length()
+        - -(lifecycle)- -
+        +Distance end()
+        +Distance start()
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "Geographic Measurements"
+    
+    interface Comparable
+    interface Headed
+    interface QuantumComparable
+    interface IntegerNumeric
+    interface Validatable
+    interface Quantizable
+    
+    Validatable <|- - Angle
+    IntegerNumeric <|- - Angle
+    QuantumComparable <|- - Angle
+    Comparable <|- - Angle
+    class Angle
+    {
+        - -(constructors)- -
+        #Angle()
+        #Angle(long)
+        - -
+        +Distance projectionOnEarthSurface()
+        - -(angle)- -
+        +Angle absoluteDifference(Angle that)
+        +SwitchParser.Builder<Angle> angleSwitchParser(String name, String description)
+        +double asDegrees()
+        +int asMicrodegrees()
+        +double asRadians()
+        +Angle bisect(Angle that, Chirality)
+        +Angle degrees(double degrees)
+        +double degreesPerRadian()
+        +Angle difference(Angle that, Chirality type)
+        +Angle dividedBy(double by)
+        +boolean isOppositeDirection(Angle that, Angle tolerance)
+        +Angle microdegrees(int microdegrees)
+        +Angle nanodegrees(long nanodegrees)
+        +Angle radians(double radians)
+        +Angle reversed()
+        +Angle times(double multiplier)
+        #long maximumInNanoDegrees()
+        #long minimumInNanoDegrees()
+        - -(checks)- -
+        +boolean isAcute()
+        +boolean isBetween(Angle, Angle b, Chirality type)
+        +boolean isClose(Angle that, Angle tolerance)
+        +boolean isCloseOrReverseIsClose(Angle that, Angle tolerance)
+        +boolean isMaximum()
+        +boolean isMinimum()
+        - -(conversion)- -
+        +int asDm5()
+        +int asDm6()
+        +int asDm7()
+        +long asNanodegrees()
+    }
+    
+    Comparable <|- - Area
+    class Area
+    {
+        - -
+        +Area difference(Area that)
+        +Area of(Distance width, Distance height)
+        +double ratio(Area divisor)
+        +Area squareFeet(double squareFeet)
+        - -(checks)- -
+        +boolean isGreaterThan(Area that)
+        +boolean isGreaterThanOrEqualTo(Area that)
+        +boolean isLessThan(Area that)
+        +boolean isLessThanOrEqualTo(Area that)
+        - -(conversion)- -
+        +double asSquareFeet()
+        - -(distance)- -
+        +double asSquareKilometers()
+        +double asSquareMeters()
+        +double asSquareMiles()
+        +Area squareKilometers(double squareKilometers)
+        +Area squareMeters(double squareMeters)
+        +Area squareMiles(double squareMiles)
+        - -(math)- -
+        +Area maximum(Area that)
+        +Area minimum(Area that)
+        +Area minus(Area that)
+        +Area plus(Area that)
+        +Area times(double multiplier)
+    }
+    
+    Average <|- - AverageDistance
+    AverageDistance - -> Distance : "computes"
+    class AverageDistance
+    {
+        - -
+        +Distance averageDistance()
+        - -(collection)- -
+        +void add(Distance)
+    }
+    
+    enum Direction
+    {
+        EAST
+        NORTH
+        NORTHEAST
+        NORTHWEST
+        SOUTH
+        SOUTHEAST
+        SOUTHWEST
+        WEST
+    }
+    
+    Quantizable <|- - Distance
+    Comparable <|- - Distance
+    class Distance
+    {
+        - -
+        +Area by(Distance that)
+        +Distance difference(Distance that)
+        +Distance feet(double feet)
+        +Distance of(double value, Unit)
+        +double ratio(Distance divisor)
+        - -(angle)- -
+        +Distance degrees(double degrees)
+        - -(checks)- -
+        +boolean isGreaterThan(Distance that)
+        +boolean isGreaterThanOrEqualTo(Distance that)
+        +boolean isLessThan(Distance that)
+        +boolean isLessThanOrEqualTo(Distance that)
+        - -(conversion)- -
+        +double as(Unit)
+        +Angle asAngle()
+        +long asCentimeters()
+        +double asDegrees()
+        +double asDm5()
+        +double asDm6()
+        +double asFeet()
+        +int asInt(Unit)
+        +double asKilometers()
+        +double asMeters()
+        +double asMiles()
+        +long asMillimeters()
+        +String toCommaSeparatedString()
+        - -(distance)- -
+        +Distance centimeters(long centimeters)
+        +Distance kilometers(double kilometers)
+        +Distance meters(double meters)
+        +Distance miles(double miles)
+        +Distance millimeters(long millimeters)
+        - -(functional)- -
+        +Area squared()
+        - -(math)- -
+        +Distance add(Distance that)
+        +Distance dividedBy(Count divisor)
+        +Distance maximum(Distance that)
+        +Distance minimum(Distance that)
+        +Distance minus(Distance that)
+        +Percent percentageOf(Distance that)
+        +Distance times(double multiplier)
+        +Distance times(Percent)
+        - -(parsing)- -
+        +ArgumentParser.Builder<Distance> argumentParser(String description)
+        +SwitchParser.Builder<Distance> distanceSwitchParser(String name, String description)
+        +Distance parse(String value)
+    }
+    
+    Headed - -> Heading : "specifies"
+    interface Headed
+    {
+        - -(angle)- -
+        +Heading heading()
+    }
+    
+    Angle <|- - Heading
+    Headed <|- - Heading
+    class Heading
+    {
+        - -(angle)- -
+        +Direction asApproximateDirection()
+        +Heading average(Heading that)
+        +Heading bisect(Heading that, Chirality)
+        +Heading degrees(double degrees)
+        +Heading microdegrees(int microdegrees)
+        +Heading minimum(Heading that)
+        +Heading nanodegrees(long nanodegrees)
+        +Heading parse(String text)
+        +Heading quantize(Angle quantum)
+        +Heading radians(double radians)
+    }
+    
+    Angle <|- - Slope
+    class Slope
+    {
+        - -
+        +Slope difference(Slope that)
+        +Slope of(Angle)
+        - -(angle)- -
+        +Slope degrees(double degrees)
+    }
+    
+    Span o- - Distance
+    class Span
+    {
+        - -(constructors)- -
+        +Span(Distance, Distance)
+        - -
+        +Distance length()
+        - -(lifecycle)- -
+        +Distance end()
+        +Distance start()
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 02:55:08 EST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

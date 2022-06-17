@@ -1,0 +1,5 @@
+module:mesakit.map.measurements
+com.telenav.mesakit.map.measurements
+com.telenav.mesakit.map.measurements.geographic
+com.telenav.mesakit.map.measurements.motion
+com.telenav.mesakit.map.measurements.motion.speeds

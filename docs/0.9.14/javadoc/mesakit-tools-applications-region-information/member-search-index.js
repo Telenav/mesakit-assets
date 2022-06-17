@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.telenav.mesakit.tools.applications.region.information","c":"RegionInformationApplication","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"com.telenav.mesakit.tools.applications.region.information","c":"RegionInformationApplication","l":"RegionInformationApplication()","u":"%3Cinit%3E()"}];updateSearchResults();

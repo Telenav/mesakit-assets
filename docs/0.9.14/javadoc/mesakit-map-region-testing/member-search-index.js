@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.telenav.mesakit.map.region.testing","c":"RegionUnitTest","l":"RegionUnitTest()","u":"%3Cinit%3E()"}];updateSearchResults();

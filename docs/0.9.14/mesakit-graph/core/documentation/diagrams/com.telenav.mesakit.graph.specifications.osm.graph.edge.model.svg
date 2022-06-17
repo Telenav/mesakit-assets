@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="337.5px" preserveAspectRatio="none" style="width:803px;height:337px;background:#333333;" version="1.1" viewBox="0 0 803 337" width="803.125px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="673.9583" x="57.2917" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="651.0417" x="68.75" y="30.5583">com.telenav.mesakit.graph.specifications.osm.graph.edge.model</text><!--MD5=[2e2f8c8f62c4eb3bc59a59727cfd81a5]
+class Edge--><rect fill="#282828" height="48.055" id="Edge" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="68.75" x="180.2083" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="68.75" x="180.2083" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="68.75" x="180.2083" y="76.7578"/><rect fill="none" height="48.055" id="Edge" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="68.75" x="180.2083" y="53.7028"/><ellipse cx="194.7917" cy="69.397" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M196.7021,73.822 Q196.2748,74.0417 195.8049,74.1516 Q195.3349,74.2615 194.8161,74.2615 Q192.9728,74.2615 192.0024,73.0469 Q191.0319,71.8323 191.0319,69.5374 Q191.0319,67.2363 192.0024,66.0217 Q192.9728,64.8071 194.8161,64.8071 Q195.3349,64.8071 195.811,64.917 Q196.287,65.0269 196.7021,65.2466 L196.7021,67.2485 Q196.2382,66.8213 195.8018,66.6229 Q195.3654,66.4246 194.9015,66.4246 Q193.9128,66.4246 193.4092,67.2089 Q192.9057,67.9932 192.9057,69.5374 Q192.9057,71.0754 193.4092,71.8597 Q193.9128,72.644 194.9015,72.644 Q195.3654,72.644 195.8018,72.4457 Q196.2382,72.2473 196.7021,71.8201 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="31.25" x="211.4583" y="74.1211">Edge</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="181.25" x2="247.9167" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="181.25" x2="247.9167" y1="93.4245" y2="93.4245"/><!--MD5=[d16c854118924a24934fa1853d49da96]
+class OsmEdge--><rect codeLine="8" fill="#282828" height="166.5243" id="OsmEdge" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="414.5833" x="7.2917" y="164.1195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="414.5833" x="7.2917" y="164.1195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="414.5833" x="7.2917" y="187.1745"/><rect codeLine="8" fill="none" height="166.5243" id="OsmEdge" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="414.5833" x="7.2917" y="164.1195"/><ellipse cx="176.5625" cy="179.8136" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M178.4729,184.2387 Q178.0457,184.4584 177.5757,184.5683 Q177.1057,184.6781 176.5869,184.6781 Q174.7437,184.6781 173.7732,183.4635 Q172.8027,182.2489 172.8027,179.954 Q172.8027,177.653 173.7732,176.4384 Q174.7437,175.2238 176.5869,175.2238 Q177.1057,175.2238 177.5818,175.3337 Q178.0579,175.4435 178.4729,175.6632 L178.4729,177.6652 Q178.009,177.238 177.5726,177.0396 Q177.1362,176.8412 176.6724,176.8412 Q175.6836,176.8412 175.1801,177.6255 Q174.6765,178.4098 174.6765,179.954 Q174.6765,181.4921 175.1801,182.2764 Q175.6836,183.0607 176.6724,183.0607 Q177.1362,183.0607 177.5726,182.8623 Q178.009,182.664 178.4729,182.2367 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="61.4583" x="199.4792" y="184.5378">OsmEdge</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="8.3333" x2="420.8333" y1="195.5078" y2="195.5078"/><ellipse cx="18.75" cy="230.8777" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="179.1667" x="30.2083" y="237.7889">OsmEdge(Graph, EdgeIdentifier)</text><ellipse cx="18.75" cy="250.6226" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="127.0833" x="30.2083" y="257.5338">OsmEdge(Graph, long)</text><ellipse cx="18.75" cy="270.3674" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="147.9167" x="30.2083" y="277.2786">OsmEdge(Graph, long, int)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="170.8333" y1="213.7136" y2="213.7136"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="173.9583" y="217.5232">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="258.3333" x2="420.8333" y1="213.7136" y2="213.7136"/><ellipse cx="18.75" cy="314.0238" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="382.2917" x="30.2083" y="320.9351">boolean computeDoubleDigitized(Angle maximumHeadingDeviation)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="182.8125" y1="296.8597" y2="296.8597"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="57.2917" x="185.9375" y="300.6694">(primitive)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="246.3542" x2="420.8333" y1="296.8597" y2="296.8597"/><!--MD5=[342dad4d30891c4ed06fb946c9913fba]
+class HeavyWeightEdge--><rect fill="#282828" height="48.055" id="HeavyWeightEdge" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="152.0833" x="551.0417" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="152.0833" x="551.0417" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="152.0833" x="551.0417" y="76.7578"/><rect fill="none" height="48.055" id="HeavyWeightEdge" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="152.0833" x="551.0417" y="53.7028"/><ellipse cx="565.625" cy="69.397" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M567.5354,73.822 Q567.1082,74.0417 566.6382,74.1516 Q566.1682,74.2615 565.6494,74.2615 Q563.8062,74.2615 562.8357,73.0469 Q561.8652,71.8323 561.8652,69.5374 Q561.8652,67.2363 562.8357,66.0217 Q563.8062,64.8071 565.6494,64.8071 Q566.1682,64.8071 566.6443,64.917 Q567.1204,65.0269 567.5354,65.2466 L567.5354,67.2485 Q567.0715,66.8213 566.6351,66.6229 Q566.1987,66.4246 565.7349,66.4246 Q564.7461,66.4246 564.2426,67.2089 Q563.739,67.9932 563.739,69.5374 Q563.739,71.0754 564.2426,71.8597 Q564.7461,72.644 565.7349,72.644 Q566.1987,72.644 566.6351,72.4457 Q567.0715,72.2473 567.5354,71.8201 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="114.5833" x="582.2917" y="74.1211">HeavyWeightEdge</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="552.0833" x2="702.0833" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="552.0833" x2="702.0833" y1="93.4245" y2="93.4245"/><!--MD5=[a53da80b13061a6db63d54c07c4ee4b3]
+class OsmHeavyWeightEdge--><rect codeLine="19" fill="#282828" height="166.5243" id="OsmHeavyWeightEdge" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="337.5" x="458.3333" y="164.1195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="337.5" x="458.3333" y="164.1195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="337.5" x="458.3333" y="187.1745"/><rect codeLine="19" fill="none" height="166.5243" id="OsmHeavyWeightEdge" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="337.5" x="458.3333" y="164.1195"/><ellipse cx="547.3958" cy="179.8136" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M549.3062,184.2387 Q548.879,184.4584 548.409,184.5683 Q547.939,184.6781 547.4202,184.6781 Q545.577,184.6781 544.6065,183.4635 Q543.6361,182.2489 543.6361,179.954 Q543.6361,177.653 544.6065,176.4384 Q545.577,175.2238 547.4202,175.2238 Q547.939,175.2238 548.4151,175.3337 Q548.8912,175.4435 549.3062,175.6632 L549.3062,177.6652 Q548.8424,177.238 548.406,177.0396 Q547.9696,176.8412 547.5057,176.8412 Q546.5169,176.8412 546.0134,177.6255 Q545.5098,178.4098 545.5098,179.954 Q545.5098,181.4921 546.0134,182.2764 Q546.5169,183.0607 547.5057,183.0607 Q547.9696,183.0607 548.406,182.8623 Q548.8424,182.664 549.3062,182.2367 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="144.7917" x="570.3125" y="184.5378">OsmHeavyWeightEdge</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="459.375" x2="794.7917" y1="195.5078" y2="195.5078"/><ellipse cx="469.7917" cy="230.8777" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="197.9167" x="481.25" y="237.7889">OsmHeavyWeightEdge(Graph, long)</text><ellipse cx="469.7917" cy="250.6226" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="230.2083" x="481.25" y="257.5338">OsmHeavyWeightEdge(HeavyWeightEdge)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="459.375" x2="583.3333" y1="213.7136" y2="213.7136"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="586.4583" y="217.5232">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="670.8333" x2="794.7917" y1="213.7136" y2="213.7136"/><ellipse cx="469.7917" cy="294.279" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="190.625" x="481.25" y="301.1902">Boolean isKnownDoubleDigitized()</text><ellipse cx="469.7917" cy="314.0238" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="305.2083" x="481.25" y="320.9351">void knownDoubleDigitized(Boolean isDoubleDigitized)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="459.375" x2="595.3125" y1="277.1149" y2="277.1149"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="57.2917" x="598.4375" y="280.9245">(primitive)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="658.8542" x2="794.7917" y1="277.1149" y2="277.1149"/><!--MD5=[854d334140ca66c39a698022803f6a40]
+reverse link Edge to OsmEdge--><path codeLine="7" d="M214.5833,122.9736 C214.5833,135.5986 214.5833,149.7653 214.5833,163.8799 " fill="none" id="Edge-backto-OsmEdge" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="207.2917,122.5049,214.5833,101.6715,221.875,122.5049,207.2917,122.5049" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[351e606f3f39f4cfa3cb32e84c65ada7]
+reverse link HeavyWeightEdge to OsmHeavyWeightEdge--><path codeLine="18" d="M627.0833,122.9736 C627.0833,135.5986 627.0833,149.7653 627.0833,163.8799 " fill="none" id="HeavyWeightEdge-backto-OsmHeavyWeightEdge" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="619.7917,122.5049,627.0833,101.6715,634.375,122.5049,619.7917,122.5049" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[76494a803c25830e7d2d9919e1017eaa]
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.osm.graph.edge.model"
+    
+    Edge <|- - OsmEdge
+    class OsmEdge
+    {
+        - -(constructors)- -
+        +OsmEdge(Graph, EdgeIdentifier)
+        +OsmEdge(Graph, long)
+        +OsmEdge(Graph, long, int)
+        - -(primitive)- -
+        +boolean computeDoubleDigitized(Angle maximumHeadingDeviation)
+    }
+    
+    HeavyWeightEdge <|- - OsmHeavyWeightEdge
+    class OsmHeavyWeightEdge
+    {
+        - -(constructors)- -
+        +OsmHeavyWeightEdge(Graph, long)
+        +OsmHeavyWeightEdge(HeavyWeightEdge)
+        - -(primitive)- -
+        +Boolean isKnownDoubleDigitized()
+        +void knownDoubleDigitized(Boolean isDoubleDigitized)
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.mesakit.graph.specifications.osm.graph.edge.model"
+    
+    Edge <|- - OsmEdge
+    class OsmEdge
+    {
+        - -(constructors)- -
+        +OsmEdge(Graph, EdgeIdentifier)
+        +OsmEdge(Graph, long)
+        +OsmEdge(Graph, long, int)
+        - -(primitive)- -
+        +boolean computeDoubleDigitized(Angle maximumHeadingDeviation)
+    }
+    
+    HeavyWeightEdge <|- - OsmHeavyWeightEdge
+    class OsmHeavyWeightEdge
+    {
+        - -(constructors)- -
+        +OsmHeavyWeightEdge(Graph, long)
+        +OsmHeavyWeightEdge(HeavyWeightEdge)
+        - -(primitive)- -
+        +Boolean isKnownDoubleDigitized()
+        +void knownDoubleDigitized(Boolean isDoubleDigitized)
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 02:55:08 EST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

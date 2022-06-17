@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="614.5833px" preserveAspectRatio="none" style="width:822px;height:614px;background:#333333;" version="1.1" viewBox="0 0 822 614" width="822.9167px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="481.25" x="163.8021" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="458.3333" x="175.2604" y="30.5583">org.nocrala.tools.gis.data.esri.shapefile.shape</text><!--MD5=[301ced20e5cdc9b4abcb52ca6a905441]
+class AbstractShape--><rect codeLine="7" fill="#282828" height="131.2012" id="AbstractShape" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="462.5" x="7.2917" y="71.4111"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="462.5" x="7.2917" y="71.4111"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="462.5" x="7.2917" y="94.4661"/><rect codeLine="7" fill="none" height="131.2012" id="AbstractShape" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="462.5" x="7.2917" y="71.4111"/><ellipse cx="184.8958" cy="87.1053" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M184.4889,83.8074 L183.6405,87.5366 L185.3434,87.5366 Z M183.3903,82.1594 L185.5937,82.1594 L188.0534,91.272 L186.2528,91.272 L185.6913,89.0198 L183.2804,89.0198 L182.7311,91.272 L180.9306,91.272 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="92.7083" x="207.8125" y="91.8294">AbstractShape</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="8.3333" x2="468.75" y1="102.7995" y2="102.7995"/><ellipse cx="18.75" cy="138.1694" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="430.2083" x="30.2083" y="145.0806">AbstractShape(ShapeHeader, ShapeType, InputStream, ValidationPreferences)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="194.7917" y1="121.0052" y2="121.0052"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="197.9167" y="124.8149">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="282.2917" x2="468.75" y1="121.0052" y2="121.0052"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="468.75" y1="154.7892" y2="154.7892"/><ellipse cx="18.75" cy="166.2476" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="141.6667" x="30.2083" y="173.1588">ShapeHeader getHeader()</text><ellipse cx="18.75" cy="185.9924" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="150" x="30.2083" y="192.9036">ShapeType getShapeType()</text><!--MD5=[7c7034635aa9c92ffadc20fdc883fafd]
+class Const--><rect codeLine="16" fill="#282828" height="48.055" id="Const" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="76.0417" x="506.7708" y="113.0778"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="76.0417" x="506.7708" y="113.0778"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="76.0417" x="506.7708" y="136.1328"/><rect codeLine="16" fill="none" height="48.055" id="Const" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="76.0417" x="506.7708" y="113.0778"/><ellipse cx="521.3542" cy="128.772" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M523.2646,133.197 Q522.8373,133.4167 522.3674,133.5266 Q521.8974,133.6365 521.3786,133.6365 Q519.5353,133.6365 518.5649,132.4219 Q517.5944,131.2073 517.5944,128.9124 Q517.5944,126.6113 518.5649,125.3967 Q519.5353,124.1821 521.3786,124.1821 Q521.8974,124.1821 522.3735,124.292 Q522.8495,124.4019 523.2646,124.6216 L523.2646,126.6235 Q522.8007,126.1963 522.3643,125.9979 Q521.9279,125.7996 521.464,125.7996 Q520.4753,125.7996 519.9717,126.5839 Q519.4682,127.3682 519.4682,128.9124 Q519.4682,130.4504 519.9717,131.2347 Q520.4753,132.019 521.464,132.019 Q521.9279,132.019 522.3643,131.8207 Q522.8007,131.6223 523.2646,131.1951 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="38.5417" x="538.0208" y="133.4961">Const</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="507.8125" x2="581.7708" y1="144.4661" y2="144.4661"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="507.8125" x2="581.7708" y1="152.7995" y2="152.7995"/><!--MD5=[bb5595fd2b00487d8279332e43ce23d4]
+class PartType--><rect codeLine="20" fill="#282828" height="166.5243" id="PartType" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="110.4167" x="619.7917" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="110.4167" x="619.7917" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="110.4167" x="619.7917" y="76.7578"/><rect codeLine="20" fill="none" height="166.5243" id="PartType" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="110.4167" x="619.7917" y="53.7028"/><ellipse cx="641.875" cy="69.397" fill="#CF6300" rx="10.4167" ry="10.4167" style="stroke:#EF8300;stroke-width:1.0416666666666667;"/><path d="M644.9308,74.0845 L639.2546,74.0845 L639.2546,64.9719 L644.9308,64.9719 L644.9308,66.5588 L641.0551,66.5588 L641.0551,68.5242 L644.5646,68.5242 L644.5646,70.1111 L641.0551,70.1111 L641.0551,72.4976 L644.9308,72.4976 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="56.25" x="660.2083" y="74.1211">PartType</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="620.8333" x2="729.1667" y1="85.0911" y2="85.0911"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="63.5417" x="629.1667" y="103.4607">FIRST_RING</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="66.6667" x="629.1667" y="123.2056">INNER_RING</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="71.875" x="629.1667" y="142.9504">OUTER_RING</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="27.0833" x="629.1667" y="162.6953">RING</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="84.375" x="629.1667" y="182.4402">TRIANGLE_FAN</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="91.6667" x="629.1667" y="202.1851">TRIANGLE_STRIP</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="620.8333" x2="729.1667" y1="211.8937" y2="211.8937"/><!--MD5=[64cc15f62b02552fdade220dac02bd61]
+class PointData--><rect codeLine="30" fill="#282828" height="131.2012" id="PointData" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="177.0833" x="150" y="379.7445"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="177.0833" x="150" y="379.7445"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="177.0833" x="150" y="402.7995"/><rect codeLine="30" fill="none" height="131.2012" id="PointData" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="177.0833" x="150" y="379.7445"/><ellipse cx="199.4792" cy="395.4386" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M201.3896,399.8637 Q200.9623,400.0834 200.4924,400.1933 Q200.0224,400.3031 199.5036,400.3031 Q197.6603,400.3031 196.6899,399.0885 Q195.7194,397.8739 195.7194,395.579 Q195.7194,393.278 196.6899,392.0634 Q197.6603,390.8488 199.5036,390.8488 Q200.0224,390.8488 200.4985,390.9587 Q200.9745,391.0685 201.3896,391.2882 L201.3896,393.2902 Q200.9257,392.863 200.4893,392.6646 Q200.0529,392.4662 199.589,392.4662 Q198.6003,392.4662 198.0967,393.2505 Q197.5932,394.0348 197.5932,395.579 Q197.5932,397.1171 198.0967,397.9014 Q198.6003,398.6857 199.589,398.6857 Q200.0529,398.6857 200.4893,398.4873 Q200.9257,398.289 201.3896,397.8617 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="63.5417" x="222.3958" y="400.1628">PointData</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="151.0417" x2="326.0417" y1="411.1328" y2="411.1328"/><ellipse cx="161.4583" cy="446.5027" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="144.7917" x="172.9167" y="453.4139">PointData(double, double)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="151.0417" x2="194.7917" y1="429.3386" y2="429.3386"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="197.9167" y="433.1482">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="282.2917" x2="326.0417" y1="429.3386" y2="429.3386"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="151.0417" x2="326.0417" y1="463.1226" y2="463.1226"/><ellipse cx="161.4583" cy="474.5809" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="75" x="172.9167" y="481.4921">double getX()</text><ellipse cx="161.4583" cy="494.3258" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="75" x="172.9167" y="501.237">double getY()</text><!--MD5=[99258abe5e9961b8d6a7deeafa1dc9c6]
+class ShapeHeader--><rect codeLine="39" fill="#282828" height="131.2012" id="ShapeHeader" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="308.3333" x="363.5417" y="379.7445"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="308.3333" x="363.5417" y="379.7445"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="308.3333" x="363.5417" y="402.7995"/><rect codeLine="39" fill="none" height="131.2012" id="ShapeHeader" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="308.3333" x="363.5417" y="379.7445"/><ellipse cx="468.75" cy="395.4386" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M470.6604,399.8637 Q470.2332,400.0834 469.7632,400.1933 Q469.2932,400.3031 468.7744,400.3031 Q466.9312,400.3031 465.9607,399.0885 Q464.9902,397.8739 464.9902,395.579 Q464.9902,393.278 465.9607,392.0634 Q466.9312,390.8488 468.7744,390.8488 Q469.2932,390.8488 469.7693,390.9587 Q470.2454,391.0685 470.6604,391.2882 L470.6604,393.2902 Q470.1965,392.863 469.7601,392.6646 Q469.3237,392.4662 468.8599,392.4662 Q467.8711,392.4662 467.3676,393.2505 Q466.864,394.0348 466.864,395.579 Q466.864,397.1171 467.3676,397.9014 Q467.8711,398.6857 468.8599,398.6857 Q469.3237,398.6857 469.7601,398.4873 Q470.1965,398.289 470.6604,397.8617 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="83.3333" x="491.6667" y="400.1628">ShapeHeader</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="364.5833" x2="670.8333" y1="411.1328" y2="411.1328"/><ellipse cx="375" cy="446.5027" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="276.0417" x="386.4583" y="453.4139">ShapeHeader(InputStream, ValidationPreferences)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="364.5833" x2="473.9583" y1="429.3386" y2="429.3386"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="477.0833" y="433.1482">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="561.4583" x2="670.8333" y1="429.3386" y2="429.3386"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="364.5833" x2="670.8333" y1="463.1226" y2="463.1226"/><ellipse cx="375" cy="474.5809" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="127.0833" x="386.4583" y="481.4921">int getContentLength()</text><ellipse cx="375" cy="494.3258" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="128.125" x="386.4583" y="501.237">int getRecordNumber()</text><!--MD5=[3ef42b4083fdf6cf15918bd3f2c82525]
+class ShapeType--><rect codeLine="48" fill="#282828" height="324.4832" id="ShapeType" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="107.2917" x="708.8542" y="282.8695"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="107.2917" x="708.8542" y="282.8695"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="107.2917" x="708.8542" y="305.9245"/><rect codeLine="48" fill="none" height="324.4832" id="ShapeType" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="107.2917" x="708.8542" y="282.8695"/><ellipse cx="723.4375" cy="298.5636" fill="#CF6300" rx="10.4167" ry="10.4167" style="stroke:#EF8300;stroke-width:1.0416666666666667;"/><path d="M726.4933,303.2511 L720.8171,303.2511 L720.8171,294.1386 L726.4933,294.1386 L726.4933,295.7255 L722.6176,295.7255 L722.6176,297.6908 L726.1271,297.6908 L726.1271,299.2778 L722.6176,299.2778 L722.6176,301.6642 L726.4933,301.6642 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="69.7917" x="740.1042" y="303.2878">ShapeType</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="709.8958" x2="815.1042" y1="314.2578" y2="314.2578"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="72.9167" x="718.2292" y="332.6274">MULTIPATCH</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="68.75" x="718.2292" y="352.3722">MULTIPOINT</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="84.375" x="718.2292" y="372.1171">MULTIPOINT_M</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="82.2917" x="718.2292" y="391.862">MULTIPOINT_Z</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="29.1667" x="718.2292" y="411.6069">NULL</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="34.375" x="718.2292" y="431.3517">POINT</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="50" x="718.2292" y="451.0966">POINT_M</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="47.9167" x="718.2292" y="470.8415">POINT_Z</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="55.2083" x="718.2292" y="490.5863">POLYGON</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="70.8333" x="718.2292" y="510.3312">POLYGON_M</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="68.75" x="718.2292" y="530.0761">POLYGON_Z</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="53.125" x="718.2292" y="549.821">POLYLINE</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="68.75" x="718.2292" y="569.5658">POLYLINE_M</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="66.6667" x="718.2292" y="589.3107">POLYLINE_Z</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="709.8958" x2="815.1042" y1="599.0194" y2="599.0194"/><!--MD5=[90255335e46c1ce1533899c6e03011d5]
+link AbstractShape to Const--><!--MD5=[7d6f8f4eb89b2752b0edb8842a443d17]
+link Const to PartType--><!--MD5=[37d395c6ca687b836cc0ca6a92c62eaf]
+link AbstractShape to PointData--><!--MD5=[f186ed7d32a60536e5473613f5ea96b1]
+link PointData to ShapeHeader--><!--MD5=[f060d85b4e28a8689abcedc85ba509b5]
+link ShapeHeader to ShapeType--><!--MD5=[8d63b8170c339a420e72f7a7d68b6b99]
+@startuml
+
+    !include lexakai.theme
+    
+    title "org.nocrala.tools.gis.data.esri.shapefile.shape"
+    
+    abstract class AbstractShape
+    {
+        - -(constructors)- -
+        +AbstractShape(ShapeHeader, ShapeType, InputStream, ValidationPreferences)
+        - -
+        +ShapeHeader getHeader()
+        +ShapeType getShapeType()
+    }
+    
+    class Const
+    {
+    }
+    
+    enum PartType
+    {
+        FIRST_RING
+        INNER_RING
+        OUTER_RING
+        RING
+        TRIANGLE_FAN
+        TRIANGLE_STRIP
+    }
+    
+    class PointData
+    {
+        - -(constructors)- -
+        +PointData(double, double)
+        - -
+        +double getX()
+        +double getY()
+    }
+    
+    class ShapeHeader
+    {
+        - -(constructors)- -
+        +ShapeHeader(InputStream, ValidationPreferences)
+        - -
+        +int getContentLength()
+        +int getRecordNumber()
+    }
+    
+    enum ShapeType
+    {
+        MULTIPATCH
+        MULTIPOINT
+        MULTIPOINT_M
+        MULTIPOINT_Z
+        NULL
+        POINT
+        POINT_M
+        POINT_Z
+        POLYGON
+        POLYGON_M
+        POLYGON_Z
+        POLYLINE
+        POLYLINE_M
+        POLYLINE_Z
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "org.nocrala.tools.gis.data.esri.shapefile.shape"
+    
+    abstract class AbstractShape
+    {
+        - -(constructors)- -
+        +AbstractShape(ShapeHeader, ShapeType, InputStream, ValidationPreferences)
+        - -
+        +ShapeHeader getHeader()
+        +ShapeType getShapeType()
+    }
+    
+    class Const
+    {
+    }
+    
+    enum PartType
+    {
+        FIRST_RING
+        INNER_RING
+        OUTER_RING
+        RING
+        TRIANGLE_FAN
+        TRIANGLE_STRIP
+    }
+    
+    class PointData
+    {
+        - -(constructors)- -
+        +PointData(double, double)
+        - -
+        +double getX()
+        +double getY()
+    }
+    
+    class ShapeHeader
+    {
+        - -(constructors)- -
+        +ShapeHeader(InputStream, ValidationPreferences)
+        - -
+        +int getContentLength()
+        +int getRecordNumber()
+    }
+    
+    enum ShapeType
+    {
+        MULTIPATCH
+        MULTIPOINT
+        MULTIPOINT_M
+        MULTIPOINT_Z
+        NULL
+        POINT
+        POINT_M
+        POINT_Z
+        POLYGON
+        POLYGON_M
+        POLYGON_Z
+        POLYLINE
+        POLYLINE_M
+        POLYLINE_Z
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 02:55:08 EST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

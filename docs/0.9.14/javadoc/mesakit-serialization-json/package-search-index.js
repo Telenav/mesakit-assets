@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"mesakit.serialization.json","l":"com.telenav.mesakit.serialization.json"},{"m":"mesakit.serialization.json","l":"com.telenav.mesakit.serialization.json.serializers"}];updateSearchResults();

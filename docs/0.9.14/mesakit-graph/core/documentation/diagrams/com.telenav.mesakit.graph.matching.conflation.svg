@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="655.2083px" preserveAspectRatio="none" style="width:932px;height:655px;background:#333333;" version="1.1" viewBox="0 0 932 655" width="932.2917px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="496.875" x="210.6771" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="473.9583" x="222.1354" y="30.5583">com.telenav.mesakit.graph.matching.conflation</text><!--MD5=[be881ad10b8c2e5e1a26fcea3d95d3e9]
+class Conflation--><rect codeLine="7" fill="#282828" height="214.3473" id="Conflation" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="262.5" x="7.2917" y="83.3903"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="262.5" x="7.2917" y="83.3903"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="262.5" x="7.2917" y="106.4453"/><rect codeLine="7" fill="none" height="214.3473" id="Conflation" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="262.5" x="7.2917" y="83.3903"/><ellipse cx="96.875" cy="99.0845" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M98.7854,103.5095 Q98.3582,103.7292 97.8882,103.8391 Q97.4182,103.949 96.8994,103.949 Q95.0562,103.949 94.0857,102.7344 Q93.1152,101.5198 93.1152,99.2249 Q93.1152,96.9238 94.0857,95.7092 Q95.0562,94.4946 96.8994,94.4946 Q97.4182,94.4946 97.8943,94.6045 Q98.3704,94.7144 98.7854,94.9341 L98.7854,96.936 Q98.3215,96.5088 97.8851,96.3104 Q97.4487,96.1121 96.9849,96.1121 Q95.9961,96.1121 95.4926,96.8964 Q94.989,97.6807 94.989,99.2249 Q94.989,100.7629 95.4926,101.5472 Q95.9961,102.3315 96.9849,102.3315 Q97.4487,102.3315 97.8851,102.1332 Q98.3215,101.9348 98.7854,101.5076 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="68.75" x="119.7917" y="103.8086">Conflation</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="8.3333" x2="268.75" y1="114.7786" y2="114.7786"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="268.75" y1="123.112" y2="123.112"/><ellipse cx="18.75" cy="134.5703" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="30.2083" y="141.4815">Edge base()</text><ellipse cx="18.75" cy="154.3152" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="96.875" x="30.2083" y="161.2264">Edge enhancing()</text><ellipse cx="18.75" cy="174.0601" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="101.0417" x="30.2083" y="180.9713">Distance overlap()</text><ellipse cx="18.75" cy="217.7165" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="213.5417" x="30.2083" y="224.6277">boolean isCloserThan(Conflation that)</text><ellipse cx="18.75" cy="237.4613" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="230.2083" x="30.2083" y="244.3726">boolean isCloserThan(Percent closeness)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="111.9792" y1="200.5524" y2="200.5524"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="46.875" x="115.1042" y="204.362">(checks)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="165.1042" x2="268.75" y1="200.5524" y2="200.5524"/><ellipse cx="18.75" cy="281.1178" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="108.3333" x="30.2083" y="288.029">Percent closeness()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="117.1875" y1="263.9537" y2="263.9537"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="36.4583" x="120.3125" y="267.7633">(math)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="159.8958" x2="268.75" y1="263.9537" y2="263.9537"/><!--MD5=[081e18de64b05ec8ae686bcc1669da5e]
+class HashSet--><rect fill="#282828" height="48.055" id="HashSet" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="89.5833" x="306.25" y="166.7236"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="89.5833" x="306.25" y="166.7236"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="89.5833" x="306.25" y="189.7786"/><rect fill="none" height="48.055" id="HashSet" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="89.5833" x="306.25" y="166.7236"/><ellipse cx="320.8333" cy="182.4178" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M322.7437,186.8429 Q322.3165,187.0626 321.8465,187.1724 Q321.3765,187.2823 320.8577,187.2823 Q319.0145,187.2823 318.044,186.0677 Q317.0736,184.8531 317.0736,182.5582 Q317.0736,180.2572 318.044,179.0426 Q319.0145,177.828 320.8577,177.828 Q321.3765,177.828 321.8526,177.9378 Q322.3287,178.0477 322.7437,178.2674 L322.7437,180.2694 Q322.2799,179.8421 321.8435,179.6438 Q321.4071,179.4454 320.9432,179.4454 Q319.9544,179.4454 319.4509,180.2297 Q318.9473,181.014 318.9473,182.5582 Q318.9473,184.0963 319.4509,184.8806 Q319.9544,185.6649 320.9432,185.6649 Q321.4071,185.6649 321.8435,185.4665 Q322.2799,185.2681 322.7437,184.8409 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="52.0833" x="337.5" y="187.1419">HashSet</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="307.2917" x2="394.7917" y1="198.112" y2="198.112"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="307.2917" x2="394.7917" y1="206.4453" y2="206.4453"/><!--MD5=[8c6c49a3995a4ad595c3930e184c8456]
+class ConflationSet--><rect codeLine="21" fill="#282828" height="258.0037" id="ConflationSet" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="317.7083" x="192.1875" y="390.1611"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="317.7083" x="192.1875" y="390.1611"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="317.7083" x="192.1875" y="413.2161"/><rect codeLine="21" fill="none" height="258.0037" id="ConflationSet" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="317.7083" x="192.1875" y="390.1611"/><ellipse cx="299.4792" cy="405.8553" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M301.3896,410.2804 Q300.9623,410.5001 300.4924,410.6099 Q300.0224,410.7198 299.5036,410.7198 Q297.6603,410.7198 296.6899,409.5052 Q295.7194,408.2906 295.7194,405.9957 Q295.7194,403.6947 296.6899,402.4801 Q297.6603,401.2655 299.5036,401.2655 Q300.0224,401.2655 300.4985,401.3753 Q300.9745,401.4852 301.3896,401.7049 L301.3896,403.7069 Q300.9257,403.2796 300.4893,403.0813 Q300.0529,402.8829 299.589,402.8829 Q298.6003,402.8829 298.0967,403.6672 Q297.5932,404.4515 297.5932,405.9957 Q297.5932,407.5338 298.0967,408.3181 Q298.6003,409.1024 299.589,409.1024 Q300.0529,409.1024 300.4893,408.904 Q300.9257,408.7056 301.3896,408.2784 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="88.5417" x="322.3958" y="410.5794">ConflationSet</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="193.2292" x2="508.8542" y1="421.5495" y2="421.5495"/><ellipse cx="203.6458" cy="456.9194" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="83.3333" x="215.1042" y="463.8306">ConflationSet()</text><ellipse cx="203.6458" cy="476.6642" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="158.3333" x="215.1042" y="483.5754">ConflationSet(ConflationSet)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="193.2292" x2="307.2917" y1="439.7552" y2="439.7552"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="310.4167" y="443.5649">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="394.7917" x2="508.8542" y1="439.7552" y2="439.7552"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="193.2292" x2="508.8542" y1="493.2841" y2="493.2841"/><ellipse cx="203.6458" cy="504.7424" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="248.9583" x="215.1042" y="511.6536">ConflationSet closerThan(Percent closeness)</text><ellipse cx="203.6458" cy="524.4873" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="109.375" x="215.1042" y="531.3985">Conflation closest()</text><ellipse cx="203.6458" cy="544.2322" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="194.7917" x="215.1042" y="551.1434">Conflation forBaseEdge(Edge base)</text><ellipse cx="203.6458" cy="587.8886" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="130.2083" x="215.1042" y="594.7998">boolean isAmbiguous()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="193.2292" x2="324.4792" y1="570.7245" y2="570.7245"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="46.875" x="327.6042" y="574.5341">(checks)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="377.6042" x2="508.8542" y1="570.7245" y2="570.7245"/><ellipse cx="203.6458" cy="631.545" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="285.4167" x="215.1042" y="638.4562">void addUnambiguously(Conflation newConflation)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="193.2292" x2="316.6667" y1="614.3809" y2="614.3809"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="319.7917" y="618.1905">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="385.4167" x2="508.8542" y1="614.3809" y2="614.3809"/><!--MD5=[9972df613f9614c53e1dff265b17c83e]
+class EdgeConflater--><rect codeLine="36" fill="#282828" height="273.5819" id="EdgeConflater" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="492.7083" x="432.8125" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="492.7083" x="432.8125" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="492.7083" x="432.8125" y="76.7578"/><rect codeLine="36" fill="none" height="273.5819" id="EdgeConflater" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="492.7083" x="432.8125" y="53.7028"/><ellipse cx="626.0417" cy="69.397" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M627.9521,73.822 Q627.5248,74.0417 627.0549,74.1516 Q626.5849,74.2615 626.0661,74.2615 Q624.2228,74.2615 623.2524,73.0469 Q622.2819,71.8323 622.2819,69.5374 Q622.2819,67.2363 623.2524,66.0217 Q624.2228,64.8071 626.0661,64.8071 Q626.5849,64.8071 627.061,64.917 Q627.537,65.0269 627.9521,65.2466 L627.9521,67.2485 Q627.4882,66.8213 627.0518,66.6229 Q626.6154,66.4246 626.1515,66.4246 Q625.1628,66.4246 624.6592,67.2089 Q624.1557,67.9932 624.1557,69.5374 Q624.1557,71.0754 624.6592,71.8597 Q625.1628,72.644 626.1515,72.644 Q626.6154,72.644 627.0518,72.4457 Q627.4882,72.2473 627.9521,71.8201 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="91.6667" x="648.9583" y="74.1211">EdgeConflater</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="433.8542" x2="924.4792" y1="85.0911" y2="85.0911"/><ellipse cx="444.2708" cy="120.461" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="121.875" x="455.7292" y="127.3722">EdgeConflater(Graph)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="433.8542" x2="635.4167" y1="103.2969" y2="103.2969"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="638.5417" y="107.1065">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="722.9167" x2="924.4792" y1="103.2969" y2="103.2969"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="433.8542" x2="924.4792" y1="137.0809" y2="137.0809"/><ellipse cx="444.2708" cy="148.5392" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="251.0417" x="455.7292" y="155.4504">void augmentationSpacing(Distance spacing)</text><ellipse cx="444.2708" cy="168.2841" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="219.7917" x="455.7292" y="175.1953">ConflationSet conflate(Edge enhancing)</text><ellipse cx="444.2708" cy="188.029" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="460.4167" x="455.7292" y="194.9402">void conflateEdgesWithDifferentNames(boolean conflateEdgesWithDifferentNames)</text><ellipse cx="444.2708" cy="207.7738" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="350" x="455.7292" y="214.6851">void conflateToConstruction(boolean conflateToConstruction)</text><ellipse cx="444.2708" cy="227.5187" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="125" x="455.7292" y="234.4299">boolean visualDebug()</text><ellipse cx="444.2708" cy="271.1751" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="377.0833" x="455.7292" y="278.0863">void maximumHeadingDeviation(Angle maximumHeadingDeviation)</text><ellipse cx="444.2708" cy="290.92" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="346.875" x="455.7292" y="297.8312">void maximumSnapDistance(Distance maximumSnapDistance)</text><ellipse cx="444.2708" cy="310.6649" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="298.9583" x="455.7292" y="317.5761">void minimumCloseness(Percent minimumCloseness)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="433.8542" x2="657.8125" y1="254.011" y2="254.011"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="36.4583" x="660.9375" y="257.8206">(math)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="700.5208" x2="924.4792" y1="254.011" y2="254.011"/><!--MD5=[646b48ca624cf138be409f6b7b203e7e]
+reverse link HashSet to ConflationSet--><path codeLine="20" d="M351.0417,235.6611 C351.0417,275.2236 351.0417,335.3903 351.0417,390.057 " fill="none" id="HashSet-backto-ConflationSet" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="343.75,235.5153,351.0417,214.682,358.3333,235.5153,343.75,235.5153" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[53ad1103db8c6cf4ffba4f4042883539]
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.matching.conflation"
+    
+    class Conflation
+    {
+        - -
+        +Edge base()
+        +Edge enhancing()
+        +Distance overlap()
+        - -(checks)- -
+        +boolean isCloserThan(Conflation that)
+        +boolean isCloserThan(Percent closeness)
+        - -(math)- -
+        +Percent closeness()
+    }
+    
+    HashSet <|- - ConflationSet
+    class ConflationSet
+    {
+        - -(constructors)- -
+        +ConflationSet()
+        +ConflationSet(ConflationSet)
+        - -
+        +ConflationSet closerThan(Percent closeness)
+        +Conflation closest()
+        +Conflation forBaseEdge(Edge base)
+        - -(checks)- -
+        +boolean isAmbiguous()
+        - -(collection)- -
+        +void addUnambiguously(Conflation newConflation)
+    }
+    
+    class EdgeConflater
+    {
+        - -(constructors)- -
+        +EdgeConflater(Graph)
+        - -
+        +void augmentationSpacing(Distance spacing)
+        +ConflationSet conflate(Edge enhancing)
+        +void conflateEdgesWithDifferentNames(boolean conflateEdgesWithDifferentNames)
+        +void conflateToConstruction(boolean conflateToConstruction)
+        +boolean visualDebug()
+        - -(math)- -
+        +void maximumHeadingDeviation(Angle maximumHeadingDeviation)
+        +void maximumSnapDistance(Distance maximumSnapDistance)
+        +void minimumCloseness(Percent minimumCloseness)
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.mesakit.graph.matching.conflation"
+    
+    class Conflation
+    {
+        - -
+        +Edge base()
+        +Edge enhancing()
+        +Distance overlap()
+        - -(checks)- -
+        +boolean isCloserThan(Conflation that)
+        +boolean isCloserThan(Percent closeness)
+        - -(math)- -
+        +Percent closeness()
+    }
+    
+    HashSet <|- - ConflationSet
+    class ConflationSet
+    {
+        - -(constructors)- -
+        +ConflationSet()
+        +ConflationSet(ConflationSet)
+        - -
+        +ConflationSet closerThan(Percent closeness)
+        +Conflation closest()
+        +Conflation forBaseEdge(Edge base)
+        - -(checks)- -
+        +boolean isAmbiguous()
+        - -(collection)- -
+        +void addUnambiguously(Conflation newConflation)
+    }
+    
+    class EdgeConflater
+    {
+        - -(constructors)- -
+        +EdgeConflater(Graph)
+        - -
+        +void augmentationSpacing(Distance spacing)
+        +ConflationSet conflate(Edge enhancing)
+        +void conflateEdgesWithDifferentNames(boolean conflateEdgesWithDifferentNames)
+        +void conflateToConstruction(boolean conflateToConstruction)
+        +boolean visualDebug()
+        - -(math)- -
+        +void maximumHeadingDeviation(Angle maximumHeadingDeviation)
+        +void maximumSnapDistance(Distance maximumSnapDistance)
+        +void minimumCloseness(Percent minimumCloseness)
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 02:55:08 EST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

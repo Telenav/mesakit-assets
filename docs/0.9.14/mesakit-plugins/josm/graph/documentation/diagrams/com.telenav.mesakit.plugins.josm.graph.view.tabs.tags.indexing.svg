@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="464.5833px" preserveAspectRatio="none" style="width:863px;height:464px;background:#333333;" version="1.1" viewBox="0 0 863 464" width="863.5417px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="668.75" x="90.3646" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="645.8333" x="101.8229" y="30.5583">com.telenav.mesakit.plugins.josm.graph.view.tabs.tags.indexing</text><!--MD5=[762aa3d0df6a9d47bd8e105afbd066b5]
+class BaseRepeater--><rect codeLine="7" fill="#282828" height="48.055" id="BaseRepeater" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="123.9583" x="43.2292" y="137.0361"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="123.9583" x="43.2292" y="137.0361"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="123.9583" x="43.2292" y="160.0911"/><rect codeLine="7" fill="none" height="48.055" id="BaseRepeater" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="123.9583" x="43.2292" y="137.0361"/><ellipse cx="57.8125" cy="152.7303" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M57.4056,149.4324 L56.5572,153.1616 L58.2601,153.1616 Z M56.307,147.7844 L58.5103,147.7844 L60.9701,156.897 L59.1695,156.897 L58.608,154.6448 L56.1971,154.6448 L55.6478,156.897 L53.8472,156.897 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="86.4583" x="74.4792" y="157.4544">BaseRepeater</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="44.2708" x2="166.1458" y1="168.4245" y2="168.4245"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="44.2708" x2="166.1458" y1="176.7578" y2="176.7578"/><!--MD5=[9ac4362f561e1c94760264b17b80f9b2]
+class TagIndex--><rect codeLine="9" fill="#282828" height="214.3473" id="TagIndex" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="247.9167" x="204.1667" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="247.9167" x="204.1667" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="247.9167" x="204.1667" y="76.7578"/><rect codeLine="9" fill="none" height="214.3473" id="TagIndex" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="247.9167" x="204.1667" y="53.7028"/><ellipse cx="291.1458" cy="69.397" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M293.0562,73.822 Q292.629,74.0417 292.159,74.1516 Q291.689,74.2615 291.1702,74.2615 Q289.327,74.2615 288.3565,73.0469 Q287.3861,71.8323 287.3861,69.5374 Q287.3861,67.2363 288.3565,66.0217 Q289.327,64.8071 291.1702,64.8071 Q291.689,64.8071 292.1651,64.917 Q292.6412,65.0269 293.0562,65.2466 L293.0562,67.2485 Q292.5924,66.8213 292.156,66.6229 Q291.7196,66.4246 291.2557,66.4246 Q290.2669,66.4246 289.7634,67.2089 Q289.2598,67.9932 289.2598,69.5374 Q289.2598,71.0754 289.7634,71.8597 Q290.2669,72.644 291.2557,72.644 Q291.7196,72.644 292.156,72.4457 Q292.5924,72.2473 293.0562,71.8201 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="59.375" x="314.0625" y="74.1211">TagIndex</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="205.2083" x2="451.0417" y1="85.0911" y2="85.0911"/><ellipse cx="215.625" cy="120.461" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="157.2917" x="227.0833" y="127.3722">TagIndex(TagIndexRequest)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="205.2083" x2="284.375" y1="103.2969" y2="103.2969"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="287.5" y="107.1065">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="371.875" x2="451.0417" y1="103.2969" y2="103.2969"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="205.2083" x2="451.0417" y1="137.0809" y2="137.0809"/><ellipse cx="215.625" cy="148.5392" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="215.625" x="227.0833" y="155.4504">EdgeSet edges(String key, String value)</text><ellipse cx="215.625" cy="192.1956" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="98.9583" x="227.0833" y="199.1069">Count keyCount()</text><ellipse cx="215.625" cy="211.9405" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="89.5833" x="227.0833" y="218.8517">StringList keys()</text><ellipse cx="215.625" cy="231.6854" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="109.375" x="227.0833" y="238.5966">Count valueCount()</text><ellipse cx="215.625" cy="251.4303" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="210.4167" x="227.0833" y="258.3415">ObjectList&lt;String&gt; values(String key)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="205.2083" x2="293.75" y1="175.0315" y2="175.0315"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="296.875" y="178.8411">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="362.5" x2="451.0417" y1="175.0315" y2="175.0315"/><!--MD5=[cc1010cdd68225312672a3f3e5676a44]
+class TagIndexRequest--><rect codeLine="22" fill="#282828" height="83.3781" id="TagIndexRequest" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="367.7083" x="489.0625" y="119.3278"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="367.7083" x="489.0625" y="119.3278"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="367.7083" x="489.0625" y="142.3828"/><rect codeLine="22" fill="none" height="83.3781" id="TagIndexRequest" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="367.7083" x="489.0625" y="119.3278"/><ellipse cx="609.8958" cy="135.022" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M611.8062,139.447 Q611.379,139.6667 610.909,139.7766 Q610.439,139.8865 609.9202,139.8865 Q608.077,139.8865 607.1065,138.6719 Q606.1361,137.4573 606.1361,135.1624 Q606.1361,132.8613 607.1065,131.6467 Q608.077,130.4321 609.9202,130.4321 Q610.439,130.4321 610.9151,130.542 Q611.3912,130.6519 611.8062,130.8716 L611.8062,132.8735 Q611.3424,132.4463 610.906,132.2479 Q610.4696,132.0496 610.0057,132.0496 Q609.0169,132.0496 608.5134,132.8339 Q608.0098,133.6182 608.0098,135.1624 Q608.0098,136.7004 608.5134,137.4847 Q609.0169,138.269 610.0057,138.269 Q610.4696,138.269 610.906,138.0707 Q611.3424,137.8723 611.8062,137.4451 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="111.4583" x="632.8125" y="139.7461">TagIndexRequest</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="490.1042" x2="855.7292" y1="150.7161" y2="150.7161"/><ellipse cx="500.5208" cy="186.086" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="335.4167" x="511.9792" y="192.9972">TagIndexRequest(Graph, Rectangle, Consumer&lt;TagIndex&gt;)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="490.1042" x2="629.1667" y1="168.9219" y2="168.9219"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="632.2917" y="172.7315">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="716.6667" x2="855.7292" y1="168.9219" y2="168.9219"/><!--MD5=[952fa26e6d46ed39f205c48ba014ba1b]
+class TagIndexer--><rect codeLine="29" fill="#282828" height="127.0345" id="TagIndexer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="195.8333" x="7.2917" y="330.7861"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="195.8333" x="7.2917" y="330.7861"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="195.8333" x="7.2917" y="353.8411"/><rect codeLine="29" fill="none" height="127.0345" id="TagIndexer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="195.8333" x="7.2917" y="330.7861"/><ellipse cx="61.9792" cy="346.4803" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M63.8896,350.9054 Q63.4623,351.1251 62.9924,351.2349 Q62.5224,351.3448 62.0036,351.3448 Q60.1603,351.3448 59.1899,350.1302 Q58.2194,348.9156 58.2194,346.6207 Q58.2194,344.3197 59.1899,343.1051 Q60.1603,341.8905 62.0036,341.8905 Q62.5224,341.8905 62.9985,342.0003 Q63.4745,342.1102 63.8896,342.3299 L63.8896,344.3319 Q63.4257,343.9046 62.9893,343.7063 Q62.5529,343.5079 62.089,343.5079 Q61.1003,343.5079 60.5967,344.2922 Q60.0932,345.0765 60.0932,346.6207 Q60.0932,348.1588 60.5967,348.9431 Q61.1003,349.7274 62.089,349.7274 Q62.5529,349.7274 62.9893,349.529 Q63.4257,349.3306 63.8896,348.9034 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="71.875" x="84.8958" y="351.2044">TagIndexer</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="8.3333" x2="202.0833" y1="362.1745" y2="362.1745"/><ellipse cx="18.75" cy="397.5444" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="71.875" x="30.2083" y="404.4556">TagIndexer()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="61.4583" y1="380.3802" y2="380.3802"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="64.5833" y="384.1899">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="148.9583" x2="202.0833" y1="380.3802" y2="380.3802"/><ellipse cx="18.75" cy="441.2008" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="163.5417" x="30.2083" y="448.112">void index(TagIndexRequest)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="70.8333" y1="424.0367" y2="424.0367"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="73.9583" y="427.8463">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="139.5833" x2="202.0833" y1="424.0367" y2="424.0367"/><!--MD5=[e9b55e6bb93eaa2687ebf40250bdde49]
+reverse link BaseRepeater to TagIndexer--><path codeLine="28" d="M105.2083,206.3174 C105.2083,241.4945 105.2083,291.1507 105.2083,330.4528 " fill="none" id="BaseRepeater-backto-TagIndexer" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="97.9167,205.8903,105.2083,185.057,112.5,205.8903,97.9167,205.8903" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[e1fed9ee78a44e27dfdb468fa4f04737]
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.plugins.josm.graph.view.tabs.tags.indexing"
+    
+    abstract BaseRepeater
+    
+    class TagIndex
+    {
+        - -(constructors)- -
+        +TagIndex(TagIndexRequest)
+        - -
+        +EdgeSet edges(String key, String value)
+        - -(collection)- -
+        +Count keyCount()
+        +StringList keys()
+        +Count valueCount()
+        +ObjectList<String> values(String key)
+    }
+    
+    class TagIndexRequest
+    {
+        - -(constructors)- -
+        +TagIndexRequest(Graph, Rectangle, Consumer<TagIndex>)
+    }
+    
+    BaseRepeater <|- - TagIndexer
+    class TagIndexer
+    {
+        - -(constructors)- -
+        +TagIndexer()
+        - -(collection)- -
+        +void index(TagIndexRequest)
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.mesakit.plugins.josm.graph.view.tabs.tags.indexing"
+    
+    abstract BaseRepeater
+    
+    class TagIndex
+    {
+        - -(constructors)- -
+        +TagIndex(TagIndexRequest)
+        - -
+        +EdgeSet edges(String key, String value)
+        - -(collection)- -
+        +Count keyCount()
+        +StringList keys()
+        +Count valueCount()
+        +ObjectList<String> values(String key)
+    }
+    
+    class TagIndexRequest
+    {
+        - -(constructors)- -
+        +TagIndexRequest(Graph, Rectangle, Consumer<TagIndex>)
+    }
+    
+    BaseRepeater <|- - TagIndexer
+    class TagIndexer
+    {
+        - -(constructors)- -
+        +TagIndexer()
+        - -(collection)- -
+        +void index(TagIndexRequest)
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 02:55:08 EST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

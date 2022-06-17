@@ -1,0 +1,4 @@
+module:mesakit.plugins.josm.library
+com.telenav.mesakit.plugins.josm.library
+com.telenav.mesakit.plugins.josm.library.tile
+com.telenav.mesakit.plugins.josm.library.tile.vector

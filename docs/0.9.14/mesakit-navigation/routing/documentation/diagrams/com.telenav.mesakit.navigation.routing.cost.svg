@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="698.9583px" preserveAspectRatio="none" style="width:813px;height:698px;background:#333333;" version="1.1" viewBox="0 0 813 698" width="813.5417px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="462.5" x="168.4896" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="439.5833" x="179.9479" y="30.5583">com.telenav.mesakit.navigation.routing.cost</text><!--MD5=[7a4729d26b999f6a4650b01106c103c5]
+class Comparable--><rect codeLine="7" fill="#282828" height="48.055" id="Comparable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="115.625" x="639.5833" y="137.0361"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="115.625" x="639.5833" y="137.0361"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="115.625" x="639.5833" y="160.0911"/><rect codeLine="7" fill="none" height="48.055" id="Comparable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="115.625" x="639.5833" y="137.0361"/><ellipse cx="654.1667" cy="152.7303" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M651.5706,149.8922 L651.5706,148.3053 L656.9967,148.3053 L656.9967,149.8922 L655.1839,149.8922 L655.1839,155.8309 L656.9967,155.8309 L656.9967,157.4178 L651.5706,157.4178 L651.5706,155.8309 L653.3834,155.8309 L653.3834,149.8922 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="78.125" x="670.8333" y="157.4544">Comparable</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="640.625" x2="754.1667" y1="168.4245" y2="168.4245"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="640.625" x2="754.1667" y1="176.7578" y2="176.7578"/><!--MD5=[b875eb2a6d4ff9e6a3852fd4edc20d45]
+class Cost--><rect codeLine="10" fill="#282828" height="360.8948" id="Cost" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="218.75" x="588.0208" y="330.7861"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="218.75" x="588.0208" y="330.7861"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="218.75" x="588.0208" y="353.8411"/><rect codeLine="10" fill="none" height="360.8948" id="Cost" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="218.75" x="588.0208" y="330.7861"/><ellipse cx="675" cy="346.4803" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M676.9104,350.9054 Q676.4832,351.1251 676.0132,351.2349 Q675.5432,351.3448 675.0244,351.3448 Q673.1812,351.3448 672.2107,350.1302 Q671.2402,348.9156 671.2402,346.6207 Q671.2402,344.3197 672.2107,343.1051 Q673.1812,341.8905 675.0244,341.8905 Q675.5432,341.8905 676.0193,342.0003 Q676.4954,342.1102 676.9104,342.3299 L676.9104,344.3319 Q676.4465,343.9046 676.0101,343.7063 Q675.5737,343.5079 675.1099,343.5079 Q674.1211,343.5079 673.6176,344.2922 Q673.114,345.0765 673.114,346.6207 Q673.114,348.1588 673.6176,348.9431 Q674.1211,349.7274 675.1099,349.7274 Q675.5737,349.7274 676.0101,349.529 Q676.4465,349.3306 676.9104,348.9034 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="30.2083" x="697.9167" y="351.2044">Cost</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="589.0625" x2="805.7292" y1="362.1745" y2="362.1745"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="589.0625" x2="805.7292" y1="370.5078" y2="370.5078"/><ellipse cx="599.4792" cy="381.9661" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="148.9583" x="610.9375" y="388.8774">Cost inverse(double value)</text><ellipse cx="599.4792" cy="401.711" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="119.7917" x="610.9375" y="408.6222">Cost of(double value)</text><ellipse cx="599.4792" cy="445.3674" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="186.4583" x="610.9375" y="452.2786">boolean isGreaterThan(Cost that)</text><ellipse cx="599.4792" cy="465.1123" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="169.7917" x="610.9375" y="472.0235">boolean isLessThan(Cost that)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="589.0625" x2="670.8333" y1="428.2033" y2="428.2033"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="46.875" x="673.9583" y="432.0129">(checks)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="723.9583" x2="805.7292" y1="428.2033" y2="428.2033"/><ellipse cx="599.4792" cy="508.7687" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="125" x="610.9375" y="515.6799">Cost weighted(Weight)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="589.0625" x2="661.9792" y1="491.6046" y2="491.6046"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="665.1042" y="495.4142">(functional)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="732.8125" x2="805.7292" y1="491.6046" y2="491.6046"/><ellipse cx="599.4792" cy="552.4251" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="109.375" x="610.9375" y="559.3363">Cost add(Cost that)</text><ellipse cx="599.4792" cy="572.17" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="119.7917" x="610.9375" y="579.0812">boolean isMaximum()</text><ellipse cx="599.4792" cy="591.9149" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="143.75" x="610.9375" y="598.8261">Cost maximum(Cost that)</text><ellipse cx="599.4792" cy="611.6597" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="140.625" x="610.9375" y="618.571">Cost minimum(Cost that)</text><ellipse cx="599.4792" cy="631.4046" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="162.5" x="610.9375" y="638.3158">Cost times(double multiplier)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="589.0625" x2="676.0417" y1="535.261" y2="535.261"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="36.4583" x="679.1667" y="539.0706">(math)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="718.75" x2="805.7292" y1="535.261" y2="535.261"/><ellipse cx="599.4792" cy="675.061" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="102.0833" x="610.9375" y="681.9722">double asDouble()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="589.0625" x2="665.625" y1="657.8969" y2="657.8969"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="57.2917" x="668.75" y="661.7065">(primitive)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="729.1667" x2="805.7292" y1="657.8969" y2="657.8969"/><!--MD5=[721802e552bc14401d889244e1a2cfe5]
+class CostFunction--><rect codeLine="30" fill="#282828" height="214.3473" id="CostFunction" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="336.4583" x="7.2917" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="336.4583" x="7.2917" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="336.4583" x="7.2917" y="76.7578"/><rect codeLine="30" fill="none" height="214.3473" id="CostFunction" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="336.4583" x="7.2917" y="53.7028"/><ellipse cx="125" cy="69.397" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M122.404,66.5588 L122.404,64.9719 L127.83,64.9719 L127.83,66.5588 L126.0173,66.5588 L126.0173,72.4976 L127.83,72.4976 L127.83,74.0845 L122.404,74.0845 L122.404,72.4976 L124.2167,72.4976 L124.2167,66.5588 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="86.4583" x="147.9167" y="74.1211">CostFunction</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="8.3333" x2="342.7083" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="342.7083" y1="93.4245" y2="93.4245"/><ellipse cx="18.75" cy="104.8828" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="88.5417" x="30.2083" y="111.794">Cost cost(Edge)</text><ellipse cx="18.75" cy="148.5392" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="173.9583" x="30.2083" y="155.4504">CostFunction weighted(Weight)</text><ellipse cx="18.75" cy="168.2841" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="304.1667" x="30.2083" y="175.1953">CostFunction weightedSum(Weight, CostFunction that)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="140.1042" y1="131.3751" y2="131.3751"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="143.2292" y="135.1847">(functional)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="210.9375" x2="342.7083" y1="131.3751" y2="131.3751"/><ellipse cx="18.75" cy="211.9405" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="241.6667" x="30.2083" y="218.8517">CostFunction maximum(CostFunction that)</text><ellipse cx="18.75" cy="231.6854" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="238.5417" x="30.2083" y="238.5966">CostFunction minimum(CostFunction that)</text><ellipse cx="18.75" cy="251.4303" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="210.4167" x="30.2083" y="258.3415">CostFunction plus(CostFunction that)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="154.1667" y1="194.7764" y2="194.7764"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="36.4583" x="157.2917" y="198.586">(math)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="196.875" x2="342.7083" y1="194.7764" y2="194.7764"/><!--MD5=[2c570ec8cfd348382b22853b44ea43be]
+class EdgePermissionFunction--><rect codeLine="43" fill="#282828" height="67.7999" id="EdgePermissionFunction" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="196.875" x="380.2083" y="127.1403"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="196.875" x="380.2083" y="127.1403"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="196.875" x="380.2083" y="150.1953"/><rect codeLine="43" fill="none" height="67.7999" id="EdgePermissionFunction" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="196.875" x="380.2083" y="127.1403"/><ellipse cx="394.7917" cy="142.8345" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M392.1956,139.9963 L392.1956,138.4094 L397.6217,138.4094 L397.6217,139.9963 L395.8089,139.9963 L395.8089,145.9351 L397.6217,145.9351 L397.6217,147.522 L392.1956,147.522 L392.1956,145.9351 L394.0084,145.9351 L394.0084,139.9963 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="159.375" x="411.4583" y="147.5586">EdgePermissionFunction</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="381.25" x2="576.0417" y1="158.5286" y2="158.5286"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="381.25" x2="576.0417" y1="166.862" y2="166.862"/><ellipse cx="391.6667" cy="178.3203" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="141.6667" x="403.125" y="185.2315">Permission allowed(Edge)</text><!--MD5=[00dbb5db5ae4ca30d11206c3656c99b2]
+class EdgePermissionFunction.Permission--><rect codeLine="49" fill="#282828" height="87.5448" id="EdgePermissionFunction.Permission" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="271.875" x="39.5833" y="467.2445"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="271.875" x="39.5833" y="467.2445"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="271.875" x="39.5833" y="490.2995"/><rect codeLine="49" fill="none" height="87.5448" id="EdgePermissionFunction.Permission" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="271.875" x="39.5833" y="467.2445"/><ellipse cx="54.1667" cy="482.9386" fill="#CF6300" rx="10.4167" ry="10.4167" style="stroke:#EF8300;stroke-width:1.0416666666666667;"/><path d="M57.2225,487.6261 L51.5462,487.6261 L51.5462,478.5136 L57.2225,478.5136 L57.2225,480.1005 L53.3468,480.1005 L53.3468,482.0658 L56.8563,482.0658 L56.8563,483.6528 L53.3468,483.6528 L53.3468,486.0392 L57.2225,486.0392 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="234.375" x="70.8333" y="487.6628">EdgePermissionFunction.Permission</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="40.625" x2="310.4167" y1="498.6328" y2="498.6328"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="37.5" x="48.9583" y="517.0024">MAYBE</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="19.7917" x="48.9583" y="536.7472">YES</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="40.625" x2="310.4167" y1="546.4559" y2="546.4559"/><!--MD5=[ff79a495abf29eb9cd96cd5d5da98138]
+class RoutePermissionFunction--><rect codeLine="55" fill="#282828" height="67.7999" id="RoutePermissionFunction" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="203.125" x="347.9167" y="477.1403"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="203.125" x="347.9167" y="477.1403"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="203.125" x="347.9167" y="500.1953"/><rect codeLine="55" fill="none" height="67.7999" id="RoutePermissionFunction" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="203.125" x="347.9167" y="477.1403"/><ellipse cx="362.5" cy="492.8345" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M359.904,489.9963 L359.904,488.4094 L365.33,488.4094 L365.33,489.9963 L363.5173,489.9963 L363.5173,495.9351 L365.33,495.9351 L365.33,497.522 L359.904,497.522 L359.904,495.9351 L361.7167,495.9351 L361.7167,489.9963 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="165.625" x="379.1667" y="497.5586">RoutePermissionFunction</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="348.9583" x2="550" y1="508.5286" y2="508.5286"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="348.9583" x2="550" y1="516.862" y2="516.862"/><ellipse cx="359.375" cy="528.3203" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="130.2083" x="370.8333" y="535.2315">boolean allowed(Route)</text><!--MD5=[febbdd1ceb18cbbc15db2641bc091be5]
+reverse link Comparable to Cost--><path codeLine="9" d="M697.3958,206.3903 C697.3958,238.5465 697.3958,284.3382 697.3958,330.6299 " fill="none" id="Comparable-backto-Cost" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="690.1042,205.9632,697.3958,185.1299,704.6875,205.9632,690.1042,205.9632" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[ea3384100c02c5a2e0654503d0fdc1be]
+link CostFunction to EdgePermissionFunction--><!--MD5=[6f2c1520fc583858f02250b750061389]
+link CostFunction to EdgePermissionFunction.Permission--><!--MD5=[a56648ec8f7861eb5b81bc8e7805e3bb]
+link EdgePermissionFunction.Permission to RoutePermissionFunction--><!--MD5=[d5333953a749d09e3fdc9f6df5f537a2]
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.navigation.routing.cost"
+    
+    interface Comparable
+    
+    Comparable <|- - Cost
+    class Cost
+    {
+        - -
+        +Cost inverse(double value)
+        +Cost of(double value)
+        - -(checks)- -
+        +boolean isGreaterThan(Cost that)
+        +boolean isLessThan(Cost that)
+        - -(functional)- -
+        +Cost weighted(Weight)
+        - -(math)- -
+        +Cost add(Cost that)
+        +boolean isMaximum()
+        +Cost maximum(Cost that)
+        +Cost minimum(Cost that)
+        +Cost times(double multiplier)
+        - -(primitive)- -
+        +double asDouble()
+    }
+    
+    interface CostFunction
+    {
+        - -
+        +Cost cost(Edge)
+        - -(functional)- -
+        +CostFunction weighted(Weight)
+        +CostFunction weightedSum(Weight, CostFunction that)
+        - -(math)- -
+        +CostFunction maximum(CostFunction that)
+        +CostFunction minimum(CostFunction that)
+        +CostFunction plus(CostFunction that)
+    }
+    
+    interface EdgePermissionFunction
+    {
+        - -
+        +Permission allowed(Edge)
+    }
+    
+    enum EdgePermissionFunction.Permission
+    {
+        MAYBE
+        YES
+    }
+    
+    interface RoutePermissionFunction
+    {
+        - -
+        +boolean allowed(Route)
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.mesakit.navigation.routing.cost"
+    
+    interface Comparable
+    
+    Comparable <|- - Cost
+    class Cost
+    {
+        - -
+        +Cost inverse(double value)
+        +Cost of(double value)
+        - -(checks)- -
+        +boolean isGreaterThan(Cost that)
+        +boolean isLessThan(Cost that)
+        - -(functional)- -
+        +Cost weighted(Weight)
+        - -(math)- -
+        +Cost add(Cost that)
+        +boolean isMaximum()
+        +Cost maximum(Cost that)
+        +Cost minimum(Cost that)
+        +Cost times(double multiplier)
+        - -(primitive)- -
+        +double asDouble()
+    }
+    
+    interface CostFunction
+    {
+        - -
+        +Cost cost(Edge)
+        - -(functional)- -
+        +CostFunction weighted(Weight)
+        +CostFunction weightedSum(Weight, CostFunction that)
+        - -(math)- -
+        +CostFunction maximum(CostFunction that)
+        +CostFunction minimum(CostFunction that)
+        +CostFunction plus(CostFunction that)
+    }
+    
+    interface EdgePermissionFunction
+    {
+        - -
+        +Permission allowed(Edge)
+    }
+    
+    enum EdgePermissionFunction.Permission
+    {
+        MAYBE
+        YES
+    }
+    
+    interface RoutePermissionFunction
+    {
+        - -
+        +boolean allowed(Route)
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 02:55:08 EST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

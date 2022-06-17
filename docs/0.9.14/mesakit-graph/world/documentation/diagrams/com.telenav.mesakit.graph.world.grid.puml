@@ -1,0 +1,138 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.world.grid"
+    
+    interface Unloadable
+    
+    enum WorldCell.DataType
+    {
+        GRAPH
+        PBF
+    }
+    
+    Region <|-- WorldCell
+    Unloadable <|-- WorldCell
+    class WorldCell
+    {
+        --(constructors)--
+        #WorldCell()
+        +WorldCell(WorldGrid, GridCell)
+        --
+        +Graph cellGraph()
+        +GridCell gridCell()
+        +void hasGraph(WorldGraphRepositoryFolder, boolean has)
+        +void hasPbf(WorldGraphRepositoryFolder, boolean has)
+        +WorldGraph worldGraph()
+        +WorldGrid worldGrid()
+        --(checks)--
+        +boolean hasData(WorldGraphRepositoryFolder, DataType)
+        +boolean isIncluded()
+        --(collection)--
+        +Iterable<Edge> asWorldEdges(Iterable<Edge> edges)
+        +Bytes memorySize()
+        +WorldCellList neighbors()
+        +WorldCellList neighborsAndThis()
+        --(filesystem)--
+        +File cellGraphFile(WorldGraphRepositoryFolder)
+        +File cellGraphFile()
+        +Bytes fileSize()
+        +void fileSize(Bytes fileSize)
+        +boolean hasGraphFile(WorldGraphRepositoryFolder)
+        +boolean hasPbfFile(WorldGraphRepositoryFolder)
+        +File pbfFile()
+        +File pbfFile(WorldGraphRepositoryFolder)
+        --(identity)--
+        +WorldCellIdentifier worldCellIdentifier()
+    }
+    
+    RegionIdentifier <|-- WorldCell.WorldCellIdentifier
+    class WorldCell.WorldCellIdentifier
+    {
+        --(constructors)--
+        +WorldCellIdentifier(WorldGrid, GridCell)
+        --
+        +GridCell gridCell()
+        +Region<?> region()
+    }
+    
+    ArrayList <|-- WorldCellList
+    class WorldCellList
+    {
+        --
+        +WorldCell biggest()
+        +EdgeSequence edges()
+        +EdgeSequence edgesIntersecting(Rectangle bounds, Matcher<Edge>)
+        +EdgeSequence forwardEdges()
+        +EdgeSequence forwardEdgesIntersecting(Rectangle bounds, Matcher<Edge>)
+        +RelationSet relationsIntersecting(Rectangle bounds, Matcher<EdgeRelation>)
+        +VertexSequence vertexes()
+        +VertexSequence vertexesInside(Rectangle bounds, Matcher<Vertex>)
+        +VertexSequence vertexesInside(Rectangle bounds)
+        +VertexSequence vertexesNearest(Location, Distance maximum, RoadFunctionalClass)
+        --(collection)--
+        +List<Graph> cellGraphs()
+        +boolean contains(Edge)
+        +boolean contains(Vertex)
+        +boolean contains(EdgeRelation)
+        +Count count()
+        +Count edgeCount()
+        +WorldCell first()
+        +Count forwardEdgeCount()
+        +Count relationCount()
+        +Iterable<EdgeRelation> relations()
+        +WorldCellList sortedDescendingByPbfSize()
+        +Count vertexCount()
+        --(math)--
+        +WorldCell smallest()
+    }
+    
+    class WorldCellReference
+    {
+        --(constructors)--
+        +WorldCellReference(WorldGraphReference, GridCell)
+        --
+        +WorldCell worldCell()
+    }
+    
+    class WorldGrid
+    {
+        --(constructors)--
+        #WorldGrid()
+        +WorldGrid(WorldGraph, WorldGraph.AccessMode, WorldGraphRepositoryFolder)
+        --
+        +Grid grid()
+        +WorldGraph.AccessMode mode()
+        +WorldCell worldCell(GridCell)
+        +WorldCell worldCell(Location)
+        +WorldCell worldCell(int identifier)
+        +WorldCell worldCell(WorldCell.WorldCellIdentifier)
+        +WorldCell worldCell(String cellName)
+        +WorldGraph worldGraph()
+        --(collection)--
+        +Iterable<WorldCell> cells()
+        +WorldCellList cells(WorldGraphRepositoryFolder, WorldCell.DataType, Rectangle bounds)
+        +WorldCellList cells(WorldGraphRepositoryFolder, WorldCell.DataType)
+        +Count extract(WorldGraphRepositoryFolder, Source<PbfDataSource>)
+        +WorldGraphIndex index()
+        +WorldCellList neighbors(Location)
+        +void saveIndex(WorldGraphRepositoryFolder, Metadata)
+        --(filesystem)--
+        +WorldGraphRepositoryFolder repositoryFolder()
+        --(filtering)--
+        +boolean included(WorldCell)
+        +ObjectSet<WorldCell> included()
+        --(metadata)--
+        +Metadata metadata()
+        --(naming)--
+        +String name()
+        --(primitive)--
+        +Bytes maximumMemory()
+        --(write)--
+        +void outputCellsAsGeoJson()
+    }
+    
+@enduml
+

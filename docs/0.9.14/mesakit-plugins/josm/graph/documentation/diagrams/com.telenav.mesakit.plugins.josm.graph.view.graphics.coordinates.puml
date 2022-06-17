@@ -1,0 +1,18 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.plugins.josm.graph.view.graphics.coordinates"
+    
+    interface MapProjection
+    
+    MapProjection <|-- JosmCoordinateMapper
+    class JosmCoordinateMapper
+    {
+        --(constructors)--
+        +JosmCoordinateMapper(MapView)
+    }
+    
+@enduml
+

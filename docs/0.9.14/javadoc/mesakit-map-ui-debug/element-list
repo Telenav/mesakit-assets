@@ -1,0 +1,4 @@
+module:mesakit.map.ui.debug
+com.telenav.mesakit.map.ui.debug
+com.telenav.mesakit.map.ui.debug.debuggers
+com.telenav.mesakit.map.ui.debug.theme

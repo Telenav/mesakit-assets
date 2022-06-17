@@ -1,0 +1,11 @@
+module:mesakit.navigation.routing
+com.telenav.mesakit.navigation.routing
+com.telenav.mesakit.navigation.routing.bidijkstra
+com.telenav.mesakit.navigation.routing.cost
+com.telenav.mesakit.navigation.routing.cost.functions
+com.telenav.mesakit.navigation.routing.cost.functions.heuristic
+com.telenav.mesakit.navigation.routing.cost.operators
+com.telenav.mesakit.navigation.routing.debuggers
+com.telenav.mesakit.navigation.routing.dijkstra
+com.telenav.mesakit.navigation.routing.limiters
+com.telenav.mesakit.navigation.routing.promoters

@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="852.0833px" preserveAspectRatio="none" style="width:1486px;height:852px;background:#333333;" version="1.1" viewBox="0 0 1486 852" width="1486.4583px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="434.375" x="519.0104" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="411.4583" x="530.4688" y="30.5583">com.telenav.mesakit.plugins.josm.library</text><!--MD5=[46acbc008168529f3349206642520903]
+class ComponentMixin--><rect codeLine="7" fill="#282828" height="48.055" id="ComponentMixin" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="148.9583" x="7.2917" y="63.5986"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="148.9583" x="7.2917" y="63.5986"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="148.9583" x="7.2917" y="86.6536"/><rect codeLine="7" fill="none" height="48.055" id="ComponentMixin" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="148.9583" x="7.2917" y="63.5986"/><ellipse cx="21.875" cy="79.2928" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M19.279,76.4547 L19.279,74.8678 L24.705,74.8678 L24.705,76.4547 L22.8923,76.4547 L22.8923,82.3934 L24.705,82.3934 L24.705,83.9803 L19.279,83.9803 L19.279,82.3934 L21.0917,82.3934 L21.0917,76.4547 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="111.4583" x="38.5417" y="84.0169">ComponentMixin</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="155.2083" y1="94.987" y2="94.987"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="155.2083" y1="103.3203" y2="103.3203"/><!--MD5=[a97cfd095b0077d714bcddc8cbc855aa]
+class Layer--><rect fill="#282828" height="48.055" id="Layer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="71.875" x="470.8333" y="63.5986"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="71.875" x="470.8333" y="63.5986"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="71.875" x="470.8333" y="86.6536"/><rect fill="none" height="48.055" id="Layer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="71.875" x="470.8333" y="63.5986"/><ellipse cx="485.4167" cy="79.2928" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M487.3271,83.7179 Q486.8998,83.9376 486.4299,84.0474 Q485.9599,84.1573 485.4411,84.1573 Q483.5978,84.1573 482.6274,82.9427 Q481.6569,81.7281 481.6569,79.4332 Q481.6569,77.1322 482.6274,75.9176 Q483.5978,74.703 485.4411,74.703 Q485.9599,74.703 486.436,74.8128 Q486.912,74.9227 487.3271,75.1424 L487.3271,77.1444 Q486.8632,76.7171 486.4268,76.5188 Q485.9904,76.3204 485.5265,76.3204 Q484.5378,76.3204 484.0342,77.1047 Q483.5307,77.889 483.5307,79.4332 Q483.5307,80.9713 484.0342,81.7556 Q484.5378,82.5399 485.5265,82.5399 Q485.9904,82.5399 486.4268,82.3415 Q486.8632,82.1431 487.3271,81.7159 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="34.375" x="502.0833" y="84.0169">Layer</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="471.875" x2="541.6667" y1="94.987" y2="94.987"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="471.875" x2="541.6667" y1="103.3203" y2="103.3203"/><!--MD5=[a56143b68d157af59bd604c6fa2a95fe]
+class BaseJosmLayer--><rect codeLine="10" fill="#282828" height="661.2345" id="BaseJosmLayer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="313.5417" x="350" y="183.9111"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="313.5417" x="350" y="183.9111"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="313.5417" x="350" y="206.9661"/><rect codeLine="10" fill="none" height="661.2345" id="BaseJosmLayer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="313.5417" x="350" y="183.9111"/><ellipse cx="450.5208" cy="199.6053" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M450.1139,196.3074 L449.2655,200.0366 L450.9684,200.0366 Z M449.0153,194.6594 L451.2187,194.6594 L453.6784,203.772 L451.8778,203.772 L451.3163,201.5198 L448.9054,201.5198 L448.3561,203.772 L446.5556,203.772 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="97.9167" x="473.4375" y="204.3294">BaseJosmLayer</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="351.0417" x2="662.5" y1="215.2995" y2="215.2995"/><polygon fill="#FFFF44" points="361.4583,245.461,365.625,249.6277,361.4583,253.7944,357.2917,249.6277" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="177.0833" x="372.9167" y="257.5806">BaseJosmLayer(BaseJosmPlugin)</text><polygon fill="#FFFF44" points="361.4583,265.2059,365.625,269.3726,361.4583,273.5392,357.2917,269.3726" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="216.6667" x="372.9167" y="277.3254">BaseJosmLayer(BaseJosmPlugin, String)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="351.0417" x2="463.0208" y1="233.5052" y2="233.5052"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="466.1458" y="237.3149">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="550.5208" x2="662.5" y1="233.5052" y2="233.5052"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="351.0417" x2="662.5" y1="287.0341" y2="287.0341"/><ellipse cx="361.4583" cy="298.4924" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="156.25" x="372.9167" y="305.4036">BaseJosmLayer activeLayer()</text><ellipse cx="361.4583" cy="318.2373" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="106.25" x="372.9167" y="325.1485">void forceRepaint()</text><ellipse cx="361.4583" cy="337.9822" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="122.9167" x="372.9167" y="344.8934">BaseJosmPanel panel()</text><ellipse cx="361.4583" cy="357.7271" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="133.3333" x="372.9167" y="364.6383">BaseJosmPlugin plugin()</text><polygon fill="#FFFF44" points="361.4583,372.2636,365.625,376.4303,361.4583,380.5969,357.2917,376.4303" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="281.25" x="372.9167" y="384.3831">Rectangle2D awtRectangleForRectangle(Rectangle)</text><polygon fill="#FFFF44" points="361.4583,392.0085,365.625,396.1751,361.4583,400.3418,357.2917,396.1751" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="108.3333" x="372.9167" y="404.128">Rectangle bounds()</text><polygon fill="#FFFF44" points="361.4583,411.7533,365.625,415.92,361.4583,420.0867,357.2917,415.92" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="218.75" x="372.9167" y="423.8729">Font font(Graphics2D, String, int width)</text><polygon fill="#FFFF44" points="361.4583,431.4982,365.625,435.6649,361.4583,439.8315,357.2917,435.6649" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="141.6667" x="372.9167" y="443.6178">Location location(LatLon)</text><polygon fill="#FFFF44" points="361.4583,451.2431,365.625,455.4097,361.4583,459.5764,357.2917,455.4097" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="194.7917" x="372.9167" y="463.3626">Location locationForPoint(Point2D)</text><polygon fill="#FFFF44" points="361.4583,470.988,365.625,475.1546,361.4583,479.3213,357.2917,475.1546" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="93.75" x="372.9167" y="483.1075">void onDestroy()</text><polygon fill="#FFFF44" points="361.4583,490.7328,365.625,494.8995,361.4583,499.0662,357.2917,494.8995" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="244.7917" x="372.9167" y="502.8524">void onPaint(Graphics2D, MapView, Bounds)</text><polygon fill="#FFFF44" points="361.4583,510.4777,365.625,514.6444,361.4583,518.811,357.2917,514.6444" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="252.0833" x="372.9167" y="522.5972">void onPopup(Component parent, int x, int y)</text><polygon fill="#FFFF44" points="361.4583,530.2226,365.625,534.3892,361.4583,538.5559,357.2917,534.3892" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="147.9167" x="372.9167" y="542.3421">void onPreviousSelection()</text><polygon fill="#FFFF44" points="361.4583,549.9674,365.625,554.1341,361.4583,558.3008,357.2917,554.1341" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="198.9583" x="372.9167" y="562.087">Point2D pointForLocation(Location)</text><polygon fill="#FFFF44" points="361.4583,569.7123,365.625,573.879,361.4583,578.0457,357.2917,573.879" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="138.5417" x="372.9167" y="581.8319">void popup(MouseEvent)</text><polygon fill="#FFFF44" points="361.4583,589.4572,365.625,593.6239,361.4583,597.7905,357.2917,593.6239" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="159.375" x="372.9167" y="601.5767">Rectangle rectangle(Bounds)</text><polygon fill="#FFFF44" points="361.4583,609.2021,365.625,613.3687,361.4583,617.5354,357.2917,613.3687" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="82.2917" x="372.9167" y="621.3216">Stroke stroke()</text><polygon fill="#FFFF44" points="361.4583,628.9469,365.625,633.1136,361.4583,637.2803,357.2917,633.1136" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="103.125" x="372.9167" y="641.0665">float strokeWidth()</text><polygon fill="#FFFF44" points="361.4583,648.6918,365.625,652.8585,361.4583,657.0251,357.2917,652.8585" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="114.5833" x="372.9167" y="660.8114">Distance viewWidth()</text><ellipse cx="361.4583" cy="697.5566" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="56.25" x="372.9167" y="704.4678">void add()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="351.0417" x2="472.3958" y1="680.3925" y2="680.3925"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="475.5208" y="684.2021">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="541.1458" x2="662.5" y1="680.3925" y2="680.3925"/><polygon fill="#FFFF44" points="361.4583,736.0046,365.625,740.1713,361.4583,744.338,357.2917,740.1713" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="169.7917" x="372.9167" y="748.1242">boolean onSelect(MouseEvent)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="351.0417" x2="452.6042" y1="724.0489" y2="724.0489"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="102.0833" x="455.7292" y="727.8585">(extension points)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="560.9375" x2="662.5" y1="724.0489" y2="724.0489"/><polygon fill="#FFFF44" points="361.4583,779.6611,365.625,783.8277,361.4583,787.9944,357.2917,783.8277" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="126.0417" x="372.9167" y="791.7806">void onNextSelection()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="351.0417" x2="476.0417" y1="767.7053" y2="767.7053"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="55.2083" x="479.1667" y="771.5149">(iteration)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="537.5" x2="662.5" y1="767.7053" y2="767.7053"/><ellipse cx="361.4583" cy="828.5258" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="95.8333" x="372.9167" y="835.437">void onInitialize()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="351.0417" x2="477.0833" y1="811.3617" y2="811.3617"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="53.125" x="480.2083" y="815.1713">(lifecycle)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="536.4583" x2="662.5" y1="811.3617" y2="811.3617"/><!--MD5=[60a3609efd71bc550ed1840921ba7ed2]
+class ToggleDialog--><rect fill="#282828" height="48.055" id="ToggleDialog" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="125" x="193.2292" y="63.5986"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="125" x="193.2292" y="63.5986"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="125" x="193.2292" y="86.6536"/><rect fill="none" height="48.055" id="ToggleDialog" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="125" x="193.2292" y="63.5986"/><ellipse cx="207.8125" cy="79.2928" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M209.7229,83.7179 Q209.2957,83.9376 208.8257,84.0474 Q208.3557,84.1573 207.8369,84.1573 Q205.9937,84.1573 205.0232,82.9427 Q204.0527,81.7281 204.0527,79.4332 Q204.0527,77.1322 205.0232,75.9176 Q205.9937,74.703 207.8369,74.703 Q208.3557,74.703 208.8318,74.8128 Q209.3079,74.9227 209.7229,75.1424 L209.7229,77.1444 Q209.259,76.7171 208.8226,76.5188 Q208.3862,76.3204 207.9224,76.3204 Q206.9336,76.3204 206.4301,77.1047 Q205.9265,77.889 205.9265,79.4332 Q205.9265,80.9713 206.4301,81.7556 Q206.9336,82.5399 207.9224,82.5399 Q208.3862,82.5399 208.8226,82.3415 Q209.259,82.1431 209.7229,81.7159 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="87.5" x="224.4792" y="84.0169">ToggleDialog</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="194.2708" x2="317.1875" y1="94.987" y2="94.987"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="194.2708" x2="317.1875" y1="103.3203" y2="103.3203"/><!--MD5=[0af773017c7762739a99851cc5fe226e]
+class BaseJosmPanel--><rect codeLine="47" fill="#282828" height="435.7076" id="BaseJosmPanel" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="289.5833" x="23.4375" y="296.932"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="289.5833" x="23.4375" y="296.932"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="289.5833" x="23.4375" y="319.987"/><rect codeLine="47" fill="none" height="435.7076" id="BaseJosmPanel" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="289.5833" x="23.4375" y="296.932"/><ellipse cx="111.9792" cy="312.6261" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M111.5723,309.3282 L110.7239,313.0575 L112.4268,313.0575 Z M110.4736,307.6803 L112.677,307.6803 L115.1367,316.7928 L113.3362,316.7928 L112.7747,314.5406 L110.3638,314.5406 L109.8145,316.7928 L108.0139,316.7928 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="97.9167" x="134.8958" y="317.3503">BaseJosmPanel</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="24.4792" x2="311.9792" y1="328.3203" y2="328.3203"/><polygon fill="#FFFF44" points="34.8958,358.4819,39.0625,362.6485,34.8958,366.8152,30.7292,362.6485" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="176.0417" x="46.3542" y="370.6014">BaseJosmPanel(BaseJosmPlugin)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="24.4792" x2="124.4792" y1="346.5261" y2="346.5261"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="127.6042" y="350.3357">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="211.9792" x2="311.9792" y1="346.5261" y2="346.5261"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="24.4792" x2="311.9792" y1="380.3101" y2="380.3101"/><ellipse cx="34.8958" cy="391.7684" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="88.5417" x="46.3542" y="398.6796">void hidePanel()</text><ellipse cx="34.8958" cy="411.5133" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="120.8333" x="46.3542" y="418.4245">BaseJosmLayer layer()</text><ellipse cx="34.8958" cy="431.2581" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="133.3333" x="46.3542" y="438.1694">BaseJosmPlugin plugin()</text><ellipse cx="34.8958" cy="451.003" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="76.0417" x="46.3542" y="457.9142">void refresh()</text><ellipse cx="34.8958" cy="470.7479" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="93.75" x="46.3542" y="477.6591">void showPanel()</text><polygon fill="#FFFF44" points="34.8958,485.2844,39.0625,489.4511,34.8958,493.6178,30.7292,489.4511" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="164.5833" x="46.3542" y="497.404">void onActiveLayerChanged()</text><polygon fill="#FFFF44" points="34.8958,505.0293,39.0625,509.196,34.8958,513.3626,30.7292,509.196" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="107.2917" x="46.3542" y="517.1488">void onDestroyed()</text><polygon fill="#FFFF44" points="34.8958,524.7742,39.0625,528.9408,34.8958,533.1075,30.7292,528.9408" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="75" x="46.3542" y="536.8937">void onHide()</text><polygon fill="#FFFF44" points="34.8958,544.519,39.0625,548.6857,34.8958,552.8524,30.7292,548.6857" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="116.6667" x="46.3542" y="556.6386">void onLayerAdded()</text><polygon fill="#FFFF44" points="34.8958,564.2639,39.0625,568.4306,34.8958,572.5972,30.7292,568.4306" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="165.625" x="46.3542" y="576.3835">void onLayerRemoving(Layer)</text><polygon fill="#FFFF44" points="34.8958,584.0088,39.0625,588.1755,34.8958,592.3421,30.7292,588.1755" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="125" x="46.3542" y="596.1283">void onLayerReorder()</text><polygon fill="#FFFF44" points="34.8958,603.7537,39.0625,607.9203,34.8958,612.087,30.7292,607.9203" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="92.7083" x="46.3542" y="615.8732">void onRefresh()</text><polygon fill="#FFFF44" points="34.8958,623.4985,39.0625,627.6652,34.8958,631.8319,30.7292,627.6652" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="79.1667" x="46.3542" y="635.6181">void onShow()</text><ellipse cx="34.8958" cy="672.3633" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="257.2917" x="46.3542" y="679.2745">void overrideMenuAcceleratorKeys(JTextField)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="24.4792" x2="133.8542" y1="655.1992" y2="655.1992"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="136.9792" y="659.0088">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="202.6042" x2="311.9792" y1="655.1992" y2="655.1992"/><ellipse cx="34.8958" cy="716.0197" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="95.8333" x="46.3542" y="722.9309">void onInitialize()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="24.4792" x2="138.5417" y1="698.8556" y2="698.8556"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="53.125" x="141.6667" y="702.6652">(lifecycle)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="197.9167" x2="311.9792" y1="698.8556" y2="698.8556"/><!--MD5=[b628511dd50102041730ee0512f882c8]
+class Plugin--><rect fill="#282828" height="48.055" id="Plugin" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="78.125" x="871.875" y="63.5986"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="78.125" x="871.875" y="63.5986"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="78.125" x="871.875" y="86.6536"/><rect fill="none" height="48.055" id="Plugin" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="78.125" x="871.875" y="63.5986"/><ellipse cx="886.4583" cy="79.2928" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M888.3687,83.7179 Q887.9415,83.9376 887.4715,84.0474 Q887.0015,84.1573 886.4827,84.1573 Q884.6395,84.1573 883.669,82.9427 Q882.6986,81.7281 882.6986,79.4332 Q882.6986,77.1322 883.669,75.9176 Q884.6395,74.703 886.4827,74.703 Q887.0015,74.703 887.4776,74.8128 Q887.9537,74.9227 888.3687,75.1424 L888.3687,77.1444 Q887.9049,76.7171 887.4685,76.5188 Q887.0321,76.3204 886.5682,76.3204 Q885.5794,76.3204 885.0759,77.1047 Q884.5723,77.889 884.5723,79.4332 Q884.5723,80.9713 885.0759,81.7556 Q885.5794,82.5399 886.5682,82.5399 Q887.0321,82.5399 887.4685,82.3415 Q887.9049,82.1431 888.3687,81.7159 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="40.625" x="903.125" y="84.0169">Plugin</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="872.9167" x2="948.9583" y1="94.987" y2="94.987"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="872.9167" x2="948.9583" y1="103.3203" y2="103.3203"/><!--MD5=[c9e3024f2ff482106f5f2c6018b82a4d]
+class BaseJosmPlugin--><rect codeLine="72" fill="#282828" height="625.9115" id="BaseJosmPlugin" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="420.8333" x="700.5208" y="201.6195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="420.8333" x="700.5208" y="201.6195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="420.8333" x="700.5208" y="224.6745"/><rect codeLine="72" fill="none" height="625.9115" id="BaseJosmPlugin" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="420.8333" x="700.5208" y="201.6195"/><ellipse cx="851.5625" cy="217.3136" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M851.1556,214.0157 L850.3072,217.745 L852.0101,217.745 Z M850.057,212.3678 L852.2603,212.3678 L854.7201,221.4803 L852.9195,221.4803 L852.358,219.2281 L849.9471,219.2281 L849.3978,221.4803 L847.5972,221.4803 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="104.1667" x="874.4792" y="222.0378">BaseJosmPlugin</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="701.5625" x2="1120.3125" y1="233.0078" y2="233.0078"/><polygon fill="#FFFF44" points="711.9792,263.1694,716.1458,267.336,711.9792,271.5027,707.8125,267.336" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="388.5417" x="723.4375" y="275.2889">BaseJosmPlugin(PluginInformation, Class&lt;? extends BaseJosmLayer&gt;)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="701.5625" x2="867.1875" y1="251.2136" y2="251.2136"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="870.3125" y="255.0232">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="954.6875" x2="1120.3125" y1="251.2136" y2="251.2136"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="701.5625" x2="1120.3125" y1="284.9976" y2="284.9976"/><ellipse cx="711.9792" cy="296.4559" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="158.3333" x="723.4375" y="303.3671">BaseJosmLayer createLayer()</text><ellipse cx="711.9792" cy="316.2008" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="225" x="723.4375" y="323.112">BaseJosmLayer createLayer(String name)</text><ellipse cx="711.9792" cy="335.9456" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="108.3333" x="723.4375" y="342.8569">void destroyLayer()</text><ellipse cx="711.9792" cy="355.6905" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="122.9167" x="723.4375" y="362.6017">BaseJosmPanel panel()</text><ellipse cx="711.9792" cy="375.4354" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="107.2917" x="723.4375" y="382.3466">Shortcut shortcut()</text><ellipse cx="711.9792" cy="395.1803" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="723.4375" y="402.0915">String tooltip()</text><ellipse cx="711.9792" cy="414.9251" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="181.25" x="723.4375" y="421.8363">void zoomTo(Rectangle bounds)</text><polygon fill="#FFFF44" points="711.9792,429.4617,716.1458,433.6283,711.9792,437.795,707.8125,433.6283" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="164.5833" x="723.4375" y="441.5812">void onActiveLayerChanged()</text><polygon fill="#FFFF44" points="711.9792,449.2065,716.1458,453.3732,711.9792,457.5399,707.8125,453.3732" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="116.6667" x="723.4375" y="461.3261">void onLayerAdded()</text><polygon fill="#FFFF44" points="711.9792,468.9514,716.1458,473.1181,711.9792,477.2847,707.8125,473.1181" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="165.625" x="723.4375" y="481.071">void onLayerRemoving(Layer)</text><polygon fill="#FFFF44" points="711.9792,488.6963,716.1458,492.863,711.9792,497.0296,707.8125,492.863" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="144.7917" x="723.4375" y="500.8158">int preferredPanelHeight()</text><ellipse cx="711.9792" cy="537.561" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="173.9583" x="723.4375" y="544.4722">boolean isLayerOfPlugin(Layer)</text><polygon fill="#FFFF44" points="711.9792,552.0976,716.1458,556.2642,711.9792,560.4309,707.8125,556.2642" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="122.9167" x="723.4375" y="564.2171">boolean isMultiLayer()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="701.5625" x2="884.375" y1="520.3969" y2="520.3969"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="46.875" x="887.5" y="524.2065">(checks)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="937.5" x2="1120.3125" y1="520.3969" y2="520.3969"/><ellipse cx="711.9792" cy="600.9623" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="108.3333" x="723.4375" y="607.8735">MapView mapView()</text><polygon fill="#FFFF44" points="711.9792,615.4989,716.1458,619.6655,711.9792,623.8322,707.8125,619.6655" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="95.8333" x="723.4375" y="627.6184">int shortCutKey()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="701.5625" x2="876.5625" y1="583.7982" y2="583.7982"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="879.6875" y="587.6078">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="945.3125" x2="1120.3125" y1="583.7982" y2="583.7982"/><polygon fill="#FFFF44" points="711.9792,659.1553,716.1458,663.3219,711.9792,667.4886,707.8125,663.3219" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="212.5" x="723.4375" y="671.2748">BaseJosmLayer newLayer(String name)</text><polygon fill="#FFFF44" points="711.9792,678.9001,716.1458,683.0668,711.9792,687.2335,707.8125,683.0668" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="143.75" x="723.4375" y="691.0197">BaseJosmPanel newPanel()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="701.5625" x2="883.8542" y1="647.1995" y2="647.1995"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="47.9167" x="886.9792" y="651.0091">(factory)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="938.0208" x2="1120.3125" y1="647.1995" y2="647.1995"/><ellipse cx="711.9792" cy="727.7649" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="169.7917" x="723.4375" y="734.6761">BaseJosmLayer selectedLayer()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="701.5625" x2="875.5208" y1="710.6008" y2="710.6008"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="878.6458" y="714.4104">(functional)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="946.3542" x2="1120.3125" y1="710.6008" y2="710.6008"/><ellipse cx="711.9792" cy="771.4213" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="100" x="723.4375" y="778.3325">String iconName()</text><ellipse cx="711.9792" cy="791.1662" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="75" x="723.4375" y="798.0774">String name()</text><ellipse cx="711.9792" cy="810.9111" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="101.0417" x="723.4375" y="817.8223">String userName()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="701.5625" x2="882.8125" y1="754.2572" y2="754.2572"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="50" x="885.9375" y="758.0668">(naming)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="939.0625" x2="1120.3125" y1="754.2572" y2="754.2572"/><!--MD5=[c4df9b95f6f4e4e1c32bb5a44abd175a]
+class Colors--><rect codeLine="105" fill="#282828" height="67.7999" id="Colors" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="291.6667" x="986.9792" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="291.6667" x="986.9792" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="291.6667" x="986.9792" y="76.7578"/><rect codeLine="105" fill="none" height="67.7999" id="Colors" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="291.6667" x="986.9792" y="53.7028"/><ellipse cx="1104.1667" cy="69.397" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1106.0771,73.822 Q1105.6498,74.0417 1105.1799,74.1516 Q1104.7099,74.2615 1104.1911,74.2615 Q1102.3478,74.2615 1101.3774,73.0469 Q1100.4069,71.8323 1100.4069,69.5374 Q1100.4069,67.2363 1101.3774,66.0217 Q1102.3478,64.8071 1104.1911,64.8071 Q1104.7099,64.8071 1105.186,64.917 Q1105.662,65.0269 1106.0771,65.2466 L1106.0771,67.2485 Q1105.6132,66.8213 1105.1768,66.6229 Q1104.7404,66.4246 1104.2765,66.4246 Q1103.2878,66.4246 1102.7842,67.2089 Q1102.2807,67.9932 1102.2807,69.5374 Q1102.2807,71.0754 1102.7842,71.8597 Q1103.2878,72.644 1104.2765,72.644 Q1104.7404,72.644 1105.1768,72.4457 Q1105.6132,72.2473 1106.0771,71.8201 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="42.7083" x="1127.0833" y="74.1211">Colors</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="988.0208" x2="1277.6042" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="988.0208" x2="1277.6042" y1="93.4245" y2="93.4245"/><ellipse cx="998.4375" cy="104.8828" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="259.375" x="1009.8958" y="111.794">Color colorForIncidentSeverity(String severity)</text><!--MD5=[150b1e2f4dba13f83f8184b8d846a722]
+class JosmMainWrapper--><rect codeLine="111" fill="#282828" height="67.7999" id="JosmMainWrapper" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="164.5833" x="1315.1042" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="164.5833" x="1315.1042" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="164.5833" x="1315.1042" y="76.7578"/><rect codeLine="111" fill="none" height="67.7999" id="JosmMainWrapper" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="164.5833" x="1315.1042" y="53.7028"/><ellipse cx="1333.9063" cy="69.397" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1335.8167,73.822 Q1335.3894,74.0417 1334.9194,74.1516 Q1334.4495,74.2615 1333.9307,74.2615 Q1332.0874,74.2615 1331.1169,73.0469 Q1330.1465,71.8323 1330.1465,69.5374 Q1330.1465,67.2363 1331.1169,66.0217 Q1332.0874,64.8071 1333.9307,64.8071 Q1334.4495,64.8071 1334.9255,64.917 Q1335.4016,65.0269 1335.8167,65.2466 L1335.8167,67.2485 Q1335.3528,66.8213 1334.9164,66.6229 Q1334.48,66.4246 1334.0161,66.4246 Q1333.0273,66.4246 1332.5238,67.2089 Q1332.0203,67.9932 1332.0203,69.5374 Q1332.0203,71.0754 1332.5238,71.8597 Q1333.0273,72.644 1334.0161,72.644 Q1334.48,72.644 1334.9164,72.4457 Q1335.3528,72.2473 1335.8167,71.8201 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="117.7083" x="1351.5104" y="74.1211">JosmMainWrapper</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1316.1458" x2="1478.6458" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1316.1458" x2="1478.6458" y1="93.4245" y2="93.4245"/><ellipse cx="1326.5625" cy="104.8828" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="132.2917" x="1338.0208" y="111.794">void main(String[] args)</text><!--MD5=[dc3056f877378aa80e6ae71dfa4e3f5e]
+reverse link Layer to BaseJosmLayer--><path codeLine="9" d="M506.7708,132.7965 C506.7708,147.2028 506.7708,164.4632 506.7708,183.5778 " fill="none" id="Layer-backto-BaseJosmLayer" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="499.4792,132.5882,506.7708,111.7549,514.0625,132.5882,499.4792,132.5882" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[ec9efcd3b8fc0925625aeb59fa5b9d8d]
+reverse link ToggleDialog to BaseJosmPanel--><path codeLine="45" d="M246.75,132.234 C238.5417,172.0986 225.75,234.2028 212.8646,296.807 " fill="none" id="ToggleDialog-backto-BaseJosmPanel" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="239.6146,130.682,250.9583,111.7549,253.9063,133.6299,239.6146,130.682" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[1ca867a229305adcc67798fec4750987]
+reverse link ComponentMixin to BaseJosmPanel--><path codeLine="46" d="M90.6458,132.234 C98.7604,172.0986 111.3958,234.2028 124.125,296.807 " fill="none" id="ComponentMixin-backto-BaseJosmPanel" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="83.4896,133.6195,86.4792,111.7549,97.7813,130.7132,83.4896,133.6195" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[9872a95353164760e60423d12b924f14]
+reverse link Plugin to BaseJosmPlugin--><path codeLine="71" d="M910.9375,132.734 C910.9375,151.4736 910.9375,175.0778 910.9375,201.2965 " fill="none" id="Plugin-backto-BaseJosmPlugin" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="903.6458,132.5882,910.9375,111.7549,918.2292,132.5882,903.6458,132.5882" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[6542d0651d8381b46a1f5af77e20d90c]
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.plugins.josm.library"
+    
+    interface ComponentMixin
+    
+    Layer <|- - BaseJosmLayer
+    abstract class BaseJosmLayer
+    {
+        - -(constructors)- -
+        #BaseJosmLayer(BaseJosmPlugin)
+        #BaseJosmLayer(BaseJosmPlugin, String)
+        - -
+        +BaseJosmLayer activeLayer()
+        +void forceRepaint()
+        +BaseJosmPanel panel()
+        +BaseJosmPlugin plugin()
+        #Rectangle2D awtRectangleForRectangle(Rectangle)
+        #Rectangle bounds()
+        #Font font(Graphics2D, String, int width)
+        #Location location(LatLon)
+        #Location locationForPoint(Point2D)
+        #void onDestroy()
+        #void onPaint(Graphics2D, MapView, Bounds)
+        #void onPopup(Component parent, int x, int y)
+        #void onPreviousSelection()
+        #Point2D pointForLocation(Location)
+        #void popup(MouseEvent)
+        #Rectangle rectangle(Bounds)
+        #Stroke stroke()
+        #float strokeWidth()
+        #Distance viewWidth()
+        - -(collection)- -
+        +void add()
+        - -(extension points)- -
+        #boolean onSelect(MouseEvent)
+        - -(iteration)- -
+        #void onNextSelection()
+        - -(lifecycle)- -
+        +void onInitialize()
+    }
+    
+    ToggleDialog <|- - BaseJosmPanel
+    ComponentMixin <|- - BaseJosmPanel
+    abstract class BaseJosmPanel
+    {
+        - -(constructors)- -
+        #BaseJosmPanel(BaseJosmPlugin)
+        - -
+        +void hidePanel()
+        +BaseJosmLayer layer()
+        +BaseJosmPlugin plugin()
+        +void refresh()
+        +void showPanel()
+        #void onActiveLayerChanged()
+        #void onDestroyed()
+        #void onHide()
+        #void onLayerAdded()
+        #void onLayerRemoving(Layer)
+        #void onLayerReorder()
+        #void onRefresh()
+        #void onShow()
+        - -(collection)- -
+        +void overrideMenuAcceleratorKeys(JTextField)
+        - -(lifecycle)- -
+        +void onInitialize()
+    }
+    
+    Plugin <|- - BaseJosmPlugin
+    abstract class BaseJosmPlugin
+    {
+        - -(constructors)- -
+        #BaseJosmPlugin(PluginInformation, Class<? extends BaseJosmLayer>)
+        - -
+        +BaseJosmLayer createLayer()
+        +BaseJosmLayer createLayer(String name)
+        +void destroyLayer()
+        +BaseJosmPanel panel()
+        +Shortcut shortcut()
+        +String tooltip()
+        +void zoomTo(Rectangle bounds)
+        #void onActiveLayerChanged()
+        #void onLayerAdded()
+        #void onLayerRemoving(Layer)
+        #int preferredPanelHeight()
+        - -(checks)- -
+        +boolean isLayerOfPlugin(Layer)
+        #boolean isMultiLayer()
+        - -(collection)- -
+        +MapView mapView()
+        #int shortCutKey()
+        - -(factory)- -
+        #BaseJosmLayer newLayer(String name)
+        #BaseJosmPanel newPanel()
+        - -(functional)- -
+        +BaseJosmLayer selectedLayer()
+        - -(naming)- -
+        +String iconName()
+        +String name()
+        +String userName()
+    }
+    
+    class Colors
+    {
+        - -
+        +Color colorForIncidentSeverity(String severity)
+    }
+    
+    class JosmMainWrapper
+    {
+        - -
+        +void main(String[] args)
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.mesakit.plugins.josm.library"
+    
+    interface ComponentMixin
+    
+    Layer <|- - BaseJosmLayer
+    abstract class BaseJosmLayer
+    {
+        - -(constructors)- -
+        #BaseJosmLayer(BaseJosmPlugin)
+        #BaseJosmLayer(BaseJosmPlugin, String)
+        - -
+        +BaseJosmLayer activeLayer()
+        +void forceRepaint()
+        +BaseJosmPanel panel()
+        +BaseJosmPlugin plugin()
+        #Rectangle2D awtRectangleForRectangle(Rectangle)
+        #Rectangle bounds()
+        #Font font(Graphics2D, String, int width)
+        #Location location(LatLon)
+        #Location locationForPoint(Point2D)
+        #void onDestroy()
+        #void onPaint(Graphics2D, MapView, Bounds)
+        #void onPopup(Component parent, int x, int y)
+        #void onPreviousSelection()
+        #Point2D pointForLocation(Location)
+        #void popup(MouseEvent)
+        #Rectangle rectangle(Bounds)
+        #Stroke stroke()
+        #float strokeWidth()
+        #Distance viewWidth()
+        - -(collection)- -
+        +void add()
+        - -(extension points)- -
+        #boolean onSelect(MouseEvent)
+        - -(iteration)- -
+        #void onNextSelection()
+        - -(lifecycle)- -
+        +void onInitialize()
+    }
+    
+    ToggleDialog <|- - BaseJosmPanel
+    ComponentMixin <|- - BaseJosmPanel
+    abstract class BaseJosmPanel
+    {
+        - -(constructors)- -
+        #BaseJosmPanel(BaseJosmPlugin)
+        - -
+        +void hidePanel()
+        +BaseJosmLayer layer()
+        +BaseJosmPlugin plugin()
+        +void refresh()
+        +void showPanel()
+        #void onActiveLayerChanged()
+        #void onDestroyed()
+        #void onHide()
+        #void onLayerAdded()
+        #void onLayerRemoving(Layer)
+        #void onLayerReorder()
+        #void onRefresh()
+        #void onShow()
+        - -(collection)- -
+        +void overrideMenuAcceleratorKeys(JTextField)
+        - -(lifecycle)- -
+        +void onInitialize()
+    }
+    
+    Plugin <|- - BaseJosmPlugin
+    abstract class BaseJosmPlugin
+    {
+        - -(constructors)- -
+        #BaseJosmPlugin(PluginInformation, Class<? extends BaseJosmLayer>)
+        - -
+        +BaseJosmLayer createLayer()
+        +BaseJosmLayer createLayer(String name)
+        +void destroyLayer()
+        +BaseJosmPanel panel()
+        +Shortcut shortcut()
+        +String tooltip()
+        +void zoomTo(Rectangle bounds)
+        #void onActiveLayerChanged()
+        #void onLayerAdded()
+        #void onLayerRemoving(Layer)
+        #int preferredPanelHeight()
+        - -(checks)- -
+        +boolean isLayerOfPlugin(Layer)
+        #boolean isMultiLayer()
+        - -(collection)- -
+        +MapView mapView()
+        #int shortCutKey()
+        - -(factory)- -
+        #BaseJosmLayer newLayer(String name)
+        #BaseJosmPanel newPanel()
+        - -(functional)- -
+        +BaseJosmLayer selectedLayer()
+        - -(naming)- -
+        +String iconName()
+        +String name()
+        +String userName()
+    }
+    
+    class Colors
+    {
+        - -
+        +Color colorForIncidentSeverity(String severity)
+    }
+    
+    class JosmMainWrapper
+    {
+        - -
+        +void main(String[] args)
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 02:55:08 EST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

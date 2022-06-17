@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="630.2083px" preserveAspectRatio="none" style="width:737px;height:630px;background:#333333;" version="1.1" viewBox="0 0 737 630" width="737.5px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="641.6667" x="40.625" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="618.75" x="52.0833" y="30.5583">com.telenav.mesakit.graph.specifications.common.node.store</text><!--MD5=[41fcd555eae9572e76ad56a68bbb92a1]
+class ArchivedGraphElementStore--><rect fill="#282828" height="48.055" id="ArchivedGraphElementStore" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="217.7083" x="81.7708" y="63.5986"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="217.7083" x="81.7708" y="63.5986"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="217.7083" x="81.7708" y="86.6536"/><rect fill="none" height="48.055" id="ArchivedGraphElementStore" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="217.7083" x="81.7708" y="63.5986"/><ellipse cx="96.3542" cy="79.2928" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M98.2646,83.7179 Q97.8373,83.9376 97.3674,84.0474 Q96.8974,84.1573 96.3786,84.1573 Q94.5353,84.1573 93.5649,82.9427 Q92.5944,81.7281 92.5944,79.4332 Q92.5944,77.1322 93.5649,75.9176 Q94.5353,74.703 96.3786,74.703 Q96.8974,74.703 97.3735,74.8128 Q97.8495,74.9227 98.2646,75.1424 L98.2646,77.1444 Q97.8007,76.7171 97.3643,76.5188 Q96.9279,76.3204 96.464,76.3204 Q95.4753,76.3204 94.9717,77.1047 Q94.4682,77.889 94.4682,79.4332 Q94.4682,80.9713 94.9717,81.7556 Q95.4753,82.5399 96.464,82.5399 Q96.9279,82.5399 97.3643,82.3415 Q97.8007,82.1431 98.2646,81.7159 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="180.2083" x="113.0208" y="84.0169">ArchivedGraphElementStore</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="82.8125" x2="298.4375" y1="94.987" y2="94.987"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="82.8125" x2="298.4375" y1="103.3203" y2="103.3203"/><!--MD5=[c049b03582cbf5b5dee7257347c0cb04]
+class NodeStore--><rect codeLine="8" fill="#282828" height="439.8743" id="NodeStore" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="362.5" x="9.375" y="183.9111"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="362.5" x="9.375" y="183.9111"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="362.5" x="9.375" y="206.9661"/><rect codeLine="8" fill="none" height="439.8743" id="NodeStore" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="362.5" x="9.375" y="183.9111"/><ellipse cx="140.625" cy="199.6053" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M140.2181,196.3074 L139.3697,200.0366 L141.0726,200.0366 Z M139.1195,194.6594 L141.3228,194.6594 L143.7826,203.772 L141.982,203.772 L141.4205,201.5198 L139.0096,201.5198 L138.4603,203.772 L136.6597,203.772 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="66.6667" x="163.5417" y="204.3294">NodeStore</text><rect fill="#333333" height="23.055" style="stroke:#A0A0A0;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" width="16.6667" x="358.3333" y="180.7861"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="8.3333" x="362.5" y="197.0378">T</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="10.4167" x2="370.8333" y1="215.2995" y2="215.2995"/><polygon fill="#FFFF44" points="20.8333,245.461,25,249.6277,20.8333,253.7944,16.6667,249.6277" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="101.0417" x="32.2917" y="257.5806">NodeStore(Graph)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="146.875" y1="233.5052" y2="233.5052"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="150" y="237.3149">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="234.375" x2="370.8333" y1="233.5052" y2="233.5052"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="370.8333" y1="267.2892" y2="267.2892"/><ellipse cx="20.8333" cy="278.7476" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="252.0833" x="32.2917" y="285.6588">boolean retrieveIsNodeSynthetic(GraphNode)</text><ellipse cx="20.8333" cy="298.4924" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="203.125" x="32.2917" y="305.4036">void visitElementNodes(NodeVisitor)</text><polygon fill="#FFFF44" points="20.8333,313.029,25,317.1956,20.8333,321.3623,16.6667,317.1956" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="263.5417" x="32.2917" y="325.1485">PbfAllGraphElementTagStore allNodeTagStore()</text><polygon fill="#FFFF44" points="20.8333,332.7738,25,336.9405,20.8333,341.1072,16.6667,336.9405" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="312.5" x="32.2917" y="344.8934">void storeNodeLocation(int index, long locationAsLong)</text><polygon fill="#FFFF44" points="20.8333,352.5187,25,356.6854,20.8333,360.8521,16.6667,356.6854" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="292.7083" x="32.2917" y="364.6383">int storeNodeLocation(long nodeIdentifier, Location)</text><ellipse cx="20.8333" cy="401.3835" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="206.25" x="32.2917" y="408.2947">boolean contains(MapNodeIdentifier)</text><ellipse cx="20.8333" cy="421.1283" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="231.25" x="32.2917" y="428.0396">boolean containsAllPbfNodeInformation()</text><ellipse cx="20.8333" cy="440.8732" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="298.9583" x="32.2917" y="447.7844">MapNodeIdentifier retrieveNodeIdentifier(GraphNode)</text><polygon fill="#FFFF44" points="20.8333,455.4097,25,459.5764,20.8333,463.7431,16.6667,459.5764" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="146.875" x="32.2917" y="467.5293">int allNodeIndex(Location)</text><polygon fill="#FFFF44" points="20.8333,475.1546,25,479.3213,20.8333,483.488,16.6667,479.3213" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="330.2083" x="32.2917" y="487.2742">int maybeCreateNodeIdentifierToIndex(long nodeIdentifier)</text><polygon fill="#FFFF44" points="20.8333,494.8995,25,499.0662,20.8333,503.2328,16.6667,499.0662" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="256.25" x="32.2917" y="507.019">int nodeIdentifierToIndex(long nodeIdentifier)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="156.25" y1="384.2194" y2="384.2194"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="159.375" y="388.029">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="225" x2="370.8333" y1="384.2194" y2="384.2194"/><ellipse cx="20.8333" cy="543.7642" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="275" x="32.2917" y="550.6755">void allPbfNodeDiskStores(PbfAllNodeDiskStores)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="155.2083" y1="526.6001" y2="526.6001"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="158.3333" y="530.4097">(filesystem)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="226.0417" x2="370.8333" y1="526.6001" y2="526.6001"/><ellipse cx="20.8333" cy="587.4207" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="254.1667" x="32.2917" y="594.3319">long retrieveLocationAsLong(int vertexIndex)</text><ellipse cx="20.8333" cy="607.1655" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="206.25" x="32.2917" y="614.0767">long retrieveLocationAsLong(Vertex)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="158.8542" y1="570.2566" y2="570.2566"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="57.2917" x="161.9792" y="574.0662">(primitive)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="222.3958" x2="370.8333" y1="570.2566" y2="570.2566"/><!--MD5=[77f5de05ca41126b746369fd2f543c78]
+class NodeStore.NodeVisitor--><rect codeLine="32" fill="#282828" height="67.7999" id="NodeStore.NodeVisitor" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="393.75" x="336.4583" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="393.75" x="336.4583" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="393.75" x="336.4583" y="76.7578"/><rect codeLine="32" fill="none" height="67.7999" id="NodeStore.NodeVisitor" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="393.75" x="336.4583" y="53.7028"/><ellipse cx="453.125" cy="69.397" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M450.529,66.5588 L450.529,64.9719 L455.955,64.9719 L455.955,66.5588 L454.1423,66.5588 L454.1423,72.4976 L455.955,72.4976 L455.955,74.0845 L450.529,74.0845 L450.529,72.4976 L452.3417,72.4976 L452.3417,66.5588 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="145.8333" x="476.0417" y="74.1211">NodeStore.NodeVisitor</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="337.5" x2="729.1667" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="337.5" x2="729.1667" y1="93.4245" y2="93.4245"/><ellipse cx="347.9167" cy="104.8828" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="361.4583" x="359.375" y="111.794">void visit(int index, long pbfNodeIdentifier, long locationAsLong)</text><!--MD5=[32342324276d601aa03eb94c77ea3f60]
+reverse link ArchivedGraphElementStore to NodeStore--><path codeLine="7" d="M190.625,132.609 C190.625,147.3278 190.625,164.859 190.625,183.8174 " fill="none" id="ArchivedGraphElementStore-backto-NodeStore" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="183.3333,132.5257,190.625,111.6924,197.9167,132.5257,183.3333,132.5257" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[6be9e43fc5638194032b6f81b646268b]
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.common.node.store"
+    
+    ArchivedGraphElementStore <|- - NodeStore
+    abstract class NodeStore<T>
+    {
+        - -(constructors)- -
+        #NodeStore(Graph)
+        - -
+        +boolean retrieveIsNodeSynthetic(GraphNode)
+        +void visitElementNodes(NodeVisitor)
+        #PbfAllGraphElementTagStore allNodeTagStore()
+        #void storeNodeLocation(int index, long locationAsLong)
+        #int storeNodeLocation(long nodeIdentifier, Location)
+        - -(collection)- -
+        +boolean contains(MapNodeIdentifier)
+        +boolean containsAllPbfNodeInformation()
+        +MapNodeIdentifier retrieveNodeIdentifier(GraphNode)
+        #int allNodeIndex(Location)
+        #int maybeCreateNodeIdentifierToIndex(long nodeIdentifier)
+        #int nodeIdentifierToIndex(long nodeIdentifier)
+        - -(filesystem)- -
+        +void allPbfNodeDiskStores(PbfAllNodeDiskStores)
+        - -(primitive)- -
+        +long retrieveLocationAsLong(int vertexIndex)
+        +long retrieveLocationAsLong(Vertex)
+    }
+    
+    interface NodeStore.NodeVisitor
+    {
+        - -
+        +void visit(int index, long pbfNodeIdentifier, long locationAsLong)
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.mesakit.graph.specifications.common.node.store"
+    
+    ArchivedGraphElementStore <|- - NodeStore
+    abstract class NodeStore<T>
+    {
+        - -(constructors)- -
+        #NodeStore(Graph)
+        - -
+        +boolean retrieveIsNodeSynthetic(GraphNode)
+        +void visitElementNodes(NodeVisitor)
+        #PbfAllGraphElementTagStore allNodeTagStore()
+        #void storeNodeLocation(int index, long locationAsLong)
+        #int storeNodeLocation(long nodeIdentifier, Location)
+        - -(collection)- -
+        +boolean contains(MapNodeIdentifier)
+        +boolean containsAllPbfNodeInformation()
+        +MapNodeIdentifier retrieveNodeIdentifier(GraphNode)
+        #int allNodeIndex(Location)
+        #int maybeCreateNodeIdentifierToIndex(long nodeIdentifier)
+        #int nodeIdentifierToIndex(long nodeIdentifier)
+        - -(filesystem)- -
+        +void allPbfNodeDiskStores(PbfAllNodeDiskStores)
+        - -(primitive)- -
+        +long retrieveLocationAsLong(int vertexIndex)
+        +long retrieveLocationAsLong(Vertex)
+    }
+    
+    interface NodeStore.NodeVisitor
+    {
+        - -
+        +void visit(int index, long pbfNodeIdentifier, long locationAsLong)
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 02:55:08 EST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

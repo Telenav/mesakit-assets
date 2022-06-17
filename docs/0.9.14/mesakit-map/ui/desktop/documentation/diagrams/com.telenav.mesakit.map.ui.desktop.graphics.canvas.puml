@@ -1,0 +1,64 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.ui.desktop.graphics.canvas"
+    
+    interface MapProjection
+    
+    Java2dDrawingSurface <|-- MapCanvas
+    MapProjection <|-- MapCanvas
+    class MapCanvas
+    {
+        --(constructors)--
+        #MapCanvas(String, Graphics2D, MapScale, DrawingRectangle, MapProjection)
+        --
+        +Shape drawBox(Style, Rectangle)
+        +Shape drawDot(Style, Location, Distance radius)
+        +Shape drawLabel(Style, Location, String text)
+        +Shape drawPolyline(Style, Polyline)
+        +Shape drawSegment(Style, Segment)
+        +Shape drawText(Style, Location, String text)
+        --(collection)--
+        +MapCanvas canvas(String name, Graphics2D, MapScale, DrawingRectangle drawingArea, MapProjection)
+        +Location mapCenter()
+        +MapScale mapScale()
+        +Distance mapWidth()
+        +MapProjection projection()
+        +MapScale scale()
+        +Location toMap(Point)
+        +Location toMap(Point2D)
+    }
+    
+    interface MapProjection
+    {
+        --(collection)--
+        +DrawingSize drawingSize()
+        +Rectangle mapArea()
+        --(conversion)--
+        +DrawingRectangle toDrawing(Rectangle)
+        +DrawingSize toDrawing(Size)
+        +DrawingPoint toDrawing(Location)
+        +DrawingLength toDrawing(Distance)
+        +DrawingHeight toDrawing(Height)
+        +DrawingWidth toDrawing(Width)
+        +Width toMap(DrawingWidth)
+        +Size toMap(DrawingSize)
+        +Location toMap(DrawingPoint)
+        +Distance toMap(DrawingLength)
+        +Rectangle toMap(DrawingRectangle)
+        +Height toMap(DrawingHeight)
+    }
+    
+    enum MapScale
+    {
+        CITY
+        NEIGHBORHOOD
+        REGION
+        STATE
+        STREET
+    }
+    
+@enduml
+

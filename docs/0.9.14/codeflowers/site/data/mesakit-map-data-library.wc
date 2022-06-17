@@ -1,0 +1,9 @@
+    124 com/telenav/mesakit/map/data/formats/library/DataFormat.java
+     12 com/telenav/mesakit/map/data/formats/library/lexakai/DiagramDataFormat.java
+     12 com/telenav/mesakit/map/data/formats/library/lexakai/DiagramDataMapIdentifier.java
+    154 com/telenav/mesakit/map/data/formats/library/map/identifiers/MapIdentifier.java
+     54 com/telenav/mesakit/map/data/formats/library/map/identifiers/MapNodeIdentifier.java
+     52 com/telenav/mesakit/map/data/formats/library/map/identifiers/MapRelationIdentifier.java
+     85 com/telenav/mesakit/map/data/formats/library/map/identifiers/MapWayIdentifier.java
+     10 module-info.java
+    503 total

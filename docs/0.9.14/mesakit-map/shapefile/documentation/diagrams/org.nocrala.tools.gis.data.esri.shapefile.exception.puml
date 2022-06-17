@@ -1,0 +1,26 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "org.nocrala.tools.gis.data.esri.shapefile.exception"
+    
+    Exception <|-- DataStreamEOFException
+    class DataStreamEOFException
+    {
+        --(constructors)--
+        +DataStreamEOFException()
+    }
+    
+    Exception <|-- InvalidShapeFileException
+    class InvalidShapeFileException
+    {
+        --(constructors)--
+        +InvalidShapeFileException()
+        +InvalidShapeFileException(String)
+        +InvalidShapeFileException(String, Throwable)
+        +InvalidShapeFileException(Throwable)
+    }
+    
+@enduml
+

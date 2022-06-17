@@ -1,0 +1,57 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.navigation.navigators"
+    
+    Navigator <|-- NamedRoadNavigator
+    class NamedRoadNavigator
+    {
+        --(constructors)--
+        +NamedRoadNavigator(RoadName)
+        --(filtering)--
+        #boolean accept(Edge)
+    }
+    
+    Navigator <|-- NonBranchingNavigator
+    class NonBranchingNavigator
+    {
+    }
+    
+    Navigator <|-- NonBranchingNoMergeNoUTurnNavigator
+    class NonBranchingNoMergeNoUTurnNavigator
+    {
+    }
+    
+    NonBranchingNoMergeNoUTurnNavigator <|-- NonBranchingNoMergeNoUTurnNoLoopNavigator
+    class NonBranchingNoMergeNoUTurnNoLoopNavigator
+    {
+    }
+    
+    Navigator <|-- NonBranchingNoUTurnNavigator
+    class NonBranchingNoUTurnNavigator
+    {
+        --(iteration)--
+        #Edge next(Edge, Count size, EdgeSequence nextEdges)
+    }
+    
+    NonBranchingNoUTurnNavigator <|-- NonBranchingNoUTurnNoLoopNavigator
+    class NonBranchingNoUTurnNoLoopNavigator
+    {
+    }
+    
+    NonBranchingNoUTurnNavigator <|-- NonBranchingWithSpursNoUTurnNavigator
+    class NonBranchingWithSpursNoUTurnNavigator
+    {
+    }
+    
+    Navigator <|-- WayNavigator
+    class WayNavigator
+    {
+        --(constructors)--
+        +WayNavigator(Edge)
+    }
+    
+@enduml
+

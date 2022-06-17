@@ -1,0 +1,84 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "mesakit-map-utilities-grid"
+    
+    artifact kryo
+    artifact minlog
+    artifact reflectasm
+    artifact gson
+    artifact google_maps_services
+    artifact okhttp
+    artifact okio
+    artifact cactus_metadata
+    artifact kivakit_collections
+    artifact kivakit_commandline
+    artifact kivakit_component
+    artifact kivakit_conversion
+    artifact kivakit_core
+    artifact kivakit_data_compression
+    artifact kivakit_interfaces
+    artifact kivakit_math
+    artifact kivakit_mixins
+    artifact kivakit_primitive_collections
+    artifact kivakit_resource
+    artifact kivakit_serialization_core
+    artifact kivakit_serialization_gson
+    artifact kivakit_serialization_kryo
+    artifact kivakit_serialization_properties
+    artifact kivakit_settings
+    artifact kivakit_validation
+    artifact lexakai_annotations
+    artifact mesakit_map_geography
+    artifact mesakit_map_measurements
+    artifact mesakit_map_utilities_grid
+    artifact kryo_serializers
+    artifact grpc_context
+    artifact opencensus_api
+    artifact commons_math
+    artifact kotlin_stdlib_common
+    artifact annotations
+    artifact objenesis
+    artifact asm
+    artifact slf4j_api
+    google_maps_services --> gson
+    google_maps_services --> okhttp
+    google_maps_services --> opencensus_api
+    google_maps_services --> slf4j_api
+    kivakit_collections --> kivakit_core
+    kivakit_commandline --> kivakit_conversion
+    kivakit_commandline --> kivakit_validation
+    kivakit_component --> kivakit_settings
+    kivakit_core --> cactus_metadata
+    kivakit_core --> kivakit_interfaces
+    kivakit_core --> kivakit_mixins
+    kivakit_data_compression --> kivakit_primitive_collections
+    kivakit_interfaces --> annotations
+    kivakit_interfaces --> lexakai_annotations
+    kivakit_math --> commons_math
+    kivakit_resource --> kivakit_commandline
+    kivakit_serialization_kryo --> kivakit_serialization_core
+    kivakit_serialization_kryo --> kivakit_serialization_properties
+    kivakit_serialization_kryo --> kryo
+    kivakit_serialization_kryo --> kryo_serializers
+    kivakit_settings --> kivakit_serialization_gson
+    kryo --> minlog
+    kryo --> objenesis
+    kryo --> reflectasm
+    mesakit_map_geography --> google_maps_services
+    mesakit_map_geography --> kivakit_collections
+    mesakit_map_geography --> kivakit_component
+    mesakit_map_geography --> kivakit_data_compression
+    mesakit_map_geography --> kivakit_math
+    mesakit_map_geography --> kivakit_resource
+    mesakit_map_geography --> kivakit_serialization_kryo
+    mesakit_map_geography --> mesakit_map_measurements
+    mesakit_map_utilities_grid --> mesakit_map_geography
+    okhttp --> okio
+    okio --> kotlin_stdlib_common
+    opencensus_api --> grpc_context
+    reflectasm --> asm
+    
+@enduml

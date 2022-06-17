@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1656.25px" preserveAspectRatio="none" style="width:1651px;height:1656px;background:#333333;" version="1.1" viewBox="0 0 1651 1656" width="1651.0417px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="402.0833" x="617.1875" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="379.1667" x="628.6458" y="30.5583">com.telenav.mesakit.graph.world.grid</text><!--MD5=[00298df89518b07cf89b781cae112d3d]
+cluster WorldCell--><polygon fill="#333333" points="1463.5417,52.6611,1538.5417,52.6611,1545.8333,79.8828,1633.3333,79.8828,1633.3333,214.1195,1463.5417,214.1195,1463.5417,52.6611" style="stroke:#333333;stroke-width:2.0833333333333335;"/><line style="stroke:#333333;stroke-width:2.0833333333333335;" x1="1463.5417" x2="1545.8333" y1="79.8828" y2="79.8828"/><text fill="#C8AC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="62.5" x="1470.8333" y="69.9544">WorldCell</text><!--MD5=[5faf8ff26c3b5f11d98e913a39734f57]
+class WorldCell.DataType--><rect codeLine="9" fill="#282828" height="87.5448" id="WorldCell.DataType" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="98.9583" x="1508.8542" y="101.6195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="98.9583" x="1508.8542" y="101.6195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="98.9583" x="1508.8542" y="124.6745"/><rect codeLine="9" fill="none" height="87.5448" id="WorldCell.DataType" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="98.9583" x="1508.8542" y="101.6195"/><ellipse cx="1523.4375" cy="117.3136" fill="#CF6300" rx="10.4167" ry="10.4167" style="stroke:#EF8300;stroke-width:1.0416666666666667;"/><path d="M1526.4933,122.0011 L1520.8171,122.0011 L1520.8171,112.8886 L1526.4933,112.8886 L1526.4933,114.4755 L1522.6176,114.4755 L1522.6176,116.4408 L1526.1271,116.4408 L1526.1271,118.0278 L1522.6176,118.0278 L1522.6176,120.4142 L1526.4933,120.4142 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="61.4583" x="1540.1042" y="122.0378">DataType</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1509.8958" x2="1606.7708" y1="133.0078" y2="133.0078"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="38.5417" x="1518.2292" y="151.3774">GRAPH</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="18.75" x="1518.2292" y="171.1222">PBF</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1509.8958" x2="1606.7708" y1="180.8309" y2="180.8309"/><!--MD5=[6e2063bce632fde7db7642422237fcd3]
+class Unloadable--><rect codeLine="7" fill="#282828" height="48.055" id="Unloadable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="110.4167" x="150" y="121.4111"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="110.4167" x="150" y="121.4111"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="110.4167" x="150" y="144.4661"/><rect codeLine="7" fill="none" height="48.055" id="Unloadable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="110.4167" x="150" y="121.4111"/><ellipse cx="164.5833" cy="137.1053" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M161.9873,134.2672 L161.9873,132.6803 L167.4133,132.6803 L167.4133,134.2672 L165.6006,134.2672 L165.6006,140.2059 L167.4133,140.2059 L167.4133,141.7928 L161.9873,141.7928 L161.9873,140.2059 L163.8,140.2059 L163.8,134.2672 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="72.9167" x="181.25" y="141.8294">Unloadable</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="151.0417" x2="259.375" y1="152.7995" y2="152.7995"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="151.0417" x2="259.375" y1="161.1328" y2="161.1328"/><!--MD5=[bdb7a498ae268604f9dee9fee1851af7]
+class Region--><rect fill="#282828" height="48.055" id="Region" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="82.2917" x="297.3958" y="121.4111"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="82.2917" x="297.3958" y="121.4111"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="82.2917" x="297.3958" y="144.4661"/><rect fill="none" height="48.055" id="Region" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="82.2917" x="297.3958" y="121.4111"/><ellipse cx="311.9792" cy="137.1053" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M313.8896,141.5304 Q313.4623,141.7501 312.9924,141.8599 Q312.5224,141.9698 312.0036,141.9698 Q310.1603,141.9698 309.1899,140.7552 Q308.2194,139.5406 308.2194,137.2457 Q308.2194,134.9447 309.1899,133.7301 Q310.1603,132.5155 312.0036,132.5155 Q312.5224,132.5155 312.9985,132.6253 Q313.4745,132.7352 313.8896,132.9549 L313.8896,134.9569 Q313.4257,134.5296 312.9893,134.3313 Q312.5529,134.1329 312.089,134.1329 Q311.1003,134.1329 310.5967,134.9172 Q310.0932,135.7015 310.0932,137.2457 Q310.0932,138.7838 310.5967,139.5681 Q311.1003,140.3524 312.089,140.3524 Q312.5529,140.3524 312.9893,140.154 Q313.4257,139.9556 313.8896,139.5284 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="44.7917" x="328.6458" y="141.8294">Region</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="298.4375" x2="378.6458" y1="152.7995" y2="152.7995"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="298.4375" x2="378.6458" y1="161.1328" y2="161.1328"/><!--MD5=[e629b6caa95f6d1ad7d3d296eaf4e34b]
+class WorldCell--><rect codeLine="17" fill="#282828" height="621.7448" id="WorldCell" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="358.3333" x="92.7083" y="251.6195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="358.3333" x="92.7083" y="251.6195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="358.3333" x="92.7083" y="274.6745"/><rect codeLine="17" fill="none" height="621.7448" id="WorldCell" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="358.3333" x="92.7083" y="251.6195"/><ellipse cx="233.3333" cy="267.3136" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M235.2437,271.7387 Q234.8165,271.9584 234.3465,272.0683 Q233.8765,272.1781 233.3577,272.1781 Q231.5145,272.1781 230.544,270.9635 Q229.5736,269.7489 229.5736,267.454 Q229.5736,265.153 230.544,263.9384 Q231.5145,262.7238 233.3577,262.7238 Q233.8765,262.7238 234.3526,262.8337 Q234.8287,262.9435 235.2437,263.1632 L235.2437,265.1652 Q234.7799,264.738 234.3435,264.5396 Q233.9071,264.3412 233.4432,264.3412 Q232.4544,264.3412 231.9509,265.1255 Q231.4473,265.9098 231.4473,267.454 Q231.4473,268.9921 231.9509,269.7764 Q232.4544,270.5607 233.4432,270.5607 Q233.9071,270.5607 234.3435,270.3623 Q234.7799,270.164 235.2437,269.7367 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="62.5" x="256.25" y="272.0378">WorldCell</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="93.75" x2="450" y1="283.0078" y2="283.0078"/><polygon fill="#FFFF44" points="104.1667,313.1694,108.3333,317.336,104.1667,321.5027,100,317.336" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="61.4583" x="115.625" y="325.2889">WorldCell()</text><ellipse cx="104.1667" cy="338.1226" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="168.75" x="115.625" y="345.0338">WorldCell(WorldGrid, GridCell)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="93.75" x2="228.125" y1="301.2136" y2="301.2136"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="231.25" y="305.0232">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="315.625" x2="450" y1="301.2136" y2="301.2136"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="93.75" x2="450" y1="354.7424" y2="354.7424"/><ellipse cx="104.1667" cy="366.2008" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="98.9583" x="115.625" y="373.112">Graph cellGraph()</text><ellipse cx="104.1667" cy="385.9456" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="100" x="115.625" y="392.8569">GridCell gridCell()</text><ellipse cx="104.1667" cy="405.6905" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="326.0417" x="115.625" y="412.6017">void hasGraph(WorldGraphRepositoryFolder, boolean has)</text><ellipse cx="104.1667" cy="425.4354" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="309.375" x="115.625" y="432.3466">void hasPbf(WorldGraphRepositoryFolder, boolean has)</text><ellipse cx="104.1667" cy="445.1803" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="143.75" x="115.625" y="452.0915">WorldGraph worldGraph()</text><ellipse cx="104.1667" cy="464.9251" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="122.9167" x="115.625" y="471.8363">WorldGrid worldGrid()</text><ellipse cx="104.1667" cy="508.5815" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="321.875" x="115.625" y="515.4928">boolean hasData(WorldGraphRepositoryFolder, DataType)</text><ellipse cx="104.1667" cy="528.3264" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="113.5417" x="115.625" y="535.2376">boolean isIncluded()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="93.75" x2="245.3125" y1="491.4174" y2="491.4174"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="46.875" x="248.4375" y="495.2271">(checks)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="298.4375" x2="450" y1="491.4174" y2="491.4174"/><ellipse cx="104.1667" cy="571.9828" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="301.0417" x="115.625" y="578.894">Iterable&lt;Edge&gt; asWorldEdges(Iterable&lt;Edge&gt; edges)</text><ellipse cx="104.1667" cy="591.7277" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="108.3333" x="115.625" y="598.6389">Bytes memorySize()</text><ellipse cx="104.1667" cy="611.4726" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="141.6667" x="115.625" y="618.3838">WorldCellList neighbors()</text><ellipse cx="104.1667" cy="631.2174" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="188.5417" x="115.625" y="638.1287">WorldCellList neighborsAndThis()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="93.75" x2="237.5" y1="554.8187" y2="554.8187"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="240.625" y="558.6283">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="306.25" x2="450" y1="554.8187" y2="554.8187"/><ellipse cx="104.1667" cy="674.8739" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="264.5833" x="115.625" y="681.7851">File cellGraphFile(WorldGraphRepositoryFolder)</text><ellipse cx="104.1667" cy="694.6187" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="102.0833" x="115.625" y="701.5299">File cellGraphFile()</text><ellipse cx="104.1667" cy="714.3636" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="79.1667" x="115.625" y="721.2748">Bytes fileSize()</text><ellipse cx="104.1667" cy="734.1085" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="144.7917" x="115.625" y="741.0197">void fileSize(Bytes fileSize)</text><ellipse cx="104.1667" cy="753.8534" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="291.6667" x="115.625" y="760.7646">boolean hasGraphFile(WorldGraphRepositoryFolder)</text><ellipse cx="104.1667" cy="773.5982" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="275" x="115.625" y="780.5094">boolean hasPbfFile(WorldGraphRepositoryFolder)</text><ellipse cx="104.1667" cy="793.3431" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="67.7083" x="115.625" y="800.2543">File pbfFile()</text><ellipse cx="104.1667" cy="813.088" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="230.2083" x="115.625" y="819.9992">File pbfFile(WorldGraphRepositoryFolder)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="93.75" x2="236.4583" y1="657.7098" y2="657.7098"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="239.5833" y="661.5194">(filesystem)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="307.2917" x2="450" y1="657.7098" y2="657.7098"/><ellipse cx="104.1667" cy="856.7444" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="216.6667" x="115.625" y="863.6556">WorldCellIdentifier worldCellIdentifier()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="93.75" x2="243.75" y1="839.5803" y2="839.5803"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="50" x="246.875" y="843.3899">(identity)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="300" x2="450" y1="839.5803" y2="839.5803"/><!--MD5=[dd50a750c2464f3989e3da99fce0e5b5]
+class RegionIdentifier--><rect fill="#282828" height="48.055" id="RegionIdentifier" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="141.6667" x="901.0417" y="121.4111"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="141.6667" x="901.0417" y="121.4111"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="141.6667" x="901.0417" y="144.4661"/><rect fill="none" height="48.055" id="RegionIdentifier" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="141.6667" x="901.0417" y="121.4111"/><ellipse cx="915.625" cy="137.1053" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M917.5354,141.5304 Q917.1082,141.7501 916.6382,141.8599 Q916.1682,141.9698 915.6494,141.9698 Q913.8062,141.9698 912.8357,140.7552 Q911.8652,139.5406 911.8652,137.2457 Q911.8652,134.9447 912.8357,133.7301 Q913.8062,132.5155 915.6494,132.5155 Q916.1682,132.5155 916.6443,132.6253 Q917.1204,132.7352 917.5354,132.9549 L917.5354,134.9569 Q917.0715,134.5296 916.6351,134.3313 Q916.1987,134.1329 915.7349,134.1329 Q914.7461,134.1329 914.2426,134.9172 Q913.739,135.7015 913.739,137.2457 Q913.739,138.7838 914.2426,139.5681 Q914.7461,140.3524 915.7349,140.3524 Q916.1987,140.3524 916.6351,140.154 Q917.0715,139.9556 917.5354,139.5284 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="104.1667" x="932.2917" y="141.8294">RegionIdentifier</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="902.0833" x2="1041.6667" y1="152.7995" y2="152.7995"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="902.0833" x2="1041.6667" y1="161.1328" y2="161.1328"/><!--MD5=[c7c3eca7c5e42d48636db5e7dca7515d]
+class WorldCell.WorldCellIdentifier--><rect codeLine="51" fill="#282828" height="131.2012" id="WorldCell.WorldCellIdentifier" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="251.0417" x="846.3542" y="496.932"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="251.0417" x="846.3542" y="496.932"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="251.0417" x="846.3542" y="519.987"/><rect codeLine="51" fill="none" height="131.2012" id="WorldCell.WorldCellIdentifier" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="251.0417" x="846.3542" y="496.932"/><ellipse cx="903.6458" cy="512.6261" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M905.5562,517.0512 Q905.129,517.2709 904.659,517.3808 Q904.189,517.4906 903.6702,517.4906 Q901.827,517.4906 900.8565,516.276 Q899.8861,515.0614 899.8861,512.7665 Q899.8861,510.4655 900.8565,509.2509 Q901.827,508.0363 903.6702,508.0363 Q904.189,508.0363 904.6651,508.1462 Q905.1412,508.256 905.5562,508.4757 L905.5562,510.4777 Q905.0924,510.0505 904.656,509.8521 Q904.2196,509.6537 903.7557,509.6537 Q902.7669,509.6537 902.2634,510.438 Q901.7598,511.2223 901.7598,512.7665 Q901.7598,514.3046 902.2634,515.0889 Q902.7669,515.8732 903.7557,515.8732 Q904.2196,515.8732 904.656,515.6748 Q905.0924,515.4765 905.5562,515.0492 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="121.875" x="926.5625" y="517.3503">WorldCellIdentifier</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="847.3958" x2="1096.3542" y1="528.3203" y2="528.3203"/><ellipse cx="857.8125" cy="563.6902" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="218.75" x="869.2708" y="570.6014">WorldCellIdentifier(WorldGrid, GridCell)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="847.3958" x2="928.125" y1="546.5261" y2="546.5261"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="931.25" y="550.3357">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1015.625" x2="1096.3542" y1="546.5261" y2="546.5261"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="847.3958" x2="1096.3542" y1="580.3101" y2="580.3101"/><ellipse cx="857.8125" cy="591.7684" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="100" x="869.2708" y="598.6796">GridCell gridCell()</text><ellipse cx="857.8125" cy="611.5133" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="110.4167" x="869.2708" y="618.4245">Region&lt;?&gt; region()</text><!--MD5=[ab8871ed637f40707b866ba6597734bc]
+class ArrayList--><rect fill="#282828" height="48.055" id="ArrayList" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="95.8333" x="1339.5833" y="121.4111"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="95.8333" x="1339.5833" y="121.4111"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="95.8333" x="1339.5833" y="144.4661"/><rect fill="none" height="48.055" id="ArrayList" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="95.8333" x="1339.5833" y="121.4111"/><ellipse cx="1354.1667" cy="137.1053" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1356.0771,141.5304 Q1355.6498,141.7501 1355.1799,141.8599 Q1354.7099,141.9698 1354.1911,141.9698 Q1352.3478,141.9698 1351.3774,140.7552 Q1350.4069,139.5406 1350.4069,137.2457 Q1350.4069,134.9447 1351.3774,133.7301 Q1352.3478,132.5155 1354.1911,132.5155 Q1354.7099,132.5155 1355.186,132.6253 Q1355.662,132.7352 1356.0771,132.9549 L1356.0771,134.9569 Q1355.6132,134.5296 1355.1768,134.3313 Q1354.7404,134.1329 1354.2765,134.1329 Q1353.2878,134.1329 1352.7842,134.9172 Q1352.2807,135.7015 1352.2807,137.2457 Q1352.2807,138.7838 1352.7842,139.5681 Q1353.2878,140.3524 1354.2765,140.3524 Q1354.7404,140.3524 1355.1768,140.154 Q1355.6132,139.9556 1356.0771,139.5284 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="58.3333" x="1370.8333" y="141.8294">ArrayList</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1340.625" x2="1434.375" y1="152.7995" y2="152.7995"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1340.625" x2="1434.375" y1="161.1328" y2="161.1328"/><!--MD5=[aa1de2dcc530e89effb7d34f6d317e7c]
+class WorldCellList--><rect codeLine="61" fill="#282828" height="550.0102" id="WorldCellList" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="507.2917" x="1133.8542" y="287.557"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="507.2917" x="1133.8542" y="287.557"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="507.2917" x="1133.8542" y="310.612"/><rect codeLine="61" fill="none" height="550.0102" id="WorldCellList" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="507.2917" x="1133.8542" y="287.557"/><ellipse cx="1336.9792" cy="303.2511" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1338.8896,307.6762 Q1338.4623,307.8959 1337.9924,308.0058 Q1337.5224,308.1156 1337.0036,308.1156 Q1335.1603,308.1156 1334.1899,306.901 Q1333.2194,305.6864 1333.2194,303.3915 Q1333.2194,301.0905 1334.1899,299.8759 Q1335.1603,298.6613 1337.0036,298.6613 Q1337.5224,298.6613 1337.9985,298.7712 Q1338.4745,298.881 1338.8896,299.1007 L1338.8896,301.1027 Q1338.4257,300.6755 1337.9893,300.4771 Q1337.5529,300.2787 1337.089,300.2787 Q1336.1003,300.2787 1335.5967,301.063 Q1335.0932,301.8473 1335.0932,303.3915 Q1335.0932,304.9296 1335.5967,305.7139 Q1336.1003,306.4982 1337.089,306.4982 Q1337.5529,306.4982 1337.9893,306.2998 Q1338.4257,306.1015 1338.8896,305.6742 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="86.4583" x="1359.8958" y="307.9753">WorldCellList</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1134.8958" x2="1640.1042" y1="318.9453" y2="318.9453"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1134.8958" x2="1640.1042" y1="327.2786" y2="327.2786"/><ellipse cx="1145.3125" cy="338.737" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="106.25" x="1156.7708" y="345.6482">WorldCell biggest()</text><ellipse cx="1145.3125" cy="358.4819" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="125" x="1156.7708" y="365.3931">EdgeSequence edges()</text><ellipse cx="1145.3125" cy="378.2267" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="388.5417" x="1156.7708" y="385.1379">EdgeSequence edgesIntersecting(Rectangle bounds, Matcher&lt;Edge&gt;)</text><ellipse cx="1145.3125" cy="397.9716" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="168.75" x="1156.7708" y="404.8828">EdgeSequence forwardEdges()</text><ellipse cx="1145.3125" cy="417.7165" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="432.2917" x="1156.7708" y="424.6277">EdgeSequence forwardEdgesIntersecting(Rectangle bounds, Matcher&lt;Edge&gt;)</text><ellipse cx="1145.3125" cy="437.4613" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="430.2083" x="1156.7708" y="444.3726">RelationSet relationsIntersecting(Rectangle bounds, Matcher&lt;EdgeRelation&gt;)</text><ellipse cx="1145.3125" cy="457.2062" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="148.9583" x="1156.7708" y="464.1174">VertexSequence vertexes()</text><ellipse cx="1145.3125" cy="476.9511" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="388.5417" x="1156.7708" y="483.8623">VertexSequence vertexesInside(Rectangle bounds, Matcher&lt;Vertex&gt;)</text><ellipse cx="1145.3125" cy="496.696" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="282.2917" x="1156.7708" y="503.6072">VertexSequence vertexesInside(Rectangle bounds)</text><ellipse cx="1145.3125" cy="516.4408" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="475" x="1156.7708" y="523.3521">VertexSequence vertexesNearest(Location, Distance maximum, RoadFunctionalClass)</text><ellipse cx="1145.3125" cy="560.0972" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="143.75" x="1156.7708" y="567.0085">List&lt;Graph&gt; cellGraphs()</text><ellipse cx="1145.3125" cy="579.8421" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="131.25" x="1156.7708" y="586.7533">boolean contains(Edge)</text><ellipse cx="1145.3125" cy="599.587" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="140.625" x="1156.7708" y="606.4982">boolean contains(Vertex)</text><ellipse cx="1145.3125" cy="619.3319" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="176.0417" x="1156.7708" y="626.2431">boolean contains(EdgeRelation)</text><ellipse cx="1145.3125" cy="639.0767" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="78.125" x="1156.7708" y="645.988">Count count()</text><ellipse cx="1145.3125" cy="658.8216" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="107.2917" x="1156.7708" y="665.7328">Count edgeCount()</text><ellipse cx="1145.3125" cy="678.5665" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="87.5" x="1156.7708" y="685.4777">WorldCell first()</text><ellipse cx="1145.3125" cy="698.3114" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="151.0417" x="1156.7708" y="705.2226">Count forwardEdgeCount()</text><ellipse cx="1145.3125" cy="718.0562" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="122.9167" x="1156.7708" y="724.9674">Count relationCount()</text><ellipse cx="1145.3125" cy="737.8011" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="192.7083" x="1156.7708" y="744.7123">Iterable&lt;EdgeRelation&gt; relations()</text><ellipse cx="1145.3125" cy="757.546" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="238.5417" x="1156.7708" y="764.4572">WorldCellList sortedDescendingByPbfSize()</text><ellipse cx="1145.3125" cy="777.2909" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="115.625" x="1156.7708" y="784.2021">Count vertexCount()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1134.8958" x2="1353.125" y1="542.9331" y2="542.9331"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="1356.25" y="546.7428">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1421.875" x2="1640.1042" y1="542.9331" y2="542.9331"/><ellipse cx="1145.3125" cy="820.9473" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="110.4167" x="1156.7708" y="827.8585">WorldCell smallest()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1134.8958" x2="1366.1458" y1="803.7832" y2="803.7832"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="36.4583" x="1369.2708" y="807.5928">(math)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1408.8542" x2="1640.1042" y1="803.7832" y2="803.7832"/><!--MD5=[1fe291bb388587261f495499daad8ede]
+class WorldCellReference--><rect codeLine="91" fill="#282828" height="111.4563" id="WorldCellReference" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="321.875" x="488.0208" y="506.8278"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="321.875" x="488.0208" y="506.8278"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="321.875" x="488.0208" y="529.8828"/><rect codeLine="91" fill="none" height="111.4563" id="WorldCellReference" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="321.875" x="488.0208" y="506.8278"/><ellipse cx="579.1667" cy="522.522" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M581.0771,526.947 Q580.6498,527.1667 580.1799,527.2766 Q579.7099,527.3865 579.1911,527.3865 Q577.3478,527.3865 576.3774,526.1719 Q575.4069,524.9573 575.4069,522.6624 Q575.4069,520.3613 576.3774,519.1467 Q577.3478,517.9321 579.1911,517.9321 Q579.7099,517.9321 580.186,518.042 Q580.662,518.1519 581.0771,518.3716 L581.0771,520.3735 Q580.6132,519.9463 580.1768,519.7479 Q579.7404,519.5496 579.2765,519.5496 Q578.2878,519.5496 577.7842,520.3339 Q577.2807,521.1182 577.2807,522.6624 Q577.2807,524.2004 577.7842,524.9847 Q578.2878,525.769 579.2765,525.769 Q579.7404,525.769 580.1768,525.5707 Q580.6132,525.3723 581.0771,524.9451 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="125" x="602.0833" y="527.2461">WorldCellReference</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="489.0625" x2="808.8542" y1="538.2161" y2="538.2161"/><ellipse cx="499.4792" cy="573.586" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="289.5833" x="510.9375" y="580.4972">WorldCellReference(WorldGraphReference, GridCell)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="489.0625" x2="605.2083" y1="556.4219" y2="556.4219"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="608.3333" y="560.2315">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="692.7083" x2="808.8542" y1="556.4219" y2="556.4219"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="489.0625" x2="808.8542" y1="590.2059" y2="590.2059"/><ellipse cx="499.4792" cy="601.6642" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="116.6667" x="510.9375" y="608.5754">WorldCell worldCell()</text><!--MD5=[add1857951c9d22a253a8a818f60539b]
+class WorldGrid--><rect codeLine="99" fill="#282828" height="713.2243" id="WorldGrid" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="525" x="9.375" y="935.9945"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="525" x="9.375" y="935.9945"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="525" x="9.375" y="959.0495"/><rect codeLine="99" fill="none" height="713.2243" id="WorldGrid" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="525" x="9.375" y="935.9945"/><ellipse cx="232.2917" cy="951.6886" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M234.2021,956.1137 Q233.7748,956.3334 233.3049,956.4433 Q232.8349,956.5531 232.3161,956.5531 Q230.4728,956.5531 229.5024,955.3385 Q228.5319,954.1239 228.5319,951.829 Q228.5319,949.528 229.5024,948.3134 Q230.4728,947.0988 232.3161,947.0988 Q232.8349,947.0988 233.311,947.2087 Q233.787,947.3185 234.2021,947.5382 L234.2021,949.5402 Q233.7382,949.113 233.3018,948.9146 Q232.8654,948.7162 232.4015,948.7162 Q231.4128,948.7162 230.9092,949.5005 Q230.4057,950.2848 230.4057,951.829 Q230.4057,953.3671 230.9092,954.1514 Q231.4128,954.9357 232.4015,954.9357 Q232.8654,954.9357 233.3018,954.7373 Q233.7382,954.539 234.2021,954.1117 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="64.5833" x="255.2083" y="956.4128">WorldGrid</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="10.4167" x2="533.3333" y1="967.3828" y2="967.3828"/><polygon fill="#FFFF44" points="20.8333,997.5444,25,1001.711,20.8333,1005.8777,16.6667,1001.711" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="32.2917" y="1009.6639">WorldGrid()</text><ellipse cx="20.8333" cy="1022.4976" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="445.8333" x="32.2917" y="1029.4088">WorldGrid(WorldGraph, WorldGraph.AccessMode, WorldGraphRepositoryFolder)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="228.125" y1="985.5886" y2="985.5886"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="231.25" y="989.3982">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="315.625" x2="533.3333" y1="985.5886" y2="985.5886"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="533.3333" y1="1039.1174" y2="1039.1174"/><ellipse cx="20.8333" cy="1050.5758" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="58.3333" x="32.2917" y="1057.487">Grid grid()</text><ellipse cx="20.8333" cy="1070.3206" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="182.2917" x="32.2917" y="1077.2319">WorldGraph.AccessMode mode()</text><ellipse cx="20.8333" cy="1090.0655" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="161.4583" x="32.2917" y="1096.9767">WorldCell worldCell(GridCell)</text><ellipse cx="20.8333" cy="1109.8104" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="164.5833" x="32.2917" y="1116.7216">WorldCell worldCell(Location)</text><ellipse cx="20.8333" cy="1129.5553" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="184.375" x="32.2917" y="1136.4665">WorldCell worldCell(int identifier)</text><ellipse cx="20.8333" cy="1149.3001" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="276.0417" x="32.2917" y="1156.2113">WorldCell worldCell(WorldCell.WorldCellIdentifier)</text><ellipse cx="20.8333" cy="1169.045" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="203.125" x="32.2917" y="1175.9562">WorldCell worldCell(String cellName)</text><ellipse cx="20.8333" cy="1188.7899" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="143.75" x="32.2917" y="1195.7011">WorldGraph worldGraph()</text><ellipse cx="20.8333" cy="1232.4463" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="150" x="32.2917" y="1239.3575">Iterable&lt;WorldCell&gt; cells()</text><ellipse cx="20.8333" cy="1252.1912" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="492.7083" x="32.2917" y="1259.1024">WorldCellList cells(WorldGraphRepositoryFolder, WorldCell.DataType, Rectangle bounds)</text><ellipse cx="20.8333" cy="1271.936" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="386.4583" x="32.2917" y="1278.8472">WorldCellList cells(WorldGraphRepositoryFolder, WorldCell.DataType)</text><ellipse cx="20.8333" cy="1291.6809" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="392.7083" x="32.2917" y="1298.5921">Count extract(WorldGraphRepositoryFolder, Source&lt;PbfDataSource&gt;)</text><ellipse cx="20.8333" cy="1311.4258" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="140.625" x="32.2917" y="1318.337">WorldGraphIndex index()</text><ellipse cx="20.8333" cy="1331.1707" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="189.5833" x="32.2917" y="1338.0819">WorldCellList neighbors(Location)</text><ellipse cx="20.8333" cy="1350.9155" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="310.4167" x="32.2917" y="1357.8267">void saveIndex(WorldGraphRepositoryFolder, Metadata)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="237.5" y1="1215.2822" y2="1215.2822"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="240.625" y="1219.0918">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="306.25" x2="533.3333" y1="1215.2822" y2="1215.2822"/><ellipse cx="20.8333" cy="1394.5719" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="267.7083" x="32.2917" y="1401.4832">WorldGraphRepositoryFolder repositoryFolder()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="236.4583" y1="1377.4078" y2="1377.4078"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="239.5833" y="1381.2174">(filesystem)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="307.2917" x2="533.3333" y1="1377.4078" y2="1377.4078"/><ellipse cx="20.8333" cy="1438.2284" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="157.2917" x="32.2917" y="1445.1396">boolean included(WorldCell)</text><ellipse cx="20.8333" cy="1457.9732" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="184.375" x="32.2917" y="1464.8844">ObjectSet&lt;WorldCell&gt; included()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="242.7083" y1="1421.0642" y2="1421.0642"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="52.0833" x="245.8333" y="1424.8739">(filtering)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="301.0417" x2="533.3333" y1="1421.0642" y2="1421.0642"/><ellipse cx="20.8333" cy="1501.6296" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="112.5" x="32.2917" y="1508.5409">Metadata metadata()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="239.0625" y1="1484.4655" y2="1484.4655"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="59.375" x="242.1875" y="1488.2751">(metadata)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="304.6875" x2="533.3333" y1="1484.4655" y2="1484.4655"/><ellipse cx="20.8333" cy="1545.2861" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="75" x="32.2917" y="1552.1973">String name()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="243.75" y1="1528.1219" y2="1528.1219"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="50" x="246.875" y="1531.9316">(naming)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="300" x2="533.3333" y1="1528.1219" y2="1528.1219"/><ellipse cx="20.8333" cy="1588.9425" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="140.625" x="32.2917" y="1595.8537">Bytes maximumMemory()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="240.1042" y1="1571.7784" y2="1571.7784"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="57.2917" x="243.2292" y="1575.588">(primitive)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="303.6458" x2="533.3333" y1="1571.7784" y2="1571.7784"/><ellipse cx="20.8333" cy="1632.5989" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="160.4167" x="32.2917" y="1639.5101">void outputCellsAsGeoJson()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="251.0417" y1="1615.4348" y2="1615.4348"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="35.4167" x="254.1667" y="1619.2444">(write)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="292.7083" x2="533.3333" y1="1615.4348" y2="1615.4348"/><!--MD5=[0200db28ccfd4bd23ab49ded79585428]
+reverse link Region to WorldCell--><path codeLine="15" d="M331.4792,190.4007 C328.7604,207.307 325.4063,228.1715 321.6979,251.307 " fill="none" id="Region-backto-WorldCell" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="324.3125,189.0361,334.8125,169.6195,338.7083,191.3486,324.3125,189.0361" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[6e77fc81e9776779563f9a5f73eed7e9]
+reverse link Unloadable to WorldCell--><path codeLine="16" d="M212.2708,190.4007 C214.9896,207.307 218.3438,228.1715 222.0521,251.307 " fill="none" id="Unloadable-backto-WorldCell" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="205.0417,191.3486,208.9375,169.6195,219.4375,189.0361,205.0417,191.3486" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[7a6698e448f159ba1bb282829083662b]
+reverse link RegionIdentifier to WorldCell.WorldCellIdentifier--><path codeLine="50" d="M971.875,190.6924 C971.875,264.1195 971.875,411.432 971.875,496.6195 " fill="none" id="RegionIdentifier-backto-WorldCell.WorldCellIdentifier" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="964.5833,190.4528,971.875,169.6195,979.1667,190.4528,964.5833,190.4528" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[991f44daf17a7d64e4da0cc1963d5205]
+reverse link ArrayList to WorldCellList--><path codeLine="60" d="M1387.5,190.5986 C1387.5,215.8903 1387.5,249.9528 1387.5,287.2445 " fill="none" id="ArrayList-backto-WorldCellList" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1380.2083,190.4528,1387.5,169.6195,1394.7917,190.4528,1380.2083,190.4528" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[0e43d56239f404732460dec1ba0f210f]
+link WorldCell to WorldCellReference--><!--MD5=[679742bcb8b4fc11885dfde3074d5f7c]
+link WorldCell to WorldGrid--><!--MD5=[54ba907781990a330a706e9ba9e69002]
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.world.grid"
+    
+    interface Unloadable
+    
+    enum WorldCell.DataType
+    {
+        GRAPH
+        PBF
+    }
+    
+    Region <|- - WorldCell
+    Unloadable <|- - WorldCell
+    class WorldCell
+    {
+        - -(constructors)- -
+        #WorldCell()
+        +WorldCell(WorldGrid, GridCell)
+        - -
+        +Graph cellGraph()
+        +GridCell gridCell()
+        +void hasGraph(WorldGraphRepositoryFolder, boolean has)
+        +void hasPbf(WorldGraphRepositoryFolder, boolean has)
+        +WorldGraph worldGraph()
+        +WorldGrid worldGrid()
+        - -(checks)- -
+        +boolean hasData(WorldGraphRepositoryFolder, DataType)
+        +boolean isIncluded()
+        - -(collection)- -
+        +Iterable<Edge> asWorldEdges(Iterable<Edge> edges)
+        +Bytes memorySize()
+        +WorldCellList neighbors()
+        +WorldCellList neighborsAndThis()
+        - -(filesystem)- -
+        +File cellGraphFile(WorldGraphRepositoryFolder)
+        +File cellGraphFile()
+        +Bytes fileSize()
+        +void fileSize(Bytes fileSize)
+        +boolean hasGraphFile(WorldGraphRepositoryFolder)
+        +boolean hasPbfFile(WorldGraphRepositoryFolder)
+        +File pbfFile()
+        +File pbfFile(WorldGraphRepositoryFolder)
+        - -(identity)- -
+        +WorldCellIdentifier worldCellIdentifier()
+    }
+    
+    RegionIdentifier <|- - WorldCell.WorldCellIdentifier
+    class WorldCell.WorldCellIdentifier
+    {
+        - -(constructors)- -
+        +WorldCellIdentifier(WorldGrid, GridCell)
+        - -
+        +GridCell gridCell()
+        +Region<?> region()
+    }
+    
+    ArrayList <|- - WorldCellList
+    class WorldCellList
+    {
+        - -
+        +WorldCell biggest()
+        +EdgeSequence edges()
+        +EdgeSequence edgesIntersecting(Rectangle bounds, Matcher<Edge>)
+        +EdgeSequence forwardEdges()
+        +EdgeSequence forwardEdgesIntersecting(Rectangle bounds, Matcher<Edge>)
+        +RelationSet relationsIntersecting(Rectangle bounds, Matcher<EdgeRelation>)
+        +VertexSequence vertexes()
+        +VertexSequence vertexesInside(Rectangle bounds, Matcher<Vertex>)
+        +VertexSequence vertexesInside(Rectangle bounds)
+        +VertexSequence vertexesNearest(Location, Distance maximum, RoadFunctionalClass)
+        - -(collection)- -
+        +List<Graph> cellGraphs()
+        +boolean contains(Edge)
+        +boolean contains(Vertex)
+        +boolean contains(EdgeRelation)
+        +Count count()
+        +Count edgeCount()
+        +WorldCell first()
+        +Count forwardEdgeCount()
+        +Count relationCount()
+        +Iterable<EdgeRelation> relations()
+        +WorldCellList sortedDescendingByPbfSize()
+        +Count vertexCount()
+        - -(math)- -
+        +WorldCell smallest()
+    }
+    
+    class WorldCellReference
+    {
+        - -(constructors)- -
+        +WorldCellReference(WorldGraphReference, GridCell)
+        - -
+        +WorldCell worldCell()
+    }
+    
+    class WorldGrid
+    {
+        - -(constructors)- -
+        #WorldGrid()
+        +WorldGrid(WorldGraph, WorldGraph.AccessMode, WorldGraphRepositoryFolder)
+        - -
+        +Grid grid()
+        +WorldGraph.AccessMode mode()
+        +WorldCell worldCell(GridCell)
+        +WorldCell worldCell(Location)
+        +WorldCell worldCell(int identifier)
+        +WorldCell worldCell(WorldCell.WorldCellIdentifier)
+        +WorldCell worldCell(String cellName)
+        +WorldGraph worldGraph()
+        - -(collection)- -
+        +Iterable<WorldCell> cells()
+        +WorldCellList cells(WorldGraphRepositoryFolder, WorldCell.DataType, Rectangle bounds)
+        +WorldCellList cells(WorldGraphRepositoryFolder, WorldCell.DataType)
+        +Count extract(WorldGraphRepositoryFolder, Source<PbfDataSource>)
+        +WorldGraphIndex index()
+        +WorldCellList neighbors(Location)
+        +void saveIndex(WorldGraphRepositoryFolder, Metadata)
+        - -(filesystem)- -
+        +WorldGraphRepositoryFolder repositoryFolder()
+        - -(filtering)- -
+        +boolean included(WorldCell)
+        +ObjectSet<WorldCell> included()
+        - -(metadata)- -
+        +Metadata metadata()
+        - -(naming)- -
+        +String name()
+        - -(primitive)- -
+        +Bytes maximumMemory()
+        - -(write)- -
+        +void outputCellsAsGeoJson()
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.mesakit.graph.world.grid"
+    
+    interface Unloadable
+    
+    enum WorldCell.DataType
+    {
+        GRAPH
+        PBF
+    }
+    
+    Region <|- - WorldCell
+    Unloadable <|- - WorldCell
+    class WorldCell
+    {
+        - -(constructors)- -
+        #WorldCell()
+        +WorldCell(WorldGrid, GridCell)
+        - -
+        +Graph cellGraph()
+        +GridCell gridCell()
+        +void hasGraph(WorldGraphRepositoryFolder, boolean has)
+        +void hasPbf(WorldGraphRepositoryFolder, boolean has)
+        +WorldGraph worldGraph()
+        +WorldGrid worldGrid()
+        - -(checks)- -
+        +boolean hasData(WorldGraphRepositoryFolder, DataType)
+        +boolean isIncluded()
+        - -(collection)- -
+        +Iterable<Edge> asWorldEdges(Iterable<Edge> edges)
+        +Bytes memorySize()
+        +WorldCellList neighbors()
+        +WorldCellList neighborsAndThis()
+        - -(filesystem)- -
+        +File cellGraphFile(WorldGraphRepositoryFolder)
+        +File cellGraphFile()
+        +Bytes fileSize()
+        +void fileSize(Bytes fileSize)
+        +boolean hasGraphFile(WorldGraphRepositoryFolder)
+        +boolean hasPbfFile(WorldGraphRepositoryFolder)
+        +File pbfFile()
+        +File pbfFile(WorldGraphRepositoryFolder)
+        - -(identity)- -
+        +WorldCellIdentifier worldCellIdentifier()
+    }
+    
+    RegionIdentifier <|- - WorldCell.WorldCellIdentifier
+    class WorldCell.WorldCellIdentifier
+    {
+        - -(constructors)- -
+        +WorldCellIdentifier(WorldGrid, GridCell)
+        - -
+        +GridCell gridCell()
+        +Region<?> region()
+    }
+    
+    ArrayList <|- - WorldCellList
+    class WorldCellList
+    {
+        - -
+        +WorldCell biggest()
+        +EdgeSequence edges()
+        +EdgeSequence edgesIntersecting(Rectangle bounds, Matcher<Edge>)
+        +EdgeSequence forwardEdges()
+        +EdgeSequence forwardEdgesIntersecting(Rectangle bounds, Matcher<Edge>)
+        +RelationSet relationsIntersecting(Rectangle bounds, Matcher<EdgeRelation>)
+        +VertexSequence vertexes()
+        +VertexSequence vertexesInside(Rectangle bounds, Matcher<Vertex>)
+        +VertexSequence vertexesInside(Rectangle bounds)
+        +VertexSequence vertexesNearest(Location, Distance maximum, RoadFunctionalClass)
+        - -(collection)- -
+        +List<Graph> cellGraphs()
+        +boolean contains(Edge)
+        +boolean contains(Vertex)
+        +boolean contains(EdgeRelation)
+        +Count count()
+        +Count edgeCount()
+        +WorldCell first()
+        +Count forwardEdgeCount()
+        +Count relationCount()
+        +Iterable<EdgeRelation> relations()
+        +WorldCellList sortedDescendingByPbfSize()
+        +Count vertexCount()
+        - -(math)- -
+        +WorldCell smallest()
+    }
+    
+    class WorldCellReference
+    {
+        - -(constructors)- -
+        +WorldCellReference(WorldGraphReference, GridCell)
+        - -
+        +WorldCell worldCell()
+    }
+    
+    class WorldGrid
+    {
+        - -(constructors)- -
+        #WorldGrid()
+        +WorldGrid(WorldGraph, WorldGraph.AccessMode, WorldGraphRepositoryFolder)
+        - -
+        +Grid grid()
+        +WorldGraph.AccessMode mode()
+        +WorldCell worldCell(GridCell)
+        +WorldCell worldCell(Location)
+        +WorldCell worldCell(int identifier)
+        +WorldCell worldCell(WorldCell.WorldCellIdentifier)
+        +WorldCell worldCell(String cellName)
+        +WorldGraph worldGraph()
+        - -(collection)- -
+        +Iterable<WorldCell> cells()
+        +WorldCellList cells(WorldGraphRepositoryFolder, WorldCell.DataType, Rectangle bounds)
+        +WorldCellList cells(WorldGraphRepositoryFolder, WorldCell.DataType)
+        +Count extract(WorldGraphRepositoryFolder, Source<PbfDataSource>)
+        +WorldGraphIndex index()
+        +WorldCellList neighbors(Location)
+        +void saveIndex(WorldGraphRepositoryFolder, Metadata)
+        - -(filesystem)- -
+        +WorldGraphRepositoryFolder repositoryFolder()
+        - -(filtering)- -
+        +boolean included(WorldCell)
+        +ObjectSet<WorldCell> included()
+        - -(metadata)- -
+        +Metadata metadata()
+        - -(naming)- -
+        +String name()
+        - -(primitive)- -
+        +Bytes maximumMemory()
+        - -(write)- -
+        +void outputCellsAsGeoJson()
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 02:55:08 EST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

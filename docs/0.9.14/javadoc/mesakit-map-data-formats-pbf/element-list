@@ -1,0 +1,15 @@
+module:mesakit.data.formats.pbf
+com.telenav.mesakit.map.data.formats.pbf
+com.telenav.mesakit.map.data.formats.pbf.model.entities
+com.telenav.mesakit.map.data.formats.pbf.model.extractors
+com.telenav.mesakit.map.data.formats.pbf.model.identifiers
+com.telenav.mesakit.map.data.formats.pbf.model.metadata
+com.telenav.mesakit.map.data.formats.pbf.model.tags
+com.telenav.mesakit.map.data.formats.pbf.model.tags.compression
+com.telenav.mesakit.map.data.formats.pbf.osm
+com.telenav.mesakit.map.data.formats.pbf.processing
+com.telenav.mesakit.map.data.formats.pbf.processing.filters
+com.telenav.mesakit.map.data.formats.pbf.processing.filters.all
+com.telenav.mesakit.map.data.formats.pbf.processing.filters.osm
+com.telenav.mesakit.map.data.formats.pbf.processing.readers
+com.telenav.mesakit.map.data.formats.pbf.processing.writers

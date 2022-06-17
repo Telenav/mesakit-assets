@@ -1,0 +1,18 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.tools.applications.codec.roadname"
+    
+    abstract BaseComponent
+    
+    BaseComponent <|-- RoadNameCodecGenerator
+    class RoadNameCodecGenerator
+    {
+        --(command line parsing)--
+        +void run(CommandLine)
+    }
+    
+@enduml
+

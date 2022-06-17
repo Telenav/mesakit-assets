@@ -1,0 +1,5 @@
+module:mesakit.graph.world
+com.telenav.mesakit.graph.world
+com.telenav.mesakit.graph.world.grid
+com.telenav.mesakit.graph.world.identifiers
+com.telenav.mesakit.graph.world.repository

@@ -1,0 +1,35 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "org.nocrala.tools.gis.data.esri.shapefile.header"
+    
+    class ShapeFileHeader
+    {
+        --(constructors)--
+        +ShapeFileHeader(InputStream, ValidationPreferences)
+        --
+        +double getBoxMaxM()
+        +double getBoxMaxX()
+        +double getBoxMaxY()
+        +double getBoxMaxZ()
+        +double getBoxMinM()
+        +double getBoxMinX()
+        +double getBoxMinY()
+        +double getBoxMinZ()
+        +ShapeType getShapeType()
+        +int getUnused0()
+        +int getUnused1()
+        +int getUnused2()
+        +int getUnused3()
+        +int getUnused4()
+        --(filesystem)--
+        +int getFileCode()
+        +int getFileLength()
+        --(identity)--
+        +int getVersion()
+    }
+    
+@enduml
+

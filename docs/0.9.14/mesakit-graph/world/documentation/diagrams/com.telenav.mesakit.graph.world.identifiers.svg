@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="321.875px" preserveAspectRatio="none" style="width:1634px;height:321px;background:#333333;" version="1.1" viewBox="0 0 1634 321" width="1634.375px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="462.5" x="578.9063" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="439.5833" x="590.3646" y="30.5583">com.telenav.mesakit.graph.world.identifiers</text><!--MD5=[9a8f914b05682b027bc690bbf67c69f0]
+cluster WorldEdgeIdentifier--><polygon fill="#333333" points="16.6667,149.0153,157.2917,149.0153,164.5833,176.237,290.625,176.237,290.625,306.307,16.6667,306.307,16.6667,149.0153" style="stroke:#333333;stroke-width:2.0833333333333335;"/><line style="stroke:#333333;stroke-width:2.0833333333333335;" x1="16.6667" x2="164.5833" y1="176.237" y2="176.237"/><text fill="#C8AC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="128.125" x="23.9583" y="166.3086">WorldEdgeIdentifier</text><!--MD5=[c3063edb70c1685bbb95d1fd112e3446]
+class WorldEdgeIdentifier.Converter--><rect codeLine="10" fill="#282828" height="83.3781" id="WorldEdgeIdentifier.Converter" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="204.1667" x="61.4583" y="197.9736"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="204.1667" x="61.4583" y="197.9736"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="204.1667" x="61.4583" y="221.0286"/><rect codeLine="10" fill="none" height="83.3781" id="WorldEdgeIdentifier.Converter" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="204.1667" x="61.4583" y="197.9736"/><ellipse cx="124.4792" cy="213.6678" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M126.3896,218.0929 Q125.9623,218.3126 125.4924,218.4224 Q125.0224,218.5323 124.5036,218.5323 Q122.6603,218.5323 121.6899,217.3177 Q120.7194,216.1031 120.7194,213.8082 Q120.7194,211.5072 121.6899,210.2926 Q122.6603,209.078 124.5036,209.078 Q125.0224,209.078 125.4985,209.1878 Q125.9745,209.2977 126.3896,209.5174 L126.3896,211.5194 Q125.9257,211.0921 125.4893,210.8938 Q125.0529,210.6954 124.589,210.6954 Q123.6003,210.6954 123.0967,211.4797 Q122.5932,212.264 122.5932,213.8082 Q122.5932,215.3463 123.0967,216.1306 Q123.6003,216.9149 124.589,216.9149 Q125.0529,216.9149 125.4893,216.7165 Q125.9257,216.5181 126.3896,216.0909 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="63.5417" x="147.3958" y="218.3919">Converter</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="62.5" x2="264.5833" y1="229.362" y2="229.362"/><ellipse cx="72.9167" cy="264.7319" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="171.875" x="84.375" y="271.6431">Converter(WorldGrid, Listener)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="62.5" x2="119.7917" y1="247.5677" y2="247.5677"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="122.9167" y="251.3774">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="207.2917" x2="264.5833" y1="247.5677" y2="247.5677"/><!--MD5=[9aa687ed59f428548907e723dba1087a]
+class BaseStringConverter--><rect codeLine="7" fill="#282828" height="48.055" id="BaseStringConverter" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="169.7917" x="78.6458" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="169.7917" x="78.6458" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="169.7917" x="78.6458" y="76.7578"/><rect codeLine="7" fill="none" height="48.055" id="BaseStringConverter" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="169.7917" x="78.6458" y="53.7028"/><ellipse cx="93.2292" cy="69.397" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M92.8223,66.099 L91.9739,69.8283 L93.6768,69.8283 Z M91.7236,64.4511 L93.927,64.4511 L96.3867,73.5636 L94.5862,73.5636 L94.0247,71.3114 L91.6138,71.3114 L91.0645,73.5636 L89.2639,73.5636 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="132.2917" x="109.8958" y="74.1211">BaseStringConverter</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="79.6875" x2="247.3958" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="79.6875" x2="247.3958" y1="93.4245" y2="93.4245"/><!--MD5=[60c5bfe4d3a966353e256f35a4d979ef]
+class EdgeIdentifier--><rect fill="#282828" height="48.055" id="EdgeIdentifier" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="128.125" x="395.3125" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="128.125" x="395.3125" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="128.125" x="395.3125" y="76.7578"/><rect fill="none" height="48.055" id="EdgeIdentifier" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="128.125" x="395.3125" y="53.7028"/><ellipse cx="409.8958" cy="69.397" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M411.8062,73.822 Q411.379,74.0417 410.909,74.1516 Q410.439,74.2615 409.9202,74.2615 Q408.077,74.2615 407.1065,73.0469 Q406.1361,71.8323 406.1361,69.5374 Q406.1361,67.2363 407.1065,66.0217 Q408.077,64.8071 409.9202,64.8071 Q410.439,64.8071 410.9151,64.917 Q411.3912,65.0269 411.8062,65.2466 L411.8062,67.2485 Q411.3424,66.8213 410.906,66.6229 Q410.4696,66.4246 410.0057,66.4246 Q409.0169,66.4246 408.5134,67.2089 Q408.0098,67.9932 408.0098,69.5374 Q408.0098,71.0754 408.5134,71.8597 Q409.0169,72.644 410.0057,72.644 Q410.4696,72.644 410.906,72.4457 Q411.3424,72.2473 411.8062,71.8201 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="90.625" x="426.5625" y="74.1211">EdgeIdentifier</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="396.3542" x2="522.3958" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="396.3542" x2="522.3958" y1="93.4245" y2="93.4245"/><!--MD5=[ff760c758ea2810ebc83ad0eaef51a6e]
+class WorldEdgeIdentifier--><rect codeLine="17" fill="#282828" height="131.2012" id="WorldEdgeIdentifier" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="286.4583" x="316.1458" y="174.0153"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="286.4583" x="316.1458" y="174.0153"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="286.4583" x="316.1458" y="197.0703"/><rect codeLine="17" fill="none" height="131.2012" id="WorldEdgeIdentifier" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="286.4583" x="316.1458" y="174.0153"/><ellipse cx="388.0208" cy="189.7095" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M389.9312,194.1345 Q389.504,194.3542 389.034,194.4641 Q388.564,194.574 388.0452,194.574 Q386.202,194.574 385.2315,193.3594 Q384.2611,192.1448 384.2611,189.8499 Q384.2611,187.5488 385.2315,186.3342 Q386.202,185.1196 388.0452,185.1196 Q388.564,185.1196 389.0401,185.2295 Q389.5162,185.3394 389.9312,185.5591 L389.9312,187.561 Q389.4674,187.1338 389.031,186.9354 Q388.5946,186.7371 388.1307,186.7371 Q387.1419,186.7371 386.6384,187.5214 Q386.1348,188.3057 386.1348,189.8499 Q386.1348,191.3879 386.6384,192.1722 Q387.1419,192.9565 388.1307,192.9565 Q388.5946,192.9565 389.031,192.7582 Q389.4674,192.5598 389.9312,192.1326 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="128.125" x="410.9375" y="194.4336">WorldEdgeIdentifier</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="317.1875" x2="601.5625" y1="205.4036" y2="205.4036"/><ellipse cx="327.6042" cy="240.7735" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="254.1667" x="339.0625" y="247.6847">WorldEdgeIdentifier(WorldCell, EdgeIdentifier)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="317.1875" x2="415.625" y1="223.6094" y2="223.6094"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="418.75" y="227.419">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="503.125" x2="601.5625" y1="223.6094" y2="223.6094"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="317.1875" x2="601.5625" y1="257.3934" y2="257.3934"/><ellipse cx="327.6042" cy="268.8517" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="97.9167" x="339.0625" y="275.7629">WorldEdge edge()</text><ellipse cx="327.6042" cy="288.5966" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="116.6667" x="339.0625" y="295.5078">WorldCell worldCell()</text><!--MD5=[5fe5878288bd0c7d1c897dbbcfaa4cd7]
+class PlaceIdentifier--><rect fill="#282828" height="48.055" id="PlaceIdentifier" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="129.1667" x="718.75" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="129.1667" x="718.75" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="129.1667" x="718.75" y="76.7578"/><rect fill="none" height="48.055" id="PlaceIdentifier" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="129.1667" x="718.75" y="53.7028"/><ellipse cx="733.3333" cy="69.397" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M735.2437,73.822 Q734.8165,74.0417 734.3465,74.1516 Q733.8765,74.2615 733.3577,74.2615 Q731.5145,74.2615 730.544,73.0469 Q729.5736,71.8323 729.5736,69.5374 Q729.5736,67.2363 730.544,66.0217 Q731.5145,64.8071 733.3577,64.8071 Q733.8765,64.8071 734.3526,64.917 Q734.8287,65.0269 735.2437,65.2466 L735.2437,67.2485 Q734.7799,66.8213 734.3435,66.6229 Q733.9071,66.4246 733.4432,66.4246 Q732.4544,66.4246 731.9509,67.2089 Q731.4473,67.9932 731.4473,69.5374 Q731.4473,71.0754 731.9509,71.8597 Q732.4544,72.644 733.4432,72.644 Q733.9071,72.644 734.3435,72.4457 Q734.7799,72.2473 735.2437,71.8201 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="91.6667" x="750" y="74.1211">PlaceIdentifier</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="719.7917" x2="846.875" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="719.7917" x2="846.875" y1="93.4245" y2="93.4245"/><!--MD5=[47af8d6facf74d721df46ba703e1c032]
+class WorldPlaceIdentifier--><rect codeLine="27" fill="#282828" height="150.946" id="WorldPlaceIdentifier" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="288.5417" x="639.0625" y="164.1195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="288.5417" x="639.0625" y="164.1195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="288.5417" x="639.0625" y="187.1745"/><rect codeLine="27" fill="none" height="150.946" id="WorldPlaceIdentifier" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="288.5417" x="639.0625" y="164.1195"/><ellipse cx="711.4583" cy="179.8136" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M713.3687,184.2387 Q712.9415,184.4584 712.4715,184.5683 Q712.0015,184.6781 711.4827,184.6781 Q709.6395,184.6781 708.669,183.4635 Q707.6986,182.2489 707.6986,179.954 Q707.6986,177.653 708.669,176.4384 Q709.6395,175.2238 711.4827,175.2238 Q712.0015,175.2238 712.4776,175.3337 Q712.9537,175.4435 713.3687,175.6632 L713.3687,177.6652 Q712.9049,177.238 712.4685,177.0396 Q712.0321,176.8412 711.5682,176.8412 Q710.5794,176.8412 710.0759,177.6255 Q709.5723,178.4098 709.5723,179.954 Q709.5723,181.4921 710.0759,182.2764 Q710.5794,183.0607 711.5682,183.0607 Q712.0321,183.0607 712.4685,182.8623 Q712.9049,182.664 713.3687,182.2367 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="129.1667" x="734.375" y="184.5378">WorldPlaceIdentifier</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="640.1042" x2="926.5625" y1="195.5078" y2="195.5078"/><ellipse cx="650.5208" cy="230.8777" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="256.25" x="661.9792" y="237.7889">WorldPlaceIdentifier(WorldCell, PlaceIdentifier)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="640.1042" x2="739.5833" y1="213.7136" y2="213.7136"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="742.7083" y="217.5232">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="827.0833" x2="926.5625" y1="213.7136" y2="213.7136"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="640.1042" x2="926.5625" y1="247.4976" y2="247.4976"/><ellipse cx="650.5208" cy="258.9559" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="79.1667" x="661.9792" y="265.8671">Graph graph()</text><ellipse cx="650.5208" cy="278.7008" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="101.0417" x="661.9792" y="285.612">WorldPlace place()</text><ellipse cx="650.5208" cy="298.4456" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="116.6667" x="661.9792" y="305.3569">WorldCell worldCell()</text><!--MD5=[05f5f92f0bacba0c39837c68c0c85116]
+class RelationIdentifier--><rect fill="#282828" height="48.055" id="RelationIdentifier" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="150" x="1050" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="150" x="1050" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="150" x="1050" y="76.7578"/><rect fill="none" height="48.055" id="RelationIdentifier" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="150" x="1050" y="53.7028"/><ellipse cx="1064.5833" cy="69.397" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1066.4937,73.822 Q1066.0665,74.0417 1065.5965,74.1516 Q1065.1265,74.2615 1064.6077,74.2615 Q1062.7645,74.2615 1061.794,73.0469 Q1060.8236,71.8323 1060.8236,69.5374 Q1060.8236,67.2363 1061.794,66.0217 Q1062.7645,64.8071 1064.6077,64.8071 Q1065.1265,64.8071 1065.6026,64.917 Q1066.0787,65.0269 1066.4937,65.2466 L1066.4937,67.2485 Q1066.0299,66.8213 1065.5935,66.6229 Q1065.1571,66.4246 1064.6932,66.4246 Q1063.7044,66.4246 1063.2009,67.2089 Q1062.6973,67.9932 1062.6973,69.5374 Q1062.6973,71.0754 1063.2009,71.8597 Q1063.7044,72.644 1064.6932,72.644 Q1065.1571,72.644 1065.5935,72.4457 Q1066.0299,72.2473 1066.4937,71.8201 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="112.5" x="1081.25" y="74.1211">RelationIdentifier</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1051.0417" x2="1198.9583" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1051.0417" x2="1198.9583" y1="93.4245" y2="93.4245"/><!--MD5=[29c229af3a0533fce0e9943a5ec777da]
+class WorldRelationIdentifier--><rect codeLine="38" fill="#282828" height="131.2012" id="WorldRelationIdentifier" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="321.875" x="964.0625" y="174.0153"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="321.875" x="964.0625" y="174.0153"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="321.875" x="964.0625" y="197.0703"/><rect codeLine="38" fill="none" height="131.2012" id="WorldRelationIdentifier" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="321.875" x="964.0625" y="174.0153"/><ellipse cx="1042.7083" cy="189.7095" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1044.6187,194.1345 Q1044.1915,194.3542 1043.7215,194.4641 Q1043.2515,194.574 1042.7327,194.574 Q1040.8895,194.574 1039.919,193.3594 Q1038.9486,192.1448 1038.9486,189.8499 Q1038.9486,187.5488 1039.919,186.3342 Q1040.8895,185.1196 1042.7327,185.1196 Q1043.2515,185.1196 1043.7276,185.2295 Q1044.2037,185.3394 1044.6187,185.5591 L1044.6187,187.561 Q1044.1549,187.1338 1043.7185,186.9354 Q1043.2821,186.7371 1042.8182,186.7371 Q1041.8294,186.7371 1041.3259,187.5214 Q1040.8223,188.3057 1040.8223,189.8499 Q1040.8223,191.3879 1041.3259,192.1722 Q1041.8294,192.9565 1042.8182,192.9565 Q1043.2821,192.9565 1043.7185,192.7582 Q1044.1549,192.5598 1044.6187,192.1326 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="150" x="1065.625" y="194.4336">WorldRelationIdentifier</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="965.1042" x2="1284.8958" y1="205.4036" y2="205.4036"/><ellipse cx="975.5208" cy="240.7735" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="289.5833" x="986.9792" y="247.6847">WorldRelationIdentifier(WorldCell, RelationIdentifier)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="965.1042" x2="1081.25" y1="223.6094" y2="223.6094"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="1084.375" y="227.419">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1168.75" x2="1284.8958" y1="223.6094" y2="223.6094"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="965.1042" x2="1284.8958" y1="257.3934" y2="257.3934"/><ellipse cx="975.5208" cy="268.8517" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="131.25" x="986.9792" y="275.7629">WorldRelation relation()</text><ellipse cx="975.5208" cy="288.5966" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="116.6667" x="986.9792" y="295.5078">WorldCell worldCell()</text><!--MD5=[d7d16ba610d7e25d2d37855f95214158]
+class VertexIdentifier--><rect fill="#282828" height="48.055" id="VertexIdentifier" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="137.5" x="1406.25" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="137.5" x="1406.25" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="137.5" x="1406.25" y="76.7578"/><rect fill="none" height="48.055" id="VertexIdentifier" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="137.5" x="1406.25" y="53.7028"/><ellipse cx="1420.8333" cy="69.397" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1422.7437,73.822 Q1422.3165,74.0417 1421.8465,74.1516 Q1421.3765,74.2615 1420.8577,74.2615 Q1419.0145,74.2615 1418.044,73.0469 Q1417.0736,71.8323 1417.0736,69.5374 Q1417.0736,67.2363 1418.044,66.0217 Q1419.0145,64.8071 1420.8577,64.8071 Q1421.3765,64.8071 1421.8526,64.917 Q1422.3287,65.0269 1422.7437,65.2466 L1422.7437,67.2485 Q1422.2799,66.8213 1421.8435,66.6229 Q1421.4071,66.4246 1420.9432,66.4246 Q1419.9544,66.4246 1419.4509,67.2089 Q1418.9473,67.9932 1418.9473,69.5374 Q1418.9473,71.0754 1419.4509,71.8597 Q1419.9544,72.644 1420.9432,72.644 Q1421.4071,72.644 1421.8435,72.4457 Q1422.2799,72.2473 1422.7437,71.8201 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="100" x="1437.5" y="74.1211">VertexIdentifier</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1407.2917" x2="1542.7083" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1407.2917" x2="1542.7083" y1="93.4245" y2="93.4245"/><!--MD5=[d5910a8ed6a53c6565c7f82e71a434e2]
+class WorldVertexIdentifier--><rect codeLine="48" fill="#282828" height="150.946" id="WorldVertexIdentifier" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="305.2083" x="1322.3958" y="164.1195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="305.2083" x="1322.3958" y="164.1195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="305.2083" x="1322.3958" y="187.1745"/><rect codeLine="48" fill="none" height="150.946" id="WorldVertexIdentifier" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="305.2083" x="1322.3958" y="164.1195"/><ellipse cx="1398.9583" cy="179.8136" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1400.8687,184.2387 Q1400.4415,184.4584 1399.9715,184.5683 Q1399.5015,184.6781 1398.9827,184.6781 Q1397.1395,184.6781 1396.169,183.4635 Q1395.1986,182.2489 1395.1986,179.954 Q1395.1986,177.653 1396.169,176.4384 Q1397.1395,175.2238 1398.9827,175.2238 Q1399.5015,175.2238 1399.9776,175.3337 Q1400.4537,175.4435 1400.8687,175.6632 L1400.8687,177.6652 Q1400.4049,177.238 1399.9685,177.0396 Q1399.5321,176.8412 1399.0682,176.8412 Q1398.0794,176.8412 1397.5759,177.6255 Q1397.0723,178.4098 1397.0723,179.954 Q1397.0723,181.4921 1397.5759,182.2764 Q1398.0794,183.0607 1399.0682,183.0607 Q1399.5321,183.0607 1399.9685,182.8623 Q1400.4049,182.664 1400.8687,182.2367 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="137.5" x="1421.875" y="184.5378">WorldVertexIdentifier</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1323.4375" x2="1626.5625" y1="195.5078" y2="195.5078"/><ellipse cx="1333.8542" cy="230.8777" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="272.9167" x="1345.3125" y="237.7889">WorldVertexIdentifier(WorldCell, VertexIdentifier)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1323.4375" x2="1431.25" y1="213.7136" y2="213.7136"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="1434.375" y="217.5232">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1518.75" x2="1626.5625" y1="213.7136" y2="213.7136"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1323.4375" x2="1626.5625" y1="247.4976" y2="247.4976"/><ellipse cx="1333.8542" cy="258.9559" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="79.1667" x="1345.3125" y="265.8671">Graph graph()</text><ellipse cx="1333.8542" cy="278.7008" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="115.625" x="1345.3125" y="285.612">WorldVertex vertex()</text><ellipse cx="1333.8542" cy="298.4456" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="116.6667" x="1345.3125" y="305.3569">WorldCell worldCell()</text><!--MD5=[2617313e11b90c9798042363a7a19f92]
+reverse link BaseStringConverter to WorldEdgeIdentifier.Converter--><path codeLine="9" d="M163.5417,122.8382 C163.5417,146.2236 163.5417,174.7653 163.5417,197.6611 " fill="none" id="BaseStringConverter-backto-WorldEdgeIdentifier.Converter" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="156.25,122.7861,163.5417,101.9528,170.8333,122.7861,156.25,122.7861" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[171d92a82ac0b8fa0bd872939c74a92d]
+reverse link EdgeIdentifier to WorldEdgeIdentifier--><path codeLine="16" d="M459.375,122.9632 C459.375,138.7028 459.375,156.7549 459.375,173.8486 " fill="none" id="EdgeIdentifier-backto-WorldEdgeIdentifier" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="452.0833,122.7861,459.375,101.9528,466.6667,122.7861,452.0833,122.7861" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[463d6cf1c99499a047409996cf7db045]
+reverse link PlaceIdentifier to WorldPlaceIdentifier--><path codeLine="26" d="M783.3333,122.8799 C783.3333,135.6299 783.3333,149.9111 783.3333,163.9632 " fill="none" id="PlaceIdentifier-backto-WorldPlaceIdentifier" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="776.0417,122.7861,783.3333,101.9528,790.625,122.7861,776.0417,122.7861" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[105850a986ee8f791e4e5a3e33c29065]
+reverse link RelationIdentifier to WorldRelationIdentifier--><path codeLine="37" d="M1125,122.9632 C1125,138.7028 1125,156.7549 1125,173.8486 " fill="none" id="RelationIdentifier-backto-WorldRelationIdentifier" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1117.7083,122.7861,1125,101.9528,1132.2917,122.7861,1117.7083,122.7861" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[5c95fa1d869bd2a78e61f2c4ff6b2b55]
+reverse link VertexIdentifier to WorldVertexIdentifier--><path codeLine="47" d="M1475,122.8799 C1475,135.6299 1475,149.9111 1475,163.9632 " fill="none" id="VertexIdentifier-backto-WorldVertexIdentifier" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1467.7083,122.7861,1475,101.9528,1482.2917,122.7861,1467.7083,122.7861" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[6719eff3043d34d5f2c557258533ce45]
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.world.identifiers"
+    
+    abstract BaseStringConverter
+    
+    BaseStringConverter <|- - WorldEdgeIdentifier.Converter
+    class WorldEdgeIdentifier.Converter
+    {
+        - -(constructors)- -
+        +Converter(WorldGrid, Listener)
+    }
+    
+    EdgeIdentifier <|- - WorldEdgeIdentifier
+    class WorldEdgeIdentifier
+    {
+        - -(constructors)- -
+        +WorldEdgeIdentifier(WorldCell, EdgeIdentifier)
+        - -
+        +WorldEdge edge()
+        +WorldCell worldCell()
+    }
+    
+    PlaceIdentifier <|- - WorldPlaceIdentifier
+    class WorldPlaceIdentifier
+    {
+        - -(constructors)- -
+        +WorldPlaceIdentifier(WorldCell, PlaceIdentifier)
+        - -
+        +Graph graph()
+        +WorldPlace place()
+        +WorldCell worldCell()
+    }
+    
+    RelationIdentifier <|- - WorldRelationIdentifier
+    class WorldRelationIdentifier
+    {
+        - -(constructors)- -
+        +WorldRelationIdentifier(WorldCell, RelationIdentifier)
+        - -
+        +WorldRelation relation()
+        +WorldCell worldCell()
+    }
+    
+    VertexIdentifier <|- - WorldVertexIdentifier
+    class WorldVertexIdentifier
+    {
+        - -(constructors)- -
+        +WorldVertexIdentifier(WorldCell, VertexIdentifier)
+        - -
+        +Graph graph()
+        +WorldVertex vertex()
+        +WorldCell worldCell()
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.mesakit.graph.world.identifiers"
+    
+    abstract BaseStringConverter
+    
+    BaseStringConverter <|- - WorldEdgeIdentifier.Converter
+    class WorldEdgeIdentifier.Converter
+    {
+        - -(constructors)- -
+        +Converter(WorldGrid, Listener)
+    }
+    
+    EdgeIdentifier <|- - WorldEdgeIdentifier
+    class WorldEdgeIdentifier
+    {
+        - -(constructors)- -
+        +WorldEdgeIdentifier(WorldCell, EdgeIdentifier)
+        - -
+        +WorldEdge edge()
+        +WorldCell worldCell()
+    }
+    
+    PlaceIdentifier <|- - WorldPlaceIdentifier
+    class WorldPlaceIdentifier
+    {
+        - -(constructors)- -
+        +WorldPlaceIdentifier(WorldCell, PlaceIdentifier)
+        - -
+        +Graph graph()
+        +WorldPlace place()
+        +WorldCell worldCell()
+    }
+    
+    RelationIdentifier <|- - WorldRelationIdentifier
+    class WorldRelationIdentifier
+    {
+        - -(constructors)- -
+        +WorldRelationIdentifier(WorldCell, RelationIdentifier)
+        - -
+        +WorldRelation relation()
+        +WorldCell worldCell()
+    }
+    
+    VertexIdentifier <|- - WorldVertexIdentifier
+    class WorldVertexIdentifier
+    {
+        - -(constructors)- -
+        +WorldVertexIdentifier(WorldCell, VertexIdentifier)
+        - -
+        +Graph graph()
+        +WorldVertex vertex()
+        +WorldCell worldCell()
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 02:55:08 EST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

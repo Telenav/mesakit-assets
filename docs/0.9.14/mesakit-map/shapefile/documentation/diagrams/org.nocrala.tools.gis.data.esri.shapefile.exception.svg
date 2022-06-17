@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="313.5417px" preserveAspectRatio="none" style="width:535px;height:313px;background:#333333;" version="1.1" viewBox="0 0 535 313" width="535.4167px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="519.7917" x="2.0833" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="496.875" x="13.5417" y="30.5583">org.nocrala.tools.gis.data.esri.shapefile.exception</text><!--MD5=[8db60afef7a3447bbe27c5ed187fdac2]
+class Exception--><rect fill="#282828" height="48.055" id="Exception" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="100" x="198.1771" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="100" x="198.1771" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="100" x="198.1771" y="76.7578"/><rect fill="none" height="48.055" id="Exception" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="100" x="198.1771" y="53.7028"/><ellipse cx="212.7604" cy="69.397" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M214.6708,73.822 Q214.2436,74.0417 213.7736,74.1516 Q213.3036,74.2615 212.7848,74.2615 Q210.9416,74.2615 209.9711,73.0469 Q209.0007,71.8323 209.0007,69.5374 Q209.0007,67.2363 209.9711,66.0217 Q210.9416,64.8071 212.7848,64.8071 Q213.3036,64.8071 213.7797,64.917 Q214.2558,65.0269 214.6708,65.2466 L214.6708,67.2485 Q214.2069,66.8213 213.7705,66.6229 Q213.3341,66.4246 212.8703,66.4246 Q211.8815,66.4246 211.378,67.2089 Q210.8744,67.9932 210.8744,69.5374 Q210.8744,71.0754 211.378,71.8597 Q211.8815,72.644 212.8703,72.644 Q213.3341,72.644 213.7705,72.4457 Q214.2069,72.2473 214.6708,71.8201 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="62.5" x="229.4271" y="74.1211">Exception</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="199.2188" x2="297.1354" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="199.2188" x2="297.1354" y1="93.4245" y2="93.4245"/><!--MD5=[59cc7fa8e40df63a771d3ea04218b6c4]
+class DataStreamEOFException--><rect codeLine="8" fill="#282828" height="83.3781" id="DataStreamEOFException" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="200" x="9.6354" y="193.807"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="200" x="9.6354" y="193.807"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="200" x="9.6354" y="216.862"/><rect codeLine="8" fill="none" height="83.3781" id="DataStreamEOFException" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="200" x="9.6354" y="193.807"/><ellipse cx="24.2188" cy="209.5011" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M26.1292,213.9262 Q25.7019,214.1459 25.2319,214.2558 Q24.762,214.3656 24.2432,214.3656 Q22.3999,214.3656 21.4294,213.151 Q20.459,211.9364 20.459,209.6415 Q20.459,207.3405 21.4294,206.1259 Q22.3999,204.9113 24.2432,204.9113 Q24.762,204.9113 25.238,205.0212 Q25.7141,205.131 26.1292,205.3507 L26.1292,207.3527 Q25.6653,206.9255 25.2289,206.7271 Q24.7925,206.5287 24.3286,206.5287 Q23.3398,206.5287 22.8363,207.313 Q22.3328,208.0973 22.3328,209.6415 Q22.3328,211.1796 22.8363,211.9639 Q23.3398,212.7482 24.3286,212.7482 Q24.7925,212.7482 25.2289,212.5498 Q25.6653,212.3515 26.1292,211.9242 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="162.5" x="40.8854" y="214.2253">DataStreamEOFException</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="10.6771" x2="208.5938" y1="225.1953" y2="225.1953"/><ellipse cx="21.0938" cy="260.5652" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="148.9583" x="32.5521" y="267.4764">DataStreamEOFException()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.6771" x2="65.8854" y1="243.4011" y2="243.4011"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="69.0104" y="247.2107">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="153.3854" x2="208.5938" y1="243.4011" y2="243.4011"/><!--MD5=[05f78385778d6a7a2dd3f53fd4da9e2a]
+class InvalidShapeFileException--><rect codeLine="15" fill="#282828" height="142.6127" id="InvalidShapeFileException" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="282.2917" x="246.6146" y="164.1195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="282.2917" x="246.6146" y="164.1195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="282.2917" x="246.6146" y="187.1745"/><rect codeLine="15" fill="none" height="142.6127" id="InvalidShapeFileException" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="282.2917" x="246.6146" y="164.1195"/><ellipse cx="296.6146" cy="179.8136" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M298.525,184.2387 Q298.0977,184.4584 297.6278,184.5683 Q297.1578,184.6781 296.639,184.6781 Q294.7957,184.6781 293.8253,183.4635 Q292.8548,182.2489 292.8548,179.954 Q292.8548,177.653 293.8253,176.4384 Q294.7957,175.2238 296.639,175.2238 Q297.1578,175.2238 297.6339,175.3337 Q298.1099,175.4435 298.525,175.6632 L298.525,177.6652 Q298.0611,177.238 297.6247,177.0396 Q297.1883,176.8412 296.7244,176.8412 Q295.7357,176.8412 295.2321,177.6255 Q294.7286,178.4098 294.7286,179.954 Q294.7286,181.4921 295.2321,182.2764 Q295.7357,183.0607 296.7244,183.0607 Q297.1883,183.0607 297.6247,182.8623 Q298.0611,182.664 298.525,182.2367 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="167.7083" x="319.5313" y="184.5378">InvalidShapeFileException</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="247.6563" x2="527.8646" y1="195.5078" y2="195.5078"/><ellipse cx="258.0729" cy="230.8777" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="152.0833" x="269.5313" y="237.7889">InvalidShapeFileException()</text><ellipse cx="258.0729" cy="250.6226" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="185.4167" x="269.5313" y="257.5338">InvalidShapeFileException(String)</text><ellipse cx="258.0729" cy="270.3674" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="250" x="269.5313" y="277.2786">InvalidShapeFileException(String, Throwable)</text><ellipse cx="258.0729" cy="290.1123" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="210.4167" x="269.5313" y="297.0235">InvalidShapeFileException(Throwable)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="247.6563" x2="344.0104" y1="213.7136" y2="213.7136"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="347.1354" y="217.5232">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="431.5104" x2="527.8646" y1="213.7136" y2="213.7136"/><!--MD5=[2fd34906aeac8b738a0ca87ca1a06dcd]
+reverse link Exception to DataStreamEOFException--><path codeLine="7" d="M213.8646,117.2757 C193.25,140.4528 167.0313,169.9215 146.0417,193.5049 " fill="none" id="Exception-backto-DataStreamEOFException" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="208.4375,112.4007,227.7396,101.682,219.3333,122.0882,208.4375,112.4007" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[119b8f367018e2e86a4b6c2e42ce9e06]
+reverse link Exception to InvalidShapeFileException--><path codeLine="14" d="M283.0208,117.5674 C295.6667,131.6924 310.3854,148.109 324.7188,164.0986 " fill="none" id="Exception-backto-InvalidShapeFileException" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="277.25,122.057,268.7708,101.682,288.1042,112.3278,277.25,122.057" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[7685aa7dc2f655f0494de887bb339014]
+@startuml
+
+    !include lexakai.theme
+    
+    title "org.nocrala.tools.gis.data.esri.shapefile.exception"
+    
+    Exception <|- - DataStreamEOFException
+    class DataStreamEOFException
+    {
+        - -(constructors)- -
+        +DataStreamEOFException()
+    }
+    
+    Exception <|- - InvalidShapeFileException
+    class InvalidShapeFileException
+    {
+        - -(constructors)- -
+        +InvalidShapeFileException()
+        +InvalidShapeFileException(String)
+        +InvalidShapeFileException(String, Throwable)
+        +InvalidShapeFileException(Throwable)
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "org.nocrala.tools.gis.data.esri.shapefile.exception"
+    
+    Exception <|- - DataStreamEOFException
+    class DataStreamEOFException
+    {
+        - -(constructors)- -
+        +DataStreamEOFException()
+    }
+    
+    Exception <|- - InvalidShapeFileException
+    class InvalidShapeFileException
+    {
+        - -(constructors)- -
+        +InvalidShapeFileException()
+        +InvalidShapeFileException(String)
+        +InvalidShapeFileException(String, Throwable)
+        +InvalidShapeFileException(Throwable)
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 02:55:08 EST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

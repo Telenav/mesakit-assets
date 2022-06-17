@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="471.875px" preserveAspectRatio="none" style="width:787px;height:471px;background:#333333;" version="1.1" viewBox="0 0 787 471" width="787.5px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="647.9167" x="62.5" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="625" x="73.9583" y="30.5583">com.telenav.mesakit.graph.specifications.osm.graph.converter</text><!--MD5=[6e4869a963b2c826b32c51ab3eb16747]
+cluster PbfToGraphConverter--><polygon fill="#333333" points="196.875,52.6611,348.9583,52.6611,356.25,79.8828,395.8333,79.8828,395.8333,174.5361,196.875,174.5361,196.875,52.6611" style="stroke:#333333;stroke-width:2.0833333333333335;"/><line style="stroke:#333333;stroke-width:2.0833333333333335;" x1="196.875" x2="356.25" y1="79.8828" y2="79.8828"/><text fill="#C8AC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="139.5833" x="204.1667" y="69.9544">PbfToGraphConverter</text><!--MD5=[2513afa027a31c2a192be9266aebae94]
+cluster OsmPbfToGraphConverter--><polygon fill="#333333" points="275,216.2028,457.2917,216.2028,464.5833,243.4245,769.7917,243.4245,769.7917,465.1611,275,465.1611,275,216.2028" style="stroke:#333333;stroke-width:2.0833333333333335;"/><line style="stroke:#333333;stroke-width:2.0833333333333335;" x1="275" x2="464.5833" y1="243.4245" y2="243.4245"/><text fill="#C8AC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="169.7917" x="282.2917" y="233.4961">OsmPbfToGraphConverter</text><!--MD5=[90b28c800fa7acbd7ac4818300434d56]
+class PbfToGraphConverter.Configuration--><rect fill="#282828" height="48.055" id="PbfToGraphConverter.Configuration" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="128.125" x="242.1875" y="101.6195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="128.125" x="242.1875" y="101.6195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="128.125" x="242.1875" y="124.6745"/><rect fill="none" height="48.055" id="PbfToGraphConverter.Configuration" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="128.125" x="242.1875" y="101.6195"/><ellipse cx="256.7708" cy="117.3136" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M258.6812,121.7387 Q258.254,121.9584 257.784,122.0683 Q257.314,122.1781 256.7952,122.1781 Q254.952,122.1781 253.9815,120.9635 Q253.0111,119.7489 253.0111,117.454 Q253.0111,115.153 253.9815,113.9384 Q254.952,112.7238 256.7952,112.7238 Q257.314,112.7238 257.7901,112.8337 Q258.2662,112.9435 258.6812,113.1632 L258.6812,115.1652 Q258.2174,114.738 257.781,114.5396 Q257.3446,114.3412 256.8807,114.3412 Q255.8919,114.3412 255.3884,115.1255 Q254.8848,115.9098 254.8848,117.454 Q254.8848,118.9921 255.3884,119.7764 Q255.8919,120.5607 256.8807,120.5607 Q257.3446,120.5607 257.781,120.3623 Q258.2174,120.164 258.6812,119.7367 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="90.625" x="273.4375" y="122.0378">Configuration</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="243.2292" x2="369.2708" y1="133.0078" y2="133.0078"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="243.2292" x2="369.2708" y1="141.3411" y2="141.3411"/><!--MD5=[7b70752c5a635ccca1085f0019628bcb]
+class OsmPbfToGraphConverter.Configuration--><rect codeLine="8" fill="#282828" height="174.8576" id="OsmPbfToGraphConverter.Configuration" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="423.9583" x="320.3125" y="265.1611"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="423.9583" x="320.3125" y="265.1611"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="423.9583" x="320.3125" y="288.2161"/><rect codeLine="8" fill="none" height="174.8576" id="OsmPbfToGraphConverter.Configuration" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="423.9583" x="320.3125" y="265.1611"/><ellipse cx="479.6875" cy="280.8553" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M481.5979,285.2804 Q481.1707,285.5001 480.7007,285.6099 Q480.2307,285.7198 479.7119,285.7198 Q477.8687,285.7198 476.8982,284.5052 Q475.9277,283.2906 475.9277,280.9957 Q475.9277,278.6947 476.8982,277.4801 Q477.8687,276.2655 479.7119,276.2655 Q480.2307,276.2655 480.7068,276.3753 Q481.1829,276.4852 481.5979,276.7049 L481.5979,278.7069 Q481.134,278.2796 480.6976,278.0813 Q480.2612,277.8829 479.7974,277.8829 Q478.8086,277.8829 478.3051,278.6672 Q477.8015,279.4515 477.8015,280.9957 Q477.8015,282.5338 478.3051,283.3181 Q478.8086,284.1024 479.7974,284.1024 Q480.2612,284.1024 480.6976,283.904 Q481.134,283.7056 481.5979,283.2784 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="90.625" x="502.6042" y="285.5794">Configuration</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="321.3542" x2="743.2292" y1="296.5495" y2="296.5495"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="321.3542" x2="743.2292" y1="304.8828" y2="304.8828"/><ellipse cx="331.7708" cy="316.3411" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="297.9167" x="343.2292" y="323.2524">void markJunctionEdges(boolean markJunctionEdges)</text><ellipse cx="331.7708" cy="336.086" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="391.6667" x="343.2292" y="342.9972">void markRampsAndConnectors(boolean markRampsAndConnectors)</text><ellipse cx="331.7708" cy="379.7424" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="361.4583" x="343.2292" y="386.6536">PbfToGraphConverter.Configuration analysisType(AnalysisType)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="321.3542" x2="486.9792" y1="362.5783" y2="362.5783"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="84.375" x="490.1042" y="366.3879">(configuration)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="577.6042" x2="743.2292" y1="362.5783" y2="362.5783"/><ellipse cx="331.7708" cy="423.3988" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="383.3333" x="343.2292" y="430.3101">void markDoubleDigitizedEdges(boolean markDoubleDigitizedEdges)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="321.3542" x2="500.5208" y1="406.2347" y2="406.2347"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="57.2917" x="503.6458" y="410.0444">(primitive)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="564.0625" x2="743.2292" y1="406.2347" y2="406.2347"/><!--MD5=[8cb8e39e9e822e9bb9b5083d51724a70]
+class OsmPbfToGraphConverter--><rect codeLine="20" fill="#282828" height="83.3781" id="OsmPbfToGraphConverter" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="239.5833" x="7.2917" y="310.9945"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="239.5833" x="7.2917" y="310.9945"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="239.5833" x="7.2917" y="334.0495"/><rect codeLine="20" fill="none" height="83.3781" id="OsmPbfToGraphConverter" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="239.5833" x="7.2917" y="310.9945"/><ellipse cx="36.4063" cy="326.6886" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M38.3167,331.1137 Q37.8894,331.3334 37.4194,331.4433 Q36.9495,331.5531 36.4307,331.5531 Q34.5874,331.5531 33.6169,330.3385 Q32.6465,329.1239 32.6465,326.829 Q32.6465,324.528 33.6169,323.3134 Q34.5874,322.0988 36.4307,322.0988 Q36.9495,322.0988 37.4255,322.2087 Q37.9016,322.3185 38.3167,322.5382 L38.3167,324.5402 Q37.8528,324.113 37.4164,323.9146 Q36.98,323.7162 36.5161,323.7162 Q35.5273,323.7162 35.0238,324.5005 Q34.5203,325.2848 34.5203,326.829 Q34.5203,328.3671 35.0238,329.1514 Q35.5273,329.9357 36.5161,329.9357 Q36.98,329.9357 37.4164,329.7373 Q37.8528,329.539 38.3167,329.1117 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="169.7917" x="56.3021" y="331.4128">OsmPbfToGraphConverter</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="8.3333" x2="245.8333" y1="342.3828" y2="342.3828"/><ellipse cx="18.75" cy="377.7527" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="207.2917" x="30.2083" y="384.6639">OsmPbfToGraphConverter(Metadata)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="83.3333" y1="360.5886" y2="360.5886"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="86.4583" y="364.3982">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="170.8333" x2="245.8333" y1="360.5886" y2="360.5886"/><!--MD5=[9b464abd208f001e1f0a89314b1726f8]
+reverse link PbfToGraphConverter.Configuration to OsmPbfToGraphConverter.Configuration--><path codeLine="7" d="M344.4896,164.682 C372.1042,192.1611 410.5104,230.4007 445.4063,265.1403 " fill="none" id="PbfToGraphConverter.Configuration-backto-OsmPbfToGraphConverter.Configuration" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="339.2083,169.7132,329.5938,149.8486,349.5,159.3799,339.2083,169.7132" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[3438f678dcaba9cba3ac246740a4c69c]
+reverse link PbfToGraphConverter to OsmPbfToGraphConverter--><path d="M196.6999,151.1335 C196.416,151.9511 196.1264,152.7852 195.8312,153.6352 C195.2409,155.3352 194.6285,157.0986 193.9959,158.9205 C192.7306,162.5642 191.3842,166.4418 189.9704,170.5134 C187.1428,178.6565 184.0459,187.5755 180.7904,196.9515 C167.7682,234.4554 152.2083,279.2705 141.1979,310.984 " fill="none" id="PbfToGraphConverter-backto-OsmPbfToGraphConverter" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#333333" points="196.6999,151.1335,183.3193,167.438,197.0957,172.2219,196.6999,151.1335" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[d1b036c028422a84a673e24f519826ca]
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.osm.graph.converter"
+    
+    PbfToGraphConverter.Configuration <|- - OsmPbfToGraphConverter.Configuration
+    class OsmPbfToGraphConverter.Configuration
+    {
+        - -
+        +void markJunctionEdges(boolean markJunctionEdges)
+        +void markRampsAndConnectors(boolean markRampsAndConnectors)
+        - -(configuration)- -
+        +PbfToGraphConverter.Configuration analysisType(AnalysisType)
+        - -(primitive)- -
+        +void markDoubleDigitizedEdges(boolean markDoubleDigitizedEdges)
+    }
+    
+    PbfToGraphConverter <|- - OsmPbfToGraphConverter
+    class OsmPbfToGraphConverter
+    {
+        - -(constructors)- -
+        +OsmPbfToGraphConverter(Metadata)
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.mesakit.graph.specifications.osm.graph.converter"
+    
+    PbfToGraphConverter.Configuration <|- - OsmPbfToGraphConverter.Configuration
+    class OsmPbfToGraphConverter.Configuration
+    {
+        - -
+        +void markJunctionEdges(boolean markJunctionEdges)
+        +void markRampsAndConnectors(boolean markRampsAndConnectors)
+        - -(configuration)- -
+        +PbfToGraphConverter.Configuration analysisType(AnalysisType)
+        - -(primitive)- -
+        +void markDoubleDigitizedEdges(boolean markDoubleDigitizedEdges)
+    }
+    
+    PbfToGraphConverter <|- - OsmPbfToGraphConverter
+    class OsmPbfToGraphConverter
+    {
+        - -(constructors)- -
+        +OsmPbfToGraphConverter(Metadata)
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 02:55:08 EST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

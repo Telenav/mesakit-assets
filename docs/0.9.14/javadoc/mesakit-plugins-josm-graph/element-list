@@ -1,0 +1,4 @@
+module:mesakit.plugins.josm.graph
+com.telenav.mesakit.plugins.josm.graph
+com.telenav.mesakit.plugins.josm.graph.model
+com.telenav.mesakit.plugins.josm.graph.view

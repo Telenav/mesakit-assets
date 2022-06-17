@@ -1,0 +1,13 @@
+module:mesakit.map.geography
+com.telenav.mesakit.map.geography
+com.telenav.mesakit.map.geography.indexing.polygon
+com.telenav.mesakit.map.geography.indexing.quadtree
+com.telenav.mesakit.map.geography.indexing.rtree
+com.telenav.mesakit.map.geography.indexing.segment
+com.telenav.mesakit.map.geography.projection
+com.telenav.mesakit.map.geography.projection.projections
+com.telenav.mesakit.map.geography.shape
+com.telenav.mesakit.map.geography.shape.polyline
+com.telenav.mesakit.map.geography.shape.polyline.compression.differential
+com.telenav.mesakit.map.geography.shape.rectangle
+com.telenav.mesakit.map.geography.shape.segment

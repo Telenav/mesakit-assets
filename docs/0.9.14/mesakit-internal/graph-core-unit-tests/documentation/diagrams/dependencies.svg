@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="855.2083px" preserveAspectRatio="none" style="width:5378px;height:855px;background:#333333;" version="1.1" viewBox="0 0 5378 855" width="5378.125px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="427.0833" x="2468.2292" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="404.1667" x="2479.6875" y="30.5583">mesakit-internal-graph-core-unit-tests</text><!--MD5=[4f079977920bf52107586fb847a1e92c]
+entity kryo--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="63.5417" x="1164.5833" y="482.8695"/><polygon fill="#1B1B1A" points="1210.4167,488.0778,1210.4167,502.6611,1222.9167,502.6611,1222.9167,494.3278,1216.6667,488.0778,1210.4167,488.0778" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1216.6667" x2="1216.6667" y1="488.0778" y2="494.3278"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1222.9167" x2="1216.6667" y1="494.3278" y2="494.3278"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="26.0417" x="1178.125" y="511.6211">kryo</text><!--MD5=[745ab22dbfa32e29a2660b9e5bc2262a]
+entity minlog--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="77.0833" x="1157.8125" y="590.1611"/><polygon fill="#1B1B1A" points="1217.1875,595.3695,1217.1875,609.9528,1229.6875,609.9528,1229.6875,601.6195,1223.4375,595.3695,1217.1875,595.3695" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1223.4375" x2="1223.4375" y1="595.3695" y2="601.6195"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1229.6875" x2="1223.4375" y1="601.6195" y2="601.6195"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="39.5833" x="1171.3542" y="618.9128">minlog</text><!--MD5=[5d0bc62e6e2e5a8467f655d5e580826c]
+entity reflectasm--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="100" x="1271.3542" y="590.1611"/><polygon fill="#1B1B1A" points="1353.6458,595.3695,1353.6458,609.9528,1366.1458,609.9528,1366.1458,601.6195,1359.8958,595.3695,1353.6458,595.3695" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1359.8958" x2="1359.8958" y1="595.3695" y2="601.6195"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1366.1458" x2="1359.8958" y1="601.6195" y2="601.6195"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="62.5" x="1284.8958" y="618.9128">reflectasm</text><!--MD5=[de175c42f2c54bc905901b76ae0053bc]
+entity woodstox_core--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="127.0833" x="2652.6042" y="482.8695"/><polygon fill="#1B1B1A" points="2761.9792,488.0778,2761.9792,502.6611,2774.4792,502.6611,2774.4792,494.3278,2768.2292,488.0778,2761.9792,488.0778" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="2768.2292" x2="2768.2292" y1="488.0778" y2="494.3278"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="2774.4792" x2="2768.2292" y1="494.3278" y2="494.3278"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="89.5833" x="2666.1458" y="511.6211">woodstox_core</text><!--MD5=[0c82186568ce5c429ccee3636850122e]
+entity flatlaf--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="70.8333" x="4975.5208" y="482.8695"/><polygon fill="#1B1B1A" points="5028.6458,488.0778,5028.6458,502.6611,5041.1458,502.6611,5041.1458,494.3278,5034.8958,488.0778,5028.6458,488.0778" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="5034.8958" x2="5034.8958" y1="488.0778" y2="494.3278"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="5041.1458" x2="5034.8958" y1="494.3278" y2="494.3278"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="33.3333" x="4989.0625" y="511.6211">flatlaf</text><!--MD5=[53e810a96c27d4bd25e6a3839aaba16b]
+entity gson--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="65.625" x="1909.375" y="482.8695"/><polygon fill="#1B1B1A" points="1957.2917,488.0778,1957.2917,502.6611,1969.7917,502.6611,1969.7917,494.3278,1963.5417,488.0778,1957.2917,488.0778" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1963.5417" x2="1963.5417" y1="488.0778" y2="494.3278"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1969.7917" x2="1963.5417" y1="494.3278" y2="494.3278"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="28.125" x="1922.9167" y="511.6211">gson</text><!--MD5=[11ac8a8dc836cd6fef5632ba15b13d5d]
+entity google_maps_services--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="170.8333" x="4349.4792" y="482.8695"/><polygon fill="#1B1B1A" points="4502.6042,488.0778,4502.6042,502.6611,4515.1042,502.6611,4515.1042,494.3278,4508.8542,488.0778,4502.6042,488.0778" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4508.8542" x2="4508.8542" y1="488.0778" y2="494.3278"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4515.1042" x2="4508.8542" y1="494.3278" y2="494.3278"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="133.3333" x="4363.0208" y="511.6211">google_maps_services</text><!--MD5=[ed4f01804237a776cef421861afbcfa8]
+entity protobuf_java--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="120.8333" x="3521.3542" y="482.8695"/><polygon fill="#1B1B1A" points="3624.4792,488.0778,3624.4792,502.6611,3636.9792,502.6611,3636.9792,494.3278,3630.7292,488.0778,3624.4792,488.0778" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3630.7292" x2="3630.7292" y1="488.0778" y2="494.3278"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3636.9792" x2="3630.7292" y1="494.3278" y2="494.3278"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="83.3333" x="3534.8958" y="511.6211">protobuf_java</text><!--MD5=[779d5b63ebca3f6cfa1a1836f36ede72]
+entity okhttp--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="76.0417" x="4346.875" y="590.1611"/><polygon fill="#1B1B1A" points="4405.2083,595.3695,4405.2083,609.9528,4417.7083,609.9528,4417.7083,601.6195,4411.4583,595.3695,4405.2083,595.3695" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4411.4583" x2="4411.4583" y1="595.3695" y2="601.6195"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4417.7083" x2="4411.4583" y1="601.6195" y2="601.6195"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="38.5417" x="4360.4167" y="618.9128">okhttp</text><!--MD5=[061d283b7531411ee44a898cb9ec4423]
+entity okio--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="62.5" x="4353.6458" y="697.4528"/><polygon fill="#1B1B1A" points="4398.4375,702.6611,4398.4375,717.2445,4410.9375,717.2445,4410.9375,708.9111,4404.6875,702.6611,4398.4375,702.6611" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4404.6875" x2="4404.6875" y1="702.6611" y2="708.9111"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4410.9375" x2="4404.6875" y1="708.9111" y2="708.9111"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="25" x="4367.1875" y="726.2044">okio</text><!--MD5=[f60c93b31809bbe75a7d4f457c50057b]
+entity cactus_metadata--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="138.5417" x="647.9167" y="590.1611"/><polygon fill="#1B1B1A" points="768.75,595.3695,768.75,609.9528,781.25,609.9528,781.25,601.6195,775,595.3695,768.75,595.3695" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="775" x2="775" y1="595.3695" y2="601.6195"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="781.25" x2="775" y1="601.6195" y2="601.6195"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="101.0417" x="661.4583" y="618.9128">cactus_metadata</text><!--MD5=[4facc4376e4b6bfc182ce14f42a813f9]
+entity kivakit_collections--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="143.75" x="871.3542" y="375.5778"/><polygon fill="#1B1B1A" points="997.3958,380.7861,997.3958,395.3695,1009.8958,395.3695,1009.8958,387.0361,1003.6458,380.7861,997.3958,380.7861" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1003.6458" x2="1003.6458" y1="380.7861" y2="387.0361"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1009.8958" x2="1003.6458" y1="387.0361" y2="387.0361"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="106.25" x="884.8958" y="404.3294">kivakit_collections</text><!--MD5=[b7af8d5b7902cf06664f76dfe0f9e426]
+entity kivakit_commandline--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="162.5" x="1477.6042" y="375.5778"/><polygon fill="#1B1B1A" points="1622.3958,380.7861,1622.3958,395.3695,1634.8958,395.3695,1634.8958,387.0361,1628.6458,380.7861,1622.3958,380.7861" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1628.6458" x2="1628.6458" y1="380.7861" y2="387.0361"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1634.8958" x2="1628.6458" y1="387.0361" y2="387.0361"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="125" x="1491.1458" y="404.3294">kivakit_commandline</text><!--MD5=[76998a0b8e8a034fd4dce74d4f636366]
+entity kivakit_component--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="148.9583" x="4557.2917" y="482.8695"/><polygon fill="#1B1B1A" points="4688.5417,488.0778,4688.5417,502.6611,4701.0417,502.6611,4701.0417,494.3278,4694.7917,488.0778,4688.5417,488.0778" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4694.7917" x2="4694.7917" y1="488.0778" y2="494.3278"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4701.0417" x2="4694.7917" y1="494.3278" y2="494.3278"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="111.4583" x="4570.8333" y="511.6211">kivakit_component</text><!--MD5=[dafc80021cd29aae9231cf20b1d6436c]
+entity kivakit_conversion--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="145.8333" x="1071.3542" y="375.5778"/><polygon fill="#1B1B1A" points="1199.4792,380.7861,1199.4792,395.3695,1211.9792,395.3695,1211.9792,387.0361,1205.7292,380.7861,1199.4792,380.7861" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1205.7292" x2="1205.7292" y1="380.7861" y2="387.0361"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1211.9792" x2="1205.7292" y1="387.0361" y2="387.0361"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="108.3333" x="1084.8958" y="404.3294">kivakit_conversion</text><!--MD5=[ae4286fb09ce878b5ed12f89a26eee54]
+entity kivakit_core--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="108.3333" x="849.4792" y="482.8695"/><polygon fill="#1B1B1A" points="940.1042,488.0778,940.1042,502.6611,952.6042,502.6611,952.6042,494.3278,946.3542,488.0778,940.1042,488.0778" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="946.3542" x2="946.3542" y1="488.0778" y2="494.3278"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="952.6042" x2="946.3542" y1="494.3278" y2="494.3278"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="70.8333" x="863.0208" y="511.6211">kivakit_core</text><!--MD5=[d079e480d5d45338d66b0a803aea0fe8]
+entity kivakit_data_compression--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="191.6667" x="2332.8125" y="375.5778"/><polygon fill="#1B1B1A" points="2506.7708,380.7861,2506.7708,395.3695,2519.2708,395.3695,2519.2708,387.0361,2513.0208,380.7861,2506.7708,380.7861" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="2513.0208" x2="2513.0208" y1="380.7861" y2="387.0361"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="2519.2708" x2="2513.0208" y1="387.0361" y2="387.0361"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="154.1667" x="2346.3542" y="404.3294">kivakit_data_compression</text><!--MD5=[830de75719ed2cc251fe4f4a723e1e0b]
+entity kivakit_data_formats_library--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="206.25" x="2560.9375" y="375.5778"/><polygon fill="#1B1B1A" points="2749.4792,380.7861,2749.4792,395.3695,2761.9792,395.3695,2761.9792,387.0361,2755.7292,380.7861,2749.4792,380.7861" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="2755.7292" x2="2755.7292" y1="380.7861" y2="387.0361"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="2761.9792" x2="2755.7292" y1="387.0361" y2="387.0361"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="168.75" x="2574.4792" y="404.3294">kivakit_data_formats_library</text><!--MD5=[d894024adab40ff3aa3355bd924326e3]
+entity kivakit_extraction--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="141.6667" x="2803.6458" y="375.5778"/><polygon fill="#1B1B1A" points="2927.6042,380.7861,2927.6042,395.3695,2940.1042,395.3695,2940.1042,387.0361,2933.8542,380.7861,2927.6042,380.7861" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="2933.8542" x2="2933.8542" y1="380.7861" y2="387.0361"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="2940.1042" x2="2933.8542" y1="387.0361" y2="387.0361"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="104.1667" x="2817.1875" y="404.3294">kivakit_extraction</text><!--MD5=[b582392a7118229602de187c1b0722c2]
+entity kivakit_interfaces--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="140.625" x="822.9167" y="590.1611"/><polygon fill="#1B1B1A" points="945.8333,595.3695,945.8333,609.9528,958.3333,609.9528,958.3333,601.6195,952.0833,595.3695,945.8333,595.3695" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="952.0833" x2="952.0833" y1="595.3695" y2="601.6195"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="958.3333" x2="952.0833" y1="601.6195" y2="601.6195"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="103.125" x="836.4583" y="618.9128">kivakit_interfaces</text><!--MD5=[155c7293f864675051139bd0dee90fee]
+entity kivakit_internal_testing--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="172.9167" x="160.9375" y="590.1611"/><polygon fill="#1B1B1A" points="316.1458,595.3695,316.1458,609.9528,328.6458,609.9528,328.6458,601.6195,322.3958,595.3695,316.1458,595.3695" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="322.3958" x2="322.3958" y1="595.3695" y2="601.6195"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="328.6458" x2="322.3958" y1="601.6195" y2="601.6195"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="135.4167" x="174.4792" y="618.9128">kivakit_internal_testing</text><!--MD5=[777f537393e16daa648c56fbfeea7987]
+entity kivakit_math--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="112.5" x="3715.1042" y="375.5778"/><polygon fill="#1B1B1A" points="3809.8958,380.7861,3809.8958,395.3695,3822.3958,395.3695,3822.3958,387.0361,3816.1458,380.7861,3809.8958,380.7861" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3816.1458" x2="3816.1458" y1="380.7861" y2="387.0361"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3822.3958" x2="3816.1458" y1="387.0361" y2="387.0361"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="75" x="3728.6458" y="404.3294">kivakit_math</text><!--MD5=[f41257055ff6c31a77f8312d5e694f18]
+entity kivakit_mixins--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="120.8333" x="1000.5208" y="590.1611"/><polygon fill="#1B1B1A" points="1103.6458,595.3695,1103.6458,609.9528,1116.1458,609.9528,1116.1458,601.6195,1109.8958,595.3695,1103.6458,595.3695" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1109.8958" x2="1109.8958" y1="595.3695" y2="601.6195"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1116.1458" x2="1109.8958" y1="601.6195" y2="601.6195"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="83.3333" x="1014.0625" y="618.9128">kivakit_mixins</text><!--MD5=[69aef7896e565a816d1082fbfba261ce]
+entity kivakit_network_core--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="162.5" x="4020.3125" y="482.8695"/><polygon fill="#1B1B1A" points="4165.1042,488.0778,4165.1042,502.6611,4177.6042,502.6611,4177.6042,494.3278,4171.3542,488.0778,4165.1042,488.0778" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4171.3542" x2="4171.3542" y1="488.0778" y2="494.3278"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4177.6042" x2="4171.3542" y1="494.3278" y2="494.3278"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="125" x="4033.8542" y="511.6211">kivakit_network_core</text><!--MD5=[619e5058bf9878b2704e3a37e8725778]
+entity kivakit_network_http--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="160.4167" x="4021.3542" y="375.5778"/><polygon fill="#1B1B1A" points="4164.0625,380.7861,4164.0625,395.3695,4176.5625,395.3695,4176.5625,387.0361,4170.3125,380.7861,4164.0625,380.7861" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4170.3125" x2="4170.3125" y1="380.7861" y2="387.0361"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4176.5625" x2="4170.3125" y1="387.0361" y2="387.0361"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="122.9167" x="4034.8958" y="404.3294">kivakit_network_http</text><!--MD5=[86ee71b084d15cd1b0bd9313024b3d4d]
+entity kivakit_primitive_collections--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="202.0833" x="1145.3125" y="268.2861"/><polygon fill="#1B1B1A" points="1329.6875,273.4945,1329.6875,288.0778,1342.1875,288.0778,1342.1875,279.7445,1335.9375,273.4945,1329.6875,273.4945" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1335.9375" x2="1335.9375" y1="273.4945" y2="279.7445"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1342.1875" x2="1335.9375" y1="279.7445" y2="279.7445"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="164.5833" x="1158.8542" y="297.0378">kivakit_primitive_collections</text><!--MD5=[789122fdd47ca161e4432768ac68a470]
+entity kivakit_resource--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="134.375" x="1677.0833" y="375.5778"/><polygon fill="#1B1B1A" points="1793.75,380.7861,1793.75,395.3695,1806.25,395.3695,1806.25,387.0361,1800,380.7861,1793.75,380.7861" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1800" x2="1800" y1="380.7861" y2="387.0361"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1806.25" x2="1800" y1="387.0361" y2="387.0361"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="96.875" x="1690.625" y="404.3294">kivakit_resource</text><!--MD5=[90c7e8c0eae90f7cdcf1e82754bc9c37]
+entity kivakit_serialization_core--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="186.4583" x="1264.5833" y="482.8695"/><polygon fill="#1B1B1A" points="1433.3333,488.0778,1433.3333,502.6611,1445.8333,502.6611,1445.8333,494.3278,1439.5833,488.0778,1433.3333,488.0778" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1439.5833" x2="1439.5833" y1="488.0778" y2="494.3278"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1445.8333" x2="1439.5833" y1="494.3278" y2="494.3278"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="148.9583" x="1278.125" y="511.6211">kivakit_serialization_core</text><!--MD5=[7b11bf8f6cdaefb37d9e26a0fe1bc824]
+entity kivakit_serialization_gson--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="188.5417" x="1847.9167" y="375.5778"/><polygon fill="#1B1B1A" points="2018.75,380.7861,2018.75,395.3695,2031.25,395.3695,2031.25,387.0361,2025,380.7861,2018.75,380.7861" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="2025" x2="2025" y1="380.7861" y2="387.0361"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="2031.25" x2="2025" y1="387.0361" y2="387.0361"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="151.0417" x="1861.4583" y="404.3294">kivakit_serialization_gson</text><!--MD5=[d8561a10eaf46cfca0a780c55c779e3c]
+entity kivakit_serialization_kryo_testing--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="232.2917" x="379.1667" y="590.1611"/><polygon fill="#1B1B1A" points="593.75,595.3695,593.75,609.9528,606.25,609.9528,606.25,601.6195,600,595.3695,593.75,595.3695" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="600" x2="600" y1="595.3695" y2="601.6195"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="606.25" x2="600" y1="601.6195" y2="601.6195"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="194.7917" x="392.7083" y="618.9128">kivakit_serialization_kryo_testing</text><!--MD5=[7bf535908c90dd3c1fbc894d9b1c5a2e]
+entity kivakit_serialization_kryo--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="186.4583" x="1254.1667" y="375.5778"/><polygon fill="#1B1B1A" points="1422.9167,380.7861,1422.9167,395.3695,1435.4167,395.3695,1435.4167,387.0361,1429.1667,380.7861,1422.9167,380.7861" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1429.1667" x2="1429.1667" y1="380.7861" y2="387.0361"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1435.4167" x2="1429.1667" y1="387.0361" y2="387.0361"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="148.9583" x="1267.7083" y="404.3294">kivakit_serialization_kryo</text><!--MD5=[89af034859c241291c45f10ab75c9d6f]
+entity kivakit_serialization_properties--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="222.9167" x="2073.4375" y="375.5778"/><polygon fill="#1B1B1A" points="2278.6458,380.7861,2278.6458,395.3695,2291.1458,395.3695,2291.1458,387.0361,2284.8958,380.7861,2278.6458,380.7861" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="2284.8958" x2="2284.8958" y1="380.7861" y2="387.0361"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="2291.1458" x2="2284.8958" y1="387.0361" y2="387.0361"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="185.4167" x="2086.9792" y="404.3294">kivakit_serialization_properties</text><!--MD5=[9ba95bb9e8e31957d019d7ac74b23042]
+entity kivakit_settings--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="128.125" x="1878.125" y="268.2861"/><polygon fill="#1B1B1A" points="1988.5417,273.4945,1988.5417,288.0778,2001.0417,288.0778,2001.0417,279.7445,1994.7917,273.4945,1988.5417,273.4945" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1994.7917" x2="1994.7917" y1="273.4945" y2="279.7445"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="2001.0417" x2="1994.7917" y1="279.7445" y2="279.7445"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="90.625" x="1891.6667" y="297.0378">kivakit_settings</text><!--MD5=[093cb7b544ec48262295604d6acff019]
+entity kivakit_testing--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="121.875" x="442.7083" y="697.4528"/><polygon fill="#1B1B1A" points="546.875,702.6611,546.875,717.2445,559.375,717.2445,559.375,708.9111,553.125,702.6611,546.875,702.6611" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="553.125" x2="553.125" y1="702.6611" y2="708.9111"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="559.375" x2="553.125" y1="708.9111" y2="708.9111"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="84.375" x="456.25" y="726.2044">kivakit_testing</text><!--MD5=[f04f0f2bbb252e9bb38fe172e2e553d8]
+entity kivakit_ui_desktop--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="147.9167" x="4920.3125" y="375.5778"/><polygon fill="#1B1B1A" points="5050.5208,380.7861,5050.5208,395.3695,5063.0208,395.3695,5063.0208,387.0361,5056.7708,380.7861,5050.5208,380.7861" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="5056.7708" x2="5056.7708" y1="380.7861" y2="387.0361"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="5063.0208" x2="5056.7708" y1="387.0361" y2="387.0361"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="110.4167" x="4933.8542" y="404.3294">kivakit_ui_desktop</text><!--MD5=[80d2a7f8a38f99556dcaa88e0cbe286e]
+entity kivakit_validation--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="139.5833" x="1655.7292" y="482.8695"/><polygon fill="#1B1B1A" points="1777.6042,488.0778,1777.6042,502.6611,1790.1042,502.6611,1790.1042,494.3278,1783.8542,488.0778,1777.6042,488.0778" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1783.8542" x2="1783.8542" y1="488.0778" y2="494.3278"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1790.1042" x2="1783.8542" y1="494.3278" y2="494.3278"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="102.0833" x="1669.2708" y="511.6211">kivakit_validation</text><!--MD5=[7b0fec798d1f32628676dfdf75f1f662]
+entity lexakai_annotations--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="155.2083" x="7.2917" y="697.4528"/><polygon fill="#1B1B1A" points="144.7917,702.6611,144.7917,717.2445,157.2917,717.2445,157.2917,708.9111,151.0417,702.6611,144.7917,702.6611" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="151.0417" x2="151.0417" y1="702.6611" y2="708.9111"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="157.2917" x2="151.0417" y1="708.9111" y2="708.9111"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="117.7083" x="20.8333" y="726.2044">lexakai_annotations</text><!--MD5=[bf1272b193c6bb5ea50a625c53958130]
+entity mesakit_core--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="116.6667" x="4218.2292" y="375.5778"/><polygon fill="#1B1B1A" points="4317.1875,380.7861,4317.1875,395.3695,4329.6875,395.3695,4329.6875,387.0361,4323.4375,380.7861,4317.1875,380.7861" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4323.4375" x2="4323.4375" y1="380.7861" y2="387.0361"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4329.6875" x2="4323.4375" y1="387.0361" y2="387.0361"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="79.1667" x="4231.7708" y="404.3294">mesakit_core</text><!--MD5=[ecbfe45f37b468d1e82d203d0e6269cc]
+entity mesakit_graph_core_testing--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="204.1667" x="2405.7292" y="160.9945"/><polygon fill="#1B1B1A" points="2592.1875,166.2028,2592.1875,180.7861,2604.6875,180.7861,2604.6875,172.4528,2598.4375,166.2028,2592.1875,166.2028" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="2598.4375" x2="2598.4375" y1="166.2028" y2="172.4528"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="2604.6875" x2="2598.4375" y1="172.4528" y2="172.4528"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="166.6667" x="2419.2708" y="189.7461">mesakit_graph_core_testing</text><!--MD5=[05ff2108df8bd8cf61562bc470bdb74d]
+entity mesakit_graph_core--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="158.3333" x="3945.3125" y="160.9945"/><polygon fill="#1B1B1A" points="4085.9375,166.2028,4085.9375,180.7861,4098.4375,180.7861,4098.4375,172.4528,4092.1875,166.2028,4085.9375,166.2028" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4092.1875" x2="4092.1875" y1="166.2028" y2="172.4528"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4098.4375" x2="4092.1875" y1="172.4528" y2="172.4528"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="120.8333" x="3958.8542" y="189.7461">mesakit_graph_core</text><!--MD5=[3fb2447e3f4525747327e0b6f63105df]
+entity mesakit_internal_graph_core_unit_tests--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="271.875" x="2480.2083" y="53.7028"/><polygon fill="#1B1B1A" points="2734.375,58.9111,2734.375,73.4945,2746.875,73.4945,2746.875,65.1611,2740.625,58.9111,2734.375,58.9111" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="2740.625" x2="2740.625" y1="58.9111" y2="65.1611"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="2746.875" x2="2740.625" y1="65.1611" y2="65.1611"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="234.375" x="2493.75" y="82.4544">mesakit_internal_graph_core_unit_tests</text><!--MD5=[300c80d7c8af5ff55497f54e312631cf]
+entity mesakit_map_data_formats_pbf--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="230.2083" x="3061.4583" y="268.2861"/><polygon fill="#1B1B1A" points="3273.9583,273.4945,3273.9583,288.0778,3286.4583,288.0778,3286.4583,279.7445,3280.2083,273.4945,3273.9583,273.4945" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3280.2083" x2="3280.2083" y1="273.4945" y2="279.7445"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3286.4583" x2="3280.2083" y1="279.7445" y2="279.7445"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="192.7083" x="3075" y="297.0378">mesakit_map_data_formats_pbf</text><!--MD5=[111852d64acd022238b399ea141b1564]
+entity mesakit_map_data_library--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="195.8333" x="2981.7708" y="375.5778"/><polygon fill="#1B1B1A" points="3159.8958,380.7861,3159.8958,395.3695,3172.3958,395.3695,3172.3958,387.0361,3166.1458,380.7861,3159.8958,380.7861" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3166.1458" x2="3166.1458" y1="380.7861" y2="387.0361"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3172.3958" x2="3166.1458" y1="387.0361" y2="387.0361"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="158.3333" x="2995.3125" y="404.3294">mesakit_map_data_library</text><!--MD5=[a37868a6cb9b964dba5220e788f34b7e]
+entity mesakit_map_geography_testing--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="233.3333" x="495.3125" y="375.5778"/><polygon fill="#1B1B1A" points="710.9375,380.7861,710.9375,395.3695,723.4375,395.3695,723.4375,387.0361,717.1875,380.7861,710.9375,380.7861" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="717.1875" x2="717.1875" y1="380.7861" y2="387.0361"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="723.4375" x2="717.1875" y1="387.0361" y2="387.0361"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="195.8333" x="508.8542" y="404.3294">mesakit_map_geography_testing</text><!--MD5=[c37cf80b79af17798c1f9f5cff35e3b5]
+entity mesakit_map_geography--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="187.5" x="4371.3542" y="375.5778"/><polygon fill="#1B1B1A" points="4541.1458,380.7861,4541.1458,395.3695,4553.6458,395.3695,4553.6458,387.0361,4547.3958,380.7861,4541.1458,380.7861" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4547.3958" x2="4547.3958" y1="380.7861" y2="387.0361"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4553.6458" x2="4547.3958" y1="387.0361" y2="387.0361"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="150" x="4384.8958" y="404.3294">mesakit_map_geography</text><!--MD5=[77d764cd0e000a929ac7c7e882a7858a]
+entity mesakit_map_measurements_testing--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="258.3333" x="366.1458" y="482.8695"/><polygon fill="#1B1B1A" points="606.7708,488.0778,606.7708,502.6611,619.2708,502.6611,619.2708,494.3278,613.0208,488.0778,606.7708,488.0778" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="613.0208" x2="613.0208" y1="488.0778" y2="494.3278"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="619.2708" x2="613.0208" y1="494.3278" y2="494.3278"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="220.8333" x="379.6875" y="511.6211">mesakit_map_measurements_testing</text><!--MD5=[c13f614f4eab1fb0a15a900fd22c77de]
+entity mesakit_map_measurements--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="212.5" x="3582.8125" y="268.2861"/><polygon fill="#1B1B1A" points="3777.6042,273.4945,3777.6042,288.0778,3790.1042,288.0778,3790.1042,279.7445,3783.8542,273.4945,3777.6042,273.4945" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3783.8542" x2="3783.8542" y1="273.4945" y2="279.7445"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3790.1042" x2="3783.8542" y1="279.7445" y2="279.7445"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="175" x="3596.3542" y="297.0378">mesakit_map_measurements</text><!--MD5=[8590258940a9221448ed734b6282304f]
+entity mesakit_map_overpass--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="178.125" x="3832.2917" y="268.2861"/><polygon fill="#1B1B1A" points="3992.7083,273.4945,3992.7083,288.0778,4005.2083,288.0778,4005.2083,279.7445,3998.9583,273.4945,3992.7083,273.4945" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3998.9583" x2="3998.9583" y1="273.4945" y2="279.7445"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4005.2083" x2="3998.9583" y1="279.7445" y2="279.7445"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="140.625" x="3845.8333" y="297.0378">mesakit_map_overpass</text><!--MD5=[35ce3253f8672d88ddcccbe3b4b03752]
+entity mesakit_map_region_testing--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="207.2917" x="717.7083" y="268.2861"/><polygon fill="#1B1B1A" points="907.2917,273.4945,907.2917,288.0778,919.7917,288.0778,919.7917,279.7445,913.5417,273.4945,907.2917,273.4945" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="913.5417" x2="913.5417" y1="273.4945" y2="279.7445"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="919.7917" x2="913.5417" y1="279.7445" y2="279.7445"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="169.7917" x="731.25" y="297.0378">mesakit_map_region_testing</text><!--MD5=[fed177827babb7608fe08adb923ae200]
+entity mesakit_map_region--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="161.4583" x="4046.875" y="268.2861"/><polygon fill="#1B1B1A" points="4190.625,273.4945,4190.625,288.0778,4203.125,288.0778,4203.125,279.7445,4196.875,273.4945,4190.625,273.4945" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4196.875" x2="4196.875" y1="273.4945" y2="279.7445"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4203.125" x2="4196.875" y1="279.7445" y2="279.7445"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="123.9583" x="4060.4167" y="297.0378">mesakit_map_region</text><!--MD5=[0a54404f3ebf55e7370f26923d371e89]
+entity mesakit_map_road_model--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="195.8333" x="4743.2292" y="482.8695"/><polygon fill="#1B1B1A" points="4921.3542,488.0778,4921.3542,502.6611,4933.8542,502.6611,4933.8542,494.3278,4927.6042,488.0778,4921.3542,488.0778" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4927.6042" x2="4927.6042" y1="488.0778" y2="494.3278"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4933.8542" x2="4927.6042" y1="494.3278" y2="494.3278"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="158.3333" x="4756.7708" y="511.6211">mesakit_map_road_model</text><!--MD5=[79e47f1fd051563d2c81652f5db4053f]
+entity mesakit_map_road_name_parser--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="237.5" x="4613.0208" y="375.5778"/><polygon fill="#1B1B1A" points="4832.8125,380.7861,4832.8125,395.3695,4845.3125,395.3695,4845.3125,387.0361,4839.0625,380.7861,4832.8125,380.7861" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4839.0625" x2="4839.0625" y1="380.7861" y2="387.0361"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4845.3125" x2="4839.0625" y1="387.0361" y2="387.0361"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="200" x="4626.5625" y="404.3294">mesakit_map_road_name_parser</text><!--MD5=[2ec6c134f90979353a88542ad9575c15]
+entity mesakit_map_road_name_standardizer--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="275" x="4245.3125" y="268.2861"/><polygon fill="#1B1B1A" points="4502.6042,273.4945,4502.6042,288.0778,4515.1042,288.0778,4515.1042,279.7445,4508.8542,273.4945,4502.6042,273.4945" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4508.8542" x2="4508.8542" y1="273.4945" y2="279.7445"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4515.1042" x2="4508.8542" y1="279.7445" y2="279.7445"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="237.5" x="4258.8542" y="297.0378">mesakit_map_road_name_standardizer</text><!--MD5=[43613093d1d4d58e135fcb8d32353a69]
+entity mesakit_map_ui_debug--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="179.1667" x="4556.7708" y="268.2861"/><polygon fill="#1B1B1A" points="4718.2292,273.4945,4718.2292,288.0778,4730.7292,288.0778,4730.7292,279.7445,4724.4792,273.4945,4718.2292,273.4945" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4724.4792" x2="4724.4792" y1="273.4945" y2="279.7445"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4730.7292" x2="4724.4792" y1="279.7445" y2="279.7445"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="141.6667" x="4570.3125" y="297.0378">mesakit_map_ui_debug</text><!--MD5=[d4dd83ad10eef7eb5e2d889e25cf9010]
+entity mesakit_map_ui_desktop--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="189.5833" x="4772.3958" y="268.2861"/><polygon fill="#1B1B1A" points="4944.2708,273.4945,4944.2708,288.0778,4956.7708,288.0778,4956.7708,279.7445,4950.5208,273.4945,4944.2708,273.4945" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4950.5208" x2="4950.5208" y1="273.4945" y2="279.7445"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4956.7708" x2="4950.5208" y1="279.7445" y2="279.7445"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="152.0833" x="4785.9375" y="297.0378">mesakit_map_ui_desktop</text><!--MD5=[bcdce23ea4a1e6f8845dc59188287294]
+entity mesakit_map_utilities_grid--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="195.8333" x="4998.4375" y="268.2861"/><polygon fill="#1B1B1A" points="5176.5625,273.4945,5176.5625,288.0778,5189.0625,288.0778,5189.0625,279.7445,5182.8125,273.4945,5176.5625,273.4945" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="5182.8125" x2="5182.8125" y1="273.4945" y2="279.7445"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="5189.0625" x2="5182.8125" y1="279.7445" y2="279.7445"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="158.3333" x="5011.9792" y="297.0378">mesakit_map_utilities_grid</text><!--MD5=[9fc9c5f092413c11c1c25bc16308703f]
+entity commons_codec--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="136.4583" x="3846.875" y="482.8695"/><polygon fill="#1B1B1A" points="3965.625,488.0778,3965.625,502.6611,3978.125,502.6611,3978.125,494.3278,3971.875,488.0778,3965.625,488.0778" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3971.875" x2="3971.875" y1="488.0778" y2="494.3278"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3978.125" x2="3971.875" y1="494.3278" y2="494.3278"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="98.9583" x="3860.4167" y="511.6211">commons_codec</text><!--MD5=[2389a778b156a3639a4bce3531bc29c3]
+entity commons_logging--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="143.75" x="4042.1875" y="590.1611"/><polygon fill="#1B1B1A" points="4168.2292,595.3695,4168.2292,609.9528,4180.7292,609.9528,4180.7292,601.6195,4174.4792,595.3695,4168.2292,595.3695" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4174.4792" x2="4174.4792" y1="595.3695" y2="601.6195"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4180.7292" x2="4174.4792" y1="601.6195" y2="601.6195"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="106.25" x="4055.7292" y="618.9128">commons_logging</text><!--MD5=[b9ccc173c089e3d2abf77c8581e74aca]
+entity kryo_serializers--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="131.25" x="1488.0208" y="482.8695"/><polygon fill="#1B1B1A" points="1601.5625,488.0778,1601.5625,502.6611,1614.0625,502.6611,1614.0625,494.3278,1607.8125,488.0778,1601.5625,488.0778" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1607.8125" x2="1607.8125" y1="488.0778" y2="494.3278"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1614.0625" x2="1607.8125" y1="494.3278" y2="494.3278"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="93.75" x="1501.5625" y="511.6211">kryo_serializers</text><!--MD5=[d93458e49a846c03c1fc3b1053c177cd]
+entity grpc_context--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="114.5833" x="4469.2708" y="697.4528"/><polygon fill="#1B1B1A" points="4566.1458,702.6611,4566.1458,717.2445,4578.6458,717.2445,4578.6458,708.9111,4572.3958,702.6611,4566.1458,702.6611" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4572.3958" x2="4572.3958" y1="702.6611" y2="708.9111"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4578.6458" x2="4572.3958" y1="708.9111" y2="708.9111"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="77.0833" x="4482.8125" y="726.2044">grpc_context</text><!--MD5=[c01d1b4564c1bb60b8e149c0688e725b]
+entity opencensus_api--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="133.3333" x="4459.8958" y="590.1611"/><polygon fill="#1B1B1A" points="4575.5208,595.3695,4575.5208,609.9528,4588.0208,609.9528,4588.0208,601.6195,4581.7708,595.3695,4575.5208,595.3695" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4581.7708" x2="4581.7708" y1="595.3695" y2="601.6195"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4588.0208" x2="4581.7708" y1="601.6195" y2="601.6195"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="95.8333" x="4473.4375" y="618.9128">opencensus_api</text><!--MD5=[ce55b294004802c137560c2930be5b75]
+entity junit--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="63.5417" x="198.9583" y="697.4528"/><polygon fill="#1B1B1A" points="244.7917,702.6611,244.7917,717.2445,257.2917,717.2445,257.2917,708.9111,251.0417,702.6611,244.7917,702.6611" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="251.0417" x2="251.0417" y1="702.6611" y2="708.9111"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="257.2917" x2="251.0417" y1="708.9111" y2="708.9111"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="26.0417" x="212.5" y="726.2044">junit</text><!--MD5=[65b133f139baab318df696541354bcc2]
+entity jpf--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="54.1667" x="2816.1458" y="482.8695"/><polygon fill="#1B1B1A" points="2852.6042,488.0778,2852.6042,502.6611,2865.1042,502.6611,2865.1042,494.3278,2858.8542,488.0778,2852.6042,488.0778" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="2858.8542" x2="2858.8542" y1="488.0778" y2="494.3278"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="2865.1042" x2="2858.8542" y1="494.3278" y2="494.3278"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="16.6667" x="2829.6875" y="511.6211">jpf</text><!--MD5=[b4fee37682a108943c178f11f2d356af]
+entity commons_compress--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="159.375" x="2907.2917" y="482.8695"/><polygon fill="#1B1B1A" points="3048.9583,488.0778,3048.9583,502.6611,3061.4583,502.6611,3061.4583,494.3278,3055.2083,488.0778,3048.9583,488.0778" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3055.2083" x2="3055.2083" y1="488.0778" y2="494.3278"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3061.4583" x2="3055.2083" y1="494.3278" y2="494.3278"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="121.875" x="2920.8333" y="511.6211">commons_compress</text><!--MD5=[713b5e657a34e8534dca456173c6b526]
+entity commons_lang3--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="134.375" x="5231.25" y="268.2861"/><polygon fill="#1B1B1A" points="5347.9167,273.4945,5347.9167,288.0778,5360.4167,288.0778,5360.4167,279.7445,5354.1667,273.4945,5347.9167,273.4945" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="5354.1667" x2="5354.1667" y1="273.4945" y2="279.7445"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="5360.4167" x2="5354.1667" y1="279.7445" y2="279.7445"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="96.875" x="5244.7917" y="297.0378">commons_lang3</text><!--MD5=[374397457fd87171900b6bd6464bbf1c]
+entity commons_math--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="131.25" x="3678.6458" y="482.8695"/><polygon fill="#1B1B1A" points="3792.1875,488.0778,3792.1875,502.6611,3804.6875,502.6611,3804.6875,494.3278,3798.4375,488.0778,3792.1875,488.0778" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3798.4375" x2="3798.4375" y1="488.0778" y2="494.3278"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3804.6875" x2="3798.4375" y1="494.3278" y2="494.3278"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="93.75" x="3692.1875" y="511.6211">commons_math</text><!--MD5=[4d84dd946d4c44d64e4fb3c2bb10389a]
+entity httpclient--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="92.7083" x="4219.7917" y="482.8695"/><polygon fill="#1B1B1A" points="4294.7917,488.0778,4294.7917,502.6611,4307.2917,502.6611,4307.2917,494.3278,4301.0417,488.0778,4294.7917,488.0778" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4301.0417" x2="4301.0417" y1="488.0778" y2="494.3278"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4307.2917" x2="4301.0417" y1="494.3278" y2="494.3278"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="55.2083" x="4233.3333" y="511.6211">httpclient</text><!--MD5=[1374b169c6b8870e9ee15755210fd002]
+entity httpcore--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="87.5" x="4222.3958" y="590.1611"/><polygon fill="#1B1B1A" points="4292.1875,595.3695,4292.1875,609.9528,4304.6875,609.9528,4304.6875,601.6195,4298.4375,595.3695,4292.1875,595.3695" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4298.4375" x2="4298.4375" y1="595.3695" y2="601.6195"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4304.6875" x2="4298.4375" y1="601.6195" y2="601.6195"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="50" x="4235.9375" y="618.9128">httpcore</text><!--MD5=[eac5dad932b420aaf0027c356f554118]
+entity stax2_api--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="95.8333" x="3103.6458" y="482.8695"/><polygon fill="#1B1B1A" points="3181.7708,488.0778,3181.7708,502.6611,3194.2708,502.6611,3194.2708,494.3278,3188.0208,488.0778,3181.7708,488.0778" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3188.0208" x2="3188.0208" y1="488.0778" y2="494.3278"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3194.2708" x2="3188.0208" y1="494.3278" y2="494.3278"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="58.3333" x="3117.1875" y="511.6211">stax2_api</text><!--MD5=[7f157d37bc1fd6ac970bb67ffdbc66a3]
+entity hamcrest_core--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="125" x="168.2292" y="804.7445"/><polygon fill="#1B1B1A" points="275.5208,809.9528,275.5208,824.5361,288.0208,824.5361,288.0208,816.2028,281.7708,809.9528,275.5208,809.9528" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="281.7708" x2="281.7708" y1="809.9528" y2="816.2028"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="288.0208" x2="281.7708" y1="816.2028" y2="816.2028"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="87.5" x="181.7708" y="833.4961">hamcrest_core</text><!--MD5=[a051d435ec1ced5ad027dbd5ece3e803]
+entity kotlin_stdlib_common--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="166.6667" x="4301.5625" y="804.7445"/><polygon fill="#1B1B1A" points="4450.5208,809.9528,4450.5208,824.5361,4463.0208,824.5361,4463.0208,816.2028,4456.7708,809.9528,4450.5208,809.9528" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4456.7708" x2="4456.7708" y1="809.9528" y2="816.2028"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4463.0208" x2="4456.7708" y1="816.2028" y2="816.2028"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="129.1667" x="4315.1042" y="833.4961">kotlin_stdlib_common</text><!--MD5=[b728e17b4e4da6aa8cb97e9b2766c5e6]
+entity annotations--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="106.25" x="299.4792" y="697.4528"/><polygon fill="#1B1B1A" points="388.0208,702.6611,388.0208,717.2445,400.5208,717.2445,400.5208,708.9111,394.2708,702.6611,388.0208,702.6611" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="394.2708" x2="394.2708" y1="702.6611" y2="708.9111"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="400.5208" x2="394.2708" y1="708.9111" y2="708.9111"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="68.75" x="313.0208" y="726.2044">annotations</text><!--MD5=[b3c862d1486667ad9c7edef6529b2202]
+entity objenesis--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="94.7917" x="1408.3333" y="590.1611"/><polygon fill="#1B1B1A" points="1485.4167,595.3695,1485.4167,609.9528,1497.9167,609.9528,1497.9167,601.6195,1491.6667,595.3695,1485.4167,595.3695" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1491.6667" x2="1491.6667" y1="595.3695" y2="601.6195"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1497.9167" x2="1491.6667" y1="601.6195" y2="601.6195"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="57.2917" x="1421.875" y="618.9128">objenesis</text><!--MD5=[39acb5728013f1be5ef2ce29c6e316a5]
+entity osmosis_core--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="117.7083" x="3214.5833" y="375.5778"/><polygon fill="#1B1B1A" points="3314.5833,380.7861,3314.5833,395.3695,3327.0833,395.3695,3327.0833,387.0361,3320.8333,380.7861,3314.5833,380.7861" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3320.8333" x2="3320.8333" y1="380.7861" y2="387.0361"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3327.0833" x2="3320.8333" y1="387.0361" y2="387.0361"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="80.2083" x="3228.125" y="404.3294">osmosis_core</text><!--MD5=[f4ca00a2f55b997179a54baf9eb3d90c]
+entity osmosis_osm_binary--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="160.4167" x="3369.2708" y="375.5778"/><polygon fill="#1B1B1A" points="3511.9792,380.7861,3511.9792,395.3695,3524.4792,395.3695,3524.4792,387.0361,3518.2292,380.7861,3511.9792,380.7861" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3518.2292" x2="3518.2292" y1="380.7861" y2="387.0361"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3524.4792" x2="3518.2292" y1="387.0361" y2="387.0361"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="122.9167" x="3382.8125" y="404.3294">osmosis_osm_binary</text><!--MD5=[4c6d58534d898ebe9e78e9a3f442254d]
+entity osmosis_pbf--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="112.5" x="3566.1458" y="375.5778"/><polygon fill="#1B1B1A" points="3660.9375,380.7861,3660.9375,395.3695,3673.4375,395.3695,3673.4375,387.0361,3667.1875,380.7861,3660.9375,380.7861" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3667.1875" x2="3667.1875" y1="380.7861" y2="387.0361"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3673.4375" x2="3667.1875" y1="387.0361" y2="387.0361"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="75" x="3579.6875" y="404.3294">osmosis_pbf</text><!--MD5=[2a0862fcb8bce57af8addf377870b1f9]
+entity osmosis_xml--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="113.5417" x="3864.5833" y="375.5778"/><polygon fill="#1B1B1A" points="3960.4167,380.7861,3960.4167,395.3695,3972.9167,395.3695,3972.9167,387.0361,3966.6667,380.7861,3960.4167,380.7861" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3966.6667" x2="3966.6667" y1="380.7861" y2="387.0361"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3972.9167" x2="3966.6667" y1="387.0361" y2="387.0361"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="76.0417" x="3878.125" y="404.3294">osmosis_xml</text><!--MD5=[92e2ad58d19962135e7ff93f22958550]
+entity asm--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="62.5" x="1290.1042" y="697.4528"/><polygon fill="#1B1B1A" points="1334.8958,702.6611,1334.8958,717.2445,1347.3958,717.2445,1347.3958,708.9111,1341.1458,702.6611,1334.8958,702.6611" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1341.1458" x2="1341.1458" y1="702.6611" y2="708.9111"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1347.3958" x2="1341.1458" y1="708.9111" y2="708.9111"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="25" x="1303.6458" y="726.2044">asm</text><!--MD5=[44b0a2e1eacfc27a1dd91401467b1b24]
+entity slf4j_api--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="88.5417" x="4630.2083" y="590.1611"/><polygon fill="#1B1B1A" points="4701.0417,595.3695,4701.0417,609.9528,4713.5417,609.9528,4713.5417,601.6195,4707.2917,595.3695,4701.0417,595.3695" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4707.2917" x2="4707.2917" y1="595.3695" y2="601.6195"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="4713.5417" x2="4707.2917" y1="601.6195" y2="601.6195"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="51.0417" x="4643.75" y="618.9128">slf4j_api</text><!--MD5=[b0c7993166b305e6c4e7615fdafda7b7]
+entity spring_beans--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="117.7083" x="3082.2917" y="590.1611"/><polygon fill="#1B1B1A" points="3182.2917,595.3695,3182.2917,609.9528,3194.7917,609.9528,3194.7917,601.6195,3188.5417,595.3695,3182.2917,595.3695" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3188.5417" x2="3188.5417" y1="595.3695" y2="601.6195"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3194.7917" x2="3188.5417" y1="601.6195" y2="601.6195"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="80.2083" x="3095.8333" y="618.9128">spring_beans</text><!--MD5=[3cbf9022786ed46e3e439daf897a3708]
+entity spring_core--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="107.2917" x="3236.4583" y="590.1611"/><polygon fill="#1B1B1A" points="3326.0417,595.3695,3326.0417,609.9528,3338.5417,609.9528,3338.5417,601.6195,3332.2917,595.3695,3326.0417,595.3695" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3332.2917" x2="3332.2917" y1="595.3695" y2="601.6195"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3338.5417" x2="3332.2917" y1="601.6195" y2="601.6195"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="69.7917" x="3250" y="618.9128">spring_core</text><!--MD5=[53f0211710a18501eae30908ba73574f]
+entity spring_jcl--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="94.7917" x="3242.7083" y="697.4528"/><polygon fill="#1B1B1A" points="3319.7917,702.6611,3319.7917,717.2445,3332.2917,717.2445,3332.2917,708.9111,3326.0417,702.6611,3319.7917,702.6611" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3326.0417" x2="3326.0417" y1="702.6611" y2="708.9111"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3332.2917" x2="3326.0417" y1="708.9111" y2="708.9111"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="57.2917" x="3256.25" y="726.2044">spring_jcl</text><!--MD5=[dfb25d79c4a9ed0484cf80aa1bb97607]
+entity spring_jdbc--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="108.3333" x="3235.9375" y="482.8695"/><polygon fill="#1B1B1A" points="3326.5625,488.0778,3326.5625,502.6611,3339.0625,502.6611,3339.0625,494.3278,3332.8125,488.0778,3326.5625,488.0778" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3332.8125" x2="3332.8125" y1="488.0778" y2="494.3278"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3339.0625" x2="3332.8125" y1="494.3278" y2="494.3278"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="70.8333" x="3249.4792" y="511.6211">spring_jdbc</text><!--MD5=[c445148dd23422f60ab8cd11087a953f]
+entity spring_tx--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="92.7083" x="3380.2083" y="590.1611"/><polygon fill="#1B1B1A" points="3455.2083,595.3695,3455.2083,609.9528,3467.7083,609.9528,3467.7083,601.6195,3461.4583,595.3695,3455.2083,595.3695" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3461.4583" x2="3461.4583" y1="595.3695" y2="601.6195"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3467.7083" x2="3461.4583" y1="601.6195" y2="601.6195"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="55.2083" x="3393.75" y="618.9128">spring_tx</text><!--MD5=[b89156af5646869b89d3a2d5b1157bf5]
+entity xercesImpl--><rect fill="#1B1B1A" height="44.93" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.5625;" width="103.125" x="3381.25" y="482.8695"/><polygon fill="#1B1B1A" points="3466.6667,488.0778,3466.6667,502.6611,3479.1667,502.6611,3479.1667,494.3278,3472.9167,488.0778,3466.6667,488.0778" style="stroke:#5E5E5E;stroke-width:1.5625;"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3472.9167" x2="3472.9167" y1="488.0778" y2="494.3278"/><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="3479.1667" x2="3472.9167" y1="494.3278" y2="494.3278"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" lengthAdjust="spacing" textLength="65.625" x="3394.7917" y="511.6211">xercesImpl</text><!--MD5=[f7a76f585b591082226919a8e7b01271]
+link google_maps_services to okhttp--><path d="M4424.5313,528.109 C4416.6354,544.7236 4405.7396,567.6611 4397.3646,585.2861 " fill="none" id="google_maps_services-to-okhttp" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="4395.0729,590.109,4402.8491,583.417,4397.3006,585.4012,4395.3165,579.8527,4395.0729,590.109" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[abdeec2fff5638299fd38965b509c69f]
+link google_maps_services to opencensus_api--><path d="M4453.8854,528.109 C4468.4896,544.859 4488.6979,568.057 4504.1042,585.734 " fill="none" id="google_maps_services-to-opencensus_api" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="4507.9063,590.109,4504.9107,580.2969,4504.4935,586.1746,4498.6157,585.7574,4507.9063,590.109" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[19a9d3645975fce0a22e78ab9d77d806]
+link google_maps_services to slf4j_api--><path d="M4483.6667,527.7236 C4524.8229,545.7965 4583.4688,571.5465 4624.8542,589.7236 " fill="none" id="google_maps_services-to-slf4j_api" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="4629.8229,591.9007,4622.9239,584.3076,4625.0567,589.8006,4619.5637,591.9335,4629.8229,591.9007" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[c333db81a2cf180100c7f76536e57fe3]
+link httpclient to commons_logging--><path d="M4235,527.8486 C4210.1979,545.0153 4175.4479,569.0465 4149.5625,586.9528 " fill="none" id="httpclient-to-commons_logging" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="4145.1667,590.0049,4155.2437,588.0798,4149.4446,587.0341,4150.4904,581.235,4145.1667,590.0049" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[eb2a6f0c186b5b958ac6ddd5ba3b959e]
+link httpclient to httpcore--><path d="M4266.1458,528.109 C4266.1458,544.5778 4266.1458,567.2757 4266.1458,584.8278 " fill="none" id="httpclient-to-httpcore" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="4266.1458,590.109,4270.3125,580.734,4266.1458,584.9007,4261.9792,580.734,4266.1458,590.109" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[d68e7c4b3ca5f037bcb6997a0b4ed16b]
+link junit to hamcrest_core--><path d="M230.7292,742.6924 C230.7292,759.1611 230.7292,781.859 230.7292,799.4111 " fill="none" id="junit-to-hamcrest_core" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="230.7292,804.6924,234.8958,795.3174,230.7292,799.484,226.5625,795.3174,230.7292,804.6924" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[cb06edfd5269da4fab280ecf1dfecc66]
+link kivakit_collections to kivakit_core--><path d="M935.0313,420.8174 C928.8333,437.2861 920.2917,459.984 913.6875,477.5361 " fill="none" id="kivakit_collections-to-kivakit_core" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="911.6979,482.8174,918.8984,475.5095,913.5316,477.9425,911.0986,472.5757,911.6979,482.8174" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[233173b8414f4008c96b85f34b766932]
+link kivakit_commandline to kivakit_validation--><path d="M1592.9792,420.557 C1620.2813,437.7965 1658.5625,461.9528 1686.9688,479.8903 " fill="none" id="kivakit_commandline-to-kivakit_validation" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="1691.4375,482.7132,1685.7371,474.1834,1687.0343,479.9314,1681.2863,481.2286,1691.4375,482.7132" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[eefa6814e5d84b0e7105ffce153734d1]
+link kivakit_core to cactus_metadata--><path d="M865.4583,527.8486 C834.7917,545.1507 791.75,569.4424 759.9271,587.4007 " fill="none" id="kivakit_core-to-cactus_metadata" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="755.3229,590.0049,765.5356,589.0291,759.8596,587.4465,761.4422,581.7705,755.3229,590.0049" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[50e8d2e340cfb1a2dae3d5796adb8458]
+link kivakit_core to kivakit_interfaces--><path d="M901.4896,528.109 C899.8542,544.5778 897.6146,567.2757 895.875,584.8278 " fill="none" id="kivakit_core-to-kivakit_interfaces" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="895.3542,590.109,900.4127,581.1836,895.8606,584.9254,892.1189,580.3733,895.3542,590.109" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[cc9720141deba8e1bd3912e4e0759165]
+link kivakit_core to kivakit_mixins--><path d="M935.8542,527.8486 C961.5104,545.0153 997.4479,569.0465 1024.2188,586.9528 " fill="none" id="kivakit_core-to-kivakit_mixins" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="1028.7708,590.0049,1023.3022,581.3247,1024.4441,587.1055,1018.6633,588.2474,1028.7708,590.0049" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[4b82e2a0b2f04a403edf9234c3d60217]
+link kivakit_internal_testing to annotations--><path d="M269.1979,635.4007 C286.0938,652.2965 309.5417,675.7445 327.2708,693.4736 " fill="none" id="kivakit_internal_testing-to-annotations" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="331.1979,697.4007,327.5151,687.8253,327.5151,693.7179,321.6225,693.7179,331.1979,697.4007" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[5b546c273a7ef3c2ac177c7373ad10f4]
+link kivakit_internal_testing to junit--><path d="M243.9375,635.4007 C241.3333,651.8695 237.7396,674.5674 234.9583,692.1195 " fill="none" id="kivakit_internal_testing-to-junit" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="234.125,697.4007,239.7118,688.7961,234.9426,692.257,231.4818,687.4878,234.125,697.4007" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[cd1be464ab181df63ab0cf42008b2bdb]
+link kivakit_internal_testing to lexakai_annotations--><path d="M214.1146,635.1403 C187.6146,652.307 150.4896,676.3382 122.8333,694.2445 " fill="none" id="kivakit_internal_testing-to-lexakai_annotations" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="118.125,697.2965,128.2604,695.7075,122.4994,694.4696,123.7373,688.7085,118.125,697.2965" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[3a8da46707b3267a7def2c5b13e3afea]
+link kivakit_math to commons_math--><path d="M3765.7396,420.8174 C3761.5,437.2861 3755.6563,459.984 3751.1354,477.5361 " fill="none" id="kivakit_math-to-commons_math" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="3749.7813,482.8174,3756.1476,474.7724,3751.0759,477.7725,3748.0758,472.7009,3749.7813,482.8174" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[2da4dac6dcd51ddfc920d13d409dac31]
+link kivakit_network_http to httpclient--><path d="M4135.2604,420.557 C4162.2292,437.7965 4200.0208,461.9528 4228.0729,479.8903 " fill="none" id="kivakit_network_http-to-httpclient" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="4232.4896,482.7132,4226.8435,474.1474,4228.1041,479.9035,4222.348,481.1642,4232.4896,482.7132" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[45c204851fd38ebf06aead51207b0728]
+link kivakit_network_http to kivakit_network_core--><path d="M4101.5625,420.8174 C4101.5625,437.2861 4101.5625,459.984 4101.5625,477.5361 " fill="none" id="kivakit_network_http-to-kivakit_network_core" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="4101.5625,482.8174,4105.7292,473.4424,4101.5625,477.609,4097.3958,473.4424,4101.5625,482.8174" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[7d9b0396026278c8d96c083e30549eda]
+link kivakit_primitive_collections to kivakit_collections--><path d="M1184.6458,313.1403 C1133.8333,330.7757 1061.9375,355.734 1009.8333,373.8174 " fill="none" id="kivakit_primitive_collections-to-kivakit_collections" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="1004.8542,375.5465,1015.0758,376.4237,1009.777,373.8459,1012.3548,368.5471,1004.8542,375.5465" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[5529a8bb237bfc1d03d69bcdd88341d8]
+link kivakit_primitive_collections to kivakit_conversion--><path d="M1225.1979,313.5257 C1208.8021,330.4215 1186.0521,353.8695 1168.8542,371.5986 " fill="none" id="kivakit_primitive_collections-to-kivakit_conversion" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="1165.0417,375.5257,1174.564,371.7078,1168.6721,371.7912,1168.5888,365.8992,1165.0417,375.5257" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[433ae61a7e39d974b586f9008e823bcc]
+link kivakit_primitive_collections to kivakit_serialization_kryo--><path d="M1267.2917,313.5257 C1283.5208,330.4215 1306.0417,353.8695 1323.0729,371.5986 " fill="none" id="kivakit_primitive_collections-to-kivakit_serialization_kryo" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="1326.8333,375.5257,1323.3641,365.8709,1323.2332,371.762,1317.3421,371.631,1326.8333,375.5257" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[526b50f83d962021076ab4af7a206f26]
+link kivakit_serialization_gson to gson--><path d="M1942.1875,420.8174 C1942.1875,437.2861 1942.1875,459.984 1942.1875,477.5361 " fill="none" id="kivakit_serialization_gson-to-gson" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="1942.1875,482.8174,1946.3542,473.4424,1942.1875,477.609,1938.0208,473.4424,1942.1875,482.8174" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[bd8ffdf9ed53e7a9e4d2b803aca0e58d]
+link kivakit_serialization_kryo to kivakit_serialization_core--><path d="M1349.5521,420.8174 C1351.1875,437.2861 1353.4271,459.984 1355.1667,477.5361 " fill="none" id="kivakit_serialization_kryo-to-kivakit_serialization_core" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="1355.6875,482.8174,1358.9228,473.0817,1355.1811,477.6337,1350.629,473.892,1355.6875,482.8174" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[40faeed4b9f18330bf0f83fa88774571]
+link kivakit_serialization_kryo to kryo--><path d="M1316.4688,420.557 C1291.8229,437.7236 1257.3229,461.7549 1231.6146,479.6611 " fill="none" id="kivakit_serialization_kryo-to-kryo" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="1227.2396,482.7132,1237.3134,480.7717,1231.5127,479.7354,1232.549,473.9347,1227.2396,482.7132" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[03df8de183ef6689edc51eb2e13fe23e]
+link kivakit_serialization_kryo to kryo_serializers--><path d="M1389.6354,420.557 C1423.6979,437.932 1471.5625,462.359 1506.8021,480.3278 " fill="none" id="kivakit_serialization_kryo-to-kryo_serializers" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="1511.4688,482.7132,1505.0078,474.7441,1506.8283,480.3484,1501.224,482.1689,1511.4688,482.7132" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[77b9804ea1c16aad259b304343a4028b]
+link kivakit_serialization_kryo_testing to kivakit_testing--><path d="M497.0417,635.4007 C498.3438,651.8695 500.1458,674.5674 501.5313,692.1195 " fill="none" id="kivakit_serialization_kryo_testing-to-kivakit_testing" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="501.9479,697.4007,505.3515,687.7225,501.5314,692.2091,497.0449,688.389,501.9479,697.4007" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[617b6bc9ab2f7e62743114de08919b91]
+link kivakit_settings to kivakit_commandline--><path d="M1878.0313,309.3382 C1813.1875,327.1299 1712.7292,354.7028 1641.8646,374.1507 " fill="none" id="kivakit_settings-to-kivakit_commandline" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="1636.8125,375.5361,1646.9581,377.0587,1641.8332,374.1506,1644.7413,369.0257,1636.8125,375.5361" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[66daae608c5d1ef9a55a9dd78110fd01]
+link kivakit_settings to kivakit_resource--><path d="M1901.6563,313.2653 C1869.1042,330.5674 1823.4063,354.859 1789.6354,372.8174 " fill="none" id="kivakit_settings-to-kivakit_resource" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="1784.75,375.4215,1794.9843,374.7069,1789.3505,372.9798,1791.0776,367.3461,1784.75,375.4215" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[db7a3e58ae015a2db9e73bbbc331f313]
+link kivakit_settings to kivakit_serialization_gson--><path d="M1942.1875,313.5257 C1942.1875,329.9945 1942.1875,352.6924 1942.1875,370.2445 " fill="none" id="kivakit_settings-to-kivakit_serialization_gson" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="1942.1875,375.5257,1946.3542,366.1507,1942.1875,370.3174,1938.0208,366.1507,1942.1875,375.5257" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[9a29ae8e9245e25ea51914d5ea8f3bfd]
+link kivakit_settings to kivakit_serialization_properties--><path d="M1991.5938,313.1403 C2031.9479,330.6299 2088.9167,355.3278 2130.5625,373.3799 " fill="none" id="kivakit_settings-to-kivakit_serialization_properties" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="2135.5521,375.5465,2128.5962,368.0055,2130.7703,373.4823,2125.2934,375.6564,2135.5521,375.5465" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[9c9571fd9a7fa17004eec64c8507c350]
+link kivakit_ui_desktop to flatlaf--><path d="M4997.7292,420.8174 C5000.3333,437.2861 5003.9271,459.984 5006.7083,477.5361 " fill="none" id="kivakit_ui_desktop-to-flatlaf" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="5007.5417,482.8174,5010.1849,472.9045,5006.724,477.6736,5001.9549,474.2127,5007.5417,482.8174" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[8c32f0e7b0abeba01afd276f5a66ee84]
+link kryo to minlog--><path d="M1196.3542,528.109 C1196.3542,544.5778 1196.3542,567.2757 1196.3542,584.8278 " fill="none" id="kryo-to-minlog" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="1196.3542,590.109,1200.5208,580.734,1196.3542,584.9007,1192.1875,580.734,1196.3542,590.109" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[e75c16e47fcf6c43b15d3c25536a9ed0]
+link kryo to objenesis--><path d="M1228.3125,520.0882 C1234.3021,522.6299 1240.5104,525.2445 1246.3542,527.6611 C1299.5521,549.6715 1360.7083,574.057 1403.125,590.8278 " fill="none" id="kryo-to-objenesis" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="1408.2083,592.8382,1401.0241,585.5144,1403.3654,590.9218,1397.9579,593.2631,1408.2083,592.8382" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[e061beb27669383d030ce0c5c656b006]
+link kryo to reflectasm--><path d="M1221.9479,527.8486 C1242.1771,544.8695 1270.4271,568.6507 1291.6458,586.5153 " fill="none" id="kryo-to-reflectasm" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="1295.7917,590.0049,1291.3077,580.7774,1291.8089,586.6486,1285.9377,587.1498,1295.7917,590.0049" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[80ca484af9c03071d42cf64105b69eb3]
+link mesakit_graph_core to commons_lang3--><path d="M4103.9479,185.2653 C4295.8125,188.307 4799.0833,202.4528 5213.0208,268.2861 C5217.25,268.9632 5221.5833,269.7445 5225.9375,270.5986 " fill="none" id="mesakit_graph_core-to-commons_lang3" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="5231.0521,271.6403,5222.6996,265.6832,5225.9489,270.5988,5221.0333,273.8482,5231.0521,271.6403" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[3caba185fe158abdf6c36a7bdfefa11c]
+link mesakit_graph_core to kivakit_primitive_collections--><path d="M3945.0729,187.4424 C3550.7604,202.3695 1804.1563,268.5153 1353,285.5986 " fill="none" id="mesakit_graph_core-to-kivakit_primitive_collections" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="1347.75,285.7965,1357.2845,289.5841,1352.9541,285.5878,1356.9505,281.2575,1347.75,285.7965" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[19009f951952724b4fe69da63a5d554e]
+link mesakit_graph_core to kivakit_settings--><path d="M3945.0729,188.4424 C3611.4896,205.2965 2326.2396,270.234 2011.875,286.1195 " fill="none" id="mesakit_graph_core-to-kivakit_settings" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="2006.4167,286.3903,2015.9933,290.07,2011.6181,286.1228,2015.5653,281.7476,2006.4167,286.3903" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[6cdca79bbf789d1a17428738e7c05fa1]
+link mesakit_graph_core to mesakit_map_data_formats_pbf--><path d="M3945.0938,194.2861 C3796.0625,212.7757 3473.5833,252.7861 3297.4271,274.6403 " fill="none" id="mesakit_graph_core-to-mesakit_map_data_formats_pbf" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="3292,275.3174,3301.8162,278.2995,3297.1688,274.6769,3300.7914,270.0294,3292,275.3174" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[31aa0b1b907529be2b95aa12fc967048]
+link mesakit_graph_core to mesakit_map_measurements--><path d="M3956.1979,205.8486 C3899.8646,223.5153 3820.0938,248.5361 3762.4063,266.6299 " fill="none" id="mesakit_graph_core-to-mesakit_map_measurements" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="3757.25,268.2549,3767.4431,269.4182,3762.2186,266.6929,3764.9439,261.4684,3757.25,268.2549" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[d7a1284666b682693dbd61c522ad0cf8]
+link mesakit_graph_core to mesakit_map_overpass--><path d="M4003.1146,206.234 C3986.5521,223.1299 3963.5625,246.5778 3946.1875,264.307 " fill="none" id="mesakit_graph_core-to-mesakit_map_overpass" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="3942.3438,268.234,3951.8815,264.4547,3945.9892,264.5142,3945.9297,258.6219,3942.3438,268.234" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[1bec47867279e4670c7d13972e1d68c5]
+link mesakit_graph_core to mesakit_map_region--><path d="M4045.8438,206.234 C4062.4063,223.1299 4085.3958,246.5778 4102.7708,264.307 " fill="none" id="mesakit_graph_core-to-mesakit_map_region" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="4106.6146,268.234,4103.0286,258.6219,4102.9691,264.5142,4097.0769,264.4547,4106.6146,268.234" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[c660b9398f4d4032c3a0f0e00bc6642e]
+link mesakit_graph_core to mesakit_map_road_name_standardizer--><path d="M4097.4271,205.8486 C4157.7292,223.557 4243.1667,248.6403 4304.8229,266.7445 " fill="none" id="mesakit_graph_core-to-mesakit_map_road_name_standardizer" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="4309.9688,268.2549,4302.1536,261.6084,4304.9728,266.7829,4299.7984,269.602,4309.9688,268.2549" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[e53c0255e39e33c683b4ace35fd382ab]
+link mesakit_graph_core to mesakit_map_ui_debug--><path d="M4103.9688,196.5049 C4205.1875,212.0778 4385.4167,240.484 4539.0625,268.2861 C4543.0729,269.0153 4547.1563,269.7653 4551.2917,270.5361 " fill="none" id="mesakit_graph_core-to-mesakit_map_ui_debug" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="4556.5417,271.5257,4548.1033,265.6909,4551.4239,270.5587,4546.5561,273.8793,4556.5417,271.5257" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[3dcdde5a7df6aa56d232b4c010d096c4]
+link mesakit_graph_core to mesakit_map_ui_desktop--><path d="M4103.8854,191.6299 C4238.2708,204.234 4518.9375,232.4215 4754.6875,268.2861 C4758.6979,268.9007 4762.7813,269.5465 4766.8958,270.2236 " fill="none" id="mesakit_graph_core-to-mesakit_map_ui_desktop" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="4772.1354,271.0882,4763.5809,265.4249,4766.9992,270.2247,4762.1994,273.6429,4772.1354,271.0882" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[c06187d13759403688af741165de0155]
+link mesakit_graph_core to mesakit_map_utilities_grid--><path d="M4103.7917,188.8278 C4267.9792,198.484 4656.8542,224.2757 4980.7292,268.2861 C4984.7813,268.8382 4988.9063,269.432 4993.0729,270.057 " fill="none" id="mesakit_graph_core-to-mesakit_map_utilities_grid" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="4998.3646,270.8799,4989.7442,265.3174,4993.2185,270.0767,4988.4592,273.5511,4998.3646,270.8799" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[387efd12d49c7e26ef3a23126d4c2b1b]
+link mesakit_graph_core_testing to mesakit_map_region_testing--><path d="M2405.6354,190.3278 C2176.7604,203.5986 1605.5104,237.109 1127.6042,268.2861 C1062.1667,272.557 988.8854,277.6507 930.4271,281.7965 " fill="none" id="mesakit_graph_core_testing-to-mesakit_map_region_testing" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="925.1667,282.1715,934.8154,285.6577,930.3617,281.7994,934.22,277.3457,925.1667,282.1715" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[2c9d54e6c68c309b7bea2e55fc2a811f]
+link mesakit_internal_graph_core_unit_tests to mesakit_graph_core--><path d="M2752.1458,87.2965 C3040.125,108.8174 3704.3542,158.432 3939.8229,176.0257 " fill="none" id="mesakit_internal_graph_core_unit_tests-to-mesakit_graph_core" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="3945.3021,176.432,3936.2625,171.5803,3940.1081,176.045,3935.6434,179.8906,3945.3021,176.432" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[ffd4e55d4d5e45ffb65a61e749e6265a]
+link mesakit_internal_graph_core_unit_tests to mesakit_graph_core_testing--><path d="M2593.9583,98.682 C2576.5833,115.5674 2552.3542,139.0882 2534.0208,156.9007 " fill="none" id="mesakit_internal_graph_core_unit_tests-to-mesakit_graph_core_testing" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="2529.9688,160.8382,2539.6025,157.3109,2533.7107,157.2155,2533.8062,151.3237,2529.9688,160.8382" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[52d6aff52470d64be19838d37b577f82]
+link mesakit_map_data_formats_pbf to kivakit_data_compression--><path d="M3061.3125,305.1403 C2934.1771,320.359 2723.6875,346.8382 2543.2292,375.5778 C2538.8438,376.2757 2534.375,377.0153 2529.8646,377.7757 " fill="none" id="mesakit_map_data_formats_pbf-to-kivakit_data_compression" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="2524.5521,378.6715,2534.4953,381.1983,2529.6859,377.7936,2533.0906,372.9842,2524.5521,378.6715" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[d8820a6db67140c041a47e3e0e34b3f8]
+link mesakit_map_data_formats_pbf to kivakit_data_formats_library--><path d="M3072.2292,313.1403 C2985,331.0465 2861,356.5049 2772.6042,374.6507 " fill="none" id="mesakit_map_data_formats_pbf-to-kivakit_data_formats_library" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="2767.375,375.7236,2777.3938,377.9315,2772.4781,374.6822,2775.7275,369.7665,2767.375,375.7236" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[ae72499289a3b0cd0069dafc6068dcd1]
+link mesakit_map_data_formats_pbf to kivakit_extraction--><path d="M3115.0625,313.1403 C3064.4271,330.7757 2992.7813,355.734 2940.8542,373.8174 " fill="none" id="mesakit_map_data_formats_pbf-to-kivakit_extraction" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="2935.8854,375.5465,2946.1086,376.4057,2940.8053,373.8372,2943.3737,368.5339,2935.8854,375.5465" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[ee2e7107ec0ad7bff33b91da5c55d36d]
+link mesakit_map_data_formats_pbf to mesakit_map_data_library--><path d="M3156.4896,313.5257 C3140.9271,330.4215 3119.3438,353.8695 3103.0104,371.5986 " fill="none" id="mesakit_map_data_formats_pbf-to-mesakit_map_data_library" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="3099.4063,375.5257,3108.8248,371.4585,3102.9371,371.6969,3102.6987,365.8092,3099.4063,375.5257" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[53e2bc6cdee82025b30893610d5caafe]
+link mesakit_map_data_formats_pbf to osmosis_core--><path d="M3196.6354,313.5257 C3212.1979,330.4215 3233.7813,353.8695 3250.1146,371.5986 " fill="none" id="mesakit_map_data_formats_pbf-to-osmosis_core" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="3253.7188,375.5257,3250.4263,365.8092,3250.1879,371.6969,3244.3002,371.4585,3253.7188,375.5257" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[4eea8d9d37c381e8057f64fadca127e6]
+link mesakit_map_data_formats_pbf to osmosis_osm_binary--><path d="M3232.125,313.1403 C3277.6875,330.7028 3342.0833,355.5257 3388.9479,373.5986 " fill="none" id="mesakit_map_data_formats_pbf-to-osmosis_osm_binary" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="3394,375.5465,3386.7576,368.2803,3389.1419,373.6689,3383.7533,376.0532,3394,375.5465" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[92d903a7becaeea8da821ef883781f24]
+link mesakit_map_data_formats_pbf to osmosis_pbf--><path d="M3279.1563,313.1403 C3354.0521,329.2028 3457.8958,352.3174 3548.4375,375.5778 C3552.4375,376.609 3556.5625,377.7028 3560.6979,378.8278 " fill="none" id="mesakit_map_data_formats_pbf-to-osmosis_pbf" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="3565.9583,380.2653,3558.0116,373.7767,3560.9339,378.8936,3555.817,381.8159,3565.9583,380.2653" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[33f978886551a49a83e5251fc4262466]
+link mesakit_map_geography to google_maps_services--><path d="M4458.8438,420.8174 C4454.1146,437.2861 4447.5938,459.984 4442.5521,477.5361 " fill="none" id="mesakit_map_geography-to-google_maps_services" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="4441.0417,482.8174,4447.6235,474.9478,4442.4725,477.8094,4439.6108,472.6584,4441.0417,482.8174" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[b5ac9bc229cdd6484ac1b8f016fbb579]
+link mesakit_map_geography to kivakit_component--><path d="M4499.2292,420.557 C4526.5313,437.7965 4564.8125,461.9528 4593.2188,479.8903 " fill="none" id="mesakit_map_geography-to-kivakit_component" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="4597.6875,482.7132,4591.9871,474.1834,4593.2843,479.9314,4587.5363,481.2286,4597.6875,482.7132" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[ae0394fd55250cadde13f27254e76a56]
+link mesakit_map_geography_testing to mesakit_map_measurements_testing--><path d="M588.0833,420.557 C569.2188,437.5778 542.8438,461.359 523.0417,479.2236 " fill="none" id="mesakit_map_geography_testing-to-mesakit_map_measurements_testing" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="519.1667,482.7132,528.9224,479.5387,523.038,479.229,523.3477,473.3446,519.1667,482.7132" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[611a2331137209e1b5ed7f383d0b5efc]
+link mesakit_map_measurements to kivakit_math--><path d="M3706.1146,313.5257 C3719.2188,330.2757 3737.3646,353.4736 3751.1875,371.1507 " fill="none" id="mesakit_map_measurements-to-kivakit_math" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="3754.6042,375.5257,3752.13,365.5693,3751.4035,371.4169,3745.5559,370.6904,3754.6042,375.5257" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[43139a17d44b5e87eec1f8b755da978a]
+link mesakit_map_measurements_testing to kivakit_internal_testing--><path d="M444.8438,527.7236 C403.625,545.2132 345.4271,569.9111 302.8958,587.9632 " fill="none" id="mesakit_map_measurements_testing-to-kivakit_internal_testing" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="297.7917,590.1299,308.0494,590.3051,302.5865,588.0962,304.7954,582.6333,297.7917,590.1299" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[21a019494e8fa19dea3dc8977e941f6f]
+link mesakit_map_measurements_testing to kivakit_serialization_kryo_testing--><path d="M495.3125,528.109 C495.3125,544.5778 495.3125,567.2757 495.3125,584.8278 " fill="none" id="mesakit_map_measurements_testing-to-kivakit_serialization_kryo_testing" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="495.3125,590.109,499.4792,580.734,495.3125,584.9007,491.1458,580.734,495.3125,590.109" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[350eab81bedccc5a56516f005bfa1c06]
+link mesakit_map_overpass to osmosis_xml--><path d="M3921.3542,313.5257 C3921.3542,329.9945 3921.3542,352.6924 3921.3542,370.2445 " fill="none" id="mesakit_map_overpass-to-osmosis_xml" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="3921.3542,375.5257,3925.5208,366.1507,3921.3542,370.3174,3917.1875,366.1507,3921.3542,375.5257" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[73c34d54073f45293ca66f1388465e13]
+link mesakit_map_region to kivakit_network_http--><path d="M4122.2083,313.5257 C4118.1354,329.9945 4112.5104,352.6924 4108.1667,370.2445 " fill="none" id="mesakit_map_region-to-kivakit_network_http" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="4106.8646,375.5257,4113.1582,367.4237,4108.1138,370.4694,4105.0681,365.425,4106.8646,375.5257" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[d619097f33ea99ff38990879155a525e]
+link mesakit_map_region to mesakit_core--><path d="M4158.1042,313.2653 C4182.4063,330.432 4216.4375,354.4632 4241.7917,372.3695 " fill="none" id="mesakit_map_region-to-mesakit_core" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="4246.1042,375.4215,4240.8504,366.6097,4241.85,372.4168,4236.0428,373.4164,4246.1042,375.4215" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[7bbf5c690d00a28dd2cb09c91ca3d8ce]
+link mesakit_map_region to mesakit_map_geography--><path d="M4196.3125,313.1403 C4253,330.807 4333.2604,355.8278 4391.3021,373.9215 " fill="none" id="mesakit_map_region-to-mesakit_map_geography" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="4396.5,375.5465,4388.7876,368.7811,4391.5272,373.9981,4386.3102,376.7376,4396.5,375.5465" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[4c5049be5d751e839e97683acd93acc6]
+link mesakit_map_region_testing to mesakit_map_geography_testing--><path d="M778.4792,313.2653 C743.8958,330.6403 695.3021,355.0674 659.5313,373.0361 " fill="none" id="mesakit_map_region_testing-to-mesakit_map_geography_testing" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="654.8021,375.4215,665.0495,374.9295,659.4546,373.0804,661.3036,367.4855,654.8021,375.4215" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[24a4ab959a8dd2ec76bd0868020c5136]
+link mesakit_map_road_name_parser to mesakit_map_road_model--><path d="M4754.1667,420.557 C4771.7188,437.4424 4796.1771,460.9632 4814.6875,478.7757 " fill="none" id="mesakit_map_road_name_parser-to-mesakit_map_road_model" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="4818.7813,482.7132,4814.9249,473.2063,4815.0321,479.0979,4809.1405,479.205,4818.7813,482.7132" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[1fb51283463b15f1b35f7b8d67d1af84]
+link mesakit_map_road_name_standardizer to mesakit_map_road_name_parser--><path d="M4453.8542,313.1403 C4512.5833,330.8486 4595.7813,355.932 4655.8229,374.0361 " fill="none" id="mesakit_map_road_name_standardizer-to-mesakit_map_road_name_parser" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="4660.8333,375.5465,4653.0602,368.8511,4655.8467,374.0431,4650.6547,376.8297,4660.8333,375.5465" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[05321eba0c66d332c132b101122e9444]
+link mesakit_map_ui_desktop to kivakit_ui_desktop--><path d="M4893.2083,313.2653 C4913.7708,330.2861 4942.5,354.0674 4964.0625,371.932 " fill="none" id="mesakit_map_ui_desktop-to-kivakit_ui_desktop" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="4968.2813,375.4215,4963.7432,366.2206,4964.2789,372.0887,4958.4107,372.6244,4968.2813,375.4215" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[59297733a62261f6dce0c19b1c69e475]
+link okhttp to okio--><path d="M4384.8958,635.4007 C4384.8958,651.8695 4384.8958,674.5674 4384.8958,692.1195 " fill="none" id="okhttp-to-okio" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="4384.8958,697.4007,4389.0625,688.0257,4384.8958,692.1924,4380.7292,688.0257,4384.8958,697.4007" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[2624db52b548b7cb38ec05afa4ae11f5]
+link okio to kotlin_stdlib_common--><path d="M4384.8958,742.6924 C4384.8958,759.1611 4384.8958,781.859 4384.8958,799.4111 " fill="none" id="okio-to-kotlin_stdlib_common" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="4384.8958,804.6924,4389.0625,795.3174,4384.8958,799.484,4380.7292,795.3174,4384.8958,804.6924" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[31369388d46b0457687e429e27e07645]
+link opencensus_api to grpc_context--><path d="M4526.5625,635.4007 C4526.5625,651.8695 4526.5625,674.5674 4526.5625,692.1195 " fill="none" id="opencensus_api-to-grpc_context" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="4526.5625,697.4007,4530.7292,688.0257,4526.5625,692.1924,4522.3958,688.0257,4526.5625,697.4007" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[435fc708a2ebff4b99a33845039a6077]
+link osmosis_core to commons_compress--><path d="M3215.125,420.432 C3167.1979,438.0361 3099.4375,462.9215 3050.2188,480.9945 " fill="none" id="osmosis_core-to-commons_compress" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="3045.2083,482.8382,3055.4454,483.5128,3050.0966,481.0404,3052.5689,475.6916,3045.2083,482.8382" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[27066f49e16f647d3b6e262c88d0119d]
+link osmosis_core to jpf--><path d="M3214.2083,415.8695 C3208.1875,417.4528 3202.1563,418.9736 3196.3542,420.3695 C3060.8333,452.8799 3021.4271,439.2445 2889.0625,482.8695 C2884.5313,484.359 2879.8542,486.182 2875.3125,488.1299 " fill="none" id="osmosis_core-to-jpf" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="2870.4375,490.2757,2880.6966,490.3203,2875.2061,488.1811,2877.3453,482.6906,2870.4375,490.2757" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[33dc24467992ab9855dcdc0719a06cc6]
+link osmosis_core to spring_jdbc--><path d="M3276.8958,420.8174 C3279.5,437.2861 3283.0938,459.984 3285.875,477.5361 " fill="none" id="osmosis_core-to-spring_jdbc" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="3286.7083,482.8174,3289.3516,472.9045,3285.8907,477.6736,3281.1216,474.2127,3286.7083,482.8174" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[40a9ae2c90afe1e456a4410478fbfd05]
+link osmosis_core to stax2_api--><path d="M3248.4792,420.557 C3228.7604,437.5778 3201.2188,461.359 3180.5313,479.2236 " fill="none" id="osmosis_core-to-stax2_api" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="3176.4896,482.7132,3186.3073,479.7361,3180.4304,479.3078,3180.8586,473.4308,3176.4896,482.7132" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[899c84308817ed80fcc831bb8c7bedc9]
+link osmosis_core to woodstox_core--><path d="M3214.2708,416.1403 C3208.2396,417.6611 3202.1875,419.109 3196.3542,420.3695 C3021.3854,458.2132 2973.7188,446.4528 2798.4375,482.8695 C2794.0729,483.7757 2789.5938,484.7653 2785.0938,485.807 " fill="none" id="osmosis_core-to-woodstox_core" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="2779.7917,487.0465,2789.8718,488.9552,2784.8615,485.8536,2787.9631,480.8434,2779.7917,487.0465" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[e2d041b478675d672ea2febebbf60d75]
+link osmosis_core to xercesImpl--><path d="M3306.0729,420.557 C3332.0729,437.7236 3368.4792,461.7549 3395.6042,479.6611 " fill="none" id="osmosis_core-to-xercesImpl" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="3400.2188,482.7132,3394.6952,474.0678,3395.8737,479.8413,3390.1002,481.0199,3400.2188,482.7132" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[b7c1d79e895eadf5a499e7af8e342cfb]
+link osmosis_osm_binary to protobuf_java--><path d="M3476.5729,420.557 C3498.0625,437.6507 3528.125,461.557 3550.6146,479.4424 " fill="none" id="osmosis_osm_binary-to-protobuf_java" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="3554.7188,482.7132,3549.9563,473.6264,3550.6358,479.4796,3544.7825,480.1591,3554.7188,482.7132" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[bb532c955ec3217344a331b57f81fe72]
+link osmosis_xml to commons_codec--><path d="M3920.0625,420.8174 C3919.0833,437.2861 3917.7292,459.984 3916.6875,477.5361 " fill="none" id="osmosis_xml-to-commons_codec" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="3916.375,482.8174,3921.0972,473.7096,3916.6878,477.6185,3912.7789,473.209,3916.375,482.8174" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[338783537f3f9263e4097f5ff0c514d3]
+link reflectasm to asm--><path d="M1321.3542,635.4007 C1321.3542,651.8695 1321.3542,674.5674 1321.3542,692.1195 " fill="none" id="reflectasm-to-asm" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="1321.3542,697.4007,1325.5208,688.0257,1321.3542,692.1924,1317.1875,688.0257,1321.3542,697.4007" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[dd129145259918822ea074b7ce5f63b8]
+link spring_core to spring_jcl--><path d="M3290.1042,635.4007 C3290.1042,651.8695 3290.1042,674.5674 3290.1042,692.1195 " fill="none" id="spring_core-to-spring_jcl" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="3290.1042,697.4007,3294.2708,688.0257,3290.1042,692.1924,3285.9375,688.0257,3290.1042,697.4007" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[2cc5c6af7938890f4250d6480ecb2b4d]
+link spring_jdbc to spring_beans--><path d="M3259.6042,527.8486 C3235.3021,545.0153 3201.2708,569.0465 3175.9167,586.9528 " fill="none" id="spring_jdbc-to-spring_beans" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="3171.6042,590.0049,3181.6655,587.9997,3175.8584,587.0002,3176.858,581.193,3171.6042,590.0049" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[bbb043030e1f99c087de4d09705c0c9e]
+link spring_jdbc to spring_core--><path d="M3290.1042,528.109 C3290.1042,544.5778 3290.1042,567.2757 3290.1042,584.8278 " fill="none" id="spring_jdbc-to-spring_core" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="3290.1042,590.109,3294.2708,580.734,3290.1042,584.9007,3285.9375,580.734,3290.1042,590.109" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[65ba487c27b013bcece94d0c47c3221b]
+link spring_jdbc to spring_tx--><path d="M3318.0521,527.8486 C3340.2188,544.9424 3371.2292,568.8486 3394.4167,586.734 " fill="none" id="spring_jdbc-to-spring_tx" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="3398.6563,590.0049,3393.7847,580.976,3394.5346,586.8207,3388.69,587.5706,3398.6563,590.0049" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[df02bc941d226a297be90718c285c0d1]
+@startuml
+
+    !include lexakai.theme
+    
+    title "mesakit-internal-graph-core-unit-tests"
+    
+    artifact kryo
+    artifact minlog
+    artifact reflectasm
+    artifact woodstox_core
+    artifact flatlaf
+    artifact gson
+    artifact google_maps_services
+    artifact protobuf_java
+    artifact okhttp
+    artifact okio
+    artifact cactus_metadata
+    artifact kivakit_collections
+    artifact kivakit_commandline
+    artifact kivakit_component
+    artifact kivakit_conversion
+    artifact kivakit_core
+    artifact kivakit_data_compression
+    artifact kivakit_data_formats_library
+    artifact kivakit_extraction
+    artifact kivakit_interfaces
+    artifact kivakit_internal_testing
+    artifact kivakit_math
+    artifact kivakit_mixins
+    artifact kivakit_network_core
+    artifact kivakit_network_http
+    artifact kivakit_primitive_collections
+    artifact kivakit_resource
+    artifact kivakit_serialization_core
+    artifact kivakit_serialization_gson
+    artifact kivakit_serialization_kryo_testing
+    artifact kivakit_serialization_kryo
+    artifact kivakit_serialization_properties
+    artifact kivakit_settings
+    artifact kivakit_testing
+    artifact kivakit_ui_desktop
+    artifact kivakit_validation
+    artifact lexakai_annotations
+    artifact mesakit_core
+    artifact mesakit_graph_core_testing
+    artifact mesakit_graph_core
+    artifact mesakit_internal_graph_core_unit_tests
+    artifact mesakit_map_data_formats_pbf
+    artifact mesakit_map_data_library
+    artifact mesakit_map_geography_testing
+    artifact mesakit_map_geography
+    artifact mesakit_map_measurements_testing
+    artifact mesakit_map_measurements
+    artifact mesakit_map_overpass
+    artifact mesakit_map_region_testing
+    artifact mesakit_map_region
+    artifact mesakit_map_road_model
+    artifact mesakit_map_road_name_parser
+    artifact mesakit_map_road_name_standardizer
+    artifact mesakit_map_ui_debug
+    artifact mesakit_map_ui_desktop
+    artifact mesakit_map_utilities_grid
+    artifact commons_codec
+    artifact commons_logging
+    artifact kryo_serializers
+    artifact grpc_context
+    artifact opencensus_api
+    artifact junit
+    artifact jpf
+    artifact commons_compress
+    artifact commons_lang3
+    artifact commons_math
+    artifact httpclient
+    artifact httpcore
+    artifact stax2_api
+    artifact hamcrest_core
+    artifact kotlin_stdlib_common
+    artifact annotations
+    artifact objenesis
+    artifact osmosis_core
+    artifact osmosis_osm_binary
+    artifact osmosis_pbf
+    artifact osmosis_xml
+    artifact asm
+    artifact slf4j_api
+    artifact spring_beans
+    artifact spring_core
+    artifact spring_jcl
+    artifact spring_jdbc
+    artifact spring_tx
+    artifact xercesImpl
+    google_maps_services - -> okhttp
+    google_maps_services - -> opencensus_api
+    google_maps_services - -> slf4j_api
+    httpclient - -> commons_logging
+    httpclient - -> httpcore
+    junit - -> hamcrest_core
+    kivakit_collections - -> kivakit_core
+    kivakit_commandline - -> kivakit_validation
+    kivakit_core - -> cactus_metadata
+    kivakit_core - -> kivakit_interfaces
+    kivakit_core - -> kivakit_mixins
+    kivakit_internal_testing - -> annotations
+    kivakit_internal_testing - -> junit
+    kivakit_internal_testing - -> lexakai_annotations
+    kivakit_math - -> commons_math
+    kivakit_network_http - -> httpclient
+    kivakit_network_http - -> kivakit_network_core
+    kivakit_primitive_collections - -> kivakit_collections
+    kivakit_primitive_collections - -> kivakit_conversion
+    kivakit_primitive_collections - -> kivakit_serialization_kryo
+    kivakit_serialization_gson - -> gson
+    kivakit_serialization_kryo - -> kivakit_serialization_core
+    kivakit_serialization_kryo - -> kryo
+    kivakit_serialization_kryo - -> kryo_serializers
+    kivakit_serialization_kryo_testing - -> kivakit_testing
+    kivakit_settings - -> kivakit_commandline
+    kivakit_settings - -> kivakit_resource
+    kivakit_settings - -> kivakit_serialization_gson
+    kivakit_settings - -> kivakit_serialization_properties
+    kivakit_ui_desktop - -> flatlaf
+    kryo - -> minlog
+    kryo - -> objenesis
+    kryo - -> reflectasm
+    mesakit_graph_core - -> commons_lang3
+    mesakit_graph_core - -> kivakit_primitive_collections
+    mesakit_graph_core - -> kivakit_settings
+    mesakit_graph_core - -> mesakit_map_data_formats_pbf
+    mesakit_graph_core - -> mesakit_map_measurements
+    mesakit_graph_core - -> mesakit_map_overpass
+    mesakit_graph_core - -> mesakit_map_region
+    mesakit_graph_core - -> mesakit_map_road_name_standardizer
+    mesakit_graph_core - -> mesakit_map_ui_debug
+    mesakit_graph_core - -> mesakit_map_ui_desktop
+    mesakit_graph_core - -> mesakit_map_utilities_grid
+    mesakit_graph_core_testing - -> mesakit_map_region_testing
+    mesakit_internal_graph_core_unit_tests - -> mesakit_graph_core
+    mesakit_internal_graph_core_unit_tests - -> mesakit_graph_core_testing
+    mesakit_map_data_formats_pbf - -> kivakit_data_compression
+    mesakit_map_data_formats_pbf - -> kivakit_data_formats_library
+    mesakit_map_data_formats_pbf - -> kivakit_extraction
+    mesakit_map_data_formats_pbf - -> mesakit_map_data_library
+    mesakit_map_data_formats_pbf - -> osmosis_core
+    mesakit_map_data_formats_pbf - -> osmosis_osm_binary
+    mesakit_map_data_formats_pbf - -> osmosis_pbf
+    mesakit_map_geography - -> google_maps_services
+    mesakit_map_geography - -> kivakit_component
+    mesakit_map_geography_testing - -> mesakit_map_measurements_testing
+    mesakit_map_measurements - -> kivakit_math
+    mesakit_map_measurements_testing - -> kivakit_internal_testing
+    mesakit_map_measurements_testing - -> kivakit_serialization_kryo_testing
+    mesakit_map_overpass - -> osmosis_xml
+    mesakit_map_region - -> kivakit_network_http
+    mesakit_map_region - -> mesakit_core
+    mesakit_map_region - -> mesakit_map_geography
+    mesakit_map_region_testing - -> mesakit_map_geography_testing
+    mesakit_map_road_name_parser - -> mesakit_map_road_model
+    mesakit_map_road_name_standardizer - -> mesakit_map_road_name_parser
+    mesakit_map_ui_desktop - -> kivakit_ui_desktop
+    okhttp - -> okio
+    okio - -> kotlin_stdlib_common
+    opencensus_api - -> grpc_context
+    osmosis_core - -> commons_compress
+    osmosis_core - -> jpf
+    osmosis_core - -> spring_jdbc
+    osmosis_core - -> stax2_api
+    osmosis_core - -> woodstox_core
+    osmosis_core - -> xercesImpl
+    osmosis_osm_binary - -> protobuf_java
+    osmosis_xml - -> commons_codec
+    reflectasm - -> asm
+    spring_core - -> spring_jcl
+    spring_jdbc - -> spring_beans
+    spring_jdbc - -> spring_core
+    spring_jdbc - -> spring_tx
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "mesakit-internal-graph-core-unit-tests"
+    
+    artifact kryo
+    artifact minlog
+    artifact reflectasm
+    artifact woodstox_core
+    artifact flatlaf
+    artifact gson
+    artifact google_maps_services
+    artifact protobuf_java
+    artifact okhttp
+    artifact okio
+    artifact cactus_metadata
+    artifact kivakit_collections
+    artifact kivakit_commandline
+    artifact kivakit_component
+    artifact kivakit_conversion
+    artifact kivakit_core
+    artifact kivakit_data_compression
+    artifact kivakit_data_formats_library
+    artifact kivakit_extraction
+    artifact kivakit_interfaces
+    artifact kivakit_internal_testing
+    artifact kivakit_math
+    artifact kivakit_mixins
+    artifact kivakit_network_core
+    artifact kivakit_network_http
+    artifact kivakit_primitive_collections
+    artifact kivakit_resource
+    artifact kivakit_serialization_core
+    artifact kivakit_serialization_gson
+    artifact kivakit_serialization_kryo_testing
+    artifact kivakit_serialization_kryo
+    artifact kivakit_serialization_properties
+    artifact kivakit_settings
+    artifact kivakit_testing
+    artifact kivakit_ui_desktop
+    artifact kivakit_validation
+    artifact lexakai_annotations
+    artifact mesakit_core
+    artifact mesakit_graph_core_testing
+    artifact mesakit_graph_core
+    artifact mesakit_internal_graph_core_unit_tests
+    artifact mesakit_map_data_formats_pbf
+    artifact mesakit_map_data_library
+    artifact mesakit_map_geography_testing
+    artifact mesakit_map_geography
+    artifact mesakit_map_measurements_testing
+    artifact mesakit_map_measurements
+    artifact mesakit_map_overpass
+    artifact mesakit_map_region_testing
+    artifact mesakit_map_region
+    artifact mesakit_map_road_model
+    artifact mesakit_map_road_name_parser
+    artifact mesakit_map_road_name_standardizer
+    artifact mesakit_map_ui_debug
+    artifact mesakit_map_ui_desktop
+    artifact mesakit_map_utilities_grid
+    artifact commons_codec
+    artifact commons_logging
+    artifact kryo_serializers
+    artifact grpc_context
+    artifact opencensus_api
+    artifact junit
+    artifact jpf
+    artifact commons_compress
+    artifact commons_lang3
+    artifact commons_math
+    artifact httpclient
+    artifact httpcore
+    artifact stax2_api
+    artifact hamcrest_core
+    artifact kotlin_stdlib_common
+    artifact annotations
+    artifact objenesis
+    artifact osmosis_core
+    artifact osmosis_osm_binary
+    artifact osmosis_pbf
+    artifact osmosis_xml
+    artifact asm
+    artifact slf4j_api
+    artifact spring_beans
+    artifact spring_core
+    artifact spring_jcl
+    artifact spring_jdbc
+    artifact spring_tx
+    artifact xercesImpl
+    google_maps_services - -> okhttp
+    google_maps_services - -> opencensus_api
+    google_maps_services - -> slf4j_api
+    httpclient - -> commons_logging
+    httpclient - -> httpcore
+    junit - -> hamcrest_core
+    kivakit_collections - -> kivakit_core
+    kivakit_commandline - -> kivakit_validation
+    kivakit_core - -> cactus_metadata
+    kivakit_core - -> kivakit_interfaces
+    kivakit_core - -> kivakit_mixins
+    kivakit_internal_testing - -> annotations
+    kivakit_internal_testing - -> junit
+    kivakit_internal_testing - -> lexakai_annotations
+    kivakit_math - -> commons_math
+    kivakit_network_http - -> httpclient
+    kivakit_network_http - -> kivakit_network_core
+    kivakit_primitive_collections - -> kivakit_collections
+    kivakit_primitive_collections - -> kivakit_conversion
+    kivakit_primitive_collections - -> kivakit_serialization_kryo
+    kivakit_serialization_gson - -> gson
+    kivakit_serialization_kryo - -> kivakit_serialization_core
+    kivakit_serialization_kryo - -> kryo
+    kivakit_serialization_kryo - -> kryo_serializers
+    kivakit_serialization_kryo_testing - -> kivakit_testing
+    kivakit_settings - -> kivakit_commandline
+    kivakit_settings - -> kivakit_resource
+    kivakit_settings - -> kivakit_serialization_gson
+    kivakit_settings - -> kivakit_serialization_properties
+    kivakit_ui_desktop - -> flatlaf
+    kryo - -> minlog
+    kryo - -> objenesis
+    kryo - -> reflectasm
+    mesakit_graph_core - -> commons_lang3
+    mesakit_graph_core - -> kivakit_primitive_collections
+    mesakit_graph_core - -> kivakit_settings
+    mesakit_graph_core - -> mesakit_map_data_formats_pbf
+    mesakit_graph_core - -> mesakit_map_measurements
+    mesakit_graph_core - -> mesakit_map_overpass
+    mesakit_graph_core - -> mesakit_map_region
+    mesakit_graph_core - -> mesakit_map_road_name_standardizer
+    mesakit_graph_core - -> mesakit_map_ui_debug
+    mesakit_graph_core - -> mesakit_map_ui_desktop
+    mesakit_graph_core - -> mesakit_map_utilities_grid
+    mesakit_graph_core_testing - -> mesakit_map_region_testing
+    mesakit_internal_graph_core_unit_tests - -> mesakit_graph_core
+    mesakit_internal_graph_core_unit_tests - -> mesakit_graph_core_testing
+    mesakit_map_data_formats_pbf - -> kivakit_data_compression
+    mesakit_map_data_formats_pbf - -> kivakit_data_formats_library
+    mesakit_map_data_formats_pbf - -> kivakit_extraction
+    mesakit_map_data_formats_pbf - -> mesakit_map_data_library
+    mesakit_map_data_formats_pbf - -> osmosis_core
+    mesakit_map_data_formats_pbf - -> osmosis_osm_binary
+    mesakit_map_data_formats_pbf - -> osmosis_pbf
+    mesakit_map_geography - -> google_maps_services
+    mesakit_map_geography - -> kivakit_component
+    mesakit_map_geography_testing - -> mesakit_map_measurements_testing
+    mesakit_map_measurements - -> kivakit_math
+    mesakit_map_measurements_testing - -> kivakit_internal_testing
+    mesakit_map_measurements_testing - -> kivakit_serialization_kryo_testing
+    mesakit_map_overpass - -> osmosis_xml
+    mesakit_map_region - -> kivakit_network_http
+    mesakit_map_region - -> mesakit_core
+    mesakit_map_region - -> mesakit_map_geography
+    mesakit_map_region_testing - -> mesakit_map_geography_testing
+    mesakit_map_road_name_parser - -> mesakit_map_road_model
+    mesakit_map_road_name_standardizer - -> mesakit_map_road_name_parser
+    mesakit_map_ui_desktop - -> kivakit_ui_desktop
+    okhttp - -> okio
+    okio - -> kotlin_stdlib_common
+    opencensus_api - -> grpc_context
+    osmosis_core - -> commons_compress
+    osmosis_core - -> jpf
+    osmosis_core - -> spring_jdbc
+    osmosis_core - -> stax2_api
+    osmosis_core - -> woodstox_core
+    osmosis_core - -> xercesImpl
+    osmosis_osm_binary - -> protobuf_java
+    osmosis_xml - -> commons_codec
+    reflectasm - -> asm
+    spring_core - -> spring_jcl
+    spring_jdbc - -> spring_beans
+    spring_jdbc - -> spring_core
+    spring_jdbc - -> spring_tx
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 02:55:08 EST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

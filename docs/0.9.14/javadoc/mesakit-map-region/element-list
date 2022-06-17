@@ -1,0 +1,10 @@
+module:mesakit.map.region
+com.telenav.mesakit.map.region
+com.telenav.mesakit.map.region.border
+com.telenav.mesakit.map.region.border.cache
+com.telenav.mesakit.map.region.continents
+com.telenav.mesakit.map.region.countries
+com.telenav.mesakit.map.region.countries.states
+com.telenav.mesakit.map.region.countries.states.cities
+com.telenav.mesakit.map.region.locale
+com.telenav.mesakit.map.region.regions

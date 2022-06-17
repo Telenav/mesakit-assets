@@ -1,0 +1,26 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.tools.applications.graph.analyzer"
+    
+    Application <|-- GraphAnalyzerApplication
+    class GraphAnalyzerApplication
+    {
+        --(constructors)--
+        #GraphAnalyzerApplication()
+        --
+        +void main(String[] arguments)
+    }
+    
+    class GraphAnalyzerApplication.Result
+    {
+        --(collection)--
+        +void add(String key, Object value)
+        --(write)--
+        +void write(PrintWriter)
+    }
+    
+@enduml
+

@@ -1,0 +1,18 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.tools.applications.graph.converter"
+    
+    Application <|-- GraphToPbfConverterApplication
+    class GraphToPbfConverterApplication
+    {
+        --(constructors)--
+        +GraphToPbfConverterApplication()
+        --
+        +void main(String[] arguments)
+    }
+    
+@enduml
+

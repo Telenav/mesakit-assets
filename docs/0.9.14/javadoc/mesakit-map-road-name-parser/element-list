@@ -1,0 +1,6 @@
+module:mesakit.map.road.name.parser
+com.telenav.mesakit.map.road.name.parser
+com.telenav.mesakit.map.road.name.parser.locales.english
+com.telenav.mesakit.map.road.name.parser.locales.indonesian
+com.telenav.mesakit.map.road.name.parser.tokenizer
+com.telenav.mesakit.map.road.name.parser.tokenizer.symbols

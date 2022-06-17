@@ -1,0 +1,51 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.data.formats.pbf.lexakai"
+    
+    interface UmlDiagramIdentifier
+    
+    UmlDiagramIdentifier <|-- DiagramPbfModelCompression
+    class DiagramPbfModelCompression
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramPbfModelEntities
+    class DiagramPbfModelEntities
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramPbfModelIdentifiers
+    class DiagramPbfModelIdentifiers
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramPbfModelMetadata
+    class DiagramPbfModelMetadata
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramPbfModelTags
+    class DiagramPbfModelTags
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramPbfOsm
+    class DiagramPbfOsm
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramPbfProcessing
+    class DiagramPbfProcessing
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramPbfProcessingFilters
+    class DiagramPbfProcessingFilters
+    {
+    }
+    
+@enduml
+

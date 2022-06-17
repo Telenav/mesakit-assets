@@ -1,0 +1,23 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.cutter.cuts"
+    
+    Cut <|-- FastCut
+    class FastCut
+    {
+        --(constructors)--
+        +FastCut(PbfRegionCutter, RegionWays)
+    }
+    
+    Cut <|-- SoftCut
+    class SoftCut
+    {
+        --(constructors)--
+        +SoftCut(PbfRegionCutter, RegionNodes, RegionWays)
+    }
+    
+@enduml
+
