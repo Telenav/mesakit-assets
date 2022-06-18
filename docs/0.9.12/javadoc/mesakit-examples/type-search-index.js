@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"com.telenav.mesakit.examples.map.measurements","l":"LocationExample"}];updateSearchResults();

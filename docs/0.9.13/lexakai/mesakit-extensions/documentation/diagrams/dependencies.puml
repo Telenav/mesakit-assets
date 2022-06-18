@@ -1,9 +1,0 @@
-@startuml
-
-    !include lexakai.theme
-    
-    title "mesakit-extensions"
-    
-    artifact xml_apis
-    
-@enduml
