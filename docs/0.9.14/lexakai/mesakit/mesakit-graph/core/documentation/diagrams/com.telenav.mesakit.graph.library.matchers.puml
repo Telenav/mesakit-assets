@@ -1,0 +1,21 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.library.matchers"
+    
+    class Matchers
+    {
+        --(matching)--
+        +Matcher<Edge> lessImportantThan(RoadFunctionalClass)
+        +Matcher<Edge> lessImportantThanOrEqual(RoadFunctionalClass)
+        +Matcher<Edge> mainRoadMoreImportantThanOrEqual(RoadType)
+        +Matcher<Edge> moreImportantThan(RoadType)
+        +Matcher<Edge> moreImportantThan(RoadFunctionalClass)
+        +Matcher<Edge> moreImportantThanOrEqual(RoadFunctionalClass)
+        +Matcher<Edge> moreImportantThanOrEqual(RoadType)
+    }
+    
+@enduml
+

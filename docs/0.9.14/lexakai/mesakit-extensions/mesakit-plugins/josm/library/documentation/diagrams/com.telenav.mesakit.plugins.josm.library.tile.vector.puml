@@ -1,0 +1,54 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.plugins.josm.library.tile.vector"
+    
+    abstract AbstractTile
+    abstract AbstractTileDownloader
+    abstract AbstractTileRequest
+    
+    AbstractTile <|-- VectorTile
+    class VectorTile
+    {
+    }
+    
+    AbstractTileDownloader <|-- VectorTileDownloader
+    class VectorTileDownloader
+    {
+        --(constructors)--
+        +VectorTileDownloader(HttpNetworkLocation, Version)
+    }
+    
+    AbstractTileRequest <|-- VectorTileRequest
+    class VectorTileRequest
+    {
+        --(constructors)--
+        +VectorTileRequest()
+        --
+        +SlippyTile tile()
+        --(angle)--
+        +VectorTileRequest withForceUpdate(boolean forceUpdate)
+        +VectorTileRequest withMapData(MapData)
+        +VectorTileRequest withTile(SlippyTile)
+        --(collection)--
+        +MapData mapData()
+    }
+    
+    interface VectorTileSource
+    {
+        --
+        +void request(SlippyTile, boolean forceUpdate)
+        --(angle)--
+        +VectorTile get(SlippyTile)
+    }
+    
+    enum VectorTileDownloader.Version
+    {
+        V3
+        V4
+    }
+    
+@enduml
+

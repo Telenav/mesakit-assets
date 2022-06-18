@@ -1,0 +1,16 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.ui.debuggers.edge.sectioner"
+    
+    interface EdgeSectionerDebugger
+    
+    EdgeSectionerDebugger <|-- VisualEdgeSectionDebugger
+    class VisualEdgeSectionDebugger
+    {
+    }
+    
+@enduml
+

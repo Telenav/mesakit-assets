@@ -1,0 +1,66 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.common.edge.store.index"
+    
+    abstract BaseRepeater
+    
+    interface NamedObject
+    interface CompressibleCollection
+    
+    BaseRepeater <|-- CompressedEdgeBulkSpatialIndexer
+    NamedObject <|-- CompressedEdgeBulkSpatialIndexer
+    class CompressedEdgeBulkSpatialIndexer
+    {
+        --(constructors)--
+        +CompressedEdgeBulkSpatialIndexer(Listener)
+        --
+        +int compareHorizontal(Edge a, Edge b)
+        +int compareVertical(Edge a, Edge b)
+        --(collection)--
+        +CompressedEdgeSpatialIndex index(Graph)
+    }
+    
+    CompressibleCollection <|-- CompressedEdgeListStore
+    NamedObject <|-- CompressedEdgeListStore
+    class CompressedEdgeListStore
+    {
+        --(constructors)--
+        #CompressedEdgeListStore()
+        +CompressedEdgeListStore(String, Graph)
+        --
+        +void graph(Graph)
+        --(collection)--
+        +int add(List<Edge> edges)
+        +List<Edge> get(int list)
+        +int size(int list)
+    }
+    
+    RTreeSpatialIndex <|-- CompressedEdgeSpatialIndex
+    CompressibleCollection <|-- CompressedEdgeSpatialIndex
+    class CompressedEdgeSpatialIndex
+    {
+        --(constructors)--
+        #CompressedEdgeSpatialIndex()
+        +CompressedEdgeSpatialIndex(String, Graph, RTreeSettings)
+        --
+        +void graph(Graph)
+    }
+    
+    RTreeSpatialIndexKryoSerializer <|-- CompressedEdgeSpatialIndexKryoSerializer
+    NamedObject <|-- CompressedEdgeSpatialIndexKryoSerializer
+    class CompressedEdgeSpatialIndexKryoSerializer
+    {
+        --(constructors)--
+        +CompressedEdgeSpatialIndexKryoSerializer(Graph)
+    }
+    
+    Leaf <|-- CompressedLeaf
+    class CompressedLeaf
+    {
+    }
+    
+@enduml
+

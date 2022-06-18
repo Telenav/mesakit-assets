@@ -1,0 +1,16 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.osm"
+    
+    CommonDataSpecification <|-- OsmDataSpecification
+    class OsmDataSpecification
+    {
+        --
+        +OsmDataSpecification get()
+    }
+    
+@enduml
+

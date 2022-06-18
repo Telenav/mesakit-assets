@@ -1,0 +1,18 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.common.shapepoint.store"
+    
+    NodeStore <|-- ShapePointStore
+    class ShapePointStore
+    {
+        --(constructors)--
+        +ShapePointStore(Graph)
+        --
+        +ShapePoint forLocation(Location)
+    }
+    
+@enduml
+

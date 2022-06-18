@@ -1,0 +1,89 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.library.store"
+    
+    abstract BaseRepeater
+    
+    interface Unloadable
+    interface Validatable
+    
+    GraphStore <|-- ArchivedGraphStore
+    abstract class ArchivedGraphStore
+    {
+        --(constructors)--
+        #ArchivedGraphStore(Graph)
+        --
+        +void loaded(Resource)
+        +void loading(Resource)
+        +Resource resource()
+        +void resource(Resource)
+        #void onAttached(GraphArchive)
+        #void onAttaching(GraphArchive)
+        #void onLoaded(Resource)
+        #void onLoaded(GraphArchive)
+        #void onLoading(GraphArchive)
+        #void onLoading(Resource)
+        #void onSaved(GraphArchive)
+        #void onSaving(GraphArchive)
+        #void onUnloaded(GraphArchive)
+        #void onUnloading(GraphArchive)
+        --(checks)--
+        +boolean isLoading()
+        +boolean isUnloaded()
+        --(read)--
+        +void load(GraphArchive)
+        +void loadAll(AttributeSet except)
+        +void loadAll()
+        +void loadAllExcept(AttributeSet except)
+        --(write)--
+        +void save(GraphArchive)
+    }
+    
+    BaseRepeater <|-- GraphStore
+    Unloadable <|-- GraphStore
+    Validatable <|-- GraphStore
+    abstract class GraphStore
+    {
+        --(constructors)--
+        #GraphStore(Graph)
+        --
+        +Rectangle bounds()
+        +void bounds(Rectangle bounds)
+        +void commit()
+        +EdgeStore edgeStore()
+        +Graph graph()
+        +PlaceStore placeStore()
+        +Precision precision()
+        +RelationStore relationStore()
+        +ShapePointStore shapePointStore()
+        +PbfTagCodec tagCodec()
+        +VertexStore vertexStore()
+        #DataSpecification dataSpecification()
+        #void forEachStore(Consumer<ArchivedGraphElementStore<?>>)
+        #void onCommitted()
+        #void onCommitting()
+        #void onFreezing()
+        #void onFrozen()
+        --(collection)--
+        +void addToBounds(long location)
+        +void addToBounds(Rectangle)
+        +boolean isEmpty()
+        #List<ArchivedGraphElementStore<?>> stores()
+        --(io)--
+        +void flush()
+        --(metadata)--
+        +Metadata metadata()
+    }
+    
+    ValidationType <|-- GraphStore.GraphStoreValidation
+    class GraphStore.GraphStoreValidation
+    {
+        --(constructors)--
+        +GraphStoreValidation()
+    }
+    
+@enduml
+

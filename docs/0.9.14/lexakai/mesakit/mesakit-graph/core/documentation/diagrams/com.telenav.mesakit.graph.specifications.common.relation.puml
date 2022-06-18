@@ -1,0 +1,67 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.common.relation"
+    
+    EdgeRelation <|-- HeavyWeightRelation
+    class HeavyWeightRelation
+    {
+        --(constructors)--
+        +HeavyWeightRelation(Graph, RelationIdentifier)
+        +HeavyWeightRelation(Graph, long)
+        +HeavyWeightRelation(PbfRelation)
+        --
+        +void bounds(Rectangle bounds)
+        +void members(List<EdgeRelationMember> members)
+        +void pbfRevisionNumber(PbfRevisionNumber)
+        +void tags(PbfTagList tags)
+        +void viaNodeLocation(Location)
+        --(collection)--
+        +void add(Edge, String role)
+        +void lastModificationTime(Time lastModified)
+        --(filesystem)--
+        +void copy(EdgeRelation that)
+        +HeavyWeightRelation copy()
+        --(identity)--
+        +void pbfChangeSetIdentifier(PbfChangeSetIdentifier)
+        +void pbfUserIdentifier(PbfUserIdentifier)
+        --(naming)--
+        +void pbfUserName(PbfUserName)
+    }
+    
+    GraphElementAttributes.GraphElementAttribute <|-- RelationAttributes.RelationAttribute
+    class RelationAttributes.RelationAttribute
+    {
+        --(constructors)--
+        +RelationAttribute(String)
+    }
+    
+    GraphElementAttributes <|-- RelationAttributes
+    class RelationAttributes
+    {
+        --(constructors)--
+        #RelationAttributes()
+        --
+        +RelationAttributes get()
+    }
+    
+    GraphElementPropertySet <|-- RelationProperties
+    class RelationProperties
+    {
+        --(constructors)--
+        #RelationProperties()
+        --
+        +RelationProperties get()
+    }
+    
+    GraphElementProperty <|-- RelationProperties.RelationProperty
+    abstract class RelationProperties.RelationProperty
+    {
+        --(constructors)--
+        #RelationProperty(String, Attribute<?>)
+    }
+    
+@enduml
+

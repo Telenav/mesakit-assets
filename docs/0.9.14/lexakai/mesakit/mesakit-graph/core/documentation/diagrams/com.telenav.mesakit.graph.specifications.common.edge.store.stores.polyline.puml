@@ -1,0 +1,49 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.common.edge.store.stores.polyline"
+    
+    interface Named
+    interface Initializable
+    interface NamedObject
+    interface CompressibleCollection
+    interface KryoSerializable
+    
+    Named <|-- PolylineStore
+    CompressibleCollection <|-- PolylineStore
+    class PolylineStore
+    {
+        --(constructors)--
+        #PolylineStore()
+        +PolylineStore(String, Estimate)
+        --
+        +Polyline get(int index)
+        --(checks)--
+        +boolean isNull(int index)
+        --(collection)--
+        +int add(CompressedPolyline)
+        +int size()
+    }
+    
+    KryoSerializable <|-- SplitPolylineStore
+    NamedObject <|-- SplitPolylineStore
+    Initializable <|-- SplitPolylineStore
+    CompressibleCollection <|-- SplitPolylineStore
+    class SplitPolylineStore
+    {
+        --(constructors)--
+        #SplitPolylineStore()
+        +SplitPolylineStore(String, Maximum, Maximum, Estimate, Estimate)
+        --
+        +Polyline get(int index)
+        +Polyline get(Indexed)
+        +void set(Indexed, Polyline)
+        +void set(Indexed, CompressedPolyline)
+        --(collection)--
+        +int size()
+    }
+    
+@enduml
+

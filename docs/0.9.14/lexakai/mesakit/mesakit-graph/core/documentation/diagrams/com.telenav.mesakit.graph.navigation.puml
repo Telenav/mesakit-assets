@@ -1,0 +1,30 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.navigation"
+    
+    enum Navigator.Direction
+    {
+        IN
+        OUT
+    }
+    
+    abstract class Navigator
+    {
+        --
+        +Edge in(Edge)
+        +Edge out(Edge)
+        --(iteration)--
+        +Edge next(Edge, Direction)
+    }
+    
+    interface RouteLimiter
+    {
+        --(checks)--
+        +boolean canExtendRoute(Route, Edge)
+    }
+    
+@enduml
+

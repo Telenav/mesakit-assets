@@ -1,0 +1,40 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.navigation.routing.cost.functions"
+    
+    interface EdgePermissionFunction
+    interface CostFunction
+    interface RoutePermissionFunction
+    
+    CostFunction <|-- TollRoadCostFunction
+    class TollRoadCostFunction
+    {
+        --(constructors)--
+        +TollRoadCostFunction(TollRoadMode)
+    }
+    
+    enum TollRoadCostFunction.TollRoadMode
+    {
+        AVOID_TOLL_ROADS
+        USE_TOLL_ROADS
+    }
+    
+    CostFunction <|-- TravelTimeCostFunction
+    class TravelTimeCostFunction
+    {
+        --(constructors)--
+        +TravelTimeCostFunction(Duration)
+        +TravelTimeCostFunction(Speed, Located, Located)
+    }
+    
+    RoutePermissionFunction <|-- TurnRestrictionFunction
+    EdgePermissionFunction <|-- TurnRestrictionFunction
+    class TurnRestrictionFunction
+    {
+    }
+    
+@enduml
+

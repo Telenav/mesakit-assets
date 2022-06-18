@@ -1,0 +1,43 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.navigation.routing.bidijkstra"
+    
+    abstract BaseRouter
+    
+    BaseRouter <|-- BiDijkstraRouter
+    class BiDijkstraRouter
+    {
+        --(constructors)--
+        +BiDijkstraRouter(CostFunction)
+        --(functional)--
+        +BiDijkstraRouter withEdgePermissionFunction(EdgePermissionFunction)
+        +BiDijkstraRouter withLevelPromoter(LevelPromoter)
+        +BiDijkstraRouter withRoutePermissionFunction(RoutePermissionFunction)
+    }
+    
+    RoutingRequest <|-- BiDijkstraRoutingRequest
+    class BiDijkstraRoutingRequest
+    {
+        --(constructors)--
+        #BiDijkstraRoutingRequest(BiDijkstraRoutingRequest, RoutingLimiter, RoutingDebugger)
+        +BiDijkstraRoutingRequest(Vertex, Vertex)
+        --
+        +CostFunction backwardHeuristicCostFunction()
+        +CostFunction forwardHeuristicCostFunction()
+        --(collection)--
+        +double maximumFirstMeetCostMultiple()
+        +Count meets()
+        --(functional)--
+        +BiDijkstraRoutingRequest withBackwardHeuristicCostFunction(CostFunction backwardHeuristicCostFunction)
+        +BiDijkstraRoutingRequest withDebugger(RoutingDebugger)
+        +BiDijkstraRoutingRequest withForwardHeuristicCostFunction(CostFunction forwardHeuristicCostFunction)
+        +BiDijkstraRoutingRequest withLimiter(RoutingLimiter)
+        +BiDijkstraRoutingRequest withMaximumFirstMeetCostMultiple(double maximumFirstMeetCostMultiple)
+        +BiDijkstraRoutingRequest withMeets(Count meets)
+    }
+    
+@enduml
+

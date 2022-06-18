@@ -1,0 +1,19 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.query.program.expressions.closure"
+    
+    interface BooleanExpression
+    
+    Node <|-- OneOrMore
+    BooleanExpression <|-- OneOrMore
+    class OneOrMore
+    {
+        --(constructors)--
+        +OneOrMore(BooleanExpression)
+    }
+    
+@enduml
+

@@ -1,0 +1,37 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.analytics.ramp"
+    
+    abstract BaseRepeater
+    
+    class AccumulatedAngle
+    {
+    }
+    
+    class LinkCrawler
+    {
+        --(constructors)--
+        +LinkCrawler(Maximum)
+    }
+    
+    class LinkSetJudger
+    {
+    }
+    
+    BaseRepeater <|-- RampFinder
+    abstract class RampFinder
+    {
+        --(constructors)--
+        #RampFinder(Graph)
+        --
+        #void onRamp(Edge ramp)
+        #void onRampConnector(Edge connector)
+        --(search)--
+        +void find()
+    }
+    
+@enduml
+

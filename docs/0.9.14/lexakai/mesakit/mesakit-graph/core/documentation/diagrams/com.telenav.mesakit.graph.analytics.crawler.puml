@@ -1,0 +1,31 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.analytics.crawler"
+    
+    enum GraphCrawler.DistanceMetric
+    {
+        RELAXED
+        STRICT
+    }
+    
+    class GraphCrawler
+    {
+        --(constructors)--
+        +GraphCrawler(Maximum, Distance, DistanceMetric)
+        --
+        +EdgeSet crawl(Vertex start)
+        +EdgeSet crawl(Edge start)
+        +void progress(BroadcastingProgressReporter)
+        #EdgeSet candidates(Vertex)
+        --(checks)--
+        +boolean hasVisited(Edge)
+        #boolean isCloseEnough(Edge)
+        --(filtering)--
+        #boolean accept(Edge)
+    }
+    
+@enduml
+

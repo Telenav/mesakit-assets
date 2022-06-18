@@ -1,0 +1,35 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.analytics.classification.classifiers.signpost"
+    
+    interface EdgeClassifier
+    
+    class SignPost
+    {
+        --(constructors)--
+        +SignPost(Edge)
+        +SignPost(Vertex, EdgeSet)
+        --
+        +Edge leftBranch()
+        +Location location()
+        +EdgeSet outEdges()
+        +Edge rightBranch()
+        +Vertex vertex()
+        --(checks)--
+        +boolean hasDestinations()
+        +boolean hasProperAngle()
+        +boolean isExit()
+        +boolean isMotorwayJunction()
+        +boolean isOnFreeway()
+    }
+    
+    EdgeClassifier <|-- SignPostDetectionClassifier
+    class SignPostDetectionClassifier
+    {
+    }
+    
+@enduml
+
