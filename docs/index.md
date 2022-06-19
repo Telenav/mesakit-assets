@@ -1,5 +1,5 @@
 <a href="https://github.com/Telenav/mesakit">
-<img src="https://telenav.github.io/telenav-assets/images/icons/github-32.png" srcset="https://telenav.github.io/telenav-assets/images/icons/github-32-2x.png 2x"/>
+<img src="https://telenav.github.io/telenav-assets/images/logos/github/github-32.png" srcset="https://telenav.github.io/telenav-assets/images/logos/github/github-32-2x.png 2x"/>
 </a>
 &nbsp;
 <a href="https://twitter.com/openmesakit">
@@ -12,7 +12,7 @@
 
 ![](https://telenav.github.io/telenav-assets/images/backgrounds/kivakit-background.png)
 
-# mesakit &nbsp;&nbsp; <img src="https://telenav.github.io/telenav-assets/images/kivakit-64.png" srcset="https://telenav.github.io/telenav-assets/images/kivakit-64-2x.png 2x"/>
+# mesakit &nbsp;&nbsp; <img src="https://telenav.github.io/telenav-assets/images/logos/kivakit/mesakit-64.png" srcset="https://telenav.github.io/telenav-assets/images/logos/mesakit/mesakit-64-2x.png 2x"/>
 
 MesaKit is a modular toolkit for developing mapping and navigation applications.
 
@@ -68,7 +68,7 @@ MesaKit provides support for:
 |--------------|-----------------------------------|
 | Project Name | MesaKit |
 | Summary | A modular toolkit for developing mapping and navigation software |
-| Javadoc Coverage |  <!-- ${project-javadoc-average-coverage-meter} --> <img src="https://telenav.github.io/telenav-assets/images/meter-40-96.png" srcset="https://telenav.github.io/telenav-assets/images/meter-40-96-2x.png 2x"/><!-- end --> |
+| Javadoc Coverage |  <!-- ${project-javadoc-average-coverage-meter} --> <img src="https://telenav.github.io/telenav-assets/images/meters/meter-40-96.png" srcset="https://telenav.github.io/telenav-assets/images/meters/meter-40-96-2x.png 2x"/><!-- end --> |
 | Lead | Jonathan Locke (Luo, Shibo) <br/> [jonathanl@telenav.com](mailto:jonathanl@telenav.com) |
 | Administrator | Jonathan Locke (Luo, Shibo) <br/> [jonathanl@telenav.com](mailto:jonathanl@telenav.com) |
 | Email | [jonathanl@telenav.com](mailto:jonathanl@telenav.com) | 
@@ -105,33 +105,33 @@ MesaKit provides support for:
 
 ### Javadoc Coverage <a name = "javadoc-coverage"></a> &nbsp; <img src="https://telenav.github.io/telenav-assets/images/icons/bargraph-24.png" srcset="https://telenav.github.io/telenav-assets/images/icons/bargraph-24-2x.png 2x"/>
 
-&nbsp; <img src="https://telenav.github.io/telenav-assets/images/meter-40-96.png" srcset="https://telenav.github.io/telenav-assets/images/meter-40-96-2x.png 2x"/>
+&nbsp; <img src="https://telenav.github.io/telenav-assets/images/meters/meter-40-96.png" srcset="https://telenav.github.io/telenav-assets/images/meters/meter-40-96-2x.png 2x"/>
 &nbsp; &nbsp; [**mesakit-map-cutter**](mesakit-map/cutter/README.md)  
-&nbsp; <img src="https://telenav.github.io/telenav-assets/images/meter-50-96.png" srcset="https://telenav.github.io/telenav-assets/images/meter-50-96-2x.png 2x"/>
+&nbsp; <img src="https://telenav.github.io/telenav-assets/images/meters/meter-50-96.png" srcset="https://telenav.github.io/telenav-assets/images/meters/meter-50-96-2x.png 2x"/>
 &nbsp; &nbsp; [**mesakit-map-data-formats-pbf**](mesakit-map/data/formats/pbf/README.md)  
-&nbsp; <img src="https://telenav.github.io/telenav-assets/images/meter-50-96.png" srcset="https://telenav.github.io/telenav-assets/images/meter-50-96-2x.png 2x"/>
+&nbsp; <img src="https://telenav.github.io/telenav-assets/images/meters/meter-50-96.png" srcset="https://telenav.github.io/telenav-assets/images/meters/meter-50-96-2x.png 2x"/>
 &nbsp; &nbsp; [**mesakit-map-data-library**](mesakit-map/data/library/README.md)  
-&nbsp; <img src="https://telenav.github.io/telenav-assets/images/meter-50-96.png" srcset="https://telenav.github.io/telenav-assets/images/meter-50-96-2x.png 2x"/>
+&nbsp; <img src="https://telenav.github.io/telenav-assets/images/meters/meter-50-96.png" srcset="https://telenav.github.io/telenav-assets/images/meters/meter-50-96-2x.png 2x"/>
 &nbsp; &nbsp; [**mesakit-map-geography**](mesakit-map/geography/README.md)  
-&nbsp; <img src="https://telenav.github.io/telenav-assets/images/meter-70-96.png" srcset="https://telenav.github.io/telenav-assets/images/meter-70-96-2x.png 2x"/>
+&nbsp; <img src="https://telenav.github.io/telenav-assets/images/meters/meter-70-96.png" srcset="https://telenav.github.io/telenav-assets/images/meters/meter-70-96-2x.png 2x"/>
 &nbsp; &nbsp; [**mesakit-map-measurements**](mesakit-map/measurements/README.md)  
-&nbsp; <img src="https://telenav.github.io/telenav-assets/images/meter-10-96.png" srcset="https://telenav.github.io/telenav-assets/images/meter-10-96-2x.png 2x"/>
+&nbsp; <img src="https://telenav.github.io/telenav-assets/images/meters/meter-10-96.png" srcset="https://telenav.github.io/telenav-assets/images/meters/meter-10-96-2x.png 2x"/>
 &nbsp; &nbsp; [**mesakit-map-overpass**](mesakit-map/overpass/README.md)  
-&nbsp; <img src="https://telenav.github.io/telenav-assets/images/meter-40-96.png" srcset="https://telenav.github.io/telenav-assets/images/meter-40-96-2x.png 2x"/>
+&nbsp; <img src="https://telenav.github.io/telenav-assets/images/meters/meter-40-96.png" srcset="https://telenav.github.io/telenav-assets/images/meters/meter-40-96-2x.png 2x"/>
 &nbsp; &nbsp; [**mesakit-map-region**](mesakit-map/region/README.md)  
-&nbsp; <img src="https://telenav.github.io/telenav-assets/images/meter-50-96.png" srcset="https://telenav.github.io/telenav-assets/images/meter-50-96-2x.png 2x"/>
+&nbsp; <img src="https://telenav.github.io/telenav-assets/images/meters/meter-50-96.png" srcset="https://telenav.github.io/telenav-assets/images/meters/meter-50-96-2x.png 2x"/>
 &nbsp; &nbsp; [**mesakit-map-road-model**](mesakit-map/road/model/README.md)  
-&nbsp; <img src="https://telenav.github.io/telenav-assets/images/meter-50-96.png" srcset="https://telenav.github.io/telenav-assets/images/meter-50-96-2x.png 2x"/>
+&nbsp; <img src="https://telenav.github.io/telenav-assets/images/meters/meter-50-96.png" srcset="https://telenav.github.io/telenav-assets/images/meters/meter-50-96-2x.png 2x"/>
 &nbsp; &nbsp; [**mesakit-map-road-name-parser**](mesakit-map/road/name-parser/README.md)  
-&nbsp; <img src="https://telenav.github.io/telenav-assets/images/meter-30-96.png" srcset="https://telenav.github.io/telenav-assets/images/meter-30-96-2x.png 2x"/>
+&nbsp; <img src="https://telenav.github.io/telenav-assets/images/meters/meter-30-96.png" srcset="https://telenav.github.io/telenav-assets/images/meters/meter-30-96-2x.png 2x"/>
 &nbsp; &nbsp; [**mesakit-map-road-name-standardizer**](mesakit-map/road/name-standardizer/README.md)  
-&nbsp; <img src="https://telenav.github.io/telenav-assets/images/meter-40-96.png" srcset="https://telenav.github.io/telenav-assets/images/meter-40-96-2x.png 2x"/>
+&nbsp; <img src="https://telenav.github.io/telenav-assets/images/meters/meter-40-96.png" srcset="https://telenav.github.io/telenav-assets/images/meters/meter-40-96-2x.png 2x"/>
 &nbsp; &nbsp; [**mesakit-map-ui**](mesakit-map/ui/README.md)  
-&nbsp; <img src="https://telenav.github.io/telenav-assets/images/meter-50-96.png" srcset="https://telenav.github.io/telenav-assets/images/meter-50-96-2x.png 2x"/>
+&nbsp; <img src="https://telenav.github.io/telenav-assets/images/meters/meter-50-96.png" srcset="https://telenav.github.io/telenav-assets/images/meters/meter-50-96-2x.png 2x"/>
 &nbsp; &nbsp; [**mesakit-map-utilities-geohash**](mesakit-map/utilities/geohash/README.md)  
-&nbsp; <img src="https://telenav.github.io/telenav-assets/images/meter-30-96.png" srcset="https://telenav.github.io/telenav-assets/images/meter-30-96-2x.png 2x"/>
+&nbsp; <img src="https://telenav.github.io/telenav-assets/images/meters/meter-30-96.png" srcset="https://telenav.github.io/telenav-assets/images/meters/meter-30-96-2x.png 2x"/>
 &nbsp; &nbsp; [**mesakit-map-utilities-geojson**](mesakit-map/utilities/geojson/README.md)  
-&nbsp; <img src="https://telenav.github.io/telenav-assets/images/meter-50-96.png" srcset="https://telenav.github.io/telenav-assets/images/meter-50-96-2x.png 2x"/>
+&nbsp; <img src="https://telenav.github.io/telenav-assets/images/meters/meter-50-96.png" srcset="https://telenav.github.io/telenav-assets/images/meters/meter-50-96-2x.png 2x"/>
 &nbsp; &nbsp; [**mesakit-map-utilities-grid**](mesakit-map/utilities/grid/README.md)
 
 [//]: # (start-user-text)
