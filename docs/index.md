@@ -90,7 +90,7 @@ MesaKit provides support for:
 ### Reference <a name = "reference"></a>&nbsp; <img src="https://telenav.github.io/telenav-assets/images/icons/books-24.png" srcset="https://telenav.github.io/telenav-assets/images/icons/books-24-2x.png 2x"/>
 
 [**Javadoc**](https://telenav.github.io/mesakit/javadoc)  
-[**CodeFlowers**](https://telenav.github.io/mesakit/codeflowers/site/index.html)  
+[**CodeFlowers**](https://www.mesakit.org/0.9.14/codeflowers/site/index.html)  
 [**System Properties**](documentation/developing/system-properties.md)
 
 <img src="https://telenav.github.io/telenav-assets/images/separators/horizontal-line-128.png" srcset="https://telenav.github.io/telenav-assets/images/separators/horizontal-line-128-2x.png 2x"/>
