@@ -1,0 +1,41 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "org.nocrala.tools.gis.data.esri.shapefile"
+    
+    class ShapeFileReader
+    {
+        --(constructors)--
+        +ShapeFileReader(InputStream)
+        +ShapeFileReader(InputStream, ValidationPreferences)
+        --(filesystem)--
+        +ShapeFileHeader getHeader()
+        --(iteration)--
+        +AbstractShape next()
+    }
+    
+    class ValidationPreferences
+    {
+        --
+        +int getExpectedRecordNumber()
+        +PartType getForcePartType()
+        +ShapeType getForceShapeType()
+        +int getMaxNumberOfPointsPerShape()
+        +void setAllowBadContentLength(boolean allowBadContentLength)
+        +void setAllowBadRecordNumbers(boolean allowBadRecordNumbers)
+        +void setAllowMultipleShapeTypes(boolean allowMultipleShapeTypes)
+        +void setAllowUnlimitedNumberOfPointsPerShape(boolean allowUnlimitedNumberOfPointsPerShape)
+        +void setForcePartType(PartType forcePartType)
+        +void setForceShapeType(ShapeType forceShapeType)
+        +void setMaxNumberOfPointsPerShape(int maxItems)
+        --(checks)--
+        +boolean isAllowBadContentLength()
+        +boolean isAllowBadRecordNumbers()
+        +boolean isAllowMultipleShapeTypes()
+        +boolean isAllowUnlimitedNumberOfPointsPerShape()
+    }
+    
+@enduml
+

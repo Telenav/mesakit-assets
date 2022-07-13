@@ -1,0 +1,16 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.measurements"
+    
+    KryoTypes <|-- MeasurementsKryoTypes
+    class MeasurementsKryoTypes
+    {
+        --(constructors)--
+        +MeasurementsKryoTypes()
+    }
+    
+@enduml
+

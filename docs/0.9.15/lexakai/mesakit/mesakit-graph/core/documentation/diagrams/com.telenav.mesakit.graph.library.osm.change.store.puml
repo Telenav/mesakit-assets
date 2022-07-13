@@ -1,0 +1,63 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.library.osm.change.store"
+    
+    interface Iterable
+    
+    class ModifiedWayStore
+    {
+        --(constructors)--
+        +ModifiedWayStore(PbfNodeStore)
+        --
+        +MutableWay modifiableWay(Edge)
+        +MutableWay modifiableWay(PbfUserIdentifier, PbfUserName, PbfWayIdentifier, Polyline shape, PbfTagList tags, int version)
+        +PbfNodeStore nodes()
+        --(collection)--
+        +List<PbfWay> asWays(boolean modified)
+        +boolean isEmpty()
+        +Count size()
+        --(time)--
+        +Collection<MutableWay> modifiedWays()
+        +void saveModified(PbfWriter)
+        --(write)--
+        +void saveAll(PbfWriter)
+    }
+    
+    Iterable <|-- NewWayStore
+    class NewWayStore
+    {
+        --
+        +void referenceNodes()
+        --(collection)--
+        +void add(NewWay)
+        +boolean isEmpty()
+        --(factory)--
+        +Collection<NewWay> ways()
+    }
+    
+    class PbfNodeStore
+    {
+        --(constructors)--
+        +PbfNodeStore(Graph)
+        --
+        +void dereference(Location)
+        +Location location(PbfNodeIdentifier)
+        +void reference(Location)
+        +PbfNodeStore subset(Set<PbfNodeIdentifier> include)
+        --(collection)--
+        +List<PbfNode> asNodes()
+        +boolean contains(Location)
+        +Iterable<PbfNodeIdentifier> identifiers()
+        +Iterable<Location> locations()
+        +Count size()
+        --(identity)--
+        +PbfNodeIdentifier identifier(Location)
+        +PbfNodeIdentifier nextNodeIdentifier()
+        +PbfWayIdentifier nextWayIdentifier()
+    }
+    
+@enduml
+

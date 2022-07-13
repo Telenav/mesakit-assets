@@ -1,0 +1,11 @@
+    221 com/telenav/mesakit/serialization/json/MesaKitGsonProject.java
+     50 com/telenav/mesakit/serialization/json/serializers/DistanceGsonSerializer.java
+     35 com/telenav/mesakit/serialization/json/serializers/IdentifierGsonSerializer.java
+     52 com/telenav/mesakit/serialization/json/serializers/LatitudeGsonSerializer.java
+     90 com/telenav/mesakit/serialization/json/serializers/LocationGsonSerializer.java
+     58 com/telenav/mesakit/serialization/json/serializers/LongitudeGsonSerializer.java
+     50 com/telenav/mesakit/serialization/json/serializers/RectangleGsonSerializer.java
+     90 com/telenav/mesakit/serialization/json/serializers/RectangleInDegreesGsonSerializer.java
+     34 com/telenav/mesakit/serialization/json/serializers/SpeedCategoryGsonSerializer.java
+     24 module-info.java
+    704 total

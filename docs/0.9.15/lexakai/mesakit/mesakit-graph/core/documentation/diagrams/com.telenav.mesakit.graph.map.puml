@@ -1,0 +1,92 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.map"
+    
+    abstract BaseStringConverter
+    
+    interface Iterable
+    interface Road
+    
+    BaseStringConverter <|-- MapRoute.Converter
+    class MapRoute.Converter
+    {
+        --(constructors)--
+        +Converter(Listener, Graph, Separators)
+        +Converter(Listener, Separators)
+    }
+    
+    BaseStringConverter <|-- MapEdgeIdentifier.Converter
+    class MapEdgeIdentifier.Converter
+    {
+        --(constructors)--
+        +Converter(Listener)
+    }
+    
+    BaseStringConverter <|-- MapEdgeIdentifier.EdgeConverter
+    class MapEdgeIdentifier.EdgeConverter
+    {
+        --(constructors)--
+        +EdgeConverter(Listener, Graph)
+    }
+    
+    class MapEdgeIdentifier
+    {
+        --(constructors)--
+        +MapEdgeIdentifier(MapWayIdentifier, MapNodeIdentifier, MapNodeIdentifier)
+        --(collection)--
+        +MapNodeIdentifier from()
+        +MapNodeIdentifier to()
+        +MapWayIdentifier way()
+    }
+    
+    Iterable <|-- MapRoute
+    class MapRoute
+    {
+        --(constructors)--
+        +MapRoute(List<MapEdgeIdentifier>)
+        +MapRoute(Route)
+        --(collection)--
+        +Stream<MapEdgeIdentifier> parallelStream()
+        +List<MapEdgeIdentifier> pbfEdgeIdentifiers()
+        +Stream<MapEdgeIdentifier> stream()
+        --(lifecycle)--
+        +String join(String separator)
+    }
+    
+    Way <|-- MapWay
+    class MapWay
+    {
+        --(collection)--
+        +MapWay forEdge(Edge)
+        +MapWay forRoute(Route)
+        +MapWay forWayIdentifier(Graph, Rectangle bounds, PbfWayIdentifier)
+    }
+    
+    Road <|-- Way
+    Iterable <|-- Way
+    class Way
+    {
+        --(constructors)--
+        #Way(Route)
+        --
+        +Rectangle bounds()
+        +Way contiguousWayForEdge(Edge)
+        +Way forRoute(Route)
+        +HighwayType highwayType()
+        +Stream<Edge> stream()
+        --(checks)--
+        +boolean isReversed()
+        --(collection)--
+        +List<Edge> edges()
+        +Edge first()
+        +Edge last()
+        +List<MapNodeIdentifier> mapNodeIdentifiers()
+        +PbfTagList pbfTags()
+        +int size()
+    }
+    
+@enduml
+

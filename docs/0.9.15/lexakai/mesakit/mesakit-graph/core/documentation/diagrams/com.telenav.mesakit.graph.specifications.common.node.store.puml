@@ -1,0 +1,40 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.common.node.store"
+    
+    ArchivedGraphElementStore <|-- NodeStore
+    abstract class NodeStore<T>
+    {
+        --(constructors)--
+        #NodeStore(Graph)
+        --
+        +boolean retrieveIsNodeSynthetic(GraphNode)
+        +void visitElementNodes(NodeVisitor)
+        #PbfAllGraphElementTagStore allNodeTagStore()
+        #void storeNodeLocation(int index, long locationAsLong)
+        #int storeNodeLocation(long nodeIdentifier, Location)
+        --(collection)--
+        +boolean contains(MapNodeIdentifier)
+        +boolean containsAllPbfNodeInformation()
+        +MapNodeIdentifier retrieveNodeIdentifier(GraphNode)
+        #int allNodeIndex(Location)
+        #int maybeCreateNodeIdentifierToIndex(long nodeIdentifier)
+        #int nodeIdentifierToIndex(long nodeIdentifier)
+        --(filesystem)--
+        +void allPbfNodeDiskStores(PbfAllNodeDiskStores)
+        --(primitive)--
+        +long retrieveLocationAsLong(int vertexIndex)
+        +long retrieveLocationAsLong(Vertex)
+    }
+    
+    interface NodeStore.NodeVisitor
+    {
+        --
+        +void visit(int index, long pbfNodeIdentifier, long locationAsLong)
+    }
+    
+@enduml
+

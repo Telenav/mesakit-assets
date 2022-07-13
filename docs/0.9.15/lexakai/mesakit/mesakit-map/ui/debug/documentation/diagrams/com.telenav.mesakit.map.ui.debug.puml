@@ -1,0 +1,23 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.ui.debug"
+    
+    DesktopViewer <|-- DebugViewer
+    class DebugViewer
+    {
+        --
+        +void frameComplete()
+        +void frameSpeed(Duration delay)
+        +InteractiveView view()
+        --(collection)--
+        +void clear()
+        --(lifecycle)--
+        +void end(Location end)
+        +void start(Location start)
+    }
+    
+@enduml
+

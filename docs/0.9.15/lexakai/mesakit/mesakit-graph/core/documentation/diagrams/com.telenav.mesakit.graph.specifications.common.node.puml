@@ -1,0 +1,25 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.common.node"
+    
+    GraphElementAttributes.GraphElementAttribute <|-- NodeAttributes.NodeAttribute
+    class NodeAttributes.NodeAttribute
+    {
+        --(constructors)--
+        +NodeAttribute(String)
+    }
+    
+    GraphElementAttributes <|-- NodeAttributes
+    class NodeAttributes
+    {
+        --(constructors)--
+        #NodeAttributes()
+        --
+        +NodeAttributes get()
+    }
+    
+@enduml
+

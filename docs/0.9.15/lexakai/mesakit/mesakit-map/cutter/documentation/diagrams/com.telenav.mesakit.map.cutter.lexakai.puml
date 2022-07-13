@@ -1,0 +1,16 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.cutter.lexakai"
+    
+    interface UmlDiagramIdentifier
+    
+    UmlDiagramIdentifier <|-- DiagramMapCutter
+    class DiagramMapCutter
+    {
+    }
+    
+@enduml
+

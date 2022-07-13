@@ -1,0 +1,64 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.query.program.expressions.terminal.value"
+    
+    interface BooleanExpression
+    interface ValueExpression
+    
+    Node <|-- Attribute
+    ValueExpression <|-- Attribute
+    class Attribute
+    {
+        --(constructors)--
+        +Attribute(String)
+    }
+    
+    Node <|-- BooleanAttribute
+    BooleanExpression <|-- BooleanAttribute
+    class BooleanAttribute
+    {
+        --(constructors)--
+        +BooleanAttribute(Property)
+        --(parsing)--
+        +BooleanAttribute parse(String attributeName)
+    }
+    
+    Node <|-- Constant
+    ValueExpression <|-- Constant
+    class Constant
+    {
+        --(constructors)--
+        +Constant(Value)
+    }
+    
+    class Value
+    {
+        --
+        +Value of(Object value)
+        --(checks)--
+        +boolean isBoolean()
+        +boolean isFalse()
+        +boolean isNull()
+        +boolean isNumber()
+        +boolean isString()
+        +boolean isTrue()
+        --(conversion)--
+        +Boolean asBoolean()
+        +Double asNumber()
+        +String asString()
+        +Object asValue()
+    }
+    
+    interface Expression
+    Expression <|-- ValueExpression
+    interface ValueExpression
+    {
+        --
+        +Value evaluate()
+    }
+    
+@enduml
+
