@@ -1,0 +1,53 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.common.element.store.index"
+    
+    abstract BaseIterator
+    
+    interface Iterable
+    
+    Iterable <|-- GraphElementList
+    class GraphElementList<T>
+    {
+        --(constructors)--
+        +GraphElementList(GraphElementSpatialIndex<T>, Estimate)
+        --(collection)--
+        +void add(T element)
+        +boolean isEmpty()
+        +Iterator<T> iterator(Rectangle bounds, Matcher<T>)
+        +int size()
+    }
+    
+    class GraphElementQuadrant<T>
+    {
+    }
+    
+    abstract class GraphElementSpatialIndex<T>
+    {
+        --(constructors)--
+        #GraphElementSpatialIndex(Graph, int)
+        --
+        +void dump(PrintStream out)
+        +void graph(Graph)
+        #Graph graph()
+        --(collection)--
+        +void add(T element)
+        +void addAll(Iterable<T> elements)
+        +void clear()
+        +Iterable<T> inside(Rectangle bounds)
+        +Iterable<T> inside(Rectangle bounds, Matcher<T>)
+        +int size()
+        --(identity)--
+        #T forIdentifier(long identifier)
+    }
+    
+    BaseIterator <|-- GraphElementQuadrant.QuadrantIterator
+    class GraphElementQuadrant.QuadrantIterator
+    {
+    }
+    
+@enduml
+

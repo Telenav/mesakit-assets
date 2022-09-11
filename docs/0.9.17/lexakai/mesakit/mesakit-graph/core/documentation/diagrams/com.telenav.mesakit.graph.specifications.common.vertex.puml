@@ -1,0 +1,67 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.common.vertex"
+    
+    Vertex <|-- HeavyWeightVertex
+    class HeavyWeightVertex
+    {
+        --(constructors)--
+        +HeavyWeightVertex(Graph, VertexIdentifier)
+        +HeavyWeightVertex(Graph, long)
+        --
+        +void clipped(boolean clipped)
+        +void gradeSeparation(GradeSeparation)
+        +void location(Location)
+        +void pbfRevisionNumber(PbfRevisionNumber)
+        +void pbfTags(PbfTagList tags)
+        --(collection)--
+        +void addIn(Edge in)
+        +void addOut(Edge out)
+        +void pbfLastModificationTime(Time lastModified)
+        --(filesystem)--
+        +void copy(Vertex that)
+        --(identity)--
+        +void nodeIdentifier(MapNodeIdentifier)
+        +void pbfChangeSetIdentifier(PbfChangeSetIdentifier)
+        +void pbfUserIdentifier(PbfUserIdentifier)
+        --(naming)--
+        +void pbfUserName(PbfUserName)
+    }
+    
+    NodeAttributes.NodeAttribute <|-- VertexAttributes.VertexAttribute
+    class VertexAttributes.VertexAttribute
+    {
+        --(constructors)--
+        +VertexAttribute(String)
+    }
+    
+    NodeAttributes <|-- VertexAttributes
+    class VertexAttributes
+    {
+        --(constructors)--
+        #VertexAttributes()
+        --
+        +VertexAttributes get()
+    }
+    
+    GraphElementProperties <|-- VertexProperties
+    class VertexProperties
+    {
+        --(constructors)--
+        #VertexProperties()
+        --
+        +VertexProperties get()
+    }
+    
+    GraphElementProperty <|-- VertexProperties.VertexProperty
+    abstract class VertexProperties.VertexProperty
+    {
+        --(constructors)--
+        #VertexProperty(String, Attribute<?>)
+    }
+    
+@enduml
+

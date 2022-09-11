@@ -1,0 +1,16 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.examples.map.measurements"
+    
+    Application <|-- LocationExample
+    class LocationExample
+    {
+        --
+        +void main(String[] arguments)
+    }
+    
+@enduml
+

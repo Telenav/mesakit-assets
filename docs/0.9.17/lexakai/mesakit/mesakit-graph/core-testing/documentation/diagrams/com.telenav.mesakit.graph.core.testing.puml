@@ -1,0 +1,66 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.core.testing"
+    
+    GeographyRandomValueFactory <|-- GraphRandomValueFactory
+    class GraphRandomValueFactory
+    {
+        --(constructors)--
+        +GraphRandomValueFactory()
+        +GraphRandomValueFactory(long)
+        --(factory)--
+        +BetweenCrossRoads newBetweenCrossStreets()
+        +Intersection newIntersection()
+        +RoadName newStreetName()
+    }
+    
+    RegionUnitTest <|-- GraphUnitTest
+    abstract class GraphUnitTest
+    {
+        --(constructors)--
+        #GraphUnitTest()
+        --
+        +Graph osmBellevueWashington()
+        +Graph osmBuffalo()
+        +Graph osmDowntownSeattle()
+        +Graph osmDowntownSeattleTest()
+        +Graph osmGreenLakeSeattle()
+        +Graph osmGreenLakeSeattleLarge()
+        +Graph osmHuronCharter()
+        #Edge edge(Graph, double fromLatitude, double fromLongitude, double toLatitude, double toLongitude)
+        #Edge edgeNear(Graph, double latitude, double longitude)
+        #EdgeSet edges(Edge... edges)
+        #Location location(String location)
+        #Edge osmDowntownSeattleTestEdge(long identifier)
+        #EdgeSet osmDowntownSeattleTestEdges(long... identifiers)
+        #Route osmDowntownSeattleTestRoute(long... identifiers)
+        #HeavyWeightEdge osmEdge(Graph, int index, int identifier)
+        #OsmGraph osmGraph()
+        #Edge osmGreenLakeSeattleEdge(long identifier)
+        #HeavyWeightRelation osmRelation(int identifier, int index)
+        #HeavyWeightVertex osmVertex(Graph, int index, int identifier, Location)
+        #Route route(Edge... edges)
+        #HeavyWeightEdge testEdge(long identifier)
+        #Vertex vertex(Graph, double latitude, double longitude)
+        --(iteration)--
+        #HeavyWeightEdge nextOsmEdge(Graph)
+        #HeavyWeightRelation nextOsmRelation()
+        --(time)--
+        #Location locationInDegreesMinutesAndSeconds(String location)
+    }
+    
+    abstract class GraphRandomValueFactory.RandomListBuilder<T>
+    {
+        --(constructors)--
+        #RandomListBuilder(int, int)
+        --(collection)--
+        +List<T> list()
+        --(factory)--
+        #T newElement()
+    }
+    
+@enduml
+

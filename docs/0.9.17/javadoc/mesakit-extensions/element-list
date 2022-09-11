@@ -1,0 +1,3 @@
+module:mesakit.graph.geocoding
+com.telenav.mesakit.graph.geocoding.reverse
+com.telenav.mesakit.graph.geocoding.reverse.matching

@@ -1,0 +1,68 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "org.nocrala.tools.gis.data.esri.shapefile.shape"
+    
+    abstract class AbstractShape
+    {
+        --(constructors)--
+        +AbstractShape(ShapeHeader, ShapeType, InputStream, ValidationPreferences)
+        --
+        +ShapeHeader getHeader()
+        +ShapeType getShapeType()
+    }
+    
+    class Const
+    {
+    }
+    
+    enum PartType
+    {
+        FIRST_RING
+        INNER_RING
+        OUTER_RING
+        RING
+        TRIANGLE_FAN
+        TRIANGLE_STRIP
+    }
+    
+    class PointData
+    {
+        --(constructors)--
+        +PointData(double, double)
+        --
+        +double getX()
+        +double getY()
+    }
+    
+    class ShapeHeader
+    {
+        --(constructors)--
+        +ShapeHeader(InputStream, ValidationPreferences)
+        --
+        +int getContentLength()
+        +int getRecordNumber()
+    }
+    
+    enum ShapeType
+    {
+        MULTIPATCH
+        MULTIPOINT
+        MULTIPOINT_M
+        MULTIPOINT_Z
+        NULL
+        POINT
+        POINT_M
+        POINT_Z
+        POLYGON
+        POLYGON_M
+        POLYGON_Z
+        POLYLINE
+        POLYLINE_M
+        POLYLINE_Z
+    }
+    
+@enduml
+

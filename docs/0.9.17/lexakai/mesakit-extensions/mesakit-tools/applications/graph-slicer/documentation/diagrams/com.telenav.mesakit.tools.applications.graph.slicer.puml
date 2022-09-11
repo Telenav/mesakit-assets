@@ -1,0 +1,18 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.tools.applications.graph.slicer"
+    
+    Application <|-- GraphSlicerApplication
+    class GraphSlicerApplication
+    {
+        --(constructors)--
+        #GraphSlicerApplication()
+        --
+        +void main(String[] arguments)
+    }
+    
+@enduml
+

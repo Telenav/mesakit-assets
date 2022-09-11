@@ -1,0 +1,16 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.world.testing"
+    
+    GraphUnitTest <|-- WorldGraphUnitTest
+    class WorldGraphUnitTest
+    {
+        --(constructors)--
+        +WorldGraphUnitTest()
+    }
+    
+@enduml
+

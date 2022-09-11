@@ -1,0 +1,38 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.measurements.motion.speeds"
+    
+    Average <|-- AverageSpeed
+    AverageSpeed --> Speed : "computes"
+    class AverageSpeed
+    {
+        --
+        +Speed averageSpeed()
+        --(collection)--
+        +void add(Speed)
+    }
+    
+    WeightedAverageSpeed --> Speed : "computes"
+    class WeightedAverageSpeed
+    {
+        --
+        +Speed average()
+        --(collection)--
+        +void add(Speed, double weight)
+    }
+    
+    class WeightedAverageSpeed.WeightedSpeed
+    {
+        --(constructors)--
+        +WeightedSpeed(Speed, double)
+        --
+        +double weight()
+        --(time)--
+        +double speedInMetersPerHour()
+    }
+    
+@enduml
+

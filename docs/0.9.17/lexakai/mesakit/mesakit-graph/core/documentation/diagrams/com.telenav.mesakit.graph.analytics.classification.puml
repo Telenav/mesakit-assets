@@ -1,0 +1,15 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.analytics.classification"
+    
+    interface EdgeClassifier
+    {
+        --(filtering)--
+        +boolean accept(Edge)
+    }
+    
+@enduml
+

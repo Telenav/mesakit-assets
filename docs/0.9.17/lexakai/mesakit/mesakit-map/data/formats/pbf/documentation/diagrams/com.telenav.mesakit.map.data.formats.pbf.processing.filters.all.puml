@@ -1,0 +1,23 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.data.formats.pbf.processing.filters.all"
+    
+    RelationFilter <|-- AllRelationsFilter
+    class AllRelationsFilter
+    {
+        --(constructors)--
+        +AllRelationsFilter()
+    }
+    
+    WayFilter <|-- AllWaysFilter
+    class AllWaysFilter
+    {
+        --(constructors)--
+        +AllWaysFilter()
+    }
+    
+@enduml
+

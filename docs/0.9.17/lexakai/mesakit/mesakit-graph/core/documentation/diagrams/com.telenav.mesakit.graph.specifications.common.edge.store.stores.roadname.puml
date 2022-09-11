@@ -1,0 +1,28 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.common.edge.store.stores.roadname"
+    
+    interface Initializable
+    interface NamedObject
+    
+    NamedObject <|-- RoadNameStore
+    Initializable <|-- RoadNameStore
+    class RoadNameStore
+    {
+        --(constructors)--
+        #RoadNameStore()
+        +RoadNameStore(String, Estimate, Metadata)
+        --
+        +void codec(HuffmanCharacterCodec)
+        +void set(Edge, RoadName.Type, int roadNameOrdinal, RoadName)
+        --(collection)--
+        +int size(Edge, RoadName.Type)
+        --(naming)--
+        +RoadName get(Edge, RoadName.Type, int roadNameOrdinal)
+    }
+    
+@enduml
+
