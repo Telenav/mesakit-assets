@@ -1,0 +1,38 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.navigation.routing.debuggers"
+    
+    interface RoutingDebugger
+    
+    RoutingDebugger <|-- ConsoleRoutingDebugger
+    class ConsoleRoutingDebugger
+    {
+    }
+    
+    RoutingDebugger <|-- SwingRoutingDebugger
+    class SwingRoutingDebugger
+    {
+        --(constructors)--
+        +SwingRoutingDebugger(String)
+        --(write)--
+        +SwingRoutingDebugger withConsoleOutput()
+    }
+    
+    KivaKitDarculaTheme <|-- SwingRoutingDebuggerTheme
+    class SwingRoutingDebuggerTheme
+    {
+        --
+        +Style styleCurrent()
+        +Style styleFinal()
+        --(functional)--
+        +Style styleExplored()
+        --(lifecycle)--
+        +Style styleEnd()
+        +Style styleStart()
+    }
+    
+@enduml
+

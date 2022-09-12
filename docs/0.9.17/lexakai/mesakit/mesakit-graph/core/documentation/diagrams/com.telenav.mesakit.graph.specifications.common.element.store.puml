@@ -1,0 +1,37 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.common.element.store"
+    
+    interface Initializable
+    interface NamedObject
+    interface KryoSerializable
+    
+    class TagStore.Entry
+    {
+    }
+    
+    KryoSerializable <|-- TagStore
+    NamedObject <|-- TagStore
+    Initializable <|-- TagStore
+    class TagStore
+    {
+        --(constructors)--
+        #TagStore()
+        +TagStore(String, PbfTagCodec)
+        --
+        +void codec(PbfTagCodec)
+        +PbfTagCodec codec()
+        +void set(GraphElement, Entry)
+        +void set(GraphElement, PbfTagList tags)
+        --(collection)--
+        +boolean isEmpty()
+        +int size()
+        +PbfTagList tagList(GraphElement)
+        +PbfTagMap tagMap(GraphElement)
+    }
+    
+@enduml
+

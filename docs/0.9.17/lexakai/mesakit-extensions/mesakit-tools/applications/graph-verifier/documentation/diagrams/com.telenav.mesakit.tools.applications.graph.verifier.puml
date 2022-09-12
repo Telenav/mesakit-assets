@@ -1,0 +1,48 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.tools.applications.graph.verifier"
+    
+    class EdgeAttributeChecker.CheckResult
+    {
+        --(constructors)--
+        +CheckResult(Folder, Graph)
+        --(collection)--
+        +void addFailed(Edge, Attribute<Edge>)
+        --(io)--
+        +void close()
+        --(write)--
+        +void save()
+        +Writer writerForType(Attribute<Edge>)
+    }
+    
+    Application <|-- EdgeAttributeChecker
+    class EdgeAttributeChecker
+    {
+        --
+        +boolean checkCountry(Edge)
+        +boolean checkFreeFlowSpeed(Edge)
+        +boolean checkLength(Edge)
+        +boolean checkOneWayFlag(Edge)
+        +boolean checkRoadShape(Edge)
+        +boolean checkRoadType(Edge)
+        +boolean checkSpeedLimit(Edge)
+        +void main(String[] args)
+        --(collection)--
+        +boolean checkLaneCount(Edge)
+        --(identity)--
+        +boolean checkOsmFromNodeIdentifier(Edge)
+        +boolean checkOsmToNodeIdentifier(Edge)
+    }
+    
+    Application <|-- GraphVerifierApplication
+    class GraphVerifierApplication
+    {
+        --
+        +void main(String[] arguments)
+    }
+    
+@enduml
+

@@ -1,0 +1,129 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.common.vertex.store"
+    
+    abstract BaseRepeater
+    
+    interface Initializable
+    interface NamedObject
+    interface TripwireTrait
+    interface Validatable
+    interface CompressibleCollection
+    interface KryoSerializable
+    
+    Validatable <|-- ConnectivityStore
+    NamedObject <|-- ConnectivityStore
+    KryoSerializable <|-- ConnectivityStore
+    CompressibleCollection <|-- ConnectivityStore
+    Initializable <|-- ConnectivityStore
+    TripwireTrait <|-- ConnectivityStore
+    class ConnectivityStore
+    {
+        --(constructors)--
+        #ConnectivityStore()
+        +ConnectivityStore(String, Graph)
+        --
+        +void freeTemporaryData()
+        +void graph(Graph)
+        +EdgeSequence retrieveEdgeSequence(int vertexIndex)
+        +EdgeSequence retrieveInEdgeSequence(int vertexIndex)
+        +EdgeSet retrieveInEdges(int vertexIndex)
+        +EdgeSequence retrieveOutEdgeSequence(int vertexIndex)
+        +EdgeSet retrieveOutEdges(int vertexIndex)
+        +EdgeSequence retrieveTwoWayEdgeSequence(int vertexIndex)
+        +void storeLists(int vertexIndex, IntIterator, IntIterator out, IntIterator twoWay)
+        +void storeTemporaryLists(int vertexIndex)
+        +void temporaryConnect(Edge, int fromVertexIndex, int toVertexIndex)
+        +void temporaryDisconnect(Edge, int fromVertexIndex, int toVertexIndex)
+        +boolean temporaryIsConnected(int fromVertexIndex, int toVertexIndex)
+        --(collection)--
+        +int retrieveEdgeCount(int vertexIndex)
+        +int retrieveInEdgeCount(int vertexIndex)
+        +int retrieveOutEdgeCount(int vertexIndex)
+        +int retrieveTwoWayEdgeCount(int vertexIndex)
+        +int vertexCount()
+    }
+    
+    BaseRepeater <|-- EdgeArrayStore
+    CompressibleCollection <|-- EdgeArrayStore
+    NamedObject <|-- EdgeArrayStore
+    TripwireTrait <|-- EdgeArrayStore
+    class EdgeArrayStore
+    {
+        --(constructors)--
+        #EdgeArrayStore()
+        +EdgeArrayStore(String, Metadata)
+        --
+        +EdgeSequence edgeSequence(EdgeStore, int index)
+        --(collection)--
+        +IntList list(int index)
+        +void list(int index, IntIterator values)
+        +int list(List<Edge> edges)
+        +int size()
+        +int size(int index)
+    }
+    
+    GraphNode <|-- GraphNodeIndex
+    class GraphNodeIndex
+    {
+        --(constructors)--
+        +GraphNodeIndex(int)
+    }
+    
+    enum ConnectivityStore.Sequence
+    {
+        ALL
+        IN
+        OUT
+        TWO_WAY
+    }
+    
+    NodeStore <|-- VertexStore
+    class VertexStore
+    {
+        --(constructors)--
+        +VertexStore(Graph)
+        --
+        +void clipped(Vertex)
+        +void clipped(Location)
+        +void freeTemporaryData()
+        +void gradeSeparate(Vertex originalVertex, GradeSeparation, EdgeSet edgesAtGrade)
+        +void gradeSeparatePerturbVertexLocation(Vertex, Vertex originalVertex, GradeSeparation, EdgeSet edgesAtGrade)
+        +void gradeSeparateUpdateGradeSeparatedEdgeVertexes(HeavyWeightVertex newVertex, Vertex originalVertex, EdgeSet edgesAtGrade)
+        +boolean internalIsConnected(MapNodeIdentifier from, MapNodeIdentifier to)
+        +GraphNode node(Location)
+        +EdgeSequence retrieveEdgeSequence(Vertex)
+        +GradeSeparation retrieveGradeSeparation(Vertex)
+        +EdgeSequence retrieveInEdgeSequence(Vertex)
+        +EdgeSet retrieveInEdges(Vertex)
+        +boolean retrieveIsClipped(Vertex)
+        +EdgeSequence retrieveOutEdgeSequence(Vertex)
+        +EdgeSet retrieveOutEdges(Vertex)
+        +void storeAttributes(Vertex)
+        +void storeGradeSeparation(Vertex, GradeSeparation)
+        +boolean supportsAllNodeTags()
+        +VertexSequence vertexesInside(Rectangle bounds, Matcher<Vertex>)
+        #ConnectivityStore connectivity()
+        --(collection)--
+        +void addVertexes()
+        +boolean contains(Vertex)
+        +boolean contains(VertexIdentifier)
+        +boolean contains(MapIdentifier)
+        +Count retrieveEdgeCount(Vertex)
+        +Count retrieveInEdgeCount(Vertex)
+        +Count retrieveOutEdgeCount(Vertex)
+        +void temporaryAddVertexes(Edge)
+        +void temporaryRemove(Edge)
+        --(factory)--
+        +void gradeSeparateConnectEdgesToNewVertex(Vertex newVertex, Vertex originalVertex, EdgeSet edgesAtGrade)
+        --(identity)--
+        +Vertex vertexForNodeIdentifier(long nodeIdentifier)
+        --(read)--
+        +void loadVertexTags(PbfDataSource, PbfTagFilter)
+    }
+    
+@enduml
+

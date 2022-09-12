@@ -1,0 +1,26 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.region.internal.lexakai"
+    
+    interface UmlDiagramIdentifier
+    
+    UmlDiagramIdentifier <|-- DiagramBorder
+    class DiagramBorder
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramRegion
+    class DiagramRegion
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramRegions
+    class DiagramRegions
+    {
+    }
+    
+@enduml
+

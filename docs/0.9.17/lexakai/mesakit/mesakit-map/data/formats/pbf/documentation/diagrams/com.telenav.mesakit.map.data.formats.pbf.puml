@@ -1,0 +1,13 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.data.formats.pbf"
+    
+    class PbfLimits
+    {
+    }
+    
+@enduml
+

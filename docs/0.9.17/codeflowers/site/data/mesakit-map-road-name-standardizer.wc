@@ -1,0 +1,9 @@
+      8 com/telenav/mesakit/map/road/name/standardizer/BaseRoadNameStandardizer.java
+     97 com/telenav/mesakit/map/road/name/standardizer/RoadNameStandardizer.java
+     14 com/telenav/mesakit/map/road/name/standardizer/locales/english/EnglishCanadaRoadNameStandardizer.java
+    480 com/telenav/mesakit/map/road/name/standardizer/locales/english/EnglishRoadNameStandardizer.java
+     15 com/telenav/mesakit/map/road/name/standardizer/locales/english/EnglishUnitedStatesRoadNameStandardizer.java
+    170 com/telenav/mesakit/map/road/name/standardizer/locales/indonesian/IndonesianIndonesiaRoadNameStandardizer.java
+    289 com/telenav/mesakit/map/road/name/standardizer/locales/indonesian/SimpleIndonesianRoadNameStandardizer.java
+     15 module-info.java
+   1088 total

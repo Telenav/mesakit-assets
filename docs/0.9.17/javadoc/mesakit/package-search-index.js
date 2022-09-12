@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"mesakit.core","l":"com.telenav.mesakit.core"}];updateSearchResults();

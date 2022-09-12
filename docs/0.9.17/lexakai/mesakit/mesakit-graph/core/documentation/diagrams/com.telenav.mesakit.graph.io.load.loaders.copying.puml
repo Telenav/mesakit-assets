@@ -1,0 +1,19 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.io.load.loaders.copying"
+    
+    abstract BaseGraphLoader
+    
+    BaseGraphLoader <|-- CopyingGraphLoader
+    class CopyingGraphLoader
+    {
+        --(constructors)--
+        +CopyingGraphLoader(Graph)
+        +CopyingGraphLoader(GraphArchive)
+    }
+    
+@enduml
+

@@ -1,0 +1,110 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.navigation.routing"
+    
+    interface Router
+    
+    Router <|-- BaseRouter
+    abstract class BaseRouter
+    {
+        --(extension points)--
+        +RoutingResponse onFindRoute(RoutingRequest)
+    }
+    
+    interface LevelPromoter
+    {
+        --
+        +void onRelax(Edge)
+        +void onSettle(Edge)
+        --(checks)--
+        +boolean shouldExplore(Edge)
+    }
+    
+    enum RoutingInstruction.Meaning
+    {
+        EXPLORE_EDGE
+        IGNORE_EDGE
+        STOP_ROUTING
+    }
+    
+    interface Router
+    {
+        --(search)--
+        +RoutingResponse findRoute(RoutingRequest)
+    }
+    
+    interface RoutingDebugger
+    {
+        --
+        +void onRelaxed(Route, Cost)
+        +void onSettled(Vertex, Cost)
+        --(lifecycle)--
+        +void onEnd(RoutingRequest, RoutingResponse)
+        +void onStart(RoutingRequest)
+    }
+    
+    class RoutingInstruction
+    {
+        --(constructors)--
+        +RoutingInstruction(Meaning, String, Object)
+        --
+        +Meaning meaning()
+        --(messaging)--
+        +String message()
+    }
+    
+    interface RoutingLimiter
+    {
+        --
+        +RoutingInstruction instruction(Edge)
+        --(lifecycle)--
+        +void start(RoutingRequest)
+    }
+    
+    abstract class RoutingRequest
+    {
+        --(constructors)--
+        #RoutingRequest(RoutingRequest, RoutingLimiter, RoutingDebugger)
+        #RoutingRequest(Vertex, Vertex)
+        --
+        +RoutingDebugger debugger()
+        +String description()
+        +Distance distance()
+        +RoutingLimiter limiter()
+        +void onRelaxed(Route, Cost)
+        #void onSettled(Vertex, Cost)
+        --(checks)--
+        +boolean isDebugging()
+        --(lifecycle)--
+        +Vertex end()
+        +boolean isEnd(Vertex)
+        +void onStartRouting()
+        +Vertex start()
+        #void onEndRouting(RoutingResponse)
+        --(time)--
+        #Duration elapsed()
+    }
+    
+    class RoutingResponse
+    {
+        --(constructors)--
+        +RoutingResponse(Route, Duration)
+        --
+        +boolean failed()
+        +Route route()
+        --(time)--
+        +Duration elapsed()
+    }
+    
+    RoutingInstruction <|-- StopRoutingInstruction
+    class StopRoutingInstruction
+    {
+        --(constructors)--
+        +StopRoutingInstruction(String, Object)
+    }
+    
+@enduml
+

@@ -1,0 +1,6 @@
+    453 com/telenav/mesakit/tools/applications/codec/CodecGeneratorApplication.java
+    267 com/telenav/mesakit/tools/applications/codec/polyline/HuffmanCodecGenerator.java
+    124 com/telenav/mesakit/tools/applications/codec/roadname/RoadNameCodecGenerator.java
+    110 com/telenav/mesakit/tools/applications/codec/tag/TagCodecGenerator.java
+     11 module-info.java
+    965 total

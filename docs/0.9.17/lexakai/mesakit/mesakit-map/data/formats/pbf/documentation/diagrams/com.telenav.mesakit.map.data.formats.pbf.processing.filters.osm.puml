@@ -1,0 +1,44 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.data.formats.pbf.processing.filters.osm"
+    
+    WayFilter <|-- OsmExcludeNonDrivableWaysFilter
+    class OsmExcludeNonDrivableWaysFilter
+    {
+        --(constructors)--
+        +OsmExcludeNonDrivableWaysFilter()
+    }
+    
+    WayFilter <|-- OsmMajorRoadsWayFilter
+    class OsmMajorRoadsWayFilter
+    {
+        --(constructors)--
+        +OsmMajorRoadsWayFilter()
+    }
+    
+    WayFilter <|-- OsmNavigableWayFilter
+    class OsmNavigableWayFilter
+    {
+        --(constructors)--
+        +OsmNavigableWayFilter()
+    }
+    
+    RelationFilter <|-- OsmRelationsFilter
+    class OsmRelationsFilter
+    {
+        --(constructors)--
+        +OsmRelationsFilter()
+    }
+    
+    WayFilter <|-- OsmWaysFilter
+    class OsmWaysFilter
+    {
+        --(constructors)--
+        +OsmWaysFilter()
+    }
+    
+@enduml
+
