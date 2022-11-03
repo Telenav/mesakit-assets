@@ -1,0 +1,175 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.common.graph.loader.extractors"
+    
+    abstract BaseRoadNameExtractor
+    abstract BaseExtractor
+    
+    BaseRoadNameExtractor <|-- AlternateRoadNameExtractor
+    class AlternateRoadNameExtractor
+    {
+        --(constructors)--
+        +AlternateRoadNameExtractor(MapLocale, RoadNameStandardizer.Mode, Listener)
+    }
+    
+    BaseExtractor <|-- BaseRoadNameExtractor
+    abstract class BaseRoadNameExtractor
+    {
+        --(constructors)--
+        #BaseRoadNameExtractor(MapLocale, RoadNameStandardizer.Mode, Listener)
+        --(collection)--
+        #void addRoadName(List<RoadName> names, String name)
+        #void addRoadNameTranslation(List<RoadName> names, PbfWay, String key)
+        #void addRoadNameTranslations(List<RoadName> names, PbfWay, String[] keys)
+        #ObjectList<LocaleLanguage> languageCodes(PbfWay)
+    }
+    
+    BaseExtractor <|-- BridgeTypeExtractor
+    class BridgeTypeExtractor
+    {
+        --(constructors)--
+        +BridgeTypeExtractor(Listener)
+    }
+    
+    BaseExtractor <|-- ClosedToThroughTrafficExtractor
+    class ClosedToThroughTrafficExtractor
+    {
+        --(constructors)--
+        +ClosedToThroughTrafficExtractor(Listener)
+    }
+    
+    BaseRoadNameExtractor <|-- ExitRoadNameExtractor
+    class ExitRoadNameExtractor
+    {
+        --(constructors)--
+        +ExitRoadNameExtractor(MapLocale, RoadNameStandardizer.Mode, Listener)
+    }
+    
+    class RoadStateExtractor.ExtractedRoadState
+    {
+        --(constructors)--
+        +ExtractedRoadState(RoadState)
+        --
+        +ExtractedRoadState state(RoadState)
+        +RoadState state()
+        --(checks)--
+        +boolean isReversed()
+    }
+    
+    BaseExtractor <|-- GradeSeparationExtractor
+    class GradeSeparationExtractor
+    {
+        --(constructors)--
+        +GradeSeparationExtractor(Listener, Type)
+    }
+    
+    BaseExtractor <|-- HovLaneCountExtractor
+    class HovLaneCountExtractor
+    {
+        --(constructors)--
+        +HovLaneCountExtractor(Listener)
+    }
+    
+    BaseExtractor <|-- LaneCountExtractor
+    class LaneCountExtractor
+    {
+        --(constructors)--
+        +LaneCountExtractor(Listener)
+        +LaneCountExtractor(Listener, String)
+    }
+    
+    BaseExtractor <|-- LocationExtractor
+    class LocationExtractor
+    {
+        --(constructors)--
+        +LocationExtractor(Listener, Extractor<Location, WayNode>)
+    }
+    
+    BaseRoadNameExtractor <|-- OfficialRoadNameExtractor
+    class OfficialRoadNameExtractor
+    {
+        --(constructors)--
+        +OfficialRoadNameExtractor(MapLocale, RoadNameStandardizer.Mode, Listener)
+    }
+    
+    BaseExtractor <|-- RoadFunctionalClassExtractor
+    class RoadFunctionalClassExtractor
+    {
+        --(constructors)--
+        +RoadFunctionalClassExtractor(Listener)
+    }
+    
+    BaseExtractor <|-- RoadStateExtractor
+    class RoadStateExtractor
+    {
+        --(constructors)--
+        +RoadStateExtractor(Listener)
+    }
+    
+    BaseExtractor <|-- RoadSubTypeExtractor
+    class RoadSubTypeExtractor
+    {
+        --(constructors)--
+        +RoadSubTypeExtractor(Listener)
+    }
+    
+    BaseExtractor <|-- RoadTypeExtractor
+    class RoadTypeExtractor
+    {
+        --(constructors)--
+        +RoadTypeExtractor(Listener)
+    }
+    
+    BaseRoadNameExtractor <|-- RouteRoadNameExtractor
+    class RouteRoadNameExtractor
+    {
+        --(constructors)--
+        +RouteRoadNameExtractor(MapLocale, RoadNameStandardizer.Mode, Listener)
+    }
+    
+    BaseExtractor <|-- SpeedCategoryExtractor
+    class SpeedCategoryExtractor
+    {
+        --(constructors)--
+        +SpeedCategoryExtractor(Listener)
+    }
+    
+    BaseExtractor <|-- SpeedLimitExtractor
+    class SpeedLimitExtractor
+    {
+        --(constructors)--
+        +SpeedLimitExtractor(Listener)
+    }
+    
+    BaseExtractor <|-- SurfaceExtractor
+    class SurfaceExtractor
+    {
+        --(constructors)--
+        +SurfaceExtractor(Listener)
+    }
+    
+    BaseExtractor <|-- TollRoadExtractor
+    class TollRoadExtractor
+    {
+        --(constructors)--
+        +TollRoadExtractor(Listener)
+    }
+    
+    enum GradeSeparationExtractor.Type
+    {
+        FROM
+        TO
+    }
+    
+    BaseExtractor <|-- UnderConstructionExtractor
+    class UnderConstructionExtractor
+    {
+        --(constructors)--
+        +UnderConstructionExtractor(Listener)
+    }
+    
+@enduml
+

@@ -1,0 +1,25 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.navigation.routing.limiters"
+    
+    interface RoutingLimiter
+    
+    RoutingLimiter <|-- CpuTimeRoutingLimiter
+    class CpuTimeRoutingLimiter
+    {
+        --(constructors)--
+        +CpuTimeRoutingLimiter(Duration)
+    }
+    
+    RoutingLimiter <|-- DistanceRoutingLimiter
+    class DistanceRoutingLimiter
+    {
+        --(constructors)--
+        +DistanceRoutingLimiter(Distance)
+    }
+    
+@enduml
+

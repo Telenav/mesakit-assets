@@ -1,0 +1,98 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.library.pbf"
+    
+    abstract BaseRepeater
+    
+    interface Named
+    interface Mapper
+    
+    enum PbfDataAnalysis.AnalysisType
+    {
+        DEFAULT
+        FULL_NODE_INFORMATION
+    }
+    
+    Named <|-- IntersectionMap
+    class IntersectionMap
+    {
+        --(constructors)--
+        +IntersectionMap(String)
+        --(checks)--
+        +boolean isIntersection(long nodeIdentifier)
+        --(collection)--
+        +int addReference(long nodeIdentifier)
+        --(lifecycle)--
+        +void doneAdding()
+    }
+    
+    enum PbfFileMetadataAnnotator.Mode
+    {
+        RETAIN_ALL
+        STRIP_UNREFERENCED_NODES
+    }
+    
+    BaseRepeater <|-- PbfDataAnalysis
+    class PbfDataAnalysis
+    {
+        --(constructors)--
+        +PbfDataAnalysis(Metadata, AnalysisType, WayFilter)
+        --
+        +void analyze(PbfDataSource input)
+        +void freeWayNodes()
+        --(checks)--
+        +boolean hasWayNodeLocations()
+        +boolean isValid()
+        --(collection)--
+        +void freeIntersectionMap()
+        +MapNodeIdentifier highestNodeIdentifier()
+        +IntersectionMap intersections()
+        --(filesystem)--
+        +PbfAllNodeDiskStores pbfNodeDiskStores()
+        --(metadata)--
+        +Metadata metadata()
+        --(primitive)--
+        +SplitLongSet wayNodes()
+    }
+    
+    BaseRepeater <|-- PbfDataSourceFactory
+    Mapper <|-- PbfDataSourceFactory
+    class PbfDataSourceFactory
+    {
+        --(constructors)--
+        +PbfDataSourceFactory(Resource, Count, Type)
+        --
+        +Resource resource()
+    }
+    
+    BaseRepeater <|-- PbfFileMetadataAnnotator
+    class PbfFileMetadataAnnotator
+    {
+        --(constructors)--
+        +PbfFileMetadataAnnotator(File, Mode, WayFilter, RelationFilter)
+        --(metadata)--
+        +Metadata read()
+        --(write)--
+        +boolean write(Metadata)
+    }
+    
+    class PbfNodeTagStore
+    {
+        --(constructors)--
+        +PbfNodeTagStore(PbfTagCodec)
+        --(collection)--
+        +void add(PbfTagList tags)
+        +PbfTagList get(GraphElement)
+    }
+    
+    enum PbfDataSourceFactory.Type
+    {
+        PARALLEL_READER
+        SERIAL_READER
+    }
+    
+@enduml
+

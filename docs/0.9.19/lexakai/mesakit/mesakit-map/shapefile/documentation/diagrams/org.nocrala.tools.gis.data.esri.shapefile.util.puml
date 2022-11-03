@@ -1,0 +1,53 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "org.nocrala.tools.gis.data.esri.shapefile.util"
+    
+    class BAUtil
+    {
+        --(primitive)--
+        +void displayByteArray(String prompt, byte[])
+    }
+    
+    class DoubleSerializer
+    {
+        --
+        +double deserializeBigEndian(ByteBuffer)
+        +double deserializeLittleEndian(ByteBuffer)
+        +void serializeBigEndian(double value, ByteBuffer)
+        +void serializeLittleEndian(double value, ByteBuffer)
+    }
+    
+    class HexaUtil
+    {
+        --(primitive)--
+        +String byteArrayToString(byte[])
+        +byte[] stringToByteArray(String orig)
+    }
+    
+    class ISUtil
+    {
+        --(primitive)--
+        +double readBeDouble(InputStream is)
+        +double readBeDoubleMaybeEOF(InputStream is)
+        +int readBeInt(InputStream is)
+        +int readBeIntMaybeEOF(InputStream is)
+        +double readLeDouble(InputStream is)
+        +double readLeDoubleMaybeEOF(InputStream is)
+        +int readLeInt(InputStream is)
+        +int readLeIntMaybeEOF(InputStream is)
+    }
+    
+    class IntSerializer
+    {
+        --
+        +int deserializeBigEndian(ByteBuffer)
+        +int deserializeLittleEndian(ByteBuffer)
+        +void serializeBigEndian(int value, ByteBuffer)
+        +void serializeLittleEndian(int value, ByteBuffer)
+    }
+    
+@enduml
+

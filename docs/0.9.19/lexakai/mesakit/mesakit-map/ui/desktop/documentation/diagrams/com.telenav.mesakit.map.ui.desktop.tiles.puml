@@ -1,0 +1,130 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.ui.desktop.tiles"
+    
+    abstract BaseRepeater
+    
+    interface Iterable
+    interface StringFormattable
+    
+    class SlippyTile
+    {
+        --(constructors)--
+        #SlippyTile(ZoomLevel, int, int)
+        --
+        +void drawOutline(MapCanvas, Style)
+        +DrawingRectangle drawingArea()
+        +ZoomLevel getZoomLevel()
+        +SlippyTile parent()
+        +SlippyTile tile()
+        +SlippyTile withX(int x)
+        +SlippyTile withY(int y)
+        +int x()
+        +int y()
+        --(collection)--
+        +Rectangle mapArea()
+        +Size size()
+        +DrawingSize tileSize()
+        +List<SlippyTile> tilesInside()
+        --(filesystem)--
+        +FileName asFileName()
+        --(functional)--
+        +SlippyTile withZoomLevel(ZoomLevel)
+        --(math)--
+        +SlippyTile largerThan(Size)
+    }
+    
+    FileCache <|-- SlippyTileCache
+    class SlippyTileCache
+    {
+        --(constructors)--
+        +SlippyTileCache(Folder)
+        --
+        +Resource resource(SlippyTile)
+        --(filesystem)--
+        +File add(SlippyTile, Resource image)
+    }
+    
+    DrawingCoordinateSystem <|-- SlippyTileCoordinateSystem
+    class SlippyTileCoordinateSystem
+    {
+        --(constructors)--
+        +SlippyTileCoordinateSystem(ZoomLevel)
+        +SlippyTileCoordinateSystem(ZoomLevel, DrawingSize)
+        --
+        +DrawingRectangle drawingArea(SlippyTile)
+        +SlippyTile tileForLocation(Location)
+        +SlippyTile tileForPoint(DrawingPoint)
+        --(collection)--
+        +Rectangle mapArea(SlippyTile)
+        +Location toMap(DrawingPoint at)
+        --(conversion)--
+        +DrawingPoint toDrawing(Location)
+    }
+    
+    BaseRepeater <|-- SlippyTileGrid
+    Iterable <|-- SlippyTileGrid
+    class SlippyTileGrid
+    {
+        --(constructors)--
+        +SlippyTileGrid(Listener, Rectangle)
+        +SlippyTileGrid(Listener, Rectangle, ZoomLevel)
+        --
+        +void drawTileOutlines(MapCanvas)
+        +void outlineStyle(Style outlineStyle)
+        +ZoomLevel zoomLevel()
+        --(collection)--
+        +boolean contains(SlippyTile)
+        +int size()
+    }
+    
+    BaseRepeater <|-- SlippyTileImageCache
+    abstract class SlippyTileImageCache
+    {
+        --(constructors)--
+        #SlippyTileImageCache(Listener, Maximum)
+        --
+        +void drawTiles(DrawingSurface, Iterable<SlippyTile> tiles)
+        #void onCacheUpdated()
+        --(collection)--
+        +DrawingSize tileSize()
+        --(network)--
+        #HttpNetworkLocation networkLocation(SlippyTile)
+    }
+    
+    StringFormattable <|-- ZoomLevel
+    class ZoomLevel
+    {
+        --
+        +ZoomLevel bestFit(DrawingRectangle visible, DrawingSize tileSize, Rectangle bounds)
+        +double heightInPixels(DrawingSize tileSize)
+        +int heightInTiles()
+        +DrawingPoint inRange(DrawingPoint, DrawingSize tileSize)
+        +int level()
+        +ZoomLevel osm(int level)
+        +ZoomLevel telenav(int level)
+        +SlippyTile tileAt(Location)
+        +long totalTiles()
+        +double widthInPixels(DrawingSize tileSize)
+        +int widthInTiles()
+        +ZoomLevel zoomIn()
+        +ZoomLevel zoomIn(int levels)
+        +ZoomLevel zoomOut()
+        +ZoomLevel zoomOut(int levels)
+        --(checks)--
+        +boolean isCloserThan(ZoomLevel that)
+        +boolean isClosestIn()
+        +boolean isFurtherThan(ZoomLevel that)
+        +boolean isFurthestOut()
+        --(collection)--
+        +List<ZoomLevel> all()
+        +DrawingSize sizeInDrawingUnits(DrawingSize tileSize)
+        --(conversion)--
+        +int asTelenavZoomLevel()
+    }
+    
+@enduml
+
