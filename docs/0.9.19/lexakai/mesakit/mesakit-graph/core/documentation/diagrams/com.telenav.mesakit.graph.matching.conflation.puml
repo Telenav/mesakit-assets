@@ -1,0 +1,54 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.matching.conflation"
+    
+    class Conflation
+    {
+        --
+        +Edge base()
+        +Edge enhancing()
+        +Distance overlap()
+        --(checks)--
+        +boolean isCloserThan(Conflation that)
+        +boolean isCloserThan(Percent closeness)
+        --(math)--
+        +Percent closeness()
+    }
+    
+    HashSet <|-- ConflationSet
+    class ConflationSet
+    {
+        --(constructors)--
+        +ConflationSet()
+        +ConflationSet(ConflationSet)
+        --
+        +ConflationSet closerThan(Percent closeness)
+        +Conflation closest()
+        +Conflation forBaseEdge(Edge base)
+        --(checks)--
+        +boolean isAmbiguous()
+        --(collection)--
+        +void addUnambiguously(Conflation newConflation)
+    }
+    
+    class EdgeConflater
+    {
+        --(constructors)--
+        +EdgeConflater(Graph)
+        --
+        +void augmentationSpacing(Distance spacing)
+        +ConflationSet conflate(Edge enhancing)
+        +void conflateEdgesWithDifferentNames(boolean conflateEdgesWithDifferentNames)
+        +void conflateToConstruction(boolean conflateToConstruction)
+        +boolean visualDebug()
+        --(math)--
+        +void maximumHeadingDeviation(Angle maximumHeadingDeviation)
+        +void maximumSnapDistance(Distance maximumSnapDistance)
+        +void minimumCloseness(Percent minimumCloseness)
+    }
+    
+@enduml
+

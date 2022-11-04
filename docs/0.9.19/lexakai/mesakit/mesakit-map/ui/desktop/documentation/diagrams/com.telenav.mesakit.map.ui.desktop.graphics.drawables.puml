@@ -1,0 +1,141 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.ui.desktop.graphics.drawables"
+    
+    abstract BaseDrawable
+    abstract BaseMapDrawable
+    
+    interface MapDrawable
+    
+    BaseDrawable <|-- BaseMapDrawable
+    MapDrawable <|-- BaseMapDrawable
+    abstract class BaseMapDrawable
+    {
+        --(constructors)--
+        #BaseMapDrawable(BaseMapDrawable)
+        #BaseMapDrawable(Style)
+        #BaseMapDrawable(Style, Location)
+        --
+        #DrawingPoint at(MapCanvas surface)
+        --(collection)--
+        +BaseMapDrawable withDrawStrokeWidth(Distance width)
+        +BaseMapDrawable withFillStrokeWidth(Distance width)
+        --(extension points)--
+        +Shape onDraw(MapCanvas)
+    }
+    
+    BaseMapDrawable <|-- LabeledMapShape
+    abstract class LabeledMapShape
+    {
+        --(constructors)--
+        #LabeledMapShape(LabeledMapShape)
+        #LabeledMapShape(Style, Location, String)
+        #LabeledMapShape(Style, String)
+        --
+        +Shape drawLabel(MapCanvas, DrawingPoint coordinate)
+        #DrawingPoint anchor(MapCanvas, Location)
+        --(collection)--
+        +LabeledMapShape withLabelStyle(Style)
+        +LabeledMapShape withLabelText(String label)
+        +LabeledMapShape withMargin(int margin)
+        +LabeledMapShape withOffset(int dx, int dy)
+        +LabeledMapShape withRoundedLabelCorners(DrawingLength corner)
+        +LabeledMapShape withRoundedLabelCorners(DrawingWidth cornerWidth, DrawingHeight cornerHeight)
+    }
+    
+    LabeledMapShape <|-- MapBox
+    class MapBox
+    {
+        --(constructors)--
+        #MapBox(MapBox)
+        #MapBox(Style, Rectangle, String)
+        --(collection)--
+        +MapBox box()
+        +MapBox box(Style)
+        +MapBox box(Style, Rectangle box, String label)
+        +Size size()
+        +MapBox withRectangle(Rectangle)
+        +MapBox withSize(Size)
+    }
+    
+    LabeledMapShape <|-- MapDot
+    class MapDot
+    {
+        --(constructors)--
+        #MapDot(MapDot)
+        #MapDot(Style, Location, Distance, String)
+        --(collection)--
+        +MapDot dot(Style, Location, Distance radius, String label)
+        +MapDot dot(Style)
+        +MapDot dot()
+        +MapDot withRadius(DrawingLength radius)
+        +MapDot withRadius(Distance radius)
+    }
+    
+    interface Bounded
+    interface Drawable
+    Drawable <|-- MapDrawable
+    Bounded <|-- MapDrawable
+    interface MapDrawable
+    {
+        --
+        +Location location()
+        --(collection)--
+        +MapDrawable withLocation(Location)
+    }
+    
+    LabeledMapShape <|-- MapLabel
+    class MapLabel
+    {
+        --(constructors)--
+        #MapLabel(MapLabel)
+        #MapLabel(Style, Location, String)
+        --(collection)--
+        +MapLabel label()
+        +MapLabel label(Style, Location, String label)
+        +MapLabel label(Style)
+    }
+    
+    LabeledMapShape <|-- MapLine
+    class MapLine
+    {
+        --(constructors)--
+        #MapLine(MapLine)
+        #MapLine(Style, Location, Location, String)
+        --
+        +Location from()
+        --(collection)--
+        +MapLine line()
+        +MapLine line(Style, Location from, Location to, String label)
+        +MapLine line(Style)
+        +MapLine withFrom(Location from)
+        +MapLine withFromArrowHead(Drawable arrowHead)
+        +MapLine withTo(Location to)
+        +MapLine withToArrowHead(Drawable arrowHead)
+        --(conversion)--
+        +Location to()
+    }
+    
+    LabeledMapShape <|-- MapPolyline
+    class MapPolyline
+    {
+        --(constructors)--
+        #MapPolyline(MapPolyline)
+        #MapPolyline(Style, Polyline)
+        --(collection)--
+        +MapPolyline polyline(Style)
+        +MapPolyline polyline()
+        +MapPolyline polyline(Style, Polyline)
+        +MapPolyline withCenterLabel(String text)
+        +MapPolyline withEndLabel(String text)
+        +MapPolyline withFromArrowHead(Drawable arrowHead)
+        +MapPolyline withPolyline(Polyline)
+        +MapPolyline withStartLabel(String text)
+        +MapPolyline withToArrowHead(Drawable arrowHead)
+    }
+    
+@enduml
+

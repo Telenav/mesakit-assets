@@ -1,0 +1,21 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.data.formats.library.internal.lexakai"
+    
+    interface UmlDiagramIdentifier
+    UmlDiagramIdentifier <|-- DiagramDataFormat
+    interface DiagramDataFormat
+    {
+    }
+    
+    interface UmlDiagramIdentifier
+    UmlDiagramIdentifier <|-- DiagramDataMapIdentifier
+    interface DiagramDataMapIdentifier
+    {
+    }
+    
+@enduml
+

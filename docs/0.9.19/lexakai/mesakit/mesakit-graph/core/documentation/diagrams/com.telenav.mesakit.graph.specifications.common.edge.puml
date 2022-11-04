@@ -1,0 +1,121 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.graph.specifications.common.edge"
+    
+    GraphElementAttributes.GraphElementAttribute <|-- EdgeAttributes.EdgeAttribute
+    class EdgeAttributes.EdgeAttribute
+    {
+        --(constructors)--
+        +EdgeAttribute(String)
+    }
+    
+    GraphElementAttributes <|-- EdgeAttributes
+    class EdgeAttributes
+    {
+        --(constructors)--
+        #EdgeAttributes()
+        --
+        +EdgeAttributes get(Graph)
+        +EdgeAttributes get()
+    }
+    
+    Differences <|-- EdgeDifferences
+    class EdgeDifferences
+    {
+        --(constructors)--
+        +EdgeDifferences(Edge, Edge)
+        --
+        +Differences compare()
+    }
+    
+    GraphElementProperties <|-- EdgeProperties
+    class EdgeProperties
+    {
+        --(constructors)--
+        #EdgeProperties()
+        --
+        +EdgeProperties get()
+    }
+    
+    GraphElementProperties.GraphElementProperty <|-- EdgeProperties.EdgeProperty
+    abstract class EdgeProperties.EdgeProperty
+    {
+        --(constructors)--
+        #EdgeProperty(String, Attribute<?>)
+    }
+    
+    Edge <|-- HeavyWeightEdge
+    class HeavyWeightEdge
+    {
+        --(constructors)--
+        #HeavyWeightEdge(HeavyWeightEdge)
+        +HeavyWeightEdge(Graph, EdgeIdentifier)
+        +HeavyWeightEdge(Graph, long)
+        --
+        +void bridgeType(BridgeType)
+        +void country(Country)
+        +void county(County)
+        +void freeFlow(SpeedCategory freeFlow)
+        +void from(Vertex from)
+        +void fromGradeSeparation(GradeSeparation)
+        +void fromLocation(Location fromLocation)
+        +void fromVertexClipped(Boolean fromVertexClipped)
+        +void isTollRoad(Boolean isTollRoad)
+        +void isUnderConstruction(Boolean isUnderConstruction)
+        +void length(Distance length)
+        +void metropolitanArea(MetropolitanArea)
+        +void pbfRevisionNumber(PbfRevisionNumber)
+        +void referenceSpeed(Speed referenceSpeed)
+        +void roadFunctionalClass(RoadFunctionalClass)
+        +void roadNames(RoadName.Type, List<RoadName> roadNames)
+        +void roadShape(Polyline roadShape)
+        +void roadShapeAndLength(Polyline shape, Location from, Location to)
+        +void roadState(RoadState)
+        +void roadSubType(RoadSubType)
+        +void roadType(RoadType)
+        +void speedLimit(Speed speedLimit)
+        +void state(State)
+        +void surface(RoadSurface)
+        +void tags(PbfTagList tags)
+        +Polyline testPolyline()
+        +void to(Vertex to)
+        +void toGradeSeparation(GradeSeparation)
+        +void toLocation(Location toLocation)
+        +void toVertexClipped(Boolean toVertexClipped)
+        +void tollRoad(Boolean isTollRoad)
+        +void type(Type)
+        +void underConstruction(Boolean isUnderConstruction)
+        +Speed uniDbReferenceSpeed()
+        +void uniDbReverseReferenceSpeed(Speed reversedReferenceSpeed)
+        +Speed uniDbReverseReferenceSpeed()
+        --(checks)--
+        +Boolean isFromVertexClipped()
+        +Boolean isToVertexClipped()
+        --(collection)--
+        +void addRoadName(RoadName.Type, RoadName)
+        +void hovLaneCount(Count hovLaneCount)
+        +void laneCount(Count laneCount)
+        +void lastModificationTime(Time lastModified)
+        --(filesystem)--
+        +void copy(Edge that)
+        +void copyRoadNames(Edge that)
+        --(identity)--
+        +void fromNodeIdentifier(MapNodeIdentifier)
+        +void pbfChangeSetIdentifier(PbfChangeSetIdentifier)
+        +void pbfUserIdentifier(PbfUserIdentifier)
+        +void rawIdentifier(EdgeIdentifier rawIdentifier)
+        +void toNodeIdentifier(MapNodeIdentifier)
+        --(io)--
+        +void closedToThroughTraffic(boolean isClosedToThroughTraffic)
+        +void isClosedToThroughTraffic(Boolean isClosedToThroughTraffic)
+        --(naming)--
+        +void pbfUserName(PbfUserName)
+        --(primitive)--
+        +void isDoubleDigitized(Boolean isDoubleDigitized)
+    }
+    
+@enduml
+

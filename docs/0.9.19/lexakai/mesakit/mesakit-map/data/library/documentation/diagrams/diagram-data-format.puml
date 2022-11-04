@@ -1,0 +1,18 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "Map Data Formats"
+    
+    enum DataFormat
+    {
+        CSV
+        Database
+        Graph
+        PBF
+        XML
+    }
+    
+@enduml
+

@@ -1,0 +1,16 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.geography.projection.projections"
+    
+    interface MetricProjection
+    
+    MetricProjection <|-- SphericalMercatorMetricProjection
+    class SphericalMercatorMetricProjection
+    {
+    }
+    
+@enduml
+

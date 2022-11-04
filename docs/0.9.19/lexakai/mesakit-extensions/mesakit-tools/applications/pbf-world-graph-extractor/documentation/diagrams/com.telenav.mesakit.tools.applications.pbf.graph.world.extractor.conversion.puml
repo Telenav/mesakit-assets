@@ -1,0 +1,44 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.tools.applications.pbf.graph.world.extractor.conversion"
+    
+    abstract BaseComponent
+    abstract BaseRepeater
+    
+    BaseRepeater <|-- Conversion
+    class Conversion
+    {
+        --(constructors)--
+        +Conversion(PbfWorldGraphExtractorApplication, Folder, WorldCell)
+        --
+        +Graph convert(File input, Metadata)
+    }
+    
+    class WorldConversion.Statistics
+    {
+        --(collection)--
+        +Count attempted()
+        +Count completed()
+        +Count edgeRelations()
+        +Count edges()
+        +Count failed()
+        +Count forwardEdges()
+        +Count places()
+        +Count succeeded()
+        +Count vertexes()
+        --(metadata)--
+        +Metadata metadata(Metadata)
+    }
+    
+    BaseComponent <|-- WorldConversion
+    class WorldConversion
+    {
+        --(command line parsing)--
+        +Statistics convert(PbfWorldGraphExtractorApplication, WorldGrid, CommandLine, Metadata, WorldGraphRepositoryFolder outputFolder, Count threads)
+    }
+    
+@enduml
+

@@ -1,0 +1,232 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "org.nocrala.tools.gis.data.esri.shapefile.shape.shapes"
+    
+    abstract AbstractPolyPlainShape
+    abstract AbstractMultiPointShape
+    abstract AbstractPolyMShape
+    abstract AbstractShape
+    abstract AbstractPointShape
+    abstract AbstractPolyZShape
+    abstract AbstractPolyShape
+    
+    AbstractShape <|-- AbstractMultiPointShape
+    abstract class AbstractMultiPointShape
+    {
+        --(constructors)--
+        #AbstractMultiPointShape(ShapeHeader, ShapeType, InputStream, ValidationPreferences)
+        --
+        +double getBoxMaxX()
+        +double getBoxMaxY()
+        +double getBoxMinX()
+        +double getBoxMinY()
+        +int getNumberOfPoints()
+        +PointData[] getPoints()
+        --(naming)--
+        #String getShapeTypeName()
+    }
+    
+    AbstractShape <|-- AbstractPointShape
+    abstract class AbstractPointShape
+    {
+        --(constructors)--
+        #AbstractPointShape(ShapeHeader, ShapeType, InputStream, ValidationPreferences)
+        --
+        +double getX()
+        +double getY()
+    }
+    
+    AbstractPolyShape <|-- AbstractPolyMShape
+    abstract class AbstractPolyMShape
+    {
+        --(constructors)--
+        #AbstractPolyMShape(ShapeHeader, ShapeType, InputStream, ValidationPreferences)
+        --
+        +double[] getM()
+        +double[] getMOfPart(int)
+        +double getMaxM()
+        +double getMinM()
+    }
+    
+    AbstractPolyShape <|-- AbstractPolyPlainShape
+    abstract class AbstractPolyPlainShape
+    {
+        --(constructors)--
+        #AbstractPolyPlainShape(ShapeHeader, ShapeType, InputStream, ValidationPreferences)
+    }
+    
+    AbstractShape <|-- AbstractPolyShape
+    abstract class AbstractPolyShape
+    {
+        --(constructors)--
+        #AbstractPolyShape(ShapeHeader, ShapeType, InputStream, ValidationPreferences)
+        --
+        +double getBoxMaxX()
+        +double getBoxMaxY()
+        +double getBoxMinX()
+        +double getBoxMinY()
+        +int getNumberOfParts()
+        +int getNumberOfPoints()
+        +PointData[] getPoints()
+        +PointData[] getPointsOfPart(int)
+        --(collection)--
+        +int[] getPartFirstPoints()
+        --(naming)--
+        #String getShapeTypeName()
+    }
+    
+    AbstractPolyShape <|-- AbstractPolyZShape
+    abstract class AbstractPolyZShape
+    {
+        --(constructors)--
+        #AbstractPolyZShape(ShapeHeader, ShapeType, InputStream, ValidationPreferences)
+        --
+        +double[] getMOfPart(int)
+        +double getMaxM()
+        +double getMaxZ()
+        +double[] getMeasures()
+        +double getMinM()
+        +double getMinZ()
+        +double[] getZ()
+        +double[] getZOfPart(int)
+    }
+    
+    AbstractShape <|-- MultiPatchShape
+    class MultiPatchShape
+    {
+        --(constructors)--
+        +MultiPatchShape(ShapeHeader, ShapeType, InputStream, ValidationPreferences)
+        --
+        +double getBoxMaxX()
+        +double getBoxMaxY()
+        +double getBoxMinX()
+        +double getBoxMinY()
+        +double[] getM()
+        +double[] getMOfPart(int)
+        +double getMaxM()
+        +double getMaxZ()
+        +double getMinM()
+        +double getMinZ()
+        +int getNumberOfParts()
+        +int getNumberOfPoints()
+        +PartType[] getPartTypes()
+        +PointData[] getPoints()
+        +PointData[] getPointsOfPart(int)
+        +double[] getZ()
+        +double[] getZOfPart(int)
+        --(collection)--
+        +int[] getPartFirstPoints()
+    }
+    
+    AbstractMultiPointShape <|-- MultiPointMShape
+    class MultiPointMShape
+    {
+        --(constructors)--
+        +MultiPointMShape(ShapeHeader, ShapeType, InputStream, ValidationPreferences)
+        --
+        +double[] getM()
+        +double getMaxM()
+        +double getMinM()
+    }
+    
+    AbstractMultiPointShape <|-- MultiPointPlainShape
+    class MultiPointPlainShape
+    {
+        --(constructors)--
+        +MultiPointPlainShape(ShapeHeader, ShapeType, InputStream, ValidationPreferences)
+    }
+    
+    AbstractMultiPointShape <|-- MultiPointZShape
+    class MultiPointZShape
+    {
+        --(constructors)--
+        +MultiPointZShape(ShapeHeader, ShapeType, InputStream, ValidationPreferences)
+        --
+        +double[] getM()
+        +double getMaxM()
+        +double getMaxZ()
+        +double getMinM()
+        +double getMinZ()
+        +double[] getZ()
+    }
+    
+    AbstractShape <|-- NullShape
+    class NullShape
+    {
+        --(constructors)--
+        +NullShape(ShapeHeader, ShapeType, InputStream, ValidationPreferences)
+    }
+    
+    AbstractPointShape <|-- PointMShape
+    class PointMShape
+    {
+        --(constructors)--
+        +PointMShape(ShapeHeader, ShapeType, InputStream, ValidationPreferences)
+        --
+        +double getM()
+    }
+    
+    AbstractPointShape <|-- PointShape
+    class PointShape
+    {
+        --(constructors)--
+        +PointShape(ShapeHeader, ShapeType, InputStream, ValidationPreferences)
+    }
+    
+    AbstractPointShape <|-- PointZShape
+    class PointZShape
+    {
+        --(constructors)--
+        +PointZShape(ShapeHeader, ShapeType, InputStream, ValidationPreferences)
+        --
+        +double getM()
+        +double getZ()
+    }
+    
+    AbstractPolyMShape <|-- PolygonMShape
+    class PolygonMShape
+    {
+        --(constructors)--
+        +PolygonMShape(ShapeHeader, ShapeType, InputStream, ValidationPreferences)
+    }
+    
+    AbstractPolyPlainShape <|-- PolygonShape
+    class PolygonShape
+    {
+        --(constructors)--
+        +PolygonShape(ShapeHeader, ShapeType, InputStream, ValidationPreferences)
+    }
+    
+    AbstractPolyZShape <|-- PolygonZShape
+    class PolygonZShape
+    {
+        --(constructors)--
+        +PolygonZShape(ShapeHeader, ShapeType, InputStream, ValidationPreferences)
+    }
+    
+    AbstractPolyMShape <|-- PolylineMShape
+    class PolylineMShape
+    {
+        --(constructors)--
+        +PolylineMShape(ShapeHeader, ShapeType, InputStream, ValidationPreferences)
+    }
+    
+    AbstractPolyPlainShape <|-- PolylineShape
+    class PolylineShape
+    {
+        --(constructors)--
+        +PolylineShape(ShapeHeader, ShapeType, InputStream, ValidationPreferences)
+    }
+    
+    AbstractPolyZShape <|-- PolylineZShape
+    class PolylineZShape
+    {
+        --(constructors)--
+        +PolylineZShape(ShapeHeader, ShapeType, InputStream, ValidationPreferences)
+    }
+    
+@enduml
+

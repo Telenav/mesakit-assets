@@ -1,0 +1,32 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.region.locale"
+    
+    class HascCode
+    {
+        --
+        +String code()
+        +Country country()
+        +State state()
+        --(parsing)--
+        +HascCode parse(String code)
+    }
+    
+    Locale <|-- MapLocale
+    class MapLocale
+    {
+        --(constructors)--
+        +MapLocale(LocaleRegion, Country)
+        +MapLocale(LocaleRegion, Region<?>, Collection<LocaleLanguage>)
+        +MapLocale(LocaleRegion, Region<?>, LocaleLanguage)
+        --
+        +T create(PackageReference, String suffix)
+        --(collection)--
+        +Region<?> mapRegion()
+    }
+    
+@enduml
+

@@ -1,0 +1,59 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.serialization.json.serializers"
+    
+    interface JsonSerializerDeserializer
+    
+    PrimitiveGsonSerializer <|-- DistanceGsonSerializer
+    class DistanceGsonSerializer
+    {
+        --(constructors)--
+        +DistanceGsonSerializer()
+    }
+    
+    PrimitiveGsonSerializer <|-- IdentifierGsonSerializer
+    class IdentifierGsonSerializer
+    {
+        --(constructors)--
+        +IdentifierGsonSerializer()
+    }
+    
+    JsonSerializerDeserializer <|-- LatitudeGsonSerializer
+    class LatitudeGsonSerializer
+    {
+    }
+    
+    JsonSerializerDeserializer <|-- LocationGsonSerializer
+    class LocationGsonSerializer
+    {
+    }
+    
+    JsonSerializerDeserializer <|-- LongitudeGsonSerializer
+    class LongitudeGsonSerializer
+    {
+    }
+    
+    PrimitiveGsonSerializer <|-- RectangleGsonSerializer
+    class RectangleGsonSerializer
+    {
+        --(constructors)--
+        +RectangleGsonSerializer()
+    }
+    
+    JsonSerializerDeserializer <|-- RectangleInDegreesGsonSerializer
+    class RectangleInDegreesGsonSerializer
+    {
+    }
+    
+    PrimitiveGsonSerializer <|-- SpeedCategoryGsonSerializer
+    class SpeedCategoryGsonSerializer
+    {
+        --(constructors)--
+        +SpeedCategoryGsonSerializer()
+    }
+    
+@enduml
+

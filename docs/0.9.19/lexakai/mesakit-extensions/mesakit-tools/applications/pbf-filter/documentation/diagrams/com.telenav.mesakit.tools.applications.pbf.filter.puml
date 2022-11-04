@@ -1,0 +1,20 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.tools.applications.pbf.filter"
+    
+    Application <|-- PbfFilterApplication
+    class PbfFilterApplication
+    {
+        --
+        +void main(String[] arguments)
+    }
+    
+    class PbfFilterApplication.Statistics
+    {
+    }
+    
+@enduml
+

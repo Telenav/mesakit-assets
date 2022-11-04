@@ -1,0 +1,80 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.navigation.routing.dijkstra"
+    
+    abstract BaseRouter
+    
+    interface Comparable
+    
+    BaseRouter <|-- DijkstraRouter
+    class DijkstraRouter
+    {
+        --(constructors)--
+        +DijkstraRouter(CostFunction)
+        --
+        +RoutingResponse execute(DijkstraRoutingRequest, int iterations)
+        --(functional)--
+        +DijkstraRouter withEdgePermissionFunction(EdgePermissionFunction)
+        +DijkstraRouter withHeuristicCostFunction(CostFunction heuristicCostFunction)
+        +DijkstraRouter withLevelPromoter(LevelPromoter)
+        +DijkstraRouter withRoutePermissionFunction(RoutePermissionFunction)
+    }
+    
+    RoutingRequest <|-- DijkstraRoutingRequest
+    class DijkstraRoutingRequest
+    {
+        --(constructors)--
+        #DijkstraRoutingRequest(DijkstraRoutingRequest, RoutingLimiter, RoutingDebugger)
+        +DijkstraRoutingRequest(Vertex, Vertex)
+        --
+        +Meet meet(DijkstraRoutingRequest that)
+        +Route route()
+        --(angle)--
+        +Direction direction()
+        --(functional)--
+        +RoutingResponse failed()
+        +VertexState settled()
+        +DijkstraRoutingRequest withDebugger(RoutingDebugger)
+        +DijkstraRoutingRequest withDirection(Direction)
+        +DijkstraRoutingRequest withLimiter(RoutingLimiter)
+        --(lifecycle)--
+        +RoutingResponse done(Route)
+    }
+    
+    enum Direction
+    {
+        BACKWARD
+        FORWARD
+    }
+    
+    class Meet
+    {
+        --(constructors)--
+        +Meet(Route, Cost)
+        --
+        +Cost cost()
+        +Route route()
+        --(checks)--
+        +boolean isCheaperThan(Meet that)
+    }
+    
+    Comparable <|-- VertexState
+    class VertexState
+    {
+        --
+        +Cost cost()
+        +Edge edge(Direction)
+        +void relax(VertexState previous, Cost, Cost heuristicCost)
+        +Route route(Direction)
+        +void settled()
+        +Vertex vertex()
+        +VertexState zeroCost()
+        --(checks)--
+        +boolean isSettled()
+    }
+    
+@enduml
+

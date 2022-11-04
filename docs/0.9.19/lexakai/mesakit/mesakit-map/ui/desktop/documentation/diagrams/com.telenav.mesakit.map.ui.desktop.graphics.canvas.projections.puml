@@ -1,0 +1,25 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.map.ui.desktop.graphics.canvas.projections"
+    
+    interface MapProjection
+    
+    MapProjection <|-- CartesianMapProjection
+    class CartesianMapProjection
+    {
+        --(constructors)--
+        +CartesianMapProjection(Rectangle, DrawingSize)
+    }
+    
+    MapProjection <|-- SphericalMercatorMapProjection
+    class SphericalMercatorMapProjection
+    {
+        --(constructors)--
+        +SphericalMercatorMapProjection(Rectangle, DrawingSize)
+    }
+    
+@enduml
+

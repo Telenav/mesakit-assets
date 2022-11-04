@@ -1,0 +1,25 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.tools.applications.codec"
+    
+    Application <|-- CodecGeneratorApplication
+    class CodecGeneratorApplication
+    {
+        --(constructors)--
+        #CodecGeneratorApplication()
+        --
+        +void main(String[] arguments)
+    }
+    
+    enum CodecGeneratorApplication.Type
+    {
+        POLYLINE
+        ROAD_NAME
+        TAG
+    }
+    
+@enduml
+

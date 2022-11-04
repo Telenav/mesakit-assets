@@ -1,0 +1,14 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.serialization.json"
+    
+    Project <|-- MesaKitGsonProject
+    class MesaKitGsonProject
+    {
+    }
+    
+@enduml
+

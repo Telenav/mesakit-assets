@@ -1,0 +1,42 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.mesakit.navigation.routing.cost.functions.heuristic"
+    
+    interface CostFunction
+    
+    CostFunction <|-- HeadingDeviationCostFunction
+    class HeadingDeviationCostFunction
+    {
+        --(constructors)--
+        +HeadingDeviationCostFunction(Located, Located)
+    }
+    
+    CostFunction <|-- RemainingDistanceToEndCostFunction
+    class RemainingDistanceToEndCostFunction
+    {
+        --(constructors)--
+        +RemainingDistanceToEndCostFunction(Located, Located)
+    }
+    
+    CostFunction <|-- RemainingDistanceToStartCostFunction
+    class RemainingDistanceToStartCostFunction
+    {
+        --(constructors)--
+        +RemainingDistanceToStartCostFunction(Located, Located)
+    }
+    
+    CostFunction <|-- RoadTypeCostFunction
+    class RoadTypeCostFunction
+    {
+    }
+    
+    CostFunction <|-- SpeedCostFunction
+    class SpeedCostFunction
+    {
+    }
+    
+@enduml
+
